@@ -1,0 +1,41 @@
+"Name","TicketsInRareDraw","TicketsInSuperRareDraw","TicketsInEpicDraw","TicketsInMythicDraw","TicketsInLegendaryDraw","TypeName","TypeValue","TypePriceMin","TypePriceMax","AmountMin","AmountMax","FallbackTypeName","FallbackAmount"
+"String","int","int","int","int","int","String","int","int","int","int","int","String","int"
+"Coins S",75,,,,,"Coins",,,,50,70,,
+"Coins M",,45,,,,"Coins",,,,100,140,,
+"Coins L",,,90,,,"Coins",,,,200,240,,
+"Coins XL",,,,25,,"Coins",,,,500,540,,
+"Gadget",,,,,35,"Gadget",,,,,,"Coins",1000
+"Star Power",,,,,30,"StarPower",,,,,,"Coins",1000
+"Gears SR",,,,,,"Gear",2,,,,,"Coins",500
+"Gears Mythic",,,,,,"Gear",4,,,,,"Coins",500
+"Power Points S",85,,,,,"PowerPoints",,,,20,30,,
+"Power Points M",,60,,,,"PowerPoints",,,,50,70,,
+"Power Points L",,,60,,,"PowerPoints",,,,100,130,,
+"Power Points XL",,,,35,,"PowerPoints",,,,240,280,,
+"Credits S",5,,,,,"Credits",,,,20,28,,
+"Credits M",,4,,,,"Credits",,,,50,60,,
+"Credits L",,,,,,"Credits",,,,100,140,,
+"Credits XL",,,,,,"Credits",,,,180,220,,
+"Brawler Rare",,,7,,,"Brawler",1,,,,,"Credits",100
+"Brawler Super Rare",,,3,,,"Brawler",2,,,,,"Credits",250
+"Brawler Epic",,,,7,9,"Brawler",3,,,,,"Credits",500
+"Brawler Mythic",,,,2,3,"Brawler",4,,,,,"Credits",1000
+"Brawler Legendary",,,,,2,"Brawler",5,,,,,"Credits",2000
+"Bling S",5,,,,,"Bling",,,,20,28,,
+"Bling M",,5,,,,"Bling",,,,50,60,,
+"Bling L",,,,,,"Bling",,,,100,140,,
+"Bling XL",,,,,,"Bling",,,,180,220,,
+"Skin 1-29 Gem",,,,10,10,"Skin",,1,29,,,"Credits",200
+"Skin 30-79 Gem",,,,2,6,"Skin",,30,79,,,"Credits",250
+"Skin 80-149 Gem",,,,,4,"Skin",,80,149,,,"Credits",300
+"Pin 1-9 Gem",,,10,25,,"Pin",,1,9,,,"Credits",100
+"Pin 10-29 Gem",,,,10,,"Pin",,10,29,,,"Credits",150
+"Pin 30-39 Gem",,,,,12,"Pin",,30,999,,,"Credits",200
+"Spray 1-19 Gem",,,5,5,,"Spray",,1,19,,,"Credits",100
+"Spray 20-29 Gem",,,,,5,"Spray",,20,999,,,"Credits",150
+"Profile Pic",,,7,14,,"ProfilePic",,,,,,"Credits",200
+"Token Doubler S",45,,,,,"TokenDoubler",,,,100,150,"Credits",100
+"Skin 150-199 Gem",,,,,,"Skin",,150,199,,,"Bling",100
+"Skin 200-999 Gem",,,,,,"Skin",,200,999,,,"Bling",100
+"Token Doubler M",,37,,,,"TokenDoubler",,,,500,575,"Credits",100
+"Token Doubler L",,,45,,,"TokenDoubler",,,,1000,1200,"Credits",100

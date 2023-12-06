@@ -26,7 +26,6 @@ I need to make it look nice.
 * v47 (major+minors)
 * v48 (minor 326)
 * v49 (minors 181, 194, 210)
-* v50 (minor 201)
 * v51 (minor 227)
 * v52 (minors 163, 177)
 
