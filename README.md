@@ -8,4 +8,4 @@ Assets from every Brawl Stars version
 * Last update: `December 06, 2023`
 
 ### Thanks:
-* Lwitchy for `29.258` assets!
+* Lwitchy for `29.258` and `31.96` assets!

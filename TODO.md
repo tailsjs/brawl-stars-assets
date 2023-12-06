@@ -7,7 +7,7 @@ I need to make it look nice.
 * v19 (minors 110, 111)
 * v20-v28 (majors+minors)
 * v30 (minor 231)
-* v31 (major+minors)
+* v31 (minors 81, 84)
 * v32 (minors 142, 153, 165)
 * v33 (major+minors)
 * v34 (minor 141)
