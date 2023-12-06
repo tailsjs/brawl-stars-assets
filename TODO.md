@@ -6,7 +6,6 @@ I need to make it look nice.
 * v16-17 (majors+minors)
 * v19 (minors 110, 111)
 * v20-v28 (majors+minors)
-* v29 (minor 258)
 * v30 (minor 231)
 * v31 (major+minors)
 * v32 (minors 142, 153, 165)

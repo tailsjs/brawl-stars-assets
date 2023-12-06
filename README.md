@@ -6,3 +6,6 @@ Assets from every Brawl Stars version
 * Current amount of folders: `958 folders`
 
 * Last update: `December 06, 2023`
+
+### Thanks:
+* Lwitchy for 29.258 assets!
