@@ -1,9 +1,0 @@
-{
-  "Enabled": true,
-  "ScFileName": "sc/supercell_id.sc",
-  "Game": "laser",
-  "PreloadingEnabled":  true,
-  "InternalDomains": [
-    "www.google.com"
-  ]
-}
