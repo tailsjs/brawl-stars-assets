@@ -1,0 +1,9 @@
+"Name","TID","IconSWF","CollectEffect","IconExportName","Type","Rarity","PremiumCurrency","TextRed","TextGreen","TextBlue","Cap"
+"String","String","String","String","String","String","String","Boolean","int","int","int","int"
+"Diamonds","TID_DIAMONDS","sc/ui.sc",,"genicon_gem",,,"TRUE",,255,92,
+"Gold","TID_GOLD","sc/ui.sc","Collect Gold","genicon_coin",,,,192,,192,
+"owcAny","TID_OFFER_WILDCARD_ANY","sc/ui.sc",,"icon_owcAny",,,,,,,
+"owcRareOrBetter","TID_OFFER_WILDCARD_RARE_OR_BETTER","sc/ui.sc",,"icon_owcRareOrBetter",,,,,,,
+"owcEpicOrBetter","TID_OFFER_WILDCARD_EPIC_OR_BETTER","sc/ui.sc",,"icon_owcEpicOrBetter",,,,,,,
+"Dust","TID_DUST","sc/ui.sc",,"genicon_dust",,,,,,,
+"Upgradium","TID_UPGRADIUM","sc/ui.sc",,"genicon_upgradium",,,,,,,
