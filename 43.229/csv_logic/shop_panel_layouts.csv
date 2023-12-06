@@ -1,0 +1,6 @@
+"Name","Disabled","AssetFileName","PanelAsset","Asset","Items","ItemPlaceholderNames","ItemContextNames"
+"String","boolean","String","String","String","String","String","String"
+"BrawlerAsEmoteAndSkinAsModel",,"sc/ui.sc","panel_offer","offer_1_item_brawler_and_skin_layout_1","GUARANTEEDHERO","item_brawler","CTX_HERO_AS_DEFAULT_EMOTE"
+,,,,,"SKIN","item_skin","CTX_SHOP_LARGE"
+"BrawlerAndSkinAsModels",,"sc/ui.sc","panel_starter_pack","offer_1_item_brawler_and_skin_layout_2","GUARANTEEDHERO","item_brawler","CTX_HERO_MODEL_ITEM"
+,,,,,"SKIN","item_skin","CTX_HERO_MODEL_ITEM"
