@@ -1,0 +1,15 @@
+"Name","TID","TileSetPrefix","TileSetRedAdd","TileSetGreenAdd","TileSetBlueAdd","TileSetRedMul","TileSetGreenMul","TileSetBlueMul","IconSWF","IconExportName","GameMode","AllowedMaps","ShadowR","ShadowG","ShadowB","ShadowA","Music"
+"string","string","string","int","int","int","int","int","int","string","string","string","string","int","int","int","int","string"
+"Wanted1","TID_WANTED_1","oasis_",0,0,0,255,255,255,"sc/ui.sc","level_image_oasis","BountyHunter","Wanted_1",0,66,66,60,
+"Gemgrab1","TID_GOLDRUSH_1","mine_",0,0,0,255,255,255,"sc/ui.sc","level_image_gemmine","CoinRush","Gemgrab_1",0,0,100,60,
+"Survival1","TID_BATTLE_ROYALE_1",,0,0,0,255,255,255,"sc/ui.sc","level_image_stormvalley","BattleRoyale","Survival_1",100,0,0,60,
+"Heist1","TID_BANKHEIST_1",,0,0,0,255,255,255,"sc/ui.sc","level_image_canyon","AttackDefend","Bankheist_1",100,0,0,60,
+"Wanted2","TID_WANTED_2","oasis_",0,0,0,255,255,255,"sc/ui.sc","level_image_oasis","BountyHunter","Wanted_2",0,100,0,60,
+"Gemgrab2","TID_GOLDRUSH_2","mine_",0,0,0,255,255,255,"sc/ui.sc","level_image_gemmine","CoinRush","Gemgrab_2",0,0,100,60,
+"Survival2","TID_BATTLE_ROYALE_2",,0,0,0,255,255,255,"sc/ui.sc","level_image_stormvalley","BattleRoyale","Survival_2",100,0,0,60,
+"Heist2","TID_BANKHEIST_2",,0,0,0,255,255,255,"sc/ui.sc","level_image_canyon","AttackDefend","Bankheist_2",100,0,0,60,
+"Wanted3","TID_WANTED_3","oasis_",0,0,0,255,255,255,"sc/ui.sc","level_image_oasis","BountyHunter","Wanted_3",0,100,0,60,
+"Gemgrab3","TID_GOLDRUSH_3","mine_",0,0,0,255,255,255,"sc/ui.sc","level_image_gemmine","CoinRush","Gemgrab_3",0,0,100,60,
+"Survival3","TID_BATTLE_ROYALE_3",,0,0,0,255,255,255,"sc/ui.sc","level_image_stormvalley","BattleRoyale","Survival_3",100,0,0,60,
+"Heist3","TID_BANKHEIST_3",,0,0,0,255,255,255,"sc/ui.sc","level_image_canyon","AttackDefend","Bankheist_3",100,0,0,60,
+"Tutorial",,,0,0,0,255,255,255,"sc/ui.sc",,"CoinRush",,100,0,0,60,

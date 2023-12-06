@@ -1,0 +1,8 @@
+"Name","TID","Disabled","ExistsApple","ExistsAndroid","Diamonds","USD","Order","IconExportName"
+"String","String","boolean","boolean","boolean","int","int","int","string"
+"com.supercell.laser.gempack0","TID_DIAMOND_PACK_1",,"TRUE","TRUE",20,199,1,"shop_gem_fistful"
+"com.supercell.laser.gempack1","TID_DIAMOND_PACK_2",,"TRUE","TRUE",50,499,2,"shop_gem_bagful"
+"com.supercell.laser.gempack2","TID_DIAMOND_PACK_3",,"TRUE","TRUE",110,999,3,"shop_gem_satchel"
+"com.supercell.laser.gempack3","TID_DIAMOND_PACK_4",,"TRUE","TRUE",230,1999,4,"shop_gem_bucket"
+"com.supercell.laser.gempack4","TID_DIAMOND_PACK_5",,"TRUE","TRUE",600,4999,5,"shop_gem_crate"
+"com.supercell.laser.gempack5","TID_DIAMOND_PACK_6",,"TRUE","TRUE",1250,9999,6,"shop_gem_safe"
