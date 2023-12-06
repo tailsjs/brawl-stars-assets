@@ -1,0 +1,12 @@
+"Name","Season","HeroArea1","HeroArea2","HeroArea3","FrameName"
+"string","int","String","String","String","String"
+"season8",7,"ShotgunGirlPrincess","KnightDefault","KnightNinja",8
+"season9",8,"BullDudeTerminator","DuplicatorDefault","DuplicatorChola",9
+"season10",9,"RosaBP","KickerDudeDefault","KickerDudeFurious",10
+"season11",10,"TrickshotDudeFirefly","FleaDefault","FleaSpaceCactus",11
+"season12",11,"WhirlwindBiker","JetpackGirlDefault","JetpackGirlValkyrie",12
+"season13",12,"GunslingerPaintball","SilencerDefault","SilencerPharaoh",13
+"season14",13,"DeadMariachiOutlaw","WeaponThrowerDefault","WeaponThrowerEmperor",14
+"season15",14,"ArtilleryDudeZombie","ShieldTankDefault","ShieldTankChainsaw",15
+"season16",15,"ShamanGummybear","BeamerDefault","BeamerLavaQueen",16
+"season17",16,"LuchadorButler","SplitterDefault","SplitterCultist",17
