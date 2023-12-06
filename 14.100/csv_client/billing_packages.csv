@@ -1,0 +1,13 @@
+"Name","TID","Type","Disabled","ExistsApple","ExistsAndroid","Diamonds","USD","Order","IconExportName","StarterPackNumber","BigBoxCount","XpLevelReq","ValueFactor","Bg","Decor","IsPromotion"
+"String","String","int","boolean","boolean","boolean","int","int","int","string","int","int","int","int","int","int","boolean"
+"com.supercell.laser.gempack0","TID_DIAMOND_PACK_1",1,,"TRUE","TRUE",30,199,1,"shop_gem_0",,,,,,,
+"com.supercell.laser.gempack1","TID_DIAMOND_PACK_2",1,,"TRUE","TRUE",80,499,2,"shop_gem_1",,,,,,,
+"com.supercell.laser.gempack2","TID_DIAMOND_PACK_3",1,,"TRUE","TRUE",170,999,3,"shop_gem_2",,,,,,,
+"com.supercell.laser.gempack3","TID_DIAMOND_PACK_4",1,,"TRUE","TRUE",360,1999,4,"shop_gem_3",,,,,,,
+"com.supercell.laser.gempack4","TID_DIAMOND_PACK_5",1,,"TRUE","TRUE",950,4999,5,"shop_gem_4",,,,,,,
+"com.supercell.laser.gempack5","TID_DIAMOND_PACK_6",1,,"TRUE","TRUE",2000,9999,6,"shop_gem_5",,,,,,,
+"com.supercell.laser.starterpack1","TID_STARTER_PACK_1",2,,"TRUE","TRUE",80,199,0,,1,1,5,5,1,0,
+"com.supercell.laser.starterpack2","TID_STARTER_PACK_2",2,,"TRUE","TRUE",170,499,0,,2,1,15,3,1,0,
+"com.supercell.laser.starterpack3","TID_STARTER_PACK_3",2,,"TRUE","TRUE",250,999,0,,3,3,25,3,1,0,
+"com.supercell.laser.starterpack4","TID_STARTER_PACK_4",2,,"TRUE","TRUE",360,1999,0,,4,5,35,2,1,0,
+"com.supercell.laser.xmas2018pack","TID_IAP_XMAS2018_PACK",3,,"TRUE","TRUE",170,499,9,,,2,,4,3,1,
