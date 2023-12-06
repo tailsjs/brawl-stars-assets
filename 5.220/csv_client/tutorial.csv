@@ -1,0 +1,15 @@
+"Name","StartDelayMS","EndDelayMS","StartCondition","StartLocationX","StartLocationY","StartLocationRadius","AnimationX","AnimationY","AnimationX2","AnimationY2","CompleteCondition","CompleteLocationX","CompleteLocationY","CompleteLocationRadius","UseUltiX","UseUltiY","AnimationClipSWF","AnimationMovieClip","AnimationClipSWF2","AnimationMovieClip2","SpeechBubbleCharacterSWF","SpeechBubbleCharacterMovieClip","SpeechBubbleTIDs","SpawnCharacter","SpawnLocationX","SpawnLocationY","SpawnAmount","BlockingSpeechBubble","ShowUlti"
+"string","int","int","string","int","int","int","int","int","int","int","string","int","int","int","int","int","string","string","string","string","string","string","string","string","int","int","int","boolean","boolean"
+1,500,,"none",,,,1350,7600,1350,7600,"reach_waypoint",1350,7600,300,,,"sc/level.sc","tutorial_ring","sc/level.sc","finger_tap","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_1",,,,,,
+"1_1",500,,"none",,,,2750,7600,2750,7600,"reach_waypoint",2750,7600,300,,,"sc/level.sc","tutorial_ring","sc/level.sc","finger_tap","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_2",,,,,,
+2,500,,"none",,,,4050,6000,4050,6000,"reach_waypoint",4050,6000,300,,,"sc/level.sc","tutorial_ring","sc/level.sc","finger_tap","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_3",,,,,,
+3,500,,"none",,,,4050,4500,4050,4500,"reach_waypoint",4050,4500,300,,,"sc/level.sc","tutorial_ring","sc/level.sc","finger_tap","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_4",,,,,,
+4,500,,"none",,,,,,4300,4100,"kill_everything",,,,,,,,"sc/level.sc","finger_swipe","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_5","TutorialDummy",4800,3000,1,,
+5,500,,"none",,,,4050,2700,4050,2700,"reach_waypoint",4050,2700,300,,,"sc/level.sc","tutorial_ring","sc/level.sc","finger_tap","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_11",,,,,,
+6,500,,"none",,,,,,,,"none",,,,,,,,,,,,,"TutorialDummy2",4800,1400,1,,"true"
+7,,,"none",,,,,,,,"kill_everything",,,,,,,,,,"sc/ui.sc","tutorial_character_top","TID_TUTORIAL_7","TutorialDummy2",3200,1400,1,,
+8,500,,"none",,,,,,,,"click_ulti",,,,,,,,,,"sc/ui.sc","tutorial_character_top","TID_TUTORIAL_10",,,,,,
+"8_1",,,"none",,,,,,,,"none",,,,,,,,,,,,,"TutorialDummy3",4350,1400,1,,
+"8_2",,,"none",,,,,,,,"none",,,,,,,,,,,,,"TutorialDummy3",3500,1400,1,,
+9,100,,"none",,,,,,3600,2400,"use_ulti",,,,3900,1000,,,"sc/level.sc","finger_swipe","sc/ui.sc","tutorial_character_top","TID_TUTORIAL_8","TutorialDummy3",3925,1400,1,,
+10,1500,,"none",,,,,,,,"none",,,,,,,,,,"sc/ui.sc","tutorial_character_top","TID_TUTORIAL_9",,,,,"true",
