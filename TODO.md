@@ -5,7 +5,7 @@ I need to make it look pretter.
 * v16 (minors 167, 176)
 * v19 (minors 110, 111)
 * v20 (minors 80, 86, 89, 90)
-* v21 (minors 73, 77)
+* v21 (minor 77)
 * v23 (minors 90, 91)
 * v25 (minors 96, 107, 112, 119)
 * v26 (minors 165, 170)
