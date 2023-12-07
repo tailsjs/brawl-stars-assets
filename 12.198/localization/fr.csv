@@ -1,0 +1,1604 @@
+"TID","FR"
+"string","string"
+"TID_BULL_DUDE_DESC","Tel un taureau dans un magasin de porcelaine... Un taureau avec un fusil à double canon."
+"TID_FIREWORKS_WEAPON_DESC","Brock tire une seule roquette. Qui aurait cru que ce machin pouvait aller aussi loin ?"
+"TID_TNT_DUDE_DESC","Mineur à la retraite, Dynamike n'a pas oublié la partie la plus essentielle de son ancien travail : les explosions !"
+"TID_LUCHADOR_DESC","Un fâcheux impact avec un météore a fait d'El Primo l'homme le plus fort et le plus charismatique de tous."
+"TID_TRICKSHOT_DUDE_DESC","Robot de billard obsolète, Ricochet veut se faire une place chez les brawlers grâce à son talent pour les calculs de trajectoires."
+"TID_BARKEEP_DESC","Barley rêve de devenir un barman ordinaire. Mais ne le cherchez pas trop ou les bouteilles vont voler !"
+"TID_MECHANIC_DESC","Un peu pécore mais pas bête : Junker Jessie peut construire une tourelle avec n'importe quoi."
+"TID_SHAMAN_DESC","Nita Littlefoot est l'héritière d'une longue lignée de shamans. Son animal totem est Big Baby Bear."
+"TID_UNDERTAKER_DESC","À force d'enterrer des gens professionnellement, Mortis s'est fait les muscles. Il n'en a pas l'air mais il est très rapide."
+"TID_UNDERTAKER_ULTI_DESC","Mortis appelle des chauve-souris vampires qui drainent ses ennemis de leurs points de vie et restaurent les siens."
+"TID_CROW_DESC","Créature énigmatique apparue comme ça un beau jour. Les gens ont vite arrêté de lui prendre le bec."
+"TID_CROW_ULTI_DESC","Crow lance des dagues empoisonnées tout autour de de lui quand il s'envole, et encore quand il atterrit."
+"TID_DEAD_MARIACHI_DESC","Depuis que ses fans l'ont abandonné pour un autre groupe, Poco cherche le riff parfait pour les reconquérir un jour."
+"TID_DEAD_MARIACHI_WEAPON_DESC","Un accord de son guitarron crée une onde de choc à faire grincer les dents. Gare aux dégâts !"
+"TID_BOW_DUDE_DESC","Bo Eagle Hunter, le plus grand archer que les tribus aient connu. Ses flèches sont aussi les plus explosives !"
+"TID_BOW_DUDE_WEAPON_DESC","Bo lance un trio de flèches explosives qui déchirent ses ennemis comme les serres d'un aigle des plaines."
+"TID_SNIPER_DESC","Il faut bien admettre que Piper de la Prim a beaucoup de classe. Elle était aussi la première de sa classe de tir au fusil."
+"TID_SNIPER_WEAPON_DESC","Piper tire avec le fusil dissimulé dans son ombrelle. Plus elle tire de loin, plus ça fait mal !"
+"TID_SNIPER_ULTI_DESC","Piper se débarrasse des prétendants trop lourds. Elle s'échappe d'un bond et leur laisse trois grenades en cadeau !"
+"TID_MINIGUN_DUDE_DESC","Pam est une dame de fer qui sait faire se tenir la très grande famille Junker à carreau."
+"TID_BONE_THROWER_DESC","Petit mais costaud ! Avec sa mitrailleuse géante, ce franc-tireur taille mini fauche les méchants par dizaines. (Vitesse de déplacement réduite, ne peut pas être repoussé)"
+"TID_BONE_THROWER_WEAPON_DESC","Rien de plus maniable qu'une mitrailleuse : Bone Thrower peut s'éloigner et la laisser tirer en automatique !"
+"TID_BONE_THROWER_ULTI_DESC","Les égratignures pendant un combat, ça arrive. Ce distributeur de pansements vous aidera à maintenir votre équipe au top de leur forme !"
+"TID_BLACK_HOLE_DESC","Les cartes n'ont aucun secret pour cette voyante d'un pays mystérieux. Et dans le futur elle a vu votre perte !"
+"TID_BLACK_HOLE_WEAPON_DESC","Un geste de la main et trois cartes de tarot transpercent ses ennemis. Tu parles d'un tour !"
+"TID_STAT_DAMAGE_PER_SECOND","Dégâts par seconde"
+"TID_STAT_DAMAGE_PER_SECOND_EACH","Dégâts par seconde"
+"TID_STAT_DAMAGE_PER_STRIKE","Dégâts par coup de poing"
+"TID_ROBOT_DESC","Construits pour servir. Adjoints de destruction."
+"TID_ROBOT_WEAPON_DESC","Les adjoints tirent des roquettes à une distance considérable et avec une précision redoutable."
+"TID_ROBOT_ULTI_DESC","Circonstances exceptionnelles, mesures exceptionnelles : une pluie de roquettes fait généralement l'affaire."
+"TID_ARMOR_STAT","Santé"
+"TID_HEALTH","Santé"
+"TID_STAT_GRENADE_DAMAGE","Dégâts par grenade"
+"TID_STAT_MISSILE_DAMAGE","Dégâts par roquette"
+"TID_STAT_HEALTH","Points de vie"
+"TID_STAT_SPEED","Vitesse"
+"TID_STAT_DAMAGE","Dégâts"
+"TID_STAT_DAMAGE_PER_SHOT","Dégâts par balle"
+"TID_STAT_DAMAGE_PER_SHELL","Dégâts par obus"
+"TID_STAT_HAMMER_DAMAGE","Dégâts toutes les 0,2 sec"
+"TID_QUIT","Abandonner"
+"TID_MATCHMAKING_QUIT","Abandonner"
+"TID_MATCHMAKING_HEADING","Recherche de joueurs"
+"TID_MATCHMAKING_TIME_LABEL","Début du jeu dans :"
+"TID_MATCHMAKING_PLAYERS","Joueurs trouvés <x>/<y>"
+"TID_BUTTON_CANCEL","Annuler"
+"TID_BUTTON_OK","OK"
+"TID_ENTER_NAME_TITLE","Bienvenue à Brawl Stars !"
+"TID_ENTER_NAME_BODY","Quel est votre nom ?"
+"TID_TIME_DAYS","j"
+"TID_TIME_HOURS","h"
+"TID_MATCHMAKING_TIME","Temps avant le début <TIME>"
+"TID_ERROR_POP_UP_OUT_OF_SYNC_TITLE","Erreur !"
+"TID_ERROR_POP_UP_OUT_OF_SYNC","Erreur de synchronisation client/serveur."
+"TID_ERROR_POP_UP_OUT_OF_SYNC_BUTTON","Recharger le jeu"
+"TID_ERROR_POP_UP_CONNECTION_FAILED_TITLE","Erreur de connexion"
+"TID_ERROR_POP_UP_CONNECTION_FAILED","La connexion au serveur a échoué. Veuillez vérifier votre connexion Internet et réessayez."
+"TID_ERROR_POP_UP_CONNECTION_FAILED_BUTTON","Réessayer"
+"TID_ERROR_POP_UP_LOGIN_FAILED_TITLE","Échec de la connexion"
+"TID_ERROR_POP_UP_LOGIN_FAILED","Veuillez réessayer plus tard."
+"TID_ERROR_POP_UP_LOGIN_FAILED_BUTTON","Réessayer"
+"TID_ERROR_POP_UP_AUTO_DISCONNECTED_TITLE","Vous êtes toujours là ?"
+"TID_ERROR_POP_UP_AUTO_DISCONNECTED","Sélectionnez le bouton ci-dessous pour recharger le jeu."
+"TID_ERROR_POP_UP_AUTO_DISCONNECTED_BUTTON","Recharger le jeu"
+"TID_ERROR_POP_UP_WRONG_CLIENT_VERSION_TITLE","Mise à jour disponible !"
+"TID_ERROR_POP_UP_WRONG_CLIENT_VERSION","Bonne nouvelle ! Une nouvelle version de Brawl Stars est disponible."
+"TID_ERROR_POP_UP_WRONG_CLIENT_VERSION_BUTTON","Mettre à jour"
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_TITLE","Maintenance"
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE","Les serveurs sont en cours de maintenance. Veuillez réessayer plus tard."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_BUTTON","Réessayer"
+"TID_ERROR_POP_UP_BANNED_TITLE","Vous avez été exclu."
+"TID_ERROR_POP_UP_BANNED","Vous avez été temporairement exclu"
+"TID_ERROR_POP_UP_BANNED_BUTTON","OK"
+"TID_ERROR_POP_UP_BANNED_BUTTON_CONTACT_PS","Contacter l'assistance"
+"TID_ERROR_POP_UP_BANNED_ARTICLE_BUTTON","Plus d'infos"
+"TID_INFO_POP_UP_IAP_NOTE_TITLE","Informations importantes"
+"TID_INFO_POP_UP_IAP_NOTE","Brawl Stars est un jeu gratuit mais vous pouvez progresser plus rapidement grâce aux achats intégrés (à désactiver dans les paramètres de votre appareil). Appuyez sur OK pour accepter nos conditions d'utilisation et notre politique de confidentialité."
+"TID_INFO_POP_UP_IAP_NOTE_BUTTON","OK"
+"TID_SERVER_ERROR_TITLE","Erreur du serveur <number>"
+"TID_SERVER_ERROR","Votre connexion a été interrompue pendant le combat."
+"TID_SERVER_ERROR_BUTTON","OK"
+"TID_ERROR_POP_UP_CONNECTION_LOST_TITLE","Connexion interrompue"
+"TID_ERROR_POP_UP_CONNECTION_LOST","Veuillez essayer de vous reconnecter"
+"TID_ERROR_POP_UP_CONNECTION_LOST_BUTTON","Reconnexion"
+"TID_TROPHIES","Trophées"
+"TID_READY","Prêt"
+"TID_BATTLE_END_TITLE_DRAW","Égalité"
+"TID_BATTLE_END_TITLE_COOP_SURVIVAL","A survécu pendant <TIME>"
+"TID_BATTLE_END_DEATHMATCH_VICTORY","Vous êtes #1 !"
+"TID_BATTLE_END_DEATHMATCH_DEFEAT","Classement : <RANK>"
+"TID_BATTLE_END_NEXT","Suivant"
+"TID_BATTLE_END_TAP","touchez pour continuer"
+"TID_RESPAWNING","Nouvelle vie dans :\n<n1>"
+"TID_TEAM_ENTRY_GAME_INFO","<MODE> à <LOC>"
+"TID_TEAM_MEMBER_LEFT_0","Vous avez quitté la salle."
+"TID_TEAM_MEMBER_LEFT_1","Vous avez été exclu de la salle."
+"TID_TEAM_GAME_STARTING","Démarrage du jeu"
+"TID_TEAM_CODE_COPIED","Code copié dans le presse papier"
+"TID_TEAM_ERROR_1","Erreur du serveur de salle"
+"TID_TEAM_ERROR_2","Vous ne pouvez pas rejoindre cette salle. Elle est déjà pleine."
+"TID_TEAM_ERROR_3","Vous ne pouvez pas rejoindre cette salle. Elle a déjà été dissoute."
+"TID_TEAM_ERROR_5","Code de salle non valide. Veuillez vérifier que le code est correct."
+"TID_TEAM_ERROR_6","Nous ne trouvons pas de salle avec ce code."
+"TID_TEAM_ERROR_7","Vous ne pouvez pas rejoindre cette salle. Vous en avez été exclu."
+"TID_TEAM_ERROR_8","Veuillez vérifier les paramètres. Il ne peut pas y avoir plus de 3 joueurs par équipe."
+"TID_TEAM_ERROR_10","La création de salle a échoué. Vous êtes déjà dans une salle."
+"TID_TEAM_ERROR_11","La création de salle a échoué. L'évènement est terminé."
+"TID_TEAM_ERROR_12","Vous ne pouvez pas rejoindre cette salle. Elle a expiré."
+"TID_TEAM_ERROR_15","Vous ne pouvez pas rejoindre cette salle. Elle n'est pas accessible depuis votre région."
+"TID_TEAM_ERROR_17","Le jeu ne peut pas démarrer. Les brawlers en double ne sont pas autorisés."
+"TID_TEAM_ERROR_18","Le jeu ne peut pas démarrer. Il va être désactivé pour la maintenance."
+"TID_TEAM_ERROR_19","Vous ne pouvez pas exclure le créateur d'une salle quand il est en ligne."
+"TID_TEAM_ERROR_21","Le jeu ne peut pas démarrer. Pas assez de tickets."
+"TID_TEAM_SEARCH_INVALID_CODE","Code de salle non valide. Veuillez vérifier que le code est correct."
+"TID_TEAM_JOIN","Rejoindre"
+"TID_TEAM_CANCEL_READY","Annuler"
+"TID_TEAM_TEAMCODE","Code de la salle"
+"TID_TEAM_TEAMCODE_DESC","Vos amis peuvent trouver votre salle grâce à ce code"
+"TID_TEAM_WAITING_FOR_PLAYER","Inviter avec un code de salle"
+"TID_TEAM_KICK","Exclure"
+"TID_TEAM_SWAP","Changer de côté"
+"TID_TEAM_SWAP_HERE","Changer ici"
+"TID_TEAM_TOGGLE_TEAM","Modifier les équipes"
+"TID_TEAM_SIDE_LABEL","Équipe</c>"
+"TID_TEAM_SIDE_2","<c999999>Aléatoire</c>"
+"TID_TEAM_SIDE_0","<cffd700>A</c>"
+"TID_TEAM_SIDE_1","<c00ffff>B</c>"
+"TID_BONUS_REWARD","Récompense bonus pour 3 victoires :"
+"TID_BONUS_REWARD_COLLECTED","Récompense bonus récupérée"
+"TID_INFO_SERVER_ERROR_TITLE","Erreur du serveur"
+"TID_INFO_SERVER_ERROR_BUTTON","Recharger le jeu"
+"TID_RARITY_NAME_1","Rare"
+"TID_RARITY_NAME_2","Super rare"
+"TID_RARITY_NAME_3","Épique"
+"TID_RARITY_NAME_4","Mythique"
+"TID_RARITY_NAME_5","Légendaire"
+"TID_RANK_UP_POPUP_REWARD_BONUS","BONUS DE CLASSEMENT"
+"TID_RANK_UP_POPUP_RANK","CLASSEMENT <RANK>"
+"TID_NAME_FAILED_TOO_SHORT","Nom trop court"
+"TID_NAME_FAILED_PROFANITIES","Nom non accepté"
+"TID_NAME_FAILED","Nom non accepté"
+"TID_SELECT_HERO_INFO_1","<cFF8000>Joueurs contre joueurs</c>"
+"TID_SELECT_HERO_INFO_2","<c2288ff>Joueurs contre bots</c>"
+"TID_SELECT_HERO_INFO_3","<c40E0D0>Jouer solo avec des bots</c>"
+"TID_SELECT_HERO_INFO_1_6","<cFF8000>Joueurs contre joueurs</c>"
+"TID_SELECT_HERO_INFO_3_6","<c40E0D0>Jouer solo avec des bots</c>"
+"TID_NAVI_1","Magasin"
+"TID_NAVI_4","Brawlers"
+"TID_BATTLE_MAIN_NEXT_REWARD","Prochaine récompense : <VALUE>/<MAX>"
+"TID_BATTLE_MAIN_COLLECTED_COINS","<VALUE> récupéré"
+"TID_HERO_INFO_BACK","RETOUR"
+"TID_HERO_INFO_UPGRADE","AMÉLIORER"
+"TID_HERO_INFO_ABILITY_LEVEL","NIV. <LEVEL>/<MAXLEVEL>"
+"TID_HERO_INFO_CRAFT_HERO","Acheter brawler"
+"TID_HERO_INFO_ITEM_RARITY","<c<COLOR>><NAME></c>"
+"TID_MATCHMAKE_FAILED_5","La rencontre a échoué : l'évènement est terminé"
+"TID_MATCHMAKE_FAILED_7","La rencontre a échoué : le membre de la salle s'est déconnecté"
+"TID_MATCHMAKE_FAILED_9","La rencontre a échoué : la maintenance va commencer"
+"TID_SUDDEN_DEATH_TIMER","<n1>"
+"TID_OWN_TEAM_WINNING","L'équipe bleue va gagner dans :"
+"TID_ENEMY_TEAM_WINNING","L'équipe rouge va gagner dans :"
+"TID_OWN_TEAM","Équipe bleue"
+"TID_ENEMY_TEAM","Équipe rouge"
+"TID_COUNTDOWN","COMPTE À REBOURS"
+"TID_HERO_LIST_DO_GATCHA","Ouvrir la brawl box"
+"TID_HERO_LOCKED_CANNOT_VIEW","Touchez le bouton roulette pour débloquer des brawlers"
+"TID_DAILY_COINS_COLLECTED","Récupéré"
+"TID_TEAM_BATTLE","CRÉER"
+"TID_TEAM_UNREADY","pas prêt"
+"TID_TEAM_WAITING_WHILE_READY","Vous êtes prêt !\nEn attente d'autres joueurs."
+"TID_GATCHA_SCREEN_OK","Cool !"
+"TID_GATCHA_SCREEN_TAP","Touche ! Touche !"
+"TID_GATCHA_SCREEN_COIN_DOUBLER_VALUE","+ <AMOUNT>"
+"TID_NAVI_BLOCKED_1","Vous ne pouvez plus changer de page une fois prêt !"
+"TID_TEAM_MEMBER_INFO_READY","<NAME> attend que les autres soient prêts"
+"TID_TEAM_MEMBER_INFO_NOT_READY","<NAME> n'est pas encore prêt à jouer"
+"TID_TEAM_MEMBER_INFO_SELF_READY","Vous ne pouvez plus changer de brawler une fois prêt !"
+"TID_TEAM_CHANGE_EVENT_BLOCKED","Vous ne pouvez plus changer d'évènement une fois prêt !"
+"TID_TEAM_INFO_TEAM_CODE","Partagez le code avec vos amis pour les inviter à rejoindre votre salle de jeu !\n\nTouchez encore une fois pour copier dans le presse-papier."
+"TID_FREEZER","Congélateur"
+"TID_GAME_OVER","Match terminé"
+"TID_LEVEL","Niv. <LVL>"
+"TID_PLAYERS_IN_MM","Il y a des joueurs en attente d'une rencontre !"
+"TID_ONLINE_INFO","Joueurs en ligne : <ONLINE> dans les rencontres : <MATCHMAKE> dans un match : <BATTLES>"
+"TID_INPUT_NAME","Tapez votre nom ici"
+"TID_LEADERBOARD_YOUR_SCORE","Votre score"
+"TID_LEADERBOARD_YOUR_RANK","Votre classement"
+"TID_LEADERBOARD_HIGHEST_SCORE","Votre meilleur score"
+"TID_SET_REGION_RESULT_0","Votre région a été changée à <REGION>"
+"TID_SET_REGION_RESULT_1","Changement de région impossible car vous êtes dans une bande"
+"TID_SET_REGION_RESULT_2","Changement de région impossible car vous êtes dans une salle de jeu"
+"TID_VICTORY_CONDITION_COINRUSH_TITLE","Attrape-cristal"
+"TID_BATTLE_END_MY_TEAM","Votre équipe"
+"TID_BATTLE_END_ENEMY_TEAM","Équipe adverse"
+"TID_BACK","RETOUR"
+"TID_UNLOCK_SKIN_ERROR_1","Pas assez de gemmes"
+"TID_EXPERIENCE_LEVEL","Niveau d'expérience"
+"TID_BOT_1","Bot 1"
+"TID_BOT_2","Bot 2"
+"TID_BOT_3","Bot 3"
+"TID_BOT_4","Bot 4"
+"TID_BOT_5","Bot 5"
+"TID_BOT_6","Bot 6"
+"TID_BOT_7","Bot 7"
+"TID_BOT_8","Bot 8"
+"TID_BOT_9","Bot 9"
+"TID_CRAFT_HERO_TITLE","Acheter brawler"
+"TID_CRAFT_HERO_BUTTON_LABEL","Acheter"
+"TID_UNLOCK_SKIN_TITLE","Acheter skin"
+"TID_UNLOCK_SKIN_BUTTON_LABEL","Acheter"
+"TID_HERO_LIST_TOTAL_TROPHIES","Total des trophées"
+"TID_GAME_MODE_2","HEIST"
+"TID_GAME_MODE_3","BOUNTY"
+"TID_GAME_MODE_3_DESC","Traquez l'équipe adverse et obtenez des étoiles. L'équipe qui termine avec le plus d'étoiles gagne le match !"
+"TID_GAME_MODE_6_DESC","Descendez les neuf autres joueurs et soyez le seul survivant. Tous est permis : vous n'avez qu'une vie..."
+"TID_GAME_MODE_5","BRAWL BALL"
+"TID_BATTLE_END_GAIN_LABEL_RANK_UP","Amélioration classement"
+"TID_BATTLE_END_GAIN_LABEL_LEVEL_UP","Niveau supérieur"
+"TID_BATTLE_END_GAIN_LABEL_VICTORY","Victoire"
+"TID_BATTLE_END_GAIN_LABEL_DEFEAT","Défaite"
+"TID_BATTLE_END_GAIN_LABEL_DRAW","Égalité"
+"TID_BATTLE_END_GAIN_LABEL_MVP","Joueur star"
+"TID_BATTLE_END_GAIN_LABEL_SURVIVAL","Classement"
+"TID_BATTLE_END_MVP","JOUEUR STAR"
+"TID_BATTLE_END_DEFEAT_INFO","Vous gagnerez une prochaine fois !"
+"TID_TUTORIAL_9","Vous êtes un brawler né !\n\nÀ l'attaque !"
+"TID_HERO_SCORE_INFO_MAXED","Vous avez atteint le niveau maximum."
+"TID_XP_INFO_OTHER","Niveau d'expérience du joueur"
+"TID_ALLIANCE_TYPE_OPEN","Ouvert"
+"TID_ALLIANCE_TYPE_INVITE_ONLY","Sur invitation"
+"TID_ALLIANCE_TYPE_CLOSED","Fermé"
+"TID_STREAM_ENTRY_AGE","il y a <time>"
+"TID_ALLIANCE_ROLE_LEADER","Chef"
+"TID_ALLIANCE_ROLE_CO_LEADER","Sous-chef"
+"TID_ALLIANCE_ROLE_MEMBER","Membre"
+"TID_ALLIANCE_ROLE_ELDER","Aîné"
+"TID_STREAM_SENDER_YOU","Vous"
+"TID_GOLDRUSH_1","Mine hard rock"
+"TID_BANKHEIST_1","Cache de bandit"
+"TID_WANTED_1","Temple en ruines"
+"TID_BATTLE_ROYALE_1","Crique du crâne"
+"TID_GOLDRUSH_2","Caverne de cristal"
+"TID_BANKHEIST_2","Boum canyon"
+"TID_WANTED_2","Camp hors-la-loi"
+"TID_BATTLE_ROYALE_2","Plaines orageuses"
+"TID_GOLDRUSH_3","Grotte champignon"
+"TID_BANKHEIST_3","Zone sûre"
+"TID_WANTED_3","Place argile"
+"TID_BATTLE_ROYALE_3","Vallée de la mort"
+"TID_WANTED_4","Potager de choux"
+"TID_GOLDRUSH_4","Boîte d'os"
+"TID_WANTED_5","Ravin aux étoiles"
+"TID_GOLDRUSH_5","Catacombes du temple"
+"TID_WANTED_6","Prairie aux serpents"
+"TID_WANTED_7","Étoile filante"
+"TID_BATTLE_ROYALE_4","Famine ou festin"
+"TID_WANTED_8","Terrier du sanglier"
+"TID_BANKHEIST_4","G.G. Corral"
+"TID_CLAN_TOTAL_TROPHIES","Trophées de la bande"
+"TID_CLAN_INFO_TAG","Code de la bande"
+"TID_CLAN_INFO_MESSAGE","Message"
+"TID_CLAN_INFO_REQUEST_JOIN","Demander à rejoindre"
+"TID_CLAN_SEARCH_NO_RESULTS","Aucune bande trouvée"
+"TID_CLAN_INFO_MEMBERS","Membres"
+"TID_ALLIANCE_CREATE_OK","Bande créée avec succès"
+"TID_TITLE_ALLIANCE","Informations bande"
+"TID_ALLIANCE_LEFT","Vous avez quitté la bande"
+"TID_CLAN_MEMBER_DEMOTE","Rétrograder"
+"TID_CLAN_MEMBER_PROMOTE","Promouvoir"
+"TID_CLAN_MEMBER_KICK","Exclure"
+"TID_CLAN_MEMBER_VIEW_ALLIANCE","Voir bande"
+"TID_BUTTON_INVITE","Inviter"
+"TID_PLAYER_INFO_GOTO_CLAN","Voir bande"
+"TID_PLAYER_INFO_HEROES","Brawlers (<FOUND>/<TOTAL>)"
+"TID_SELECT_PLAYER_THUMBNAIL_FAIL_2","Cet avatar sera débloqué au niveau <LEVEL>"
+"TID_SELECT_PLAYER_THUMBNAIL_FAIL_3","Cet avatar sera débloqué avec <TROPHIES> trophées gagnés"
+"TID_SELECT_PLAYER_THUMBNAIL_FAIL_5","Cet avatar sera débloqué avec <POINTS> points de saison"
+"TID_NO_CLAN","Pas dans une bande"
+"TID_ULTIMATE_NOT_READY","Infligez des dégâts aux ennemis pour charger la super attaque"
+"TID_CANT_ACTIVATE_ULTI","Super attaque non disponible si vous avez perdu"
+"TID_NAME_TOO_SHORT","Ce nom est trop court"
+"TID_ALLIANCE_JOINED","Bande rejointe"
+"TID_BOUNTY_HUNTER_INTRO_TEXT","Battez des brawlers pour des étoiles"
+"TID_ALLIANCE_PROMOTE_TITLE","Confirmez promotion"
+"TID_ALLIANCE_PROMOTE_CONFIRMATION","Êtes-vous sûr de vouloir promouvoir <NAME> à <ROLE> ?"
+"TID_ALLIANCE_PROMOTE_BUTTON","Promouvoir"
+"TID_ALLIANCE_KICK_TITLE","Confirmer exclusion"
+"TID_ALLIANCE_KICK_CONFIRMATION","Êtes-vous sûr de vouloir exclure <NAME> de la bande ?"
+"TID_ALLIANCE_KICK_BUTTON","Exclure"
+"TID_ALLIANCE_DEMOTE_TITLE","Confirmer rétrograder"
+"TID_ALLIANCE_DEMOTE_CONFIRMATION","Êtes-vous sûr de vouloir rétrograder <NAME> à <ROLE> ?"
+"TID_ALLIANCE_DEMOTE_BUTTON","Rétrograder"
+"TID_CLAN_RESPONSE_10","Paramètres sauvegardés"
+"TID_CLAN_RESPONSE_20","Bande créée"
+"TID_CLAN_RESPONSE_22","Nom non accepté"
+"TID_CLAN_RESPONSE_40","Bande rejointe"
+"TID_CLAN_RESPONSE_42","Échec : bande déjà pleine"
+"TID_CLAN_RESPONSE_43","Échec : bande fermée"
+"TID_CLAN_RESPONSE_45","Échec : vous n'avez pas assez de trophées pour rejoindre cette bande"
+"TID_CLAN_RESPONSE_46","Échec : vous êtes exclu de cette bande à cause d'une exclusion précédente/requête pour rejoindre rejetée."
+"TID_CLAN_RESPONSE_47","Échec : vous avez déjà essayé de rejoindre trop de bandes aujourd'hui."
+"TID_CLAN_RESPONSE_48","Échec : cette bande n'est pas dans votre région."
+"TID_CLAN_RESPONSE_50","Requête pour rejoindre envoyée"
+"TID_CLAN_RESPONSE_51","Requête non envoyée : cette bande n'accepte plus de requêtes"
+"TID_CLAN_RESPONSE_52","Requête non envoyée : vous avez déjà une requête en attente pour cette bande"
+"TID_CLAN_RESPONSE_53","Requête non envoyée :vous n'avez pas assez de trophées pour rejoindre cette bande"
+"TID_CLAN_RESPONSE_54","Votre requête a échoué : vous êtes exclu de cette bande à cause d'une exclusion précédente/requête pour rejoindre rejetée."
+"TID_CLAN_RESPONSE_55","Votre requête a échoué : cette bande n'est pas dans votre région."
+"TID_CLAN_RESPONSE_70","Exclusion confirmée"
+"TID_CLAN_RESPONSE_80","Vous avez quitté la bande"
+"TID_CLAN_RESPONSE_81","Promotion réussie"
+"TID_CLAN_RESPONSE_82","Rétrogradé"
+"TID_CLAN_RESPONSE_90","Accepter le succès"
+"TID_CLAN_RESPONSE_91","Rejeter le succès"
+"TID_CLAN_RESPONSE_92","Échec : le joueur est déjà dans une bande"
+"TID_CLAN_RESPONSE_93","Échec de la commande : nous ne trouvons pas cette requête"
+"TID_CLAN_RESPONSE_94","Échec de la commande : requête en cours de traitement"
+"TID_CLAN_RESPONSE_95","Échec de la commande : pas de droits"
+"TID_CLAN_RESPONSE_96","Échec de l'acceptation : ce joueur a déjà été banni de la bande"
+"TID_CLAN_RESPONSE_100","Vous avez été exclu d'une bande"
+"TID_CLAN_RESPONSE_101","Vous avez été promu"
+"TID_CLAN_RESPONSE_102","Vous avez été rétrogradé"
+"TID_ALLIANCE_NAME_TOO_SHORT","Nom de bande trop court"
+"TID_CLAN_JOIN_REQUEST_TITLE","Demander à rejoindre la bande"
+"TID_CLAN_JOIN_REQUEST_SEND","Envoyer"
+"TID_CLAN_JOIN_REQUEST_DEFAULT_MESSAGE","J'aimerais rejoindre votre bande..."
+"TID_CLAN_JOIN_REQUEST_ENTRY_TITLE","Accepter ce joueur dans votre bande ?"
+"TID_CLAN_JOIN_REQUEST_ENTRY_ACCEPT","Accepter"
+"TID_CLAN_JOIN_REQUEST_ENTRY_REJECT","Refuser"
+"TID_CLAN_JOIN_REQUEST_ENTRY_ACCEPTED_BY","Accepté par <name>"
+"TID_CLAN_JOIN_REQUEST_ENTRY_REJECTED_BY","Refusé par <name>"
+"TID_HINT_DRAG_TO_AIM","Faites glisser votre doigt pour viser"
+"TID_HINT_RELEASE_TO_SHOOT","Lâchez pour tirer"
+"TID_HINT_DRAG_TO_ULTI","Faites glisser votre doigt pour viser, relâchez pour tirer avec la super"
+"TID_HINT_GO_AFTER_ENEMY","Attaquez l'ennemi !"
+"TID_HINT_SHOOT_ENEMIES","Battez vos ennemis pour des étoiles !"
+"TID_HINT_YOU_ARE_WINNING","Votre équipe va gagner. N'oubliez pas la défense !"
+"TID_HINT_YOU_ARE_LOSING","Votre équipe va perdre. Il faut attaquer !"
+"TID_HINT_TAP_TO_MOVE","Touchez pour bouger\nRestez avec votre équipe"
+"TID_BOUNTY_2","Attention : la prime sur votre tête grimpe !"
+"TID_BOUNTY_3","Attention : votre prime est très élevée !"
+"TID_BOUNTY_4","Mort ou vif !"
+"TID_NO_CLAN_TITLE","Trouver une bande de brawlers"
+"TID_NO_CLAN_BODY","Pour accéder au chat et jouer avec des gens cool, rejoignez une bande !"
+"TID_NO_CLAN_SUGGESTIONS","Bandes recommandées"
+"TID_NO_CLAN_RESULTS","Résultats de la recherche"
+"TID_NO_CLAN_EMPTY","Aucune recommandation de bande..."
+"TID_NO_CLAN_WAITING_FOR_DATA","En attente de données..."
+"TID_CONNECTING_TO_SERVER","Connexion au serveur..."
+"TID_TEAM_AD_INFO_0","En recherche de joueurs pour un jeu d'équipe"
+"TID_TEAM_AD_JOIN","Rejoindre l'équipe"
+"TID_TEAM_AD_POST_FAIL_NOT_IN_ALLIANCE","Vous devez être dans une bande pour utiliser cette fonction."
+"TID_TEAM_AD_POST_FAIL_TEAM_FULL","Impossible de publier. Votre salle est pleine."
+"TID_TEAM_AD_POST_FAIL_NOT_CRETOR","Autorisé uniquement pour les créateurs de salle"
+"TID_TEAM_LOC_INFO","<MODE> à <LOC>"
+"TID_STREAM_EVENT_1","<target> a été exclu de la bande par <sender>"
+"TID_STREAM_EVENT_2","<target> a été accepté dans la bande par <sender>"
+"TID_STREAM_EVENT_3","<sender> a rejoint la bande !"
+"TID_STREAM_EVENT_4","<sender> a quitté la bande !"
+"TID_STREAM_EVENT_5","<target> a été promu par <sender>"
+"TID_STREAM_EVENT_6","<target> a été rétrogradé par <sender>"
+"TID_STREAM_EVENT_102","<sender> vous a rejoint"
+"TID_STREAM_EVENT_103","<sender> est parti"
+"TID_STREAM_EVENT_104","<sender> a exclu <target>"
+"TID_STREAM_EVENT_105","début de la rencontre"
+"TID_STREAM_EVENT_106","rencontre annulée"
+"TID_STREAM_EVENT_107","jeu en cours"
+"TID_STREAM_EVENT_108","jeu gagné"
+"TID_STREAM_EVENT_109","jeu perdu"
+"TID_STREAM_EVENT_110","entraînement en cours"
+"TID_STREAM_EVENT_111","entraînement terminé"
+"TID_STREAM_EVENT_112","match nul"
+"TID_CHAT_BOTTOM_BUTTON","Faire défiler"
+"TID_CHAT_BOTTOM_NEW_MESSAGES","<count> nouveaux messages"
+"TID_CHAT_BOTTOM_NEW_MESSAGE","Nouveau message"
+"TID_HERO_INFO_UPGRADE_INFO","Améliorer au niv. <LVL>"
+"TID_HERO_INFO_LEADERBOARD","Classement"
+"TID_HERO_INFO_LEADERBOARD_LABEL","Meilleur joueurs <HERO>"
+"TID_HERO_INFO_ABILITY_POWER","<BASEPOW>"
+"TID_HERO_INFO_ABILITY_POWER_UPG","<BASEPOW> <c00ff00>+<UPGPOW></c>"
+"TID_CANT_DEACTIVATE_ULTI_DURING_TUTORIAL","Faites glisser votre doigt pour viser avec la super"
+"TID_HINT_SHOOT","Faites glisser votre doigt pour viser, relâchez pour tirer"
+"TID_HERO_SCORE_SUM_LEADERBOARD","Meilleurs joueurs"
+"TID_ALLIANCE_LEADERBOARD","Meilleures bandes"
+"TID_HINT_MAKE_GOAL","Faites glisser votre doigt pour viser, relâchez pour lancer le ballon"
+"TID_BATTLE_ROYALE_INTRO_TEXT","Il n'y aura qu'un survivant !"
+"TID_PLAYERS_LEFT","Brawlers restants : <num>"
+"TID_CLAN_CREATE_COOLDOWN","Échec de la création d'une bande. Veuillez réessayer dans <TIME>"
+"TID_PLAYER_DATA_MISSING","Informations joueur manquantes"
+"TID_ALLIANCE_DATA_MISSING","Informations bande manquantes"
+"TID_BATTLE_END_PLAYER_NAME_YOU","<c00ff00><NAME></c>"
+"TID_BATTLE_END_PLAYER_NAME_OTHER","<NAME>"
+"TID_RECHARGE_HINT","Il vous faut des munitions pour recharger."
+"TID_EVENT_EXPIRED","Évènement terminé"
+"TID_SETTINGS_CONTROL_MODE_VALUE_0","Touchez pour bouger"
+"TID_SETTINGS_CONTROL_MODE_INFO_0","Touchez l'écran là où vous voulez que votre brawler s'y rende. Faites glisser votre doigt sur l'écran pour viser et lâchez pour tirer."
+"TID_SETTINGS_CONTROL_MODE_VALUE_1","Joystick (droitier)"
+"TID_SETTINGS_CONTROL_MODE_VALUE_2","Joystick (gaucher)"
+"TID_EVENTS_TEASER_TIME","<TIME>"
+"TID_EVENTS_TIME_ENDING","<cFFFF00><TIME></c>"
+"TID_EVENTS_TIME_ENDING_SOON","<cff0000><TIME></c>"
+"TID_EVENTS_NEXT_EVENT_STARTING_AT","Prochain évènement dans"
+"TID_EVENTS_TIME_LEFT","Temps restant"
+"TID_EVENTS_NEW","NOUVEAU"
+"TID_EVENTS_FREE_REWARD","<AMOUNT>"
+"TID_EVENTS_XP_CAP_REACHED","Vous avez récupéré toute l'expérience"
+"TID_GAME_STARTING","Un jeu va commencer à <LOCATION>. Participez !"
+"TID_WEEKEND_EVENT","Évènement expérience doublée"
+"TID_SHOP_PURCHASED","Acheté"
+"TID_SHOP_ACTIVE","Actif"
+"TID_SHOP_DOUBLE_COINS_INFO","Double le prochain"
+"TID_SHOP_DOUBLE_COINS_PURCHASE_ERROR_2","Pas assez de gemmes"
+"TID_SHOP_GEM_PACK_1_TITLE","Poignée de gemmes"
+"TID_SHOP_GEM_PACK_2_TITLE","Bourse de gemmes"
+"TID_SHOP_GEM_PACK_3_TITLE","Besace de gemmes"
+"TID_SHOP_GEM_PACK_4_TITLE","Seau de gemmes"
+"TID_SHOP_GEM_PACK_5_TITLE","Caisse de gemmes"
+"TID_SHOP_GEM_PACK_6_TITLE","Butin de gemmes"
+"TID_SHOP_HERO_OF_RARITY_BOX","Brawler box"
+"TID_TERMS_OF_SERVICE_BUTTON","Conditions d'utilisation"
+"TID_IMMUNE","Immunisé"
+"TID_SETTINGS_CONTROL_MODE_VALUE_4","Paramètres par défaut"
+"TID_SETTINGS_CONTROL_MODE_INFO_4","Faîtes glisser jusqu'à un emplacement pour déplacer votre brawler. Touchez pour tirer."
+"TID_BIND_TO_NEW_GAMECENTER_ACCOUNT_TITLE","Nouvelle connexion Game Center"
+"TID_BIND_TO_NEW_GAMECENTER_ACCOUNT","Voulez-vous associer votre partie à ce compte Game Center ?"
+"TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT_TITLE","Avertissement sur le compte Google"
+"TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT","Voulez-vous charger la progression de <name> dont l'expérience est au niveau <number> ? Attention : toute progression dans la partie en cours sera perdue."
+"TID_BOUND_TO_OTHER_ACCOUNT_LOAD_VILLAGE_TITLE","Charger le jeu ?"
+"TID_BUTTON_VILLAGE_LOAD","Charger"
+"TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT_TITLE","Avertissement Game Center"
+"TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT","Voulez-vous charger la progression de <name> dont l'expérience est au niveau <number> ? Attention : toute progression dans la partie en cours sera perdue."
+"TID_BUTTON_AVATAR_LOAD","Charger"
+"TID_SETTINGS_SCREEN_TITLE","Paramètres"
+"TID_SETTINGS_OFF","Non"
+"TID_SETTINGS_ON","Oui"
+"TID_ACCOUNT","Appareils"
+"TID_LINK_DEVICE_BUTTON","Connecter un appareil"
+"TID_CHANGE_NAME_BUTTON","Changer de nom"
+"TID_CREDITS_BUTTON","Générique"
+"TID_PRIVACY_POLICY_BUTTON","Confidentialité"
+"TID_PARENTS_GUIDE_BUTTON","Guide parental"
+"TID_MULTIDEVICE_INFO","Connectez-vous à votre compte Game Center pour sauvegarder votre progression et jouer sur différents appareils iOS."
+"TID_SETTINGS_GOOGLE","Connexion Google Play"
+"TID_FAQ_BUTTON","Aide et assistance"
+"TID_IAP_TRANSACTION_PENDING","Veuillez patienter. Transaction en cours."
+"TID_RATE_APP_TITLE","Noter Brawl Stars"
+"TID_RATE_APP_MESSAGE","Notez Brawl Stars dans l'App Store et donnez-nous votre avis !"
+"TID_BUTTON_RATE_APP_LATER","Plus tard"
+"TID_BUTTON_RATE_APP_REVIEW","Commenter"
+"TID_BUTTON_RATE_APP_NEVER","Jamais"
+"TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE_TITLE","Déblocage de compte non disponible"
+"TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE","Le déblocage de compte n'est pas disponible actuellement. Veuillez réessayer plus tard."
+"TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE_BUTTON","Réessayer"
+"TID_ACCOUNT_LOCKED_INVALID_CODE","Code de déverrouillage incorrect."
+"TID_ACCOUNT_LOCKED_TITLE","Compte verrouillé"
+"TID_ACCONT_LOCKED_TEXT","Votre compte a été verrouillé pour des raisons de sécurité. Saisissez le code de déverrouillage pour le récupérer."
+"TID_ACCOUNT_LOCKED_TEXT2","Saisissez le code de déverrouillage ici :"
+"TID_HERO_LIST_CONFIRM_GEM_GATCHA","Touchez pour confirmer"
+"TID_NOT_ENOUGH_GEMS_TITLE","Pas assez de gemmes"
+"TID_NOT_ENOUGH_GEMS_GO_TO_SHOP","Aller au magasin"
+"TID_GEM_PRICE_OK","<COST>"
+"TID_GEM_PRICE_WARN","<COST>"
+"TID_STAT_PER_DYNAMITE","Dégâts par dynamite"
+"TID_EVENT_LOCKED","Bloqué"
+"TID_SPECIAL_EVENT_STATUS_ACTIVE","activé pendant"
+"TID_SPECIAL_EVENT_STATUS_FUTURE","commence dans"
+"TID_EVENT_COMING_UP_INFO","Cet évènement commence dans <TIME>"
+"TID_STAT_HEAL","Soins"
+"TID_EVENTS_NEW_EVENT","Nouvel événement !"
+"TID_SETTINGS_BRAWLHINTS","Indices de combat"
+"TID_NOT_ENOUGH_TICKETS","Pas assez de tickets"
+"TID_COOP","Brawl coopératif"
+"TID_BIND_TO_NEW_FACEBOOK_ACCOUNT_TITLE","Nouvelle connexion Facebook"
+"TID_BIND_TO_NEW_FACEBOOK_ACCOUNT","Voulez-vous associer votre partie à ce compte Facebook ?"
+"TID_BUTTON_OKAY","OK"
+"TID_SELECT_PLAYER_THUMBNAIL_FAIL_4","Débloque <HERO> pour cet avatar"
+"TID_HERO_PORTRAIT_CRAFT_COST","<cffffff><COST></c>"
+"TID_HERO_PORTRAIT_CRAFT_COST_NEG","<c999999><COST></c>"
+"TID_EVENT_POPUP_CREATE_TEAM_INFO","Invitez vos amis\npour jouer ensembles"
+"TID_EVENT_POPUP_GMV_LABEL_TEAM","3 c. 3"
+"TID_EVENT_POPUP_GMV_LABEL_BATTLE_ROYALE","Un seul survivant"
+"TID_EVENT_POPUP_GMV_LABEL_COOP_SURVIVAL","3 c robots"
+"TID_HIGHSTAKES_REWARDS","Récompenses x<COUNT>"
+"TID_POPUP_ANDROID_EXIT_TITLE","Quitter Brawl Stars ?"
+"TID_POPUP_ANDROID_EXIT","Voulez-vous vraiment quitter Brawl Stars ?"
+"TID_ERROR_POP_UP_PURCHASE_FAILED_TITLE","Échec de l'achat"
+"TID_ERROR_POP_UP_PURCHASE_FAILED","Le serveur de facturation ne répond pas. Veuillez réessayer plus tard."
+"TID_ERROR_POP_UP_PURCHASE_FAILED_BUTTON","OK"
+"TID_IAP_NOT_AVAILABLE","Veuillez activer les achats intégrés dans les paramètres de restriction de votre appareil."
+"TID_STAT_DAMAGE_PER_ARROW","Dégâts par flèche"
+"TID_STAT_DAMAGE_PER_MINE","Dégâts par piège"
+"TID_STAT_DAMAGE_PER_SPIKE","Dégâts par épine"
+"TID_STAT_DAMAGE_PER_DAGGER","Dégâts par dague"
+"TID_FRIENDS_FACEBOOK_CONNECTED","Connecté à Facebook"
+"TID_FRIENDS_FACEBOOK_NOT_CONNECTED","Connectez-vous à Facebook pour trouver vos amis dans le jeu !"
+"TID_FRIENDS_NO_FRIENDS","Aucun amis"
+"TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE_TITLE","Connexion interrompue"
+"TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE","Un autre appareil se connecte à ce jeu."
+"TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE_BUTTON","Recharger"
+"TID_BAD_CONNECTION","Mauvaise connexion réseau"
+"TID_FACEBOOK_BOUND_TO_OTHER_ACCOUNT_TITLE","Avertissement Facebook"
+"TID_FACEBOOK_BOUND_TO_OTHER_ACCOUNT","Ce compte Facebook est déjà associé à une autre partie de Brawl Stars. L'associer à la partie en cours à la place ?"
+"TID_TEAM_FREE_EVENT_REWARD_CLAIMED","Récompense de l'évènement récupérée"
+"TID_GEM_BUY_CONFIRMATION","<AMOUNT> gemmes reçues !"
+"TID_BLOCKED_TEAM_READY","Ne peut pas être affiché tant que vous êtes prêt"
+"TID_SHUTDOWN_STARTED","Le jeu va être fermé pour une courte maintenance dans 5 minutes."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_LONG","Nos serveurs sont en court de maintenance. Veuillez réessayer dans quelques heures."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_TWO_HOURS","Nos serveurs sont en court de maintenance. Veuillez réessayer dans deux heures."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_HOUR_AND_HALF","Nos serveurs sont en court de maintenance. Veuillez réessayer dans une heure et demie."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_HOUR","Nos serveurs sont en court de maintenance. Veuillez réessayer dans une heure."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_MINUTES","Nos serveurs sont en court de maintenance. Veuillez réessayer dans <value> minutes."
+"TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_SOON","Nos serveurs sont en court de maintenance. Veuillez réessayer dans quelques minutes."
+"TID_SHUTDOWN_BATTLE_DISABLED","Le jeu va fermer pour maintenance dans quelques minutes. Impossible de commencer un nouveau jeu jusqu'à la fin de la maintenance."
+"TID_TEAM_SEARCH_NO_TEAM_CODE","Tapez le code de la salle"
+"TID_NO_RIGHTS_TO_ACCEPT_TO_JOIN_REQ","Vous ne pouvez pas accepter ou rejeter des requêtes."
+"TID_CLAN_RESPONSE_71","Les aînés se reposent entre deux exclusions"
+"TID_STAT_MAX_DAMAGE","Dégâts à distance max"
+"TID_STAT_DAMAGE_PER_BOMB","Dégâts par grenade"
+"TID_PLAYER_DEFEATED_BR","Brawler vaincu"
+"TID_BALL_1","Ligue des brawlers champions"
+"TID_LASER_BALL_INTRO_TEXT","Marquez deux buts pour gagner !"
+"TID_AFK_WARNING","Attention, il faut participer !"
+"TID_AFK_DISCONNECTED_MSG","Vous avez été déconnecté du combat parce que vous ne participiez pas ou à cause d'une mauvaise connexion"
+"TID_AFK_BANNED_MSG","Vous êtes exclu du combat en cours par que vous ne participiez pas ou à cause d'une mauvaise connexion. Vous pourrez de nouveau jouer une fois ce combat terminé."
+"TID_AFK_DISCONNECTED_TITLE","Déconnexion pour non-participation"
+"TID_AFK_BANNED_TITLE","Exclu du combat"
+"TID_AFK_RELOAD","Recharger"
+"TID_BOSS_INTRO_TEXT_DEFEND","Vous êtes le boss ! Survivez aussi longtemps que vous pouvez !"
+"TID_STAT_HEALING_PER_SEC","Soins par seconde"
+"TID_STAT_DAMAGE_PER_CARD","Dégâts par carte"
+"TID_OVERTIME","Temps extra !"
+"TID_STARTER_PACK_XP_REQ","Offre spéciale pour avoir atteint le niveau <XPLEVEL>"
+"TID_VALUE","valeur"
+"TID_SHOP_ONE_TIME_PURCHASE","Offre valable une seule fois !"
+"TID_BALL_2","Dribble triple"
+"TID_BALL_3","Punt de précision"
+"TID_BLACKHOLE_DEFAULT_SKIN","Par défaut"
+"TID_COOP_INTRO_TEXT","Défendez le coffre aussi longtemps que possible"
+"TID_SELECT_EVENT_POPUP_TITLE","Choisissez un évènement"
+"TID_SPEC_ABI_BERSERKER","Berserker"
+"TID_SPEC_SELF_DESTRUCT","Vengeance"
+"TID_SPEC_ABI_AMBUSH","Piéger"
+"TID_SPEC_ABI_BLACK_HOLE_MONSTER","Portail noir"
+"TID_SPEC_ABI_PREY_ON_THE_WEAK_DESC","+<c00cc00><VALUE2></c> de dégâts avec l'arme et la super attaque contre les brawlers avec <VALUE1> % ou moins de santé"
+"TID_SPEC_SELF_DESTRUCT_DESC","Si Dynamike est vaincu, il lance six bâtons de dynamite qui infligent <c00cc00><VALUE1></c> points de dégâts chacun"
+"TID_SPEC_SPOT_FROM_AIR_DESC","Quand il utilise sa super attaque, Crow peut voir tous ses ennemis cachés depuis les airs. Ses équipiers les voient aussi !"
+"TID_SPEC_ABI_TODO_DESC","Special ability undefined"
+"TID_WAVE_APPROACHING","Vague <number>"
+"TID_TEAMS_LEFT","Équipes restantes : <num>"
+"TID_TEAM_MATE_RESPAWNING","Équipier régénéré dans : <num>"
+"TID_BOSS_APPROACHING","Vague <number> : <ccc0000>Le boss arrive !</c>"
+"TID_COOP_2",
+"TID_BOSS_2",
+"TID_BEAR_DAMAGE",
+"TID_BEAR_HEALTH",
+"TID_EVENT_POPUP_GMV_LABEL_BATTLE_ROYALE_TEAM",
+"TID_SPEC_ABI_PUSHBACK_SELF",
+"TID_VIEW_PROFILE_BUTTON",
+"TID_REPORT_PLAYER_BUTTON",
+"TID_CHAT_REPORT_CONFIRMATION_TITLE",
+"TID_CHAT_REPORT_CONFIRMATION",
+"TID_PLAYER_ALREADY_REPORTED",
+"TID_STARTER_PACK_4",
+"TID_NEED_HERO",
+"TID_EVENT_ENDING",
+"TID_TEAM_DISPLAY_TITLE_CLAN",
+"TID_TEAM_DISPLAY_TITLE_FRIENDS",
+"TID_TICKETS_REVEIVED",
+"TID_TUTORIAL_12",
+"TID_NO_TARGET_HINT",
+"TID_CAN_NOT_AUTOSHOOT",
+"TID_VS",
+"TID_VS_SHOWDOWN",
+"TID_HAS_LASER_BALL_HINT",
+"TID_CLAN_RESPONSE_44",
+"TID_SHOTGUN_GIRL_SHORT_DESC",
+"TID_GUNSLINGER_SHORT_DESC",
+"TID_BULL_DUDE_SHORT_DESC",
+"TID_ROCKET_GIRL_SHORT_DESC",
+"TID_TNT_DUDE_SHORT_DESC",
+"TID_LUCHADOR_SHORT_DESC",
+"TID_TRICKSHOT_DUDE_SHORT_DESC",
+"TID_CACTUS_SHORT_DESC",
+"TID_BARKEEP_SHORT_DESC",
+"TID_MECHANIC_SHORT_DESC",
+"TID_SHAMAN_SHORT_DESC",
+"TID_UNDERTAKER_SHORT_DESC",
+"TID_CROW_SHORT_DESC",
+"TID_DEAD_MARIACHI_SHORT_DESC",
+"TID_BOW_DUDE_SHORT_DESC",
+"TID_SNIPER_SHORT_DESC",
+"TID_MINIGUN_DUDE_SHORT_DESC",
+"TID_BLACK_HOLE_SHORT_DESC",
+"TID_BARREL_BOT_SHORT_DESC",
+"TID_CLAN_INTRO_SUGGESTED_CLANS",
+"TID_CLAN_INTRO_CREATE_TITLE",
+"TID_CLAN_INTRO_HEADER",
+"TID_CLAN_INFO_TITLE",
+"TID_CLAN_INFO_NO_DESCRIPTION",
+"TID_EVENT_POPUP_TITLE",
+"TID_GOLDRUSH_8",
+"TID_USE_AUTOFIRE_TUTORIAL",
+"TID_BRAWL_BOX_INFO_2",
+"TID_POWER_DROP_VALUE",
+"TID_COLLECT",
+"TID_PAGE_FRIENDS_TITLE",
+"TID_PAGE_FRIENDS_TITLE2",
+"TID_PAGE_FRIENDS_NO_FRIENDS_NO_LOGIN",
+"TID_PAGE_FRIENDS_NO_FRIENDS",
+"TID_FRIENDS_TITLE",
+"TID_FRIENDS_TAB_1",
+"TID_FRIENDS_TAB_2",
+"TID_FRIENDS_TAB_3",
+"TID_TOTAL",
+"TID_BRAWL_BOX_INFO_TITLE_2",
+"TID_BRAWL_BOX_INFO_TITLE_3",
+"TID_BRAWL_BOX_INFO_3",
+"TID_HERO_BUNDLE_0",
+"TID_HERO_BUNDLE_1",
+"TID_HERO_BUNDLE_2",
+"TID_HERO_BUNDLE_3",
+"TID_HERO_BUNDLE_4",
+"TID_HERO_BUNDLE_5",
+"TID_HERO_BUNDLE_6",
+"TID_HERO_BUNDLE_7",
+"TID_HERO_BUNDLE_8",
+"TID_HERO_BUNDLE_9",
+"TID_HERO_BUNDLE_10",
+"TID_HERO_BUNDLE_11",
+"TID_HERO_BUNDLE_12",
+"TID_HERO_BUNDLE_13",
+"TID_HERO_BUNDLE_14",
+"TID_HERO_BUNDLE_15",
+"TID_HERO_BUNDLE_16",
+"TID_HERO_BUNDLE_17",
+"TID_HERO_BUNDLE_18",
+"TID_OFFER_ALSO_INCLUDES",
+"TID_OFFER_VALUE_TITLE",
+"TID_OFFER_VALUE",
+"TID_SHOP_OFFER_COUNTDOWN",
+"TID_USE_ULTI_TUTORIAL",
+"TID_HERO_STATS_TITLE",
+"TID_GATCHA_SCREEN_ITEMS_REMAINING",
+"TID_GATCHA_SCREEN_BONUS_ITEMS_REMAINING",
+"TID_GATCHA_SCREEN_YOU_GOT",
+"TID_GATCHA_SCREEN_BONUSES",
+"TID_GATCHA_SCREEN_SUMMARY_UNLOCKED",
+"TID_HERO_LIST_ITEM_UPGRADE",
+"TID_SHOP_CLAMIMED",
+"TID_SHOP_OFFER_PURCHASE_ERROR_CLAIMED",
+"TID_ONLINE",
+"TID_LEADERBOARD",
+"TID_NOT_ENOUGH_TICKETS_INFO",
+"TID_HERO_LIST_NEW",
+"TID_CLUSTER_BOMB_DUDE",
+"TID_HAMMER_DUDE",
+"TID_HOLD_PHONE_LIKE_THIS",
+"TID_HINT_FINGER_TAP_TAP",
+"TID_HINT_FINGER_DRAG",
+"TID_MOVE_HERE",
+"TID_HINT_HEADER",
+"TID_HINT_0",
+"TID_HINT_1",
+"TID_HINT_2",
+"TID_HINT_3",
+"TID_HINT_4",
+"TID_HINT_5",
+"TID_HINT_6",
+"TID_HINT_7",
+"TID_HINT_8",
+"TID_HINT_9",
+"TID_HINT_10",
+"TID_HINT_11",
+"TID_HINT_12",
+"TID_HINT_13",
+"TID_HINT_14",
+"TID_HINT_15",
+"TID_HINT_16",
+"TID_HINT_17",
+"TID_HINT_18",
+"TID_HINT_19",
+"TID_HINT_20",
+"TID_HINT_21",
+"TID_HINT_22",
+"TID_VS_TUTORIAL",
+"TID_USE_MANUAL_FIRE_TUTORIAL",
+"TID_TUTORIAL_GOOD_JOB_2",
+"TID_TUTORIAL_GOOD_JOB_3",
+"TID_TUTORIAL_GOOD_JOB_4",
+"TID_SPECTATE_PLAYER_BUTTON",
+"TID_SPECTATE_FAILED",
+"TID_ACCOUNT_DISABLED_TEXT",
+"TID_ACCOUNT_DELETED_ON_REQUEST_TEXT",
+"TID_ACCOUNT_DELETED_DUE_INACTIVITY_TEXT",
+"TID_ACCOUNT_DELETION_WARNING_TITLE",
+"TID_ACCOUNT_DELETION_WARNING_TEXT",
+"TID_ACCOUNT_DELETION_WARNING_TEXT_PAST",
+"TID_CLAN_JOIN_FAILED_ALREADY_IN_THIS_CLAN",
+"TID_CONFIRM_CHANGE_CLAN_TITLE",
+"TID_CONFIRM_CHANGE_CLAN",
+"TID_CONFIRM_CLAN_FULL_TITLE",
+"TID_CONFIRM_CLAN_FULL",
+"TID_BUTTON_CHANGE",
+"TID_CLAN_JOIN_FAILED_IN_TUTORIAL",
+"TID_CLAN_INTRO_INVITE",
+"TID_INVITE_CLAN_TOKEN_ERROR",
+"TID_ALLIANCE_INVITE_FAILED_NO_RIGHTS",
+"TID_FRIENDS_FACEBOOK_CONNECT",
+"TID_FRIENDS_PAGE_INVITE",
+"TID_SHARE_GAME_ROOM_POST_MESSAGE",
+"TID_SHARE_GAME_ROOM_POST_TITLE",
+"TID_ROOM_CODE_COPIED_TO_CLIPBOARD",
+"TID_ROOM_CODE_COPIED_TO_CLIPBOARD_CONFIRM",
+"TID_TEAM_INVITE_BUTTON_LABEL",
+"TID_TEAM_INVITE_EXPIRED",
+"TID_TEAM_INVITATION_POPUP_TITLE",
+"TID_TEAM_INVITATION_POPUP_ACCEPT",
+"TID_TEAM_INVITATION_POPUP_REJECT",
+"TID_TEAM_INVITATION_POPUP_MUTE",
+"TID_BATTLE_ROYALE_5",
+"TID_DAILY_COINS_COLLECTED_END_SCREEN",
+"TID_SHOP_REAL_MONEY_PURCHASES_DISABLED_SPECIAL_BUILD",
+"TID_SHOP_CHINA_WARNING",
+"TID_GATCHA_AD_STATUS_VIEW",
+"TID_GATCHA_AD_STATUS_OUT_OF_VIEWS",
+"TID_GATCHA_AD_STATUS_NO_VIDEO",
+"TID_GATCHA_AD_CONTINUE_BUTTON_TITLE",
+"TID_AD_DOUBLER_TITLE",
+"TID_AD_DOUBLER_CONTINUE",
+"TID_GATCHA_CONTINUE",
+"TID_HINT_23",
+"TID_HINT_24",
+"TID_HINT_25",
+"TID_SPEC_ABI_SELF_DESTRUCT",
+"TID_SPEC_ABI_SELF_DESTRUCT_DESC",
+"TID_EVENT_LIST_BRAWL",
+"TID_INVITE_COPIED_TO_CLIPBOARD",
+"TID_INVITE_COPIED_TO_CLIPBOARD_CONFIRM",
+"TID_FRIEND_INVITE_POST_MESSAGE",
+"TID_FRIEND_INVITE_POST_TITLE",
+"TID_ALLIANCE_JOIN_POST_MESSAGE",
+"TID_ALLIANCE_JOIN_POST_TITLE",
+"TID_KEY_BAR_FULL",
+"TID_HOMESCREEN_MODE_LOCKED",
+"TID_GAMEROOMS_PLAYERS_ONLINE",
+"TID_ARTILLERY_DUDE_SHORT_DESC",
+"TID_HAMMER_DUDE_SHORT_DESC",
+"TID_HAMMER_DUDE_DESC",
+"TID_HAMMER_DUDE_WEAPON",
+"TID_HAMMER_DUDE_WEAPON_DESC",
+"TID_HAMMER_DUDE_ULTI",
+"TID_HAMMER_DUDE_ULTI_DESC",
+"TID_SPEC_ABI_STEAL_SOULS2",
+"TID_SPEC_ABI_STEAL_SOULS2_DESC",
+"TID_ONLINE_FRIENDS_TITLE",
+"TID_BATTLE_ROYALE_TEAM_INTRO_TEXT",
+"TID_VS_TEAM_SHOWDOWN",
+"TID_FIRST_WIN",
+"TID_BATTLE_END_TEAM_DEATHMATCH_VICTORY",
+"TID_HOMESCREEN_MODE_LOCKED_INFO",
+"TID_HOMESCREEN_LEAGUE_BUTTON_TITLE",
+"TID_HOMESCREEN_LEAGUE_BUTTON_COLLECT",
+"TID_LEAGUE_NAME_0",
+"TID_LEAGUE_NAME_1",
+"TID_LEAGUE_NAME_2",
+"TID_LEAGUE_NAME_3",
+"TID_LEAGUE_NAME_4",
+"TID_LEAGUE_NAME_5",
+"TID_LEAGUE_NAME_6",
+"TID_LEAGUE_NAME_7",
+"TID_SPECIAL_EVENTS",
+"TID_SPECIAL_EVENT",
+"TID_SPECIAL_EVENT_DESC",
+"TID_PLAYING_AGAIN",
+"TID_PLAYING_AGAIN_NO_PLAYERS",
+"TID_BRAWL_BOX_INFO_TITLE_1",
+"TID_BRAWL_BOX_INFO_1",
+"TID_GATCHA_ERROR_NOT_ENOUGH_WINS",
+"TID_HERO_BUNDLE_19",
+"TID_HERO_BUNDLE_20",
+"TID_KEY_BAR_INFO",
+"TID_NEW_ONLINE_FRIEND",
+"TID_NEW_GAME_ROOM",
+"TID_KEY_BAR_TITLE",
+"TID_PLAYAGAIN_QUIT",
+"TID_BATTLE_END_WAITING",
+"TID_ERROR_SPECTATE_WAITING",
+"TID_ERROR_SPECTATE_NOT_POSSIBLE",
+"TID_FIRST_WIN_INFO_SURVIVAL",
+"TID_TEAM_POPOVER_YOUR_ROOM",
+"TID_ERROR_SPECTATE_NOT_POSSIBLE_TEAM",
+"TID_TEAM_AD_JOIN_FAIL_ALREADY_IN_THIS_TEAM",
+"TID_TEAM_AD_JOIN_FAIL_FULL",
+"TID_HOMESCREEN_NOT_ENOUGH_TICKETS",
+"TID_HOMESCREEN_TEAMS_NOT_SUPPORTED",
+"TID_GAME_MODE_UNLOCKED",
+"TID_ERROR_SPECTATE_DISABLED",
+"TID_SPECTATE_FOLLOW",
+"TID_SPECTATE_FOLLOWING",
+"TID_FIRST_WIN_INFO_TICKETED_EVENT",
+"TID_FIRST_WIN_INFO_TEAM_SURVIVAL",
+"TID_FIRST_WIN_INFO_SURVIVAL_COMBINED",
+"TID_CONNECTING_WAIT_FOR_SPECTATE",
+"TID_GATCHA_AD_STATUS_VIEW_SHOW_VIEWS",
+"TID_GATCHA_AD_STATUS_VIEW_SHOW_1VIEW",
+"TID_CANNON_DAMAGE",
+"TID_CANNON_HEALTH",
+"TID_ADD_FRIEND_ERROR_TOO_MANY_REQUESTS_OTHER",
+"TID_ADD_FRIEND_ERROR_TOO_MANY_REQUESTS_YOU",
+"TID_ADD_FRIEND_ERROR_GENERIC",
+"TID_ADD_FRIEND_ERROR_DOES_NOT_EXIST",
+"TID_ADD_FRIEND_ERROR_OWN_AVATAR",
+"TID_ADD_FRIEND_ERROR_TOO_MANY_FRIENDS_OTHER",
+"TID_ADD_FRIEND_ERROR_TOO_MANY_FRIENDS_YOU",
+"TID_HINT_26",
+"TID_HINT_27",
+"TID_HINT_28",
+"TID_HINT_29",
+"TID_HINT_30",
+"TID_HINT_31",
+"TID_EXPERIENCE",
+"TID_HINT_32",
+"TID_HINT_33",
+"TID_HINT_34",
+"TID_HINT_35",
+"TID_HINT_36",
+"TID_HINT_37",
+"TID_COOP_GENERATED",
+"TID_MECHANIC_KNIGHT_SKIN",
+"TID_FRANK_CAVEMAN_SKIN",
+"TID_SOLO",
+"TID_DUO",
+"TID_INVITE_FRIEND_TOKEN_ERROR_FRIENDS_FULL",
+"TID_INVITE_FRIEND_TOKEN_ERROR_TOO_MANY",
+"TID_INVITE_FRIEND_TOKEN_ERROR",
+"TID_GOLDRUSH_9",
+"TID_TEAM_JOIN_FINISH_TUTORIAL",
+"TID_ERROR_POP_UP_LOGIN_NOT_ALLOWED_TITLE",
+"TID_ERROR_POP_UP_LOGIN_NOT_ALLOWED",
+"TID_ERROR_POP_UP_LOGIN_NOT_ALLOWED_BUTTON",
+"TID_CROW_PHEONIX_SKIN",
+"TID_MECHANIC_SUMMER_SKIN",
+"TID_HERO_SCREEN_DIM_COLOR_MUL",
+"TID_FREE_BOX_AVAILABLE_0",
+"TID_FREE_BOX_AVAILABLE_1",
+"TID_FREE_BOX_AVAILABLE_2",
+"TID_FREE_BOX_AVAILABLE_3",
+"TID_FREE_BOX_AVAILABLE_4",
+"TID_GUNSLINGER_ROCKSTAR_SKIN_SHOP",
+"TID_ROCKET_BEACH_SKIN_SHOP",
+"TID_CACTUS_PINK_SKIN_SHOP",
+"TID_SHAMAN_PANDA_SKIN_SHOP",
+"TID_CROW_WHITE_SKIN_SHOP",
+"TID_BULL_HAIR_SKIN_SHOP",
+"TID_TRICKSHOT_GOLD_SKIN_SHOP",
+"TID_BARKEEP_GOLD_SKIN_SHOP",
+"TID_LUCHADOR_RUDO_SKIN_SHOP",
+"TID_SHOTGUN_BANDITA_SKIN_SHOP",
+"TID_LUCHADOR_KING_SKIN_SHOP",
+"TID_MECHANIC_KNIGHT_SKIN_SHOP",
+"TID_FRANK_CAVEMAN_SKIN_SHOP",
+"TID_MECHANIC_SUMMER_SKIN_SHOP",
+"TID_CROW_PHEONIX_SKIN_SHOP",
+"TID_GOLDRUSH_10",
+"TID_BANKHEIST_5",
+"TID_BATTLE_ROYALE_7",
+"TID_BATTLE_ROYALE_8",
+"TID_BATTLE_ROYALE_6",
+"TID_CLAN_CHAT_JUMP_TO_NEW",
+"TID_CLAN_CHAT_NEW",
+"TID_BANKHEIST_6",
+"TID_GOLDRUSH_11",
+"TID_ERROR_POP_UP_LOGIN_NOT_ALLOWED_ANDROID",
+"TID_RATE_APP_MESSAGE_ANDROID",
+"TID_BIND_TO_NEW_GOOGLE_SERVICE_ACCOUNT_TITLE",
+"TID_BIND_TO_NEW_GOOGLE_SERVICE_ACCOUNT",
+"TID_SHOWDOWN_END",
+"TID_SETTINGS_FIXES_JOYSTICK",
+"TID_SETTINGS_SC_ID",
+"TID_LANGUAGE_LOCALIZED_NAME",
+"TID_POPUP_CHANGE_LANGUAGE_TITLE",
+"TID_POPUP_CHANGE_LANGUAGE",
+"TID_SKIN_RARITY_1",
+"TID_SKIN_RARITY_2",
+"TID_SKIN_RARITY_3",
+"TID_SKIN_RARITY_4",
+"TID_PLAYER_XP_LEVEL",
+"TID_PLAYER_RANK_TIER_0",
+"TID_PLAYER_RANK_TIER_1",
+"TID_PLAYER_RANK_TIER_2",
+"TID_PLAYER_RANK_TIER_3",
+"TID_PLAYER_RANK_TIER_4",
+"TID_PLAYER_RANK_TIER_5",
+"TID_ADD_FRIEND_FAILED",
+"TID_ADD_FRIEND_FAILED_TOKEN_EXPIRED",
+"TID_ADD_FRIEND_FAILED_THEIR_LIST_FULL",
+"TID_ADD_FRIEND_FAILED_YOUR_LIST_FULL",
+"TID_ADD_FRIEND_FAILED_BANNED",
+"TID_KEYPOOL_KEYS_REMAINING",
+"TID_KEYPOOL_NEXT_PATCH",
+"TID_TOP_HUD_NEXT_REWARD",
+"TID_RANK_UP_REWARD_REPLACED_TITLE",
+"TID_RANK_UP_REWARD_REPLACED_POWER",
+"TID_RANK_UP_REWARD_REPLACED_HERO",
+"TID_PLAYER_INFO_SEND_FRIEND_REQUEST",
+"TID_PLAYER_INFO_REMOVE_FRIEND",
+"TID_PLAYER_INFO_FRIEND_REQUEST_SENT",
+"TID_PLAYER_INFO_IS_YOUR_FRIEND",
+"TID_POWER_POINTS",
+"TID_HERO_INFO_LEVEL",
+"TID_HERO_INFO_RANK",
+"TID_HERO_INFO_LEVEL_UP_BUTTON_LABEL",
+"TID_HERO_INFO_LEVEL_UP_BUTTON_CONFIRM_LABEL",
+"TID_HERO_INFO_MAX_LEVEL",
+"TID_HERO_INFO_MORE_POWER_NEEDED",
+"TID_HERO_INFO_LEVEL_UP_ERROR_4",
+"TID_HERO_INFO_LEVEL_UP_ERROR_3",
+"TID_HERO_INFO_LEVEL_UP_PRICE_MISSING",
+"TID_HERO_INFO_LEVEL_UP_PRICE",
+"TID_HERO_INFO_STARTING_HERO",
+"TID_PLAYER_REPORTED_SUCCESSFULLY",
+"TID_TOO_MANY_REPORTS_SENT",
+"TID_TOO_MANY_ALLIANCE_CHAT_REPORTS_SENT",
+"TID_CHOOSE_CHARACTER",
+"TID_ARMOR",
+"TID_ARMOR_DESC",
+"TID_SHOTGUN_GIRL",
+"TID_SHOTGUN_GIRL_DESC",
+"TID_LONG_RANGE_SHOTGUN",
+"TID_LONG_RANGE_SHOTGUN_DESC",
+"TID_MEGA_BLASH_ULTI",
+"TID_MEGA_BLASH_ULTI_DESC",
+"TID_GUNSLINGER",
+"TID_GUNSLINGER_DESC",
+"TID_RAPID_FIRE",
+"TID_RAPID_FIRE_DESC",
+"TID_RAPID_FIRE_ULTI",
+"TID_RAPID_FIRE_ULTI_DESC",
+"TID_BULL_DUDE",
+"TID_SHOTGUN_BLAST",
+"TID_SHOTGUN_BLAST_DESC",
+"TID_CHARGE",
+"TID_CHARGE_DESC",
+"TID_ROCKET_GIRL",
+"TID_ROCKET_GIRL_DESC",
+"TID_FIREWORKS_WEAPON",
+"TID_FIREWORKS_ULTI",
+"TID_FIREWORKS_ULTI_DESC",
+"TID_TNT_DUDE",
+"TID_MORTAR",
+"TID_MORTAR_DESC",
+"TID_MORTAR_ULTI",
+"TID_MORTAR_ULTI_DESC",
+"TID_LUCHADOR",
+"TID_LUCHADOR_WEAPON",
+"TID_LUCHADOR_WEAPON_DESC",
+"TID_LUCHADOR_ULTI",
+"TID_LUCHADOR_ULTI_DESC",
+"TID_TRICKSHOT_DUDE",
+"TID_TRICKSHOT_DUDE_WEAPON",
+"TID_TRICKSHOT_DUDE_WEAPON_DESC",
+"TID_TRICKSHOT_DUDE_ULTI",
+"TID_TRICKSHOT_DUDE_ULTI_DESC",
+"TID_CACTUS",
+"TID_CACTUS_DESC",
+"TID_CACTUS_WEAPON",
+"TID_CACTUS_WEAPON_DESC",
+"TID_CACTUS_ULTI",
+"TID_CACTUS_ULTI_DESC",
+"TID_BARKEEP",
+"TID_BARKEEP_WEAPON",
+"TID_BARKEEP_WEAPON_DESC",
+"TID_BARKEEP_ULTI",
+"TID_BARKEEP_ULTI_DESC",
+"TID_MECHANIC",
+"TID_MECHANIC_WEAPON",
+"TID_MECHANIC_WEAPON_DESC",
+"TID_MECHANIC_ULTI",
+"TID_MECHANIC_ULTI_DESC",
+"TID_SHAMAN",
+"TID_SHAMAN_WEAPON",
+"TID_SHAMAN_WEAPON_DESC",
+"TID_SHAMAN_ULTI",
+"TID_SHAMAN_ULTI_DESC",
+"TID_UNDERTAKER",
+"TID_UNDERTAKER_WEAPON",
+"TID_UNDERTAKER_WEAPON_DESC",
+"TID_UNDERTAKER_ULTI",
+"TID_CROW",
+"TID_CROW_WEAPON",
+"TID_CROW_WEAPON_DESC",
+"TID_CROW_ULTI",
+"TID_DEAD_MARIACHI",
+"TID_DEAD_MARIACHI_WEAPON",
+"TID_DEAD_MARIACHI_ULTI",
+"TID_DEAD_MARIACHI_ULTI_DESC",
+"TID_BOW_DUDE",
+"TID_BOW_DUDE_WEAPON",
+"TID_BOW_DUDE_ULTI",
+"TID_BOW_DUDE_ULTI_DESC",
+"TID_SNIPER",
+"TID_SNIPER_WEAPON",
+"TID_SNIPER_ULTI",
+"TID_MINIGUN_DUDE",
+"TID_MINIGUN_DUDE_WEAPON",
+"TID_MINIGUN_DUDE_WEAPON_DESC",
+"TID_MINIGUN_DUDE_ULTI",
+"TID_MINIGUN_DUDE_ULTI_DESC",
+"TID_BONE_THROWER",
+"TID_BONE_THROWER_WEAPON",
+"TID_BONE_THROWER_ULTI",
+"TID_BLACK_HOLE",
+"TID_BLACK_HOLE_WEAPON",
+"TID_BLACK_HOLE_ULTI",
+"TID_BLACK_HOLE_ULTI_DESC",
+"TID_TURRET_DAMAGE",
+"TID_TURRET_HEALTH",
+"TID_ROBOT",
+"TID_ROBOT_WEAPON",
+"TID_ROBOT_ULTI",
+"TID_BATTLE",
+"TID_TIME_MINS",
+"TID_TIME_SECS",
+"TID_SUPERCELL_ID_TITLE",
+"TID_SUPERCELL_ID_BUTTON_CONNECTED",
+"TID_SUPERCELL_ID_BUTTON_DISCONNECTED",
+"TID_SUPERCELL_ID_LOGIN_BUTTON",
+"TID_SUPERCELL_ID_NEW_GAME_BUTTON",
+"TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID",
+"TID_COME_BACK_NOTIFICATION_SMALL",
+"TID_COME_BACK_NOTIFICATION_MEDIUM",
+"TID_COME_BACK_NOTIFICATION_LARGE",
+"TID_PRACTICE",
+"TID_BATTLE_END_TITLE_VICTORY",
+"TID_BATTLE_END_TITLE_DEFEAT",
+"TID_BATTLE_END_TVST_DRAW_DESC",
+"TID_BATTLE_END_TITLE_1VS5_YOU_WIN_IN_TEAM",
+"TID_BATTLE_END_TITLE_1VS5_YOU_WIN_AS_BOSS",
+"TID_BATTLE_END_RETURN_HOME",
+"TID_BATTLE_END_NO_PRACTISE_TROPHIES",
+"TID_BATTLE_END_XP_CAPPED",
+"TID_BATTLE_END_PLAY_AGAIN",
+"TID_BATTLE_END_PLAY_AGAIN_CANCEL",
+"TID_BATTLE_END_PLAY_AGAIN_READY_PLAYERS",
+"TID_BATTLE_END_PLAY_AGAIN_PLAYERS",
+"TID_BATTLE_END_PLAY_AGAIN_TIMER",
+"TID_TEAMS_POPUP_TITLE",
+"TID_TEAMS_POPUP_SUBTITLE_IN_CLAN",
+"TID_TEAMS_POPUP_SUBTITLE_NOT_IN_CLAN",
+"TID_TEAMS_POPUP_SEARCH",
+"TID_TEAMS_POPUP_CREATE",
+"TID_TEAM_SEARCH_POPUP_TITLE",
+"TID_TEAM_SEARCH_POPUP_SEARCH",
+"TID_TEAM_JOIN_ROOM_CODE",
+"TID_TEAM_CHANGE_MAP",
+"TID_TEAM_TYPE_INFO_0",
+"TID_TEAM_TYPE_INFO_1",
+"TID_TEAM_TYPE_INFO_2",
+"TID_TEAM_MEMBER_LEFT_2",
+"TID_TEAM_MEMBER_LEFT_3",
+"TID_TEAM_MEMBER_INVITE_STATUS_1",
+"TID_TEAM_MEMBER_INVITE_STATUS_2",
+"TID_TEAM_MEMBER_INVITE_STATUS_3",
+"TID_TEAM_MEMBER_CANCEL_INVITE_INFO",
+"TID_TEAM_ERROR_14",
+"TID_TEAM_ERROR_20",
+"TID_TEAM_ERROR_22",
+"TID_TEAM_ERROR_24",
+"TID_TEAM_ERROR_25",
+"TID_TEAM_ERROR_26",
+"TID_TEAM_ERROR_27",
+"TID_TEAM_ERROR_28",
+"TID_TEAM_ERROR_29",
+"TID_TEAM_ERROR_30",
+"TID_TEAM_ERROR_31",
+"TID_SELECT_LOCATION_TITLE",
+"TID_SELECT_LOCATION_LOCATIONS",
+"TID_SELECT_LOCATION_EVENTS",
+"TID_TEAM_LEAVE",
+"TID_TEAM_READY_BUTTON_LABEL",
+"TID_TEAM_QUIT",
+"TID_TEAM_NO_MEMBER",
+"TID_TEAM_NO_MEMBER_INVITE",
+"TID_TEAMCREATE_EVENT",
+"TID_TEAM_PROFILE",
+"TID_TEAM_CREATOR_ONLY_FEATURE",
+"TID_TEAM_PROFILE_BLOCKED",
+"TID_TEAM_FEATURE_BLOCKED_WHILE_READY",
+"TID_TEAM_PRACTISE_BUTTON_LABEL",
+"TID_TEAM_PRACTISE_BUTTON_SUBLABEL",
+"TID_TEAM_LOOT_UNLOCKS",
+"TID_RARITY_NAME_0",
+"TID_RARITY_COLOR_0",
+"TID_RARITY_COLOR_1",
+"TID_RARITY_COLOR_2",
+"TID_RARITY_COLOR_3",
+"TID_RARITY_COLOR_4",
+"TID_RARITY_COLOR_5",
+"TID_HERO_SCREEN_DIM_COLOR",
+"TID_RANK_UP_POPUP_TITLE",
+"TID_RANK_UP_POPUP_HEADER",
+"TID_EVENT_STARTED",
+"TID_SELECT_HERO_INFO_FRIENDLY",
+"TID_SELECT_HERO_INFO_RANK_REWARD",
+"TID_SELECT_HERO_POW_INFO_TITLE",
+"TID_SELECT_HERO_POW_INFO_BODY",
+"TID_NAVI_2",
+"TID_NAVI_3",
+"TID_NAVI_5",
+"TID_NAVI_6",
+"TID_NAVI_7",
+"TID_LEADERBOARD_TITLE",
+"TID_LEADERBOARD_TAB_TOTAL",
+"TID_LEADERBOARD_TAB_HEROES",
+"TID_LEADERBOARD_TAB_CLANS",
+"TID_LEADERBOARD_TAB_FRIENDS",
+"TID_LEADERBOARD_SUBTITLE_1",
+"TID_LEADERBOARD_SUBTITLE_2",
+"TID_LEADERBOARD_SUBTITLE_0",
+"TID_BATTLE_MAIN_NEXT_PLANET",
+"TID_GATCHA_ERROR_NOT_ENOUGH_GOLD",
+"TID_GATCHA_INFO",
+"TID_HERO_INFO_ABILITY_COLOR_1",
+"TID_HERO_INFO_ABILITY_COLOR_2",
+"TID_HERO_INFO_ABILITY_COLOR_3",
+"TID_HERO_INFO_ARMOR",
+"TID_HERO_INFO_ABILITY",
+"TID_HERO_INFO_ULTI",
+"TID_HERO_INFO_RARITY",
+"TID_HERO_INFO_POWER_BAR_TOOL_TIP",
+"TID_HERO_INFO_STAR_POWER_CAN_DROP",
+"TID_HERO_INFO_STAR_POWER_BLOCKED",
+"TID_HERO_INFO_STAR_POWER_LABEL",
+"TID_HERO_INFO_ABILITY_DESC",
+"TID_MATCHMAKE_FAILED_11",
+"TID_HERO_LIST_UNLOCKED",
+"TID_HERO_LIST_LABEL",
+"TID_RANK_POPUP_TITLE",
+"TID_RANK_POPUP_WILD_CARD_POWER_OVERFLOW",
+"TID_RANK_POPUP_NEXT_GOAL",
+"TID_RANK_POPUP_COLLECT",
+"TID_RANK_POPUP_SEASON_END_REWARD",
+"TID_RANK_POPUP_SEASON_END_REWARD_OWN",
+"TID_RANK_POPUP_TOTAL_INFO",
+"TID_RANK_POPUP_SEASON_END_TITLE",
+"TID_RANK_POPUP_SEASON_END_INFO",
+"TID_RANK_POPUP_HILITE_CAPTION_3",
+"TID_RANK_POPUP_HILITE_CAPTION_13",
+"TID_RANK_POPUP_HILITE_CAPTION_10",
+"TID_RANK_POPUP_HILITE_CAPTION_SLOT_4",
+"TID_GATCHA_SCREEN_NEW_HERO",
+"TID_GATCHA_SCREEN_NEW_ITEM",
+"TID_GATCHA_SCREEN_BOXES_REMAINING",
+"TID_GATCHA_SCREEN_TICKET_DROP_HEADER",
+"TID_GATCHA_SCREEN_TICKET_DROP_BONUS",
+"TID_GATCHA_SCREEN_TICKET_DROP_DESC_ONGOING",
+"TID_GATCHA_SCREEN_TICKET_DROP_DESC_FUTURE",
+"TID_GATCHA_SCREEN_TICKET_DROP_NOTE",
+"TID_GATCHA_SCREEN_COIN_DOUBLER_HEADER",
+"TID_GATCHA_SCREEN_COIN_DOUBLER_DESC",
+"TID_GATCHA_SCREEN_GOLD_DROP_TITLE",
+"TID_GATCHA_SCREEN_GOLD_DROP_DESC",
+"TID_GATCHA_SCREEN_GEM_DROP_TITLE",
+"TID_GATCHA_SCREEN_GEM_DROP_DESC",
+"TID_GATCHA_SCREEN_HERO_POWER_TITLE",
+"TID_GATCHA_SCREEN_HERO_POWER_LEVEL_UP_UNLOCKED",
+"TID_GATCHA_SCREEN_HERO_POWER_LEVEL_UP_AVAILABLE",
+"TID_GATCHA_SCREEN_BOX_COUNTER_BONUS",
+"TID_TEAM_TOGGLE_PRACTISE_BLOCKED",
+"TID_TEAM_GATCHA_BLOCKED",
+"TID_TEAM_NO_MEMBER_INFO",
+"TID_LEADERBOARD_LOCAL",
+"TID_REGION_0",
+"TID_REGION_1",
+"TID_VICTORY_CONDITION_COINRUSH_TEXT",
+"TID_NOT_ENOUGH_GOLD",
+"TID_SKIN_COMING_SOON",
+"TID_TOP_TOOL_TIP_1",
+"TID_TOP_TOOL_TIP_3",
+"TID_TOP_TOOL_TIP_2",
+"TID_TOP_TOOL_TIP_4",
+"TID_GAME_MODE_0",
+"TID_GAME_MODE_0_DESC",
+"TID_GAME_MODE_2_DESC",
+"TID_GAME_MODE_6",
+"TID_GAME_MODE_6_COMBINED",
+"TID_GAME_MODE_6_DESC_COMBINED",
+"TID_GAME_MODE_5_DESC",
+"TID_BATTLE_END_GAIN_LABEL_FIRST_WIN",
+"TID_BATTLE_END_GAIN_LABEL_COOP_SURVIVAL",
+"TID_BATTLE_END_GAIN_LABEL_COIN_DOUBLER",
+"TID_BATTLE_END_GAIN_LABEL_1VS5_BOSS",
+"TID_BATTLE_END_GAIN_LABEL_1VS5_TEAM",
+"TID_BATTLE_END_COIN_REWARDS",
+"TID_TUTORIAL_1",
+"TID_TUTORIAL_2",
+"TID_TUTORIAL_3",
+"TID_TUTORIAL_GOOD_JOB_1",
+"TID_TUTORIAL_5",
+"TID_TUTORIAL_6",
+"TID_TUTORIAL_555",
+"TID_TUTORIAL_7",
+"TID_TUTORIAL_8",
+"TID_TUTORIAL_10",
+"TID_TUTORIAL_11",
+"TID_FIGHT_TUTORIAL",
+"TID_HERO_SCORE_INFO",
+"TID_XP_INFO_ME",
+"TID_TUTORIAL_WIN_ONE_GAME_PROMPT",
+"TID_SOCIAL_TAB_CLANS",
+"TID_SOCIAL_TAB_FRIENDS",
+"TID_FRIEND_STATUS_YOU",
+"TID_FRIEND_STATUS_OFFLINE",
+"TID_FRIEND_STATUS_BATTLE",
+"TID_FRIEND_STATUS_BATTLE_END_SCREEN",
+"TID_FRIEND_STATUS_SPECTATING",
+"TID_FRIEND_STATUS_PRACTICING",
+"TID_FRIEND_STATUS_MATCHMAKE",
+"TID_FRIEND_STATUS_HOME_AD_FULL",
+"TID_FRIEND_STATUS_HOME_WITH_AD",
+"TID_FRIEND_STATUS_HOME_IN_GAMEROOM",
+"TID_FRIEND_STATUS_HOME_NO_GAMEROOM",
+"TID_ONLINE_FRIENDS_POPUP_TITLE",
+"TID_ONLINE_FRIENDS_POPUP_NO_ONLINE_FRIENDS",
+"TID_ONLINE_FRIENDS_POPUP_NO_FRIENDS",
+"TID_CLAN_CREATE_BUTTON",
+"TID_CLAN_SAVE_BUTTON",
+"TID_CLAN_CREATE_TITLE",
+"TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_LESS_THAN_HOUR",
+"TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_HOURS",
+"TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_DAYS",
+"TID_CLAN_MEMBER_ONLINE_STATUS_OFFLINE_LONG",
+"TID_CLAN_MEMBER_ONLINE_STATUS_1",
+"TID_CLAN_MEMBER_ONLINE_STATUS_2",
+"TID_CLAN_MEMBER_ONLINE_STATUS_3",
+"TID_CLAN_MEMBER_ONLINE_STATUS_4",
+"TID_CLAN_MEMBER_ONLINE_STATUS_5",
+"TID_CLAN_MEMBER_ONLINE_STATUS_7",
+"TID_CLAN_MEMBER_ONLINE_STATUS_8",
+"TID_CLAN_MEMBER_ONLINE_STATUS_9",
+"TID_CLAN_MEMBER_ONLINE_STATUS_10",
+"TID_CLAN_MEMBER_ONLINE_STATUS_11",
+"TID_CLAN_ENTRY_ONLINE_MEMBERS",
+"TID_CLAN_ENTRY_ONLINE_MEMBER",
+"TID_CLAN_SEARCH_TITLE",
+"TID_CLAN_INTRO_AD_TITLE",
+"TID_CLAN_INTRO_AD_DESC",
+"TID_CLAN_INTRO_CREATE_GO",
+"TID_CLAN_INTRO_SEARCH_GO",
+"TID_CLAN_INTRO_REFRESH",
+"TID_CLAN_NOT_ENOUGH_SCORE_TO_JOIN",
+"TID_CLAN_CANNOT_JOIN_CLOSED_CLAN",
+"TID_GOLDRUSH_6",
+"TID_GOLDRUSH_7",
+"TID_CLAN_MEMBERS_ONLINE",
+"TID_CLAN_SEARCH_OK",
+"TID_CLAN_INFO_NAME",
+"TID_CLAN_INFO_BADGE",
+"TID_CLAN_INFO_DESC",
+"TID_CLAN_INFO_TOTAL_TROPHIES",
+"TID_CLAN_INFO_TYPE",
+"TID_CLAN_INFO_MIN_TROPHIES",
+"TID_CLAN_INFO_LEAVE",
+"TID_CLAN_INFO_SETTINGS",
+"TID_CLAN_INFO_JOIN",
+"TID_CLAN_SEARCH_INITIAL",
+"TID_CLAN_INFO_SELECT_BADGE",
+"TID_SELECT_BADGE",
+"TID_CLAN_CHANGE_SETTINGS_TITLE",
+"TID_SELECT_PLAYER_THUMBNAIL",
+"TID_PLAYER_INFO_WINS_AMOUNT",
+"TID_PLAYER_INFO_STATS_HEADER",
+"TID_PLAYER_STAT_1",
+"TID_PLAYER_STAT_4",
+"TID_PLAYER_STAT_8",
+"TID_PLAYER_STAT_10",
+"TID_PLAYER_STAT_9",
+"TID_PLAYER_STAT_11",
+"TID_COIN_RUSH_INTRO_TEXT",
+"TID_ATTACK_DEFEND_INTRO_TEXT_ATTACK",
+"TID_ATTACK_DEFEND_INTRO_TEXT_DEFEND",
+"TID_GO",
+"TID_ALLIANCE_LEAVE_CONFIRMATION_TITLE",
+"TID_ALLIANCE_LEAVE_CONFIRMATION",
+"TID_ALLIANCE_LEAVE_CONFIRMATION_LEAVE",
+"TID_CLAN_RESPONSE_21",
+"TID_CLAN_RESPONSE_23",
+"TID_CLAN_RESPONSE_24",
+"TID_CLAN_NO_RIGHTS",
+"TID_HINT_ACTIVATE_ULTI",
+"TID_HINT_COLLECT_GOLD",
+"TID_HINT_HOLD_GOLD",
+"TID_HINT_ATTACK_BASE",
+"TID_HINT_DEFEND_BASE",
+"TID_BOUNTY_1",
+"TID_TEAM_ADVERTISE",
+"TID_TEAM_AD_BUTTON_SUBLABEL_CLAN",
+"TID_TEAM_AD_BUTTON_SUBLABEL_FRIENDS",
+"TID_TEAM_AD_JOIN_FAIL_ALREADY_IN_A_TEAM",
+"TID_TEAM_MEMBER_STATUS_0",
+"TID_TEAM_MEMBER_STATUS_1",
+"TID_TEAM_MEMBER_STATUS_2",
+"TID_TEAM_MEMBER_STATUS_3",
+"TID_TEAM_MEMBER_STATUS_4",
+"TID_TEAM_MEMBER_STATUS_5",
+"TID_TEAM_MEMBER_STATUS_6",
+"TID_TEAM_MEMBER_STATUS_7",
+"TID_TEAM_MEMBER_STATUS_8",
+"TID_TEAM_MEMBER_STATUS_9",
+"TID_TEAM_MEMBER_STATUS_10",
+"TID_TEAM_MEMBER_STATUS_11",
+"TID_TEAM_MEMBER_STATUS_READY",
+"TID_TEAM_STATUS_IN_MATCH",
+"TID_TEAM_STATUS_IN_MATCHMAKING",
+"TID_TEAM_STATUS_FULL",
+"TID_TEAM_STATUS_WAITING_FOR_PLAYERS",
+"TID_TEAM_AD_POST_FAIL_NO_FRIENDS",
+"TID_TEAM_DISPLAY_TITLE_EVENT",
+"TID_STREAM_EVENT_101",
+"TID_STREAM_EVENT_113",
+"TID_HERO_INFO_UPGRADE_TITLE",
+"TID_HERO_INFO_ITEMS",
+"TID_HERO_INFO_SKINS",
+"TID_HERO_INFO_SKIN_OWNED",
+"TID_HERO_INFO_SKIN_ACTIVE",
+"TID_HERO_INFO_SKIN_ACTIVATE",
+"TID_HERO_INFO_PINPOWER_TOOLTIP",
+"TID_HERO_INFO_ITEM_PINPOWER_TOOLTIP",
+"TID_CLAN_SEARCH_GO",
+"TID_HINT_COLLECT_BUFFS",
+"TID_AVOID_POISON",
+"TID_CLAN_CREATE_XP_LEVEL_REQUIRED",
+"TID_DOUBLE_COINS_INFO",
+"TID_DOUBLE_XP_INFO",
+"TID_SETTINGS_TITLE",
+"TID_SETTINGS_CONTROL_MODE_TITLE",
+"TID_SETTINGS_CONTROL_MODE_INFO_1",
+"TID_SETTINGS_CONTROL_MODE_INFO_2",
+"TID_CHANGE_NAME_TITLE",
+"TID_SETTINGS_PLAYERNAME_CURRENT",
+"TID_SETTINGS_PLAYERNAME_ENTERNEW",
+"TID_ERROR_NAMES_DONT_MATCH",
+"TID_CONTINUE",
+"TID_NAMECHANGE_WARNING",
+"TID_CONFIRM",
+"TID_INVALID_NAME",
+"TID_SETTINGS_PLAYERNAME_REENTERNEW",
+"TID_NAME_ALREADY_CHANGED",
+"TID_NAME_CHANGE_ALREADY_USED",
+"TID_NAME_CHANGED_SUCCESS",
+"TID_NAME_CHANGE_IN_PROGRESS",
+"TID_NAME_CHANGE_EXP_LEVEL_TOO_LOW",
+"TID_CONFIRM_CONFIRM",
+"TID_CONFIRM_WORD",
+"TID_SETTINGS_PLAYERNAME_CONFIRM_NEW",
+"TID_BUTTON_CONFIRM",
+"TID_EVENTS_TIME",
+"TID_EVENTS_EVENT_LOCKED",
+"TID_EVENTS_TROPHY_REQ",
+"TID_PLAYER_KILLED_SOMEONE",
+"TID_SHOP_WELCOME_TITLE",
+"TID_SHOP_WELCOME",
+"TID_SHOP_SPECIAL_OFFER",
+"TID_SHOP_COIN_BOOSTERS",
+"TID_SHOP_GEM_PACKS",
+"TID_SHOP_OBTAINED",
+"TID_SHOP_INVALIDATED",
+"TID_SHOP_DOUBLE_COINS_TITLE",
+"TID_SHOP_DOUBLE_COINS_INFO_2",
+"TID_SHOP_DOUBLE_COINS_COINS_REMAINING",
+"TID_SHOP_OFFER_PURCHASE_ERROR_3",
+"TID_SHOP_OFFER_PURCHASE_ERROR_4",
+"TID_SHOP_OFFER_TITLE",
+"TID_SHOP_HEROES_OF_RARITY",
+"TID_SHOP_HERO_OF_RARITY_TITLE",
+"TID_SHOP_HERO_POWER_TITLE",
+"TID_SHOP_GATCHA_BOXES",
+"TID_SHOP_GATCHA_BOX_1",
+"TID_SHOP_GATCHA_BOX_2",
+"TID_SHOP_GATCHA_BOX_3",
+"TID_SHOP_GATCHA_BOX_PURCHASE_ERROR_3",
+"TID_SHOP_TICKETS",
+"TID_SHOP_TICKET_PACK_0",
+"TID_SHOP_TICKET_PACK_1",
+"TID_SHOP_TICKET_PACK_2",
+"TID_SHOP_HERO_LVL_UP_MATERIAL_PACKS",
+"TID_SHOP_HERO_LVL_UP_MATERIAL_PACK_0",
+"TID_SHOP_HERO_LVL_UP_MATERIAL_PACK_1",
+"TID_SHOP_HERO_LVL_UP_MATERIAL_PACK_2",
+"TID_HERO_LVL_MATERIAL_RECEIVED",
+"TID_SHOP_DAILY_OFFERS",
+"TID_SHOP_FREE",
+"TID_SHOP_CLAIM",
+"TID_SHOP_NEW_DAILY_OFFERS_AVAILABLE_IN",
+"TID_SHOP_TICKETS_AVAILABLE_FOR",
+"TID_SHOP_DISCOUNT",
+"TID_SHOP_OFFER_TITLE_0",
+"TID_SHOP_OFFER_TITLE_1",
+"TID_SHOP_OFFER_TITLE_6",
+"TID_SHOP_OFFER_TITLE_7",
+"TID_SHOP_OFFER_TITLE_8",
+"TID_SHOP_OFFER_TITLE_9",
+"TID_SHOP_OFFER_TITLE_10",
+"TID_SHOP_OFFER_TITLE_12",
+"TID_SHOP_OFFER_TITLE_14",
+"TID_SHOP_OFFER_DESC_GOLD",
+"TID_SHOP_OFFER_ANY_BRAWLER",
+"TID_PURCHASE_OFFER_POPUP_TITLE",
+"TID_PURCHASE_OFFER_POPUP_TITLE_FREE",
+"TID_SHOP_OFFER_NEW_HERO_LABEL",
+"TID_SHOP_OFFER_HERO_POWER_TITLE",
+"TID_SHOP_TICKET_PURCHASE_ERROR_4",
+"TID_SHOP_OFFER_NEW",
+"TID_GATCHA_BOX_TITLE_2",
+"TID_GATCHA_BOX_TITLE_3",
+"TID_SHOP_HERO_PURCHASE_CONFIRM_LABEL",
+"TID_GATCHA_BOX_INFO_2",
+"TID_GATCHA_BOX_INFO_3",
+"TID_SHOP_OFFER_INFO_0",
+"TID_SHOP_OFFER_INFO_1",
+"TID_SHOP_OFFER_INFO_2",
+"TID_SHOP_OFFER_INFO_3",
+"TID_SHOP_OFFER_INFO_6",
+"TID_SHOP_OFFER_INFO_7",
+"TID_SHOP_OFFER_INFO_8",
+"TID_SHOP_OFFER_INFO_9",
+"TID_SHOP_OFFER_INFO_10",
+"TID_SHOP_OFFER_INFO_12",
+"TID_SHOP_OFFER_INFO_13",
+"TID_SHOP_OFFER_INFO_14",
+"TID_SHOP_OFFER_HOR_NEW",
+"TID_SHOP_OFFER_HOR_RARITY",
+"TID_SHOP_OFFER_HOR_BRAWLER",
+"TID_SHOP_OFFER_HOR_POPUP_RARITY",
+"TID_SHOP_OFFER_HOR_POPUP_BRAWLER",
+"TID_SHOP_SKIN_OFFER",
+"TID_SHOP_OFFER_SKIN_INFO",
+"TID_SKINS_AD_TITLE",
+"TID_SKINS_AD_OK",
+"TID_SKINS_AD_INFO",
+"TID_BATTLE_END_PROCEED",
+"TID_HINT_TAP_TO_MOVE_1",
+"TID_CANT_DEACTIVATE_ULTI_DURING_TUTORIAL_1",
+"TID_HINT_SHOOT_1",
+"TID_HINT_DRAG_TO_ULTI_1",
+"TID_SETTINGS_MUSIC",
+"TID_SETTINGS_SFX",
+"TID_SETTINGS_LANGUAGE",
+"TID_SETTINGS_FACEBOOK",
+"TID_SETTINGS_BUTTON_FACEBOOK_CONNECTED",
+"TID_SETTINGS_BUTTON_FACEBOOK_DISCONNECTED",
+"TID_ABOUT",
+"TID_NOT_ENOUGH_GEMS_INFO",
+"TID_COIN_DOUBLER_TITLE",
+"TID_COIN_DOUBLER_TITLE_WITH_COINS",
+"TID_COIN_DOUBLER_INFO",
+"TID_COIN_DOUBLER_INFO_WITH_COINS",
+"TID_STARS_1",
+"TID_STARS_2",
+"TID_STARS_3",
+"TID_STARS_4",
+"TID_GATCHA_BUTTON_TITLE",
+"TID_1ST_WIN_CHEST_BUTTON_TITLE",
+"TID_SPECIAL_EVENT_TITLE_TOP",
+"TID_ROCKET_BEACH_SKIN",
+"TID_CACTUS_PINK_SKIN",
+"TID_SHAMAN_PANDA_SKIN",
+"TID_CROW_WHITE_SKIN",
+"TID_BULL_HAIR_SKIN",
+"TID_TRICKSHOT_GOLD_SKIN",
+"TID_BARKEEP_GOLD_SKIN",
+"TID_GUNSLINGER_ROCKSTAR_SKIN",
+"TID_LUCHADOR_RUDO_SKIN",
+"TID_HERO_INFO_PURCHASE_SKIN_LABEL",
+"TID_COLLECTED_COINS_INFO",
+"TID_COLLECTED_COINS_INFO_CAPPED",
+"TID_FIRST_WIN_INFO",
+"TID_TICKET_COUNTER_INFO",
+"TID_EVENT_LIST_GAME_ROOMS",
+"TID_EVENT_LIST_WELCOME",
+"TID_COOP_NOT_SUPPORTED",
+"TID_PRACTISE_NOT_SUPPORTED",
+"TID_EVENT_POPUP_HIGHSTAKES_INFO",
+"TID_EVENT_POPUP_GMV_LABEL_BOSS_FIGHT",
+"TID_HIGHSTAKES_COST",
+"TID_ROOM_NOT_SUPPORTED",
+"TID_NEWS_TITLE",
+"TID_FRIENDS_SUGGESTIONS_SEND_REQUEST",
+"TID_FRIENDS_TITLE_1_NO_COUNT",
+"TID_FRIENDS_TITLE_1",
+"TID_FRIENDS_TITLE_2",
+"TID_FRIENDS_TITLE_3",
+"TID_FRIEND_SUGGESTIONS_GAMES_PLAYED_MULT",
+"TID_FRIEND_SUGGESTIONS_GAMES_PLAYED_ONE",
+"TID_FRIENDS_NO_ENTRIES_TAB_2",
+"TID_FRIENDS_NO_ENTRIES_TAB_3",
+"TID_FRIENDS_CANNOT_REMOVE_FRIEND",
+"TID_FRIEND_REQUEST_ACCEPT",
+"TID_FRIEND_REQUEST_REJECT",
+"TID_FRIEND_REQUEST_REASON_0",
+"TID_FRIEND_REQUEST_REASON_1",
+"TID_FRIEND_REQUEST_REASON_2",
+"TID_FRIEND_REQUEST_REASON_3",
+"TID_FRIEND_POPOVER_PROFILE",
+"TID_FRIEND_POPOVER_REMOVE",
+"TID_FRIEND_POPOVER_SPECTATE",
+"TID_FRIEND_POPOVER_YOU",
+"TID_REMOVE_FRIEND_POPUP_REMOVE",
+"TID_REMOVE_FRIEND_POPUP_CANCEL",
+"TID_REMOVE_FRIEND_POPUP_TITLE",
+"TID_REMOVE_FRIEND_POPUP_BODY",
+"TID_UNLOCK_SKIN_CONTENT",
+"TID_TEAM_CANNOT_INVITE_WHILE_READY",
+"TID_SHOTGUN_BANDITA_SKIN",
+"TID_ELDER_KICK_FAIL_COOLDOWN",
+"TID_LUCHADOR_KING_SKIN",
+"TID_HINT_GET_BALL",
+"TID_GAME_MODE_7",
+"TID_GAME_MODE_7_DESC",
+"TID_BOSS_INTRO_TEXT_ATTACK",
+"TID_BOSS_1",
+"TID_SEASON_END_POPUP_TITLE",
+"TID_SEASON_END_POPUP_REWARD",
+"TID_SEASON_END_POPUP_GOLD_VALUE",
+"TID_COIN_META_MIGRATION_TITLE",
+"TID_COIN_META_MIGRATION_OK",
+"TID_COIN_META_MIGRATION_TXT_1",
+"TID_COIN_META_MIGRATION_TXT_2",
+"TID_COIN_META_MIGRATION_TXT_3",
+"TID_COIN_META_MIGRATION_TXT_4",
+"TID_BOLTS_MIGRATION_TITLE",
+"TID_BOLTS_MIGRATION_OK",
+"TID_BOLTS_MIGRATION_INFO",
+"TID_BOLTS_MIGRATION_ELIXER_TOKEN",
+"TID_BOLTS_MIGRATION_CHIP_GEM",
+"TID_HINT_MAKE_GOAL_1",
+"TID_STARTER_PACK_1",
+"TID_STARTER_PACK_2",
+"TID_STARTER_PACK_3",
+"TID_GOLD_CAP_HIT",
+"TID_GATCHA_BUTTON_BOX_STACK_FULL",
+"TID_COOP_1",
+"TID_GAME_MODE_8",
+"TID_GAME_MODE_8_DESC",
+"TID_BARREL_BOT",
+"TID_BARREL_BOT_DESC",
+"TID_BARREL_BOT_WEAPON",
+"TID_BARREL_BOT_WEAPON_DESC",
+"TID_BARREL_BOT_ULTI",
+"TID_BARREL_BOT_ULTI_DESC",
+"TID_ARTILLERY_DUDE",
+"TID_ARTILLERY_DUDE_DESC",
+"TID_ARTILLERY_DUDE_WEAPON",
+"TID_ARTILLERY_DUDE_WEAPON_DESC",
+"TID_ARTILLERY_DUDE_ULTI",
+"TID_ARTILLERY_DUDE_ULTI_DESC",
+"TID_ITEM_NAME_SPECIAL",
+"TID_HERO_INFO_ITEM_LOCKED",
+"TID_HERO_INFO_LOCKED_INFO",
+"TID_HERO_INFO_LOCKED_INFO_RANK_TRACK",
+"TID_SPEC_ABI_FREEZE",
+"TID_SPEC_ABI_CACTUS_HEAL",
+"TID_SPEC_ABI_HEAL_SELF_MAIN_ATTACK",
+"TID_SPEC_ABI_REPAIR_TURRET",
+"TID_SPEC_ABI_PET_LIFESTEAL",
+"TID_SPEC_ABI_STEAL_SOULS",
+"TID_SPEC_ABI_SPOT",
+"TID_SPEC_ABI_SPEED",
+"TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK",
+"TID_SPEC_BOUNCED_BULLETS_STRONGER",
+"TID_SPEC_ABI_FIRE_DOT_ULTI",
+"TID_SPEC_LAST_STAND",
+"TID_SPEC_BURN",
+"TID_SPEC_CRIPPLE",
+"TID_SPEC_ABI_BARREL_DEFENSE",
+"TID_SPEC_HEAL_MAIN_ATTACK",
+"TID_SPEC_ABI_FREEZE_DESC",
+"TID_SPEC_ABI_BERSERKER_DESC",
+"TID_SPEC_ABI_CACTUS_HEAL_DESC",
+"TID_SPEC_ABI_HEAL_SELF_MAIN_ATTACK_DESC",
+"TID_SPEC_ABI_REPAIR_TURRET_DESC",
+"TID_SPEC_ABI_PET_LIFESTEAL_DESC",
+"TID_SPEC_ABI_STEAL_SOULS_DESC",
+"TID_SPEC_HEAL_MAIN_ATTACK_DESC",
+"TID_SPEC_ABI_SPOT_DESC",
+"TID_SPEC_ABI_AMBUSH_DESC",
+"TID_SPEC_ABI_BLACK_HOLE_MONSTER_DESC",
+"TID_SPEC_ABI_SPEED_DESC",
+"TID_SPEC_ABI_PUSHBACK_SELF_DESC",
+"TID_SPEC_ABI_HEAL_OTHERS_MAIN_ATTACK_DESC",
+"TID_SPEC_BOUNCED_BULLETS_STRONGER_DESC",
+"TID_SPEC_ABI_FIRE_DOT_ULTI_DESC",
+"TID_SPEC_LAST_STAND_DESC",
+"TID_SPEC_BURN_DESC",
+"TID_SPEC_ABI_BARREL_DEFENSE_DESC",
+"TID_SPEC_CRIPPLE_DESC",
+"TID_SEASON_ENDED_NOTI",
+"TID_BATTLE_ROYALE_TEAM_1",
+"TID_GAME_MODE_9",
+"TID_GAME_MODE_9_COMBINED",
+"TID_GAME_MODE_9_DESC",
