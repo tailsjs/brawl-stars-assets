@@ -7,7 +7,7 @@ I need to make it look pretter.
 * v35 (minors 108, 126, 128, 133, 134, 139, 159, 163, 168)
 * v36 (minors 238, 253, 257)
 * v41 (minors 131, 144, 148)
-* v52 (minors 163, 177)
+* v52 (minor 177)
 
 <!---
 omfg finally done majors -- 15:30 December 07, 2023
