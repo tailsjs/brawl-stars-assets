@@ -29,5 +29,4 @@ I need to make it look pretter.
 * 47.233
 * 48.323
 * 49.204
-* 50.2.2
 - If you have any CN Brawl Stars apk, let me know in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues)
