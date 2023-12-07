@@ -1,7 +1,7 @@
 # TODO List.
 I need to make it look pretter.
 * v14 (minors 34, 45, 113, 118)
-* v15 (minors 157, 169)
+* v15 (minor 169)
 * v16 (minors 167, 176)
 * v19 (minors 110, 111)
 * v20 (minors 80, 86, 89, 90)
