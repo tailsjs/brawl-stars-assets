@@ -14,7 +14,6 @@ I need to make it look nice.
 * v31 (minors 81, 84)
 * v32 (minors 142, 153, 165)
 * v33 (major+minors)
-* v34 (minor 141)
 * v35 (minors 108, 126, 128, 133, 134, 139, 159, 163, 168)
 * v36 (minors 238, 253, 257)
 * v37 (minors 238, 250)
