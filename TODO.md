@@ -23,5 +23,5 @@ I need to make it look pretter.
 
 ### CN
 
-* 44.266
+* Done.
 - If you have any CN Brawl Stars apk, let me know in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues)
