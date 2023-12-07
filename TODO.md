@@ -7,7 +7,7 @@ I need to make it look pretter.
 * v35 (minors 108, 126, 128, 133, 134, 139, 159, 163, 168)
 * v36 (minors 238, 253, 257)
 * v41 (minors 131, 144, 148)
-* v49 (minors 181, 194)
+* v49 (minor 194)
 * v52 (minors 163, 177)
 
 <!---
