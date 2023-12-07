@@ -1,0 +1,92 @@
+{
+    "info": {
+        "gameName":"bs"
+    },
+    "general": {
+        "serverConfig": {
+            "0": {
+                "name":"OLSB",
+                "isProductEnv":false,
+                "isOverseasEnv":false,
+                "brokerAddress": [
+                    {
+                        "host": "ws://pdaty.broker.tplay.qq.com",
+                        "port": 10030
+                    }
+                ],
+                "atmAddress": [
+                    {
+                        "host": "ws://pdaty.broker.tplay.qq.com",
+                        "port": 10030
+                    }
+                ],
+                "faasHttpMonitorServerAddr": "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportMonitorLog&env=prod&&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager",
+                "faasHttpStatsServerAddr"  : "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportStatLog&env=prod&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager",
+                "faasHttpMetricServerAddr" : "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportMetric&env=prod&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager"
+            },
+            "1": {
+                "name": "PROD",
+                "isProductEnv": true,
+                "isOverseasEnv": false,
+                "brokerAddress": [
+                    {
+                        "host": "wss://bs-ws.broker.tplay.qq.com",
+                        "port": 443
+                    }
+                ],
+                "atmAddress": [
+                    {
+                        "host": "wss://bs-ws.broker.tplay.qq.com",
+                        "port": 443
+                    }
+                ],
+                "faasHttpMonitorServerAddr": "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportMonitorLog&env=prod&&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager",
+                "faasHttpStatsServerAddr"  : "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportStatLog&env=prod&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager",
+                "faasHttpMetricServerAddr" : "https://publicfaas.game.qq.com/backend_polaris/?format=api&namespace=Faas&fn=ReportMetric&env=prod&lg=javascript&pdr_appid=3583&s=pandora&fpolaris=odpshanghais1.faas-inner-new.faas-manager"
+            }
+        },
+
+        "frameRate": 10,
+        "logLevel"                     : 0,
+        "usePandoraSocket"             : false,
+        "useJsBuiltInLog"              : false,
+        "usingNano"                    : false,
+        "socketTickInterval"           : 100,
+        "allowMultipleWindowsForOneApp": false,
+        "cgiRequestCmd"                : 7003,
+        "enableATM"                    : false,
+        "enableTDM"                    : false,
+        "enableIntl"                   : false,
+        "enableFaasHttp"               : true,
+        "tdmSrcId"                     : "",
+        "intlSrcId"                    : "",
+        "tdmStatsEventName"            : "pdr_stats_pub",
+        "tdmMonitorEventName"          : "pdr_monitor_pub",
+        "intlStatsEventName"           : "pdr_stats_pub",
+        "intlMonitorEventName"         : "pdr_monitor_pub"
+    },
+    "tnm2": {
+        "RES_DOWNLOAD_COUNT"     : "RES_DOWNLOAD_COUNT",
+        "RES_DOWNLOAD_FAILED"    : "RES_DOWNLOAD_FAILED",
+        "RES_DOWNLOAD_SUCCESS"   : "RES_DOWNLOAD_SUCCESS",
+        "RES_MD5_VALIDATE_FAILED": "RES_MD5_VALIDATE_FAILED",
+        "RES_FILE_WRITE_FAILED"  : "RES_FILE_WRITE_FAILED",
+        "RES_FILE_WRITE_SUCCESS" : "RES_FILE_WRITE_SUCCESS",
+        "RES_FILE_EXTRACT_FAILED": "RES_FILE_EXTRACT_FAILED",
+
+        "CGI_REQUEST_COUNT"  : "CGI_REQUEST_COUNT",
+        "CGI_TIMEOUT"        : "CGI_TIMEOUT",
+        "CGI_ERROR"          : "CGI_ERROR",
+        "CGI_PROCESS_SUCCESS": "CGI_PROCESS_SUCCESS",
+
+        "ENTRANCE_EXECUTE_COUNT"  : "ENTRANCE_EXECUTE_COUNT",
+        "ENTRANCE_EXECUTE_FAILED" : "ENTRANCE_EXECUTE_FAILED",
+        "ENTRANCE_EXECUTE_SUCCESS": "ENTRANCE_EXECUTE_SUCCESS",
+
+        "SCRIPT_EXCEPTION": "SCRIPT_EXCEPTION",
+
+        "SCRIPT_EXCEPTION_DETAIL": "SCRIPT_EXCEPTION_DETAIL",
+        "CGI_TIMEOUT_DETAIL"     : "CGI_TIMEOUT_DETAIL",
+        "CGI_CONTENT_ERR_DETAIL" : "CGI_CONTENT_ERR_DETAIL"
+    }
+}

@@ -1,0 +1,3 @@
+Name,HeroSpawnEffect,SpawnShieldEffect,AreaEffectReplaceList,SkinHomeMusic
+string,string,string,string,string
+BowDudeSagittarius,HeroSpawn_k2,Spawn_Shield_k2,BowDudeSuperChargeArea:BowDudeSuperChargeArea_k2,BowDudeSagittarius_Menu
