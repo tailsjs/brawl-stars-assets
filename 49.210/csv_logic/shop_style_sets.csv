@@ -1,0 +1,4 @@
+"Name","Disabled","StarterPackLike","Variant","PanelAssetOverride","OfferCardAssetOverride","PopupAssetOverride"
+"String","boolean","boolean","String","String","String","String"
+"Extended",,"TRUE","HERO_HIGHLIGHT","panel_starter_pack","offer_1_item_starter_pack","shop_1_starter_pack_popup_offer"
+,,,"OTHER",,,"shop_1_starter_pack_popup_offer_items_only"
