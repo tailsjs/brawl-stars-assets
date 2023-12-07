@@ -1,5 +1,5 @@
 # TODO List.
-I need to make it look nice.
+I need to make it look pretter.
 * v14 (minors 34, 45, 113, 118)
 * v15 (minors 157, 169)
 * v16-17 (majors+minors)
@@ -17,7 +17,6 @@ I need to make it look nice.
 * v37 (minors 238, 250)
 * v38 (major+minors)
 * v41 (minors 131, 144, 148)
-* v43 (minor 238)
 * v44-45 (majors+minors)
 * v49 (minors 181, 194)
 * v52 (minors 163, 177)
