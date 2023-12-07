@@ -1,9 +1,9 @@
 # Brawl Stars Assets
 Assets from every Brawl Stars version
 
-* Current size of assets: `~35,29 GB`
-* Current amount of files: `380.386 files` 
-* Current amount of folders: `8.156 folders` 
+* Current size of assets: `~35,54 GB`
+* Current amount of files: `383.268 files` 
+* Current amount of folders: `8.234 folders` 
 - May be incorrect. Will be corrected after the TODO list is completed
 <!--
 holy shit why so many
