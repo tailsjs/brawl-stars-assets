@@ -1,0 +1,13 @@
+"Name","Disabled","IconSWF","IconExportName","TID","CanBeBought"
+"string","boolean","string","string","string","boolean"
+"RosalloweenChallenge",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_ROSALLOWEEN","false"
+"WorldFinals",,"sc/ui.sc","pin_pack_wf","TID_EMOTE_BUNDLE_WF","true"
+"Rosalloween",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_ROSALLOWEEN","true"
+"BrawlMasPack",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_BRALWMAS_PACK","true"
+"BrawlMasGift",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_BRALWMAS_GIFT","true"
+"LunarBrawl21",,"sc/ui.sc","pin_pack_lunarbrawl21","TID_EMOTE_BUNDLE_LUNARBRAWL21_GIFT","true"
+"Retropolis",,"sc/ui.sc","pin_pack_retro","TID_EMOTE_BUNDLE_RETRO_PACK","false"
+"Brawloween",,"sc/ui.sc","pin_pack_brawloween","TID_EMOTE_BUNDLE_BRAWLOWEEN_PACK","false"
+"Brawlidays",,"sc/ui.sc","pin_pack_brawlidays","TID_EMOTE_BUNDLE_BRAWLIDAYS_PACK",TRUE
+"Brawlentines",,"sc/ui.sc","pin_pack_stvalentines","TID_EMOTE_BUNDLE_BRAWLENTINES_PACK","false"
+"Lny22",,"sc/ui.sc","pin_pack_LNY22","TID_EMOTE_BUNDLE_LNY22_PACK","false"

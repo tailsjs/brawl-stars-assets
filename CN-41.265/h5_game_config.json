@@ -1,0 +1,23 @@
+{
+  "server_version": "1.0",
+  "platform_sdk": {
+    "module_name": "platform",
+    "sdk_list": [
+      {
+        "sdk_id": "0010000",
+        "jar_name": "com.supersdk.demo.platform.sdk.PluginImpl",
+        "extr": {
+          "extend": "2150|376|opgameid"
+        },
+        "sdk_type": 0
+      }
+    ],
+    "jar_name": "com.supersdk.bcore.platform.PlatformModule"
+  },
+  "osdk_conf_id": "12607146",
+  "sp_url_type": "1",
+  "game_type": "1",
+  "osdk_game_id": "196377842",
+  "yz_game_id": "376",
+  "channel_id": "1"
+}
