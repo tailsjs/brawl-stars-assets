@@ -3,7 +3,7 @@ I need to make it look pretter.
 * v14 (minors 34, 45, 113, 118)
 * v20 (minors 80, 86, 89, 90)
 * v25 (minors 96, 107, 112, 119)
-* v27 (minors 266, 514)
+* v27 (minor 514)
 * v31 (minors 81, 84)
 * v32 (minors 142, 153, 165)
 * v35 (minors 108, 126, 128, 133, 134, 139, 159, 163, 168)
