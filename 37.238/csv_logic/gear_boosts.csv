@@ -1,0 +1,17 @@
+"Name","SpeedIncrease","Heal","DamageBoost","Resistance","Shield"
+"string","int","int","int","int","int"
+"Speed",10,,,,
+,25,,,,
+,20,,,,
+"Heal",,100,,,
+,,150,,,
+,,200,,,
+"Damage",,,10,,
+,,,15,,
+,,,20,,
+"Resistance",,,,15,
+,,,,25,
+,,,,30,
+"Shield",,,,,300
+,,,,,450
+,,,,,600
