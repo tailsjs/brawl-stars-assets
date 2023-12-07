@@ -3,7 +3,6 @@ I need to make it look pretter.
 * v14 (minors 34, 45, 113, 118)
 * v15 (minors 157, 169)
 * v16 (minors 167, 176)
-* v17 (major+minor)
 * v19 (minors 110, 111)
 * v20 (minors 80, 86, 89, 90)
 * v21 (minors 73, 77)
@@ -19,6 +18,10 @@ I need to make it look pretter.
 * v41 (minors 131, 144, 148)
 * v49 (minors 181, 194)
 * v52 (minors 163, 177)
+
+<!---
+omfg finally done majors -- 15:30 December 07, 2023
+-->
 
 ### CN
 
