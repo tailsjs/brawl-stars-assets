@@ -1,0 +1,17 @@
+"Name","LogicType","SpeedIncrease","Heal","DamageBoost","VisionTicks","HealthShield","Resource","IconSWF","IconExportName","TID","InfoTID","TokenTypeTID","ShopFrameName","UpgradeInfoTID","UpgradeTargetTID"
+"string","int","int","int","int","int","int","string","string","string","string","string","string","string","string","string"
+"ForestSpeed",14,10,,,,,"GearTokensSpeed","sc/ui.sc","icon_gear_speed","TID_GEAR_FOREST_SPEED_TITLE","TID_GEAR_FOREST_SPEED_INFO","TID_GEAR_TOKEN_TYPE_SPEED","speed","TID_GEAR_FOREST_SPEED_UPGRADE_INFO","TID_GEAR_FOREST_SPEED_UPGRADE_TARGET"
+,,15,,,,,,,,,,,,,
+,,20,,,,,,,,,,,,,
+"HealthRegen",15,,30,,,,"GearTokensHeal","sc/ui.sc","icon_gear_heal","TID_GEAR_STANDING_HEAL_TITLE","TID_GEAR_STANDING_HEAL_INFO","TID_GEAR_TOKEN_TYPE_HEAL","heal","TID_GEAR_STANDING_HEAL_UPGRADE_INFO","TID_GEAR_STANDING_HEAL_UPGRADE_TARGET"
+,,,40,,,,,,,,,,,,
+,,,50,,,,,,,,,,,,
+"LowHealthDamage",16,,,10,,,"GearTokensDamage","sc/ui.sc","icon_gear_damage","TID_GEAR_LOW_HEALTH_DAMAGE_TITLE","TID_GEAR_LOW_HEALTH_DAMAGE_INFO","TID_GEAR_TOKEN_TYPE_DAMAGE","damage","TID_GEAR_LOW_HEALTH_DAMAGE_UPGRADE_INFO","TID_GEAR_LOW_HEALTH_DAMAGE_UPGRADE_TARGET"
+,,,,15,,,,,,,,,,,
+,,,,20,,,,,,,,,,,
+"Vision",17,,,,20,,"GearTokensResistance","sc/ui.sc","icon_gear_vision","TID_GEAR_VISION_TITLE","TID_GEAR_VISION_INFO","TID_GEAR_TOKEN_TYPE_VISION","vision","TID_GEAR_VISION_UPGRADE_INFO","TID_GEAR_VISION_UPGRADE_TARGET"
+,,,,,30,,,,,,,,,,
+,,,,,40,,,,,,,,,,
+"ConsumableShield",18,,,,,300,"GearTokensShield","sc/ui.sc","icon_gear_shield","TID_GEAR_SHIELD_TITLE","TID_GEAR_SHIELD_INFO","TID_GEAR_TOKEN_TYPE_SHIELD","shield","TID_GEAR_SHIELD_UPGRADE_INFO","TID_GEAR_SHIELD_UPGRADE_TARGET"
+,,,,,,450,,,,,,,,,
+,,,,,,600,,,,,,,,,
