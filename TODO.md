@@ -21,5 +21,15 @@ I need to make it look pretter.
 * v49 (minors 181, 194)
 * v52 (minors 163, 177)
 
-## CN will be added later.
+### CN
 
+* 44.266
+* 46.207
+* 47.228
+* 47.233
+* 48.323
+* 49.204
+* 50.2.2
+* 51.4.30
+* 51.101.3
+- If you have any CN Brawl Stars apk, let me know in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues)
