@@ -19,7 +19,7 @@ I need to make it look nice.
 * v41 (minors 131, 144, 148)
 * v43 (minors 238, 248)
 * v44-45 (majors+minors)
-* v47 (major+minors)
+* v47 (minor 227)
 * v49 (minors 181, 194, 210)
 * v52 (minors 163, 177)
 
