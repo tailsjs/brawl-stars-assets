@@ -1,0 +1,15 @@
+"Name","Mode","IncludedCampaigns","SectionTitleTID","SectionItemTID","SectionInfoTID","LastChanceSectionSeparately","LastChanceSectionTID","GroupCampaign","GroupShopItem","ShopItemCharacters","CheckDataFromOffers","PurchasePopupBg"
+"String","int","String","String","String","String","Boolean","String","boolean","String","String","boolean","String"
+"Brawlidays",1,"BRAWLIDAYS","TID_SHOP_BRAWLIDAYS_SKINS",,,"FALSE","TID_SHOP_LAST_CHANCE_SKINS",,,,,
+,,"BRAWLIDAYS_2018",,,,,,,,,,
+"LunarBrawl",2,"LNY_2019","TID_SHOP_LUNAR_BRAWL_SKINS",,,"FALSE","TID_SHOP_LAST_CHANCE_SKINS",,,,,
+,,"LNY_2020",,,,,,,,,,
+,,"LNY_2021",,,,,,,,,,
+"Brawloween",3,"BRAWLOWEEN","TID_SHOP_BRAWLOWEEN_SKINS",,,"FALSE","TID_SHOP_LAST_CHANCE_SKINS",,,,,
+"Laml",4,"LAML","TID_SKIN_INFO_CAMPAIGN_LAML_TITLE",,"TID_LAML_FOOTBALL_SKINS_INFO","FALSE","TID_SHOP_LAST_CHANCE_SKINS","TRUE","offer_1_item_brawlers_skin_pack","Gunslinger",,"laml"
+,,,,,,,,,,"TntDude",,
+,,,,,,,,,,"ShotgunGirl",,
+,,,,,,,,,,"Luchador",,
+"Punk",5,"PUNK","TID_SKIN_INFO_CAMPAIGN_PUNK_TITLE","TID_SKIN_INFO_CAMPAIGN_PUNK_TITLE","TID_PUNK_SKINS_INFO","FALSE","TID_SHOP_LAST_CHANCE_SKINS","TRUE","offer_1_item_skin_pack_punk","DeadMariachi","TRUE","punk"
+,,"BRAWLPASS_PUNK",,,,,,,,"Roller",,
+,,,,,,,,,,"RopeDude",,
