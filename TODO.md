@@ -10,7 +10,6 @@ I need to make it look nice.
 * v25 (minors 107, 112, 119)
 * v26 (minors 165, 170)
 * v27 (minors 266, 269, 514)
-* v28 (minor 171)
 * v31 (minors 81, 84)
 * v32 (minors 142, 153, 165)
 * v33 (major+minors)
