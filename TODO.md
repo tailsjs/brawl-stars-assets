@@ -16,7 +16,6 @@ I need to make it look nice.
 * v36 (minors 238, 253, 257)
 * v37 (minors 238, 250)
 * v38 (major+minors)
-* v40 (minor 179)
 * v41 (minors 131, 144, 148)
 * v43 (minors 238, 248)
 * v44-45 (majors+minors)
