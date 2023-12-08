@@ -1,4 +1,4 @@
-# Brawl Stars Assets
+# Brawl Stars Assets Database
 Assets from every Brawl Stars version
 
 * Current size of assets: `~46,96 GB`
