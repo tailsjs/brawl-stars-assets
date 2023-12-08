@@ -1,0 +1,5 @@
+Name,LocationTheme,Map,MapIcon,BigMapIcon,MapNameTID
+string,string,string,string,string,string
+Lobby3,DefaultLobby3,SocialLobby3,lobby_map_3,lobby_map_big_3,TID_LOBBY_MAP_NAME_3
+Lobby2,DefaultLobby2,SocialLobby2,lobby_map_2,lobby_map_big_2,TID_LOBBY_MAP_NAME_2
+Lobby1,DefaultLobby,SocialLobby1,lobby_map_1,lobby_map_big_1,TID_LOBBY_MAP_NAME_1

@@ -1,9 +1,9 @@
 # Brawl Stars Assets Database
 Assets from every Brawl Stars version
 
-* Current size of assets: `~47,84 GB`
-* Current amount of files: `533.472 files` 
-* Current amount of folders: `11.549 folders` 
+* Current size of assets: `~48,80 GB`
+* Current amount of files: `541.605 files` 
+* Current amount of folders: `11.651 folders` 
 <!--
 holy shit why so many
 -->
@@ -23,3 +23,6 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 
 ### Supercell Fan Content Policy
 Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for content creators and other fan content in line with Supercell's fan content policy (http://supercell.com/en/fan-content-policy/)
+
+### Something about CN-52.8.x
+All versions fingerprint says that is "52.8.1". Both 52.8.2 and 52.8.3 may be hiding under this version. 

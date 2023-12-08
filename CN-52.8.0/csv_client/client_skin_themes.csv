@@ -1,0 +1,7 @@
+Name,HomeTheme,PopupBackgroundFile,PopupBackgroundAsset,DiffuseMovieClip,LobbyAnimIdle,LobbyAnimWalk
+String,String,String,String,String,String,String
+UndertakerTron,motisi_1,sc/bg_motisi.sc,bg_motisi,,,
+CactusAstronaut,sipaike_1,sc/bg_sipaike.sc,bg_sipaike,,,
+GunslingerElectronictoy,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters.sc#1024,1024,colt_007_winLoop_k2",,
+ShotgunGirlElectronictoy,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters.sc#1024,1024,shelly_007_winLoop_k2",,
+BowDudeSagittarius,bo_1,sc/bg_bo.sc,bg_bo,"sc/characters.sc#1024,1024,bo_007_winLoop_k2_yyh",BowSagittariusFly,BowSagittariusFly
