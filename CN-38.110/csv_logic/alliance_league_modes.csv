@@ -1,0 +1,2 @@
+"Name","EventSlot","TicketCost","ModeOverrideIconName","ModeOverrideRoomIconName","BannerOverrideSWF","BannerOverrideExportName","MemberTeamRewardPointsWin","MemberTeamRewardPointsDraw","MemberTeamRewardPointsLose","RandomTeamRewardPointsWin","RandomTeamRewardPointsDraw","RandomTeamRewardPointsLose"
+"string","int","int","string","string","string","string","int","int","int","int","int","int"
