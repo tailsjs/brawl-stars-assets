@@ -1,6 +1,5 @@
 # TODO List.
 I need to make it look pretter.
-* v25 (minor 119)
 * v35 (minors 108, 126, 128, 133, 134, 139, 159, 163, 168)
 
 <!---
