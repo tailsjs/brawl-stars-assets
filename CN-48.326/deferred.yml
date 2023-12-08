@@ -1,0 +1,10 @@
+#
+# each item in the list is a java.util.regex.Pattern - no need to use wildcards etc but those are supported out of the box
+#
+
+required:
+  .*/required/.*
+on-demand:
+  .*/ondemand/.*
+background:
+  .*/background/.*
