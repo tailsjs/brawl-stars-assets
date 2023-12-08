@@ -1,0 +1,2 @@
+"Name","EventSlot","TicketCost","ModeOverrideIconName","ModeOverrideRoomIconName","BannerOverrideSWF","BannerOverrideExportName","EventTeaseBgColorOverride"
+"string","int","int","string","string","string","string","string"
