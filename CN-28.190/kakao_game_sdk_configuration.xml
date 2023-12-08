@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuartion-list>
+    <configuration key="appId" value="241121"/>
+    <configuration key="appSecret" value="d509a010c29a8768bcc216071a43fa9b"/>
+    <configuration key="debugLevel" value="Error"/>
+    <configuration key="market" value="googlePlay"/>
+    <configuration key="appVersion" value="1.0"/>
+</configuartion-list>
