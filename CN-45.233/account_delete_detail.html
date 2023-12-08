@@ -1,0 +1,59 @@
+<!-- sdk中文账号删除提示页面 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="google-site-verification" content="fuedXEyQBPro66nLv8WgmpDAAUvUlvcwoTy7_nOiEp4" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<script>   
+(function () {
+            var e = function () {
+                var size
+                if (document.documentElement.clientWidth / document.documentElement.clientHeight >= 870 / 504) {// 横屏
+                    size = 870
+                } else {// 竖屏
+                    size = 670
+                }
+                cw = document.documentElement.clientWidth
+                cw && (document.documentElement.style.fontSize = cw / size * 100 + "px")
+            }; e();
+            var ev = "orientationchange" in window ? "orientationchange" : "resize";
+            window.addEventListener && window.addEventListener(ev, e, false);
+            document.addEventListener && document.addEventListener("DOMContentLoaded", e, false);
+        })()
+</script>
+<style>
+    html,body{
+        margin:0;
+        padding:0;
+    }
+    .text-detail{
+        font-size: .24rem;
+        width: 100%;
+        text-align: justify;
+        line-height: 1.2; 
+    }
+    .text-detail p{
+        margin:0 0 .2rem 0;
+        padding:0;
+    }
+</style>
+<body>
+<div class="text-body">
+    <div class="text-detail">
+        <p>1. 该账号已通过客服申请删除账号，现正处于冷静期中，冷静期满将正式删除您的所有账号信息，并通过您在申请账号删除时填写的邮箱，发送您账号删除告知邮件。</p>
+        <p>2. 当冷静期满删除帐号后，您将无法找回该游族帐号。届时所有游族游戏、官网和相关应用软件都无法登录该游族帐号。如有需要，您可以通过手机号或第三方登录方式注册一个全新的游族帐号。</p>
+        <p>3. 若删除账号并非您本人申请，则您的帐号安全可能受到威胁，请立即点击【取消登录】按钮，并及时修改您的密码或联系客服进行处理。登录该帐号。如有需要，您可以通过邮箱或第三方登录方式注册一个全新的帐号。</p>
+    </div>
+</div>
+</body>
+</html>
