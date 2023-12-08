@@ -1,0 +1,5 @@
+"Name","Season","HeroArea1","HeroArea2","HeroArea3","FrameName"
+"string","int","String","String","String","String"
+"season8",7,"ShotgunGirlPrincess","KnightDefault","KnightNinja",8
+"season9",8,"BullDudeTerminator","DuplicatorDefault","DuplicatorChola",9
+"season10",9,"RosaBP","KickerDudeDefault","KickerDudeFurious",10
