@@ -1,0 +1,94 @@
+{
+  "status": 0,
+  "data": [
+    {
+      "key": "contractUrl",
+      "name": "\u6ce8\u518c",
+      "desc": "\u6ce8\u518c\u534f\u8baeurl",
+      "value": "http:\/\/sdk.youzu.com\/regagreement?extend_params=eyJsZWZ0X2J1dHRvbiI6eyJjbG9zZV9jb25maXJtIjowfSwidGl0bGUiOiJcdTZjZThcdTUxOGNcdTUzNGZcdThiYWUiLCJyaWdodF9idXR0b24iOnsic3R5bGUiOjB9fQ==",
+      "category": "general",
+      "sort": "2",
+      "is_url": "1",
+      "iconUrl": null,
+      "activeIconUrl": null
+    },
+    {
+      "key": "perferLoginType",
+      "name": "\u767b\u5f55\u4f18\u5148\u9009\u9879",
+      "desc": "account\u4f18\u5148\u9009\u62e9\u5e10\u53f7\uff0cmobile\u4f18\u5148\u9009\u62e9\u624b\u673a\u6ce8\u518c",
+      "value": "account",
+      "category": "general",
+      "sort": "4",
+      "is_url": "0",
+      "iconUrl": null,
+      "activeIconUrl": null
+    },
+    {
+      "key": "registerBindMobile",
+      "name": "\u7ed1\u5b9a\u624b\u673a",
+      "desc": "\u666e\u901a\u5e10\u53f7\u6ce8\u518c\u4e4b\u540e\u662f\u5426\u663e\u793a\u7ed1\u5b9a\u624b\u673a\u53f7",
+      "value": "1",
+      "category": "general",
+      "sort": "6",
+      "is_url": "0",
+      "iconUrl": null,
+      "activeIconUrl": null
+    },
+    {
+      "key": "gameChargeUrl",
+      "name": "\u5145\u503c",
+      "desc": "\u6e38\u620f\u5185\u5145\u503curl\uff0c\u5fc5\u987b\u8981\u6709\uff01",
+      "value": "https:\/\/sdk.youzu.com\/pay?extend_params=eyJsZWZ0X2J1dHRvbiI6eyJzdHlsZSI6MiwiY2xvc2VfY29uZmlybSI6MSwiY2xvc2VfdGl0bGUiOiJcdTY1MmZcdTRlZDhcdTY3MmFcdTViOGNcdTYyMTAiLCJjbG9zZV9tZXNzYWdlIjoiXHU2NTJmXHU0ZWQ4XHU2NzJhXHU1YjhjXHU2MjEwLFx1Nzg2ZVx1NWI5YVx1OTAwMFx1NTFmYVx1NmI2NFx1NmIyMVx1NjUyZlx1NGVkOFx1NTQxNz8ifSwidGl0bGUiOiJcdTUxNDVcdTUwM2NcdTRlMmRcdTVmYzMiLCJyaWdodF9idXR0b24iOnsic3R5bGUiOjQsImFjdGlvbiI6Imh0dHA6Ly9zZGsueW91enUuY29tL3BheS9saXN0P2V4dGVuZF9wYXJhbXM9ZXlKc1pXWjBYMkoxZEhSdmJpSTZleUp6ZEhsc1pTSTZNU3dpWTJ4dmMyVmZZMjl1Wm1seWJTSTZNSDBzSW5ScGRHeGxJam9pWEhVMU1UUTFYSFUxTUROalhIVTRZbUl3WEhVMVpqVTFJaXdpY21sbmFIUmZZblYwZEc5dUlqcDdJbk4wZVd4bElqb3dmWDAlM0QifX0%3D",
+      "category": "general",
+      "sort": "8",
+      "is_url": "1",
+      "iconUrl": "http:\/\/passport.youzu.com\/images\/sdk_pay\/icon_column_pay.png",
+      "activeIconUrl": "http:\/\/passport.youzu.com\/images\/sdk_pay\/icon_column_pay.png"
+    },
+    {
+      "key": "loginStatus",
+      "name": "\u767b\u5f55",
+      "desc": "\u767b\u5f55\u5f00\u5173",
+      "value": "1",
+      "category": "menu",
+      "sort": "3",
+      "is_url": "0",
+      "iconUrl": "http:\/\/sdk.youzu.com\/images\/ico_close1.png",
+      "activeIconUrl": "http:\/\/sdk.youzu.com\/images\/ico_close2.png"
+    },
+    {
+      "key": "protectStatus",
+      "name": "\u8d26\u53f7\u4fdd\u62a4",
+      "desc": "\u5e10\u53f7\u4fdd\u62a4\u5f00\u5173",
+      "value": "1",
+      "category": "menu",
+      "sort": "5",
+      "is_url": "0",
+      "iconUrl": "http:\/\/sdk.youzu.com\/images\/ico_baohu1.png",
+      "activeIconUrl": "http:\/\/sdk.youzu.com\/images\/ico_baohu2.png"
+    },
+    {
+      "key": "supportUrl",
+      "name": "\u5ba2\u670d\u4e2d\u5fc3",
+      "desc": "\u5ba2\u670d\u5f00\u5173",
+      "value": "http:\/\/sdk.youzu.com\/cs?extend_params=eyJsZWZ0X2J1dHRvbiI6eyJzdHlsZSI6MiwiY2xvc2VfY29uZmlybSI6MH0sInRpdGxlIjoiXHU1YmEyXHU2NzBkXHU0ZTJkXHU1ZmMzIiwicmlnaHRfYnV0dG9uIjp7InN0eWxlIjowfX0%3D",
+      "category": "menu",
+      "sort": "7",
+      "is_url": "1",
+      "iconUrl": "http:\/\/sdk.youzu.com\/images\/ico_service1.png",
+      "activeIconUrl": "http:\/\/sdk.youzu.com\/images\/ico_service2.png"
+    },
+    {
+      "key": "newsUrl",
+      "name": "\u65b0\u95fb\u8d44\u8baf",
+      "desc": "sdk\u6d6e\u6846\u65b0\u95fburl",
+      "value": "http:\/\/api.youzu.com\/list?extend_params=eyJsZWZ0X2J1dHRvbiI6e30sInRpdGxlIjoi5paw6Ze76LWE6K6vIiwicmlnaHRfYnV0dG9uIjp7InN0eWxlIjowfX0%3D&title[]=%E6%96%B0%E9%97%BB&id[]=2100",
+      "category": "menu",
+      "sort": "8",
+      "is_url": "1",
+      "iconUrl": "http:\/\/sdk.youzu.com\/images\/ico_news1.png",
+      "activeIconUrl": "http:\/\/sdk.youzu.com\/images\/ico_news2.png"
+    }
+  ],
+  "desc": "\u6210\u529f"
+}
