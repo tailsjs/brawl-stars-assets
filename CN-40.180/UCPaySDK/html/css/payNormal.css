@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.body-error {
+  width: 6.28rem;
+  height: 5.5rem;
+  background: #fff;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.body-error .error-img {
+  margin: 0.48rem auto 0;
+  background: url(../images/error_img.png) no-repeat;
+  width: 1.68rem;
+  height: 1.68rem;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.body-error .error-span {
+  margin: 0.32rem auto 0;
+  width: 4.2rem;
+  color: #666;
+}
+.body-error .error-footer,
+.body-error .error-span {
+  font-family: PingFangSC-Regular;
+  font-size: 0.3rem;
+  letter-spacing: 0;
+}
+.body-error .error-footer {
+  margin: 1.3rem 0.4rem 0;
+  width: 5.48rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border: 1px solid #666;
+  -webkit-border-radius: 0.08rem;
+  border-radius: 0.08rem;
+  text-align: center;
+  color: #666;
+}
