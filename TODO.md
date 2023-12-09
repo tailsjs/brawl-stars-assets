@@ -9,12 +9,13 @@ omfg finally done majors -- 15:30 December 07, 2023
 -->
 
 ### CN
-* 29 (major+minors 254, 261, 269)
+* 29 (minors 254, 261)
 * 30 (minor 224)
-* 31 (?)
+* 31 (major+minors 80, 87)
 * 32 (minor 141)
-* 34 (major+minor 133)
-* 35 (major+minor 180)
+* 34 (major+minors 133, 155)
+* 35 (major+minors 114, 129, 180)
+* 37 (minors 240, 252)
 * 38 (minor 160)
 * 39 (minor 104)
 * 40 (minor 155)
@@ -24,5 +25,6 @@ omfg finally done majors -- 15:30 December 07, 2023
 
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
 * Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
-* Btw, i took changlelogs from TapTap app.
+* Btw, i took changlelogs from TapTap app and Wandoujia site.
+* Looks like major `42` doesn't exist.
 - If you have any CN Brawl Stars apk, let me know in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues)
