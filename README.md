@@ -24,5 +24,9 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 ### Supercell Fan Content Policy
 Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for content creators and other fan content in line with Supercell's fan content policy (http://supercell.com/en/fan-content-policy/)
 
-### Something about CN-52.8.x
-All versions fingerprint says that is "52.8.1". Both 52.8.2 and 52.8.3 may be hiding under this version. 
+### Something about Chinese versions
+* Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
+* Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
+* Btw, i took changlelogs from TapTap app and Wandoujia site.
+* Looks like major `42` doesn't exist.
+* All `52.8.x` versions fingerprint says that is "52.8.1". Both 52.8.2 and 52.8.3 may be hiding under this version. 
