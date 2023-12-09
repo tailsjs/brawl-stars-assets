@@ -1,0 +1,3 @@
+version=9.3.2.6
+product=ucgamesdk
+packtype=net
