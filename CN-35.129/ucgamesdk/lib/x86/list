@@ -1,0 +1,4 @@
+[x86]
+lib_ucsdk_xcrypt.so = ead4174884d6cfc308f14513578f4b1b
+lib_ucsdk_patch.so = 3a5dac5d34f737e91f8f5033965be5a8
+lib_ucsdk_softlink.so = de5541d4716f3c5d3ebd0d4acd9e9189

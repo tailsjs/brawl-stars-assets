@@ -14,14 +14,14 @@ omfg finally done majors -- 15:30 December 07, 2023
 * 31 (major+minors 80, 87)
 * 32 (minor 141)
 * 34 (major+minors 133, 155)
-* 35 (major+minors 114, 129, 180)
+* 35 (major+minors 114, 180)
 * 37 (minors 240, 252)
 * 38 (minor 160)
 * 39 (minor 104)
 * 40 (minor 155)
 * 42 (?)
 * 44 (minor 270)
-* 46 (minors 208, 210)
+* 46 (minor 210)
 
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
 * Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
