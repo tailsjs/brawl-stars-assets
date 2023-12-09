@@ -25,6 +25,6 @@ omfg finally done majors -- 15:30 December 07, 2023
 * 46 (minors 208, 210)
 
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
-* Also, some Chinese versions have different companies that builded game. For example: UC and Yoozoo.
+* Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
 * Btw, i took changlelogs from TapTap app.
 - If you have any CN Brawl Stars apk, let me know in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues)
