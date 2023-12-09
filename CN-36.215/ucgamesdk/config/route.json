@@ -1,0 +1,11 @@
+{
+    "route":[
+        {
+            "type": "prefix",
+            "scope": [
+                "log"
+            ],
+            "url": "http://sdklog.9game.cn/ng/client"
+        }
+    ]
+}
