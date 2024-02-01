@@ -1,0 +1,54 @@
+Name,TypeName,AmountMin,AmountMax,FallbackTypeName,FallbackAmount,SetCount,SetName,Jackpot,LimitCount,BroadcastText,BroadcastPriority
+String,String,int,int,String,int,int,String,boolean,int,String,int
+Coins S,Coins,32,32,,,,,,,,
+Coins M,Coins,68,68,,,,,,,,
+Coins L,Coins,32,32,,,,,,,,
+Coins XL,Coins,155,155,,,,,,,,
+Power Points S,PowerPoints,12,12,,,,,,,,
+Power Points M,PowerPoints,26,26,,,,,,,,
+Power Points L,PowerPoints,12,12,,,,,,,,
+Power Points XL,PowerPoints,55,55,,,,,,,,
+Credits S,Credits,10,10,,,,,,,,
+Credits M,Credits,30,30,,,,,,,,
+Credits L,Credits,75,75,,,,,,,,
+Credits XL,Credits,150,150,,,,,,,,
+Token Doubler S,TokenDoubler,100,100,Coins,100,,,,,,
+Token Doubler M,TokenDoubler,200,200,Coins,100,,,,,,
+Token Doubler L,TokenDoubler,500,500,Coins,100,,,,,,
+Bling S,Bling,20,20,,,,,,,,
+Bling M,Bling,50,50,,,,,,,,
+Bling L,Bling,100,100,,,,,,,,
+Bling XL,Bling,200,200,,,,,,,,
+Pin 1-9 Gem,Set,,,Bling,100,,PinCommon,,,,
+Pin 10-29 Gem,Set,,,Bling,100,,PinRare,,,,
+Pin 30-39 Gem,Set,,,Bling,100,,PinEpic,,,,
+Spray 1-19 Gem,Set,,,Bling,100,,SprayCommon,,,,
+Spray 20-29 Gem,Set,,,Bling,100,,SprayRare,,,,
+Profile Pic,Set,,,Bling,100,,ProfilePicAll,,,,
+Gadget,Set,,,Coins,1000,,GadgetAll,,,,
+Star Power,Set,,,Coins,1000,,StarPowerAll,,,,
+Brawler Rare,Set,,,Coins,1000,,BrawlerRareNormal,,,,
+Brawler Super Rare,Set,,,Coins,1000,,BrawlerSRNormal,,,,
+Brawler Epic,Set,,,Coins,1000,,BrawlerEpicNormal,,,TID_BROADCAST_REWARD_10,12
+Brawler Mythic,Set,,,Coins,1000,,BrawlerMythicNormal,,,TID_BROADCAST_REWARD_11,11
+Brawler Legendary,Set,,,Coins,1000,,BrawlerLegendaryNormal,,,TID_BROADCAST_REWARD_12,10
+Skin 1-29 Gem,Set,,,Bling,100,,SkinRare,,,,
+Skin 30-79 Gem,Set,,,Bling,100,,SkinSR,,,,
+Skin 80-149 Gem,Set,,,Bling,100,,SkinEpic,,,,
+Skin 150-199 Gem,Set,,,Bling,100,,SkinMythic,,,,
+Skin 200-999 Gem,Set,,,Bling,100,,SkinLegendary,,,,
+Overcharge,Set,,,Coins,1000,,OverchargeAll,,,,
+Brawler Rare Max,Set,,,Coins,1000,,BrawlerRareMax,true,,,
+Brawler Super Rare Max,Set,,,Coins,1000,,BrawlerSRMax,true,,,
+Brawler Epic Max,Set,,,Coins,1000,,BrawlerEpicMax,true,,,
+Brawler Mythic Max,Set,,,Coins,1000,,BrawlerMythicMax,true,,,
+Brawler Legendary Max,Set,,,Coins,1000,,BrawlerLegendaryMax,true,,,
+Brawler x10,Set,,,Credits,1380,10,BrawlerPerfectCount10,true,320,TID_BROADCAST_REWARD_6,4
+Brawler x20,Set,,,Credits,1380,20,BrawlerPerfectCount20,true,240,TID_BROADCAST_REWARD_7,3
+Brawler x40,Set,,,Credits,1380,40,BrawlerPerfectCount40,true,160,TID_BROADCAST_REWARD_8,2
+Brawler All,Set,,,Credits,1380,75,BrawlerPerfectCountAll,true,80,TID_BROADCAST_REWARD_9,1
+Brawler Rare Perfect,Set,,,Credits,1380,1,BrawlerRarePerfect,true,41373,TID_BROADCAST_REWARD_1,9
+Brawler Super Rare Perfect,Set,,,Credits,1380,1,BrawlerSRPerfect,true,37396,TID_BROADCAST_REWARD_2,8
+Brawler Epic Perfect,Set,,,Credits,1380,1,BrawlerEpicPerfect,true,33419,TID_BROADCAST_REWARD_3,7
+Brawler Mythic Perfect,Set,,,Credits,1380,1,BrawlerMythicPerfect,true,29041,TID_BROADCAST_REWARD_4,6
+Brawler Legendary Perfect,Set,,,Credits,1380,1,BrawlerLegendaryPerfect,true,25064,TID_BROADCAST_REWARD_5,5

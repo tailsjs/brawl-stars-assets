@@ -1,0 +1,12 @@
+Name,HomeTheme,PopupBackgroundFile,PopupBackgroundAsset,DiffuseMovieClip,LobbyAnimIdle,LobbyAnimWalk,LobbyHealthBarOffsetY,LobbyChatBubbleOffsetY
+String,String,String,String,String,String,String,int,int
+UndertakerTron,motisi_1,sc/bg_motisi.sc,bg_motisi,,,,,
+CactusAstronaut,sipaike_1,sc/bg_sipaike.sc,bg_sipaike,,,,,
+GunslingerElectronictoy,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters_colt.sc#1024,1024,colt_007_winLoop_k2",,,,
+ShotgunGirlElectronictoy,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters_shelly.sc#1024,1024,shelly_007_winLoop_k2",,,520,
+BowDudeSagittarius,bo_1,sc/bg_bo.sc,bg_bo,"sc/characters_bo.sc#1024,1024,bo_007_winLoop_k2_yyh",BowSagittariusFly,BowSagittariusFly,650,540
+RollerCapricorn,stu_1,sc/background_stu.sc,bg_stu,"sc/characters_stu.sc#1024,1024,stu_007_winLoop_k2",RollerCapricornFly,RollerCapricornFly,750,500
+ShotgunGirlElectronictoyOrange,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters_shelly.sc#1024,1024,shelly_007_winLoop_k2_yellow",,,520,
+GunslingerElectronictoyGreen,colt_1,sc/bg_colt.sc,bg_colt,"sc/characters_colt.sc#1024,1024,Colt_007_winLoop_k2_green",,,,
+MummyAquarius,emz_1,sc/background_emz.sc,bg_emz,"sc/characters_emz.sc#1024,1024,emz_007_winLoop_k2",MummyAquariusFly,MummyAquariusFly,670,500
+IllustratedHandbookGiftshop,,,,"sc/effects_k2.sc#2048,2048,tujian_baoxiang_face",,,,
