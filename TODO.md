@@ -2,7 +2,9 @@
 I need to make it look pretter.
 
 ### Global
-* Finally done! (December 09, 2023)
+* 7 (minor 272)
+* 10 (major+minor 119)
+<!---* Finally done! (December 09, 2023)-->
 
 <!---
 omfg finally done majors -- 15:30 December 07, 2023
