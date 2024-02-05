@@ -25,7 +25,12 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 ### Supercell Fan Content Policy
 Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for content creators and other fan content in line with Supercell's fan content policy (http://supercell.com/en/fan-content-policy/)
 
-### Something about Chinese versions
+
+
+### Something about Chinese versions/Global versions
+* Some changlelogs says that `7.272` exists. But my sources say it doesn't.
+* It's also an interesting situation with the iOS versions. Many have different minors. (For example, 28.189 on Android has a minor of 28.188 on iOS). We'll put together a complete list of versions later.
+
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
 * Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
 * Btw, i took changlelogs from TapTap app and Wandoujia site.
