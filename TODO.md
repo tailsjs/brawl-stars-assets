@@ -31,7 +31,6 @@ I need to make it look pretter.
 * 44 (minor 223, 231)
 * 47 (minor 190)
 * 48 (minor 300)
-* 50 (minor 219)
 * 52 (minors 170, 193)
 * 53 (minor 166)
 <!---* Finally done! (December 09, 2023)-->

@@ -1,0 +1,9 @@
+#Wed, 28 Jun 2023 13:34:40 +0300
+#build version number file
+
+version=50
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=219
+
+content_revision=1
