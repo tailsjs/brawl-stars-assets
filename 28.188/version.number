@@ -1,0 +1,9 @@
+#Tue, 07 Jul 2020 18:25:31 +0300
+#build version number file
+
+version=28
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=188
+
+content_revision=1
