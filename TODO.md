@@ -3,7 +3,6 @@ I need to make it look pretter.
 
 ### Global
 * 7 (minor 272?)
-* 10 (major+minor 119)
 <!---* Finally done! (December 09, 2023)-->
 
 <!---
