@@ -1,0 +1,7 @@
+"Name","ThrowOverWalls","ThrowFromGroundLevel","MaxZ","ThrowSkill","ThrowSkillUlti","ShouldRoll","Bouncing","MinScale","MaxScale","ShowTeamCircle","AllowOwnTeamPickup","PreventPickupInTargetBase","PreventPickupFromLastTouchingTeam","ThrowOnTouch","MinHeightForGrab"
+"string","boolean","boolean","int","string","string","boolean","boolean","int","int","boolean","boolean","boolean","boolean","boolean","int"
+"LaserBall","false","false",500,"DummySkillForLaserBall","DummyUltiSkillForLaserBall","true","true",495,495,,"true",,,,-1
+"CaptureFlag","true","true",1500,"DummySkillForCTF","DummyUltiSkillForCTF",,,270,270,"true",,"true",,,300
+"HoldingBall","true","true",1500,"DummySkillForCTF","DummyUltiSkillForCTF",,,400,400,,"true",,,,300
+"VolleyBall","true","false",3500,"DummySkillForCTF","DummyUltiSkillForCTF","true",,600,800,,,,"true","true",1100
+"BasketBall","true","true",2000,"DummySkillForBasketBrawl","DummyUltiSkillForBasketBrawl","true","true",400,700,,"true",,,,300
