@@ -3,6 +3,32 @@ I need to make it look pretter.
 
 ### Global
 * 7 (minor 272?)
+* 11 (minors 91, 108, 114)
+* 13 (minor 274)
+* 14 (minor 112)
+* 15 (minors 156, 168, 175)
+* 16 (minors 160, 175)
+* 17 (minor 149)
+* 18 (minor 83)
+* 19 (minors 95, 105)
+* 21 (minors 64, 76)
+* 23 (minor 65)
+* 24 (minor 148)
+* 26 (minors 159, 171, 185)
+* 27 (minors 247, 270, 535)
+* 28 (minor 166)
+* 29 (minors 268, 274)
+* 30 (minors 223, 237)
+* 31 (minors 78, 85, 97)
+* 32 (minors 135, 152, 159)
+* 34 (minors 137, 152)
+* 35 (minors 137, 156, 170, 173)
+* 37 (minors 204, 239)
+* 38 (minors 101, 153, 165)
+* 39 (minor 97)
+* 40 (minor 145)
+* 42 (minor 330)
+* 43+?
 <!---* Finally done! (December 09, 2023)-->
 
 <!---
