@@ -28,7 +28,7 @@ I need to make it look pretter.
 * 39 (minor 97)
 * 40 (minor 145)
 * 42 (minor 330)
-* 44 (minor 223, 231)
+* 44 (minor 231)
 * 52 (minors 170, 193)
 * 53 (minor 166)
 <!---* Finally done! (December 09, 2023)-->
