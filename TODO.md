@@ -23,7 +23,7 @@ I need to make it look pretter.
 * 32 (minors 135, 152, 159)
 * 34 (minors 137, 152)
 * 35 (minors 137, 156, 170, 173)
-* 37 (minors 204, 239)
+* 37 (minor 239)
 * 38 (minors 153, 165)
 * 44 (minor 231)
 * 52 (minors 170, 193)
