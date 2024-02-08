@@ -1,0 +1,10 @@
+"Name","RewardTID","RewardDescTID","RewardTypes","FileName","PanelAsset","HudAsset","FeaturedAsset","RewardPanelFrame","FeaturedContainerFrame"
+"String","String","String","int","String","String","String","String","String","String"
+"BrawlerChoice","TID_LOGIN_CALENDAR_REWARD_BRAWLER_CHOICE","TID_LOGIN_CALENDAR_REWARD_DESC_BRAWLER_CHOICE",3,"sc/ui.sc","login_calendar_panel_reward_brawler_2","login_calendar_hud_brawler_2","login_calendar_featured_reward_brawler_2","choose_brawler","2_brawlers"
+,,,3,,,,,,
+"LevelUpgrade","TID_LOGIN_CALENDAR_REWARD_LEVEL_UPGRADE","TID_LOGIN_CALENDAR_REWARD_DESC_LEVEL_UPGRADE",,"sc/ui.sc","login_calendar_panel_reward_upgrade","login_calendar_hud_reward_upgrade","login_calendar_featured_reward_upgrade","brawler_upgrade","upgrade"
+"Pin","TID_LOGIN_CALENDAR_REWARD_PIN","TID_LOGIN_CALENDAR_REWARD_DESC_PIN",19,"sc/ui.sc","login_calendar_panel_reward_pin_1","login_calendar_hud_reward_pin_1","login_calendar_featured_reward_pin_1","1_pin","1_pin"
+"PinX2","TID_LOGIN_CALENDAR_REWARD_PIN_X2","TID_LOGIN_CALENDAR_REWARD_DESC_PIN_X2",,"sc/ui.sc","login_calendar_panel_reward_pin_2","login_calendar_hud_reward_pin_2","login_calendar_featured_reward_pin_2","2_pins","2_pins"
+"Skin","TID_LOGIN_CALENDAR_REWARD_SKIN","TID_LOGIN_CALENDAR_REWARD_DESC_SKIN",4,"sc/ui.sc","login_calendar_panel_reward_skin","login_calendar_hud_reward_skin","login_calendar_featured_reward_skin","skin","skin"
+"GadgetChoice","TID_LOGIN_CALENDAR_REWARD_GADGET_CHOICE","TID_LOGIN_CALENDAR_REWARD_DESC_GADGET_CHOICE",,"sc/ui.sc","login_calendar_panel_reward_item_2","login_calendar_hud_reward_item_2","login_calendar_featured_reward_item_2","item_2","item_2"
+"StarPowerChoice","TID_LOGIN_CALENDAR_REWARD_STARPOWER_CHOICE","TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER_CHOICE",,"sc/ui.sc","login_calendar_panel_reward_sp_2","login_calendar_hud_reward_sp_2","login_calendar_featured_reward_sp_2","sp_2","sp_2"
