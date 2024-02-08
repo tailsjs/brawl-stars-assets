@@ -1,0 +1,17 @@
+"Name","SpeedIncrease","Heal","DamageBoost","Resistance","HealthShield","Resource","IconSWF","IconExportName","TID","InfoTID"
+"string","int","int","int","int","int","string","string","string","string","string"
+"ForestSpeed",15,,,,,"GearTokensSpeed","sc/ui.sc","icon_gear_speed","TID_GEAR_FOREST_SPEED_TITLE","TID_GEAR_FOREST_SPEED_INFO"
+,20,,,,,,,,,
+,25,,,,,,,,,
+"StandingHeal",,100,,,,"GearTokensHeal","sc/ui.sc","icon_gear_heal","TID_GEAR_STANDING_HEAL_TITLE","TID_GEAR_STANDING_HEAL_INFO"
+,,150,,,,,,,,
+,,200,,,,,,,,
+"LowHealthDamage",,,10,,,"GearTokensDamage","sc/ui.sc","icon_gear_damage","TID_GEAR_LOW_HEALTH_DAMAGE_TITLE","TID_GEAR_LOW_HEALTH_DAMAGE_INFO"
+,,,15,,,,,,,
+,,,20,,,,,,,
+"SlowResistance",,,,25,,"GearTokensResistance","sc/ui.sc","icon_gear_resistance","TID_GEAR_SLOW_RESISTANCE_TITLE","TID_GEAR_SLOW_RESISTANCE_INFO"
+,,,,30,,,,,,
+,,,,35,,,,,,
+"ConsumableShield",,,,,300,"GearTokensShield","sc/ui.sc","icon_gear_shield","TID_GEAR_SHIELD_TITLE","TID_GEAR_SHIELD_INFO"
+,,,,,450,,,,,
+,,,,,600,,,,,
