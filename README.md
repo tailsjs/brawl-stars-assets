@@ -9,9 +9,11 @@ holy shit why so many
 -->
 * Last update: `February 08, 2024`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
+* TODO list [here!](./TODO.md)
 
 ### Attention, please!
 Currently, we searching for Chinese Brawl Stars assets. If you have `v42`, `v40` or lower, please, contact with us!<br>
+Also, we searching for Brawl Stars iPhone assets! Please, contact with us, if you have versions, that marked in [TODO list!](./TODO.md)<br>
 You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 
 ### Thanks:
