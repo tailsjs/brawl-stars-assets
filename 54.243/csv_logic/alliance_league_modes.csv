@@ -1,0 +1,4 @@
+"Name","EventSlot","ModeOverrideIconName","ModeOverrideRoomIconName","BannerOverrideSWF","BannerOverrideExportName","EventTeaseBgColorOverride","PreviewTickets","PreviewMaxWin"
+"string","int","string","string","string","string","string","int","int"
+"Standard",16,,,,,,1,4
+"Competitive",17,"event_icon_clubleague","event_gameroom_clubleague","sc/events.sc","event_power_match_banner","0xFFEE1B39",2,9
