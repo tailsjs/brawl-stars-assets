@@ -1,0 +1,9 @@
+Name,LocationTheme,Map,MapIcon,BigMapIcon,MapNameTID,NpcCharacterName,NpcSkinName,NpcAnimName
+string,string,string,string,string,string,string,string,string
+Lobby3,DefaultLobby3,SocialLobby3,lobby_map_3,lobby_map_big_3,TID_LOBBY_MAP_NAME_3,,,
+Lobby2,DefaultLobby2,SocialLobby2,lobby_map_2,lobby_map_big_2,TID_LOBBY_MAP_NAME_2,,,
+Lobby1,DefaultLobby,SocialLobby1,lobby_map_1,lobby_map_big_1,TID_LOBBY_MAP_NAME_1,,,
+Lobby4,DefaultLobby_cool,SocialLobby4,lobby_map_4,lobby_map_big_4,TID_LOBBY_MAP_NAME_4,Cactus,CactusLog,LOBBY_LOOP
+,,,,,,ClusterBombDude,ClusterBombDudeSnowman,LOBBY_LOOP
+,,,,,,Arcade,ArcadeVirus,LOBBY_LOOP
+,,,,,,Mummy,MummyDj,LOBBY_LOOP

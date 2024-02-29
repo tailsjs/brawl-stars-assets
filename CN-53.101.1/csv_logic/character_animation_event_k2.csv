@@ -1,0 +1,6 @@
+Name,CharacterAnim,EventType,TriggerInFrame
+string,string,string,int
+AnimBookMainCharacter_BookOpenFinish,SAD_LOOP,BEGIN,
+AnimBookMainCharacter_BookOpenStart,SAD,PASS_FRAME,670
+AnimBookGiftCharacter_GiftOpen,SAD,PASS_FRAME,565
+AnimBookGiftCharacter_CamerLookGiftStart,SAD,PASS_FRAME,432
