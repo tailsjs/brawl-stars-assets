@@ -1,0 +1,15 @@
+"Name","IconSWF","IconExportName","IconExportNameFront","IconExportNameLevels","Tier","IsFame","DelayMilliseconds"
+"string","string","string","string","string","int","boolean","int"
+"battle_card_frame_ranked_bronze_bg","sc/ui.sc","battle_card_frame_ranked_bronze_bg","battle_card_frame_ranked_bronze_front","battle_card_frame_ranked_bronze_levels",1,,200
+"battle_card_frame_ranked_silver_bg","sc/ui.sc","battle_card_frame_ranked_silver_bg","battle_card_frame_ranked_silver_front","battle_card_frame_ranked_silver_levels",2,,200
+"battle_card_frame_ranked_gold_bg","sc/ui.sc","battle_card_frame_ranked_gold_bg","battle_card_frame_ranked_gold_front","battle_card_frame_ranked_gold_levels",3,,200
+"battle_card_frame_ranked_diamond_bg","sc/ui.sc","battle_card_frame_ranked_diamond_bg","battle_card_frame_ranked_diamond_front","battle_card_frame_ranked_diamond_levels",4,,200
+"battle_card_frame_ranked_mythic_bg","sc/ui.sc","battle_card_frame_ranked_mythic_bg","battle_card_frame_ranked_mythic_front","battle_card_frame_ranked_mythic_levels",5,,200
+"battle_card_frame_ranked_legendary_bg","sc/ui.sc","battle_card_frame_ranked_legendary_bg","battle_card_frame_ranked_legendary_front","battle_card_frame_ranked_legendary_levels",6,,200
+"battle_card_frame_ranked_masters_bg","sc/ui.sc","battle_card_frame_ranked_masters_bg","battle_card_frame_ranked_masters_front","battle_card_frame_ranked_masters_levels",7,,200
+"globalFrame","sc/ui.sc","battle_card_frame_fame_earth_bg",,,1,"TRUE",900
+"lunarFrame","sc/ui.sc","battle_card_frame_fame_moon_bg",,,2,"TRUE",900
+"martialFrame","sc/ui.sc","battle_card_frame_fame_mars_bg",,,3,"TRUE",900
+"saturnalFrame","sc/ui.sc","battle_card_frame_fame_saturn_bg",,,4,"TRUE",900
+"solarFrame","sc/ui.sc","battle_card_frame_fame_sun_bg",,,5,"TRUE",900
+"meteorFrame","sc/ui.sc","battle_card_frame_fame_meteor_bg",,,6,"TRUE",900

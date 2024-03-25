@@ -1,0 +1,9 @@
+"Name","Level","State","ShownLevelOnTrack"
+"string","int","int","int"
+"PiggyLevel0",0,0,1
+"PiggyLevel1",1,1,1
+"PiggyLevel2",2,2,2
+"PiggyLevel3",3,3,3
+"PiggyLevel4",4,4,4
+"PiggyLevel5",5,5,5
+"PiggyLevel6",6,6,5
