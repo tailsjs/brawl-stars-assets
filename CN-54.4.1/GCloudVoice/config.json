@@ -1,0 +1,56 @@
+{
+    "log": {
+        "enable": 1
+    },
+    "rstt": {
+        "rstt_max_record_seconds": 60
+    },
+    "cdnvister": {
+        "default_url": {
+            "remoteConfigUrl": "https://idcconfig.gcloudsdk.com:443",
+            "voiceUrl": "udp://cn.voice.gcloudcs.com:10001",
+            "flqUrl": "udp://cdn.cn.gcloudcs.com:18301",
+            "logReportUrl": "https://tglog.gcloudsdk.com:443",
+            "voiceReportUrl": "https://harmony.voice.gcloudsdk.com:443",
+            "voiceTranslateUrl": "https://api.translator.voice.gcloudsdk.com:443",
+            "dataReportUrl": "udp://qosidc.gcloudsdk.com:8011"
+        }
+    },
+    "tve": {
+        "delay_time": {
+            "WiFi": {
+                "max": 1200,
+                "default": 300,
+                "min": 300
+            },
+            "4G": {
+                "max": 1200,
+                "default": 400,
+                "min": 400
+            },
+            "unknown": {
+                "max": 1200,
+                "default": 600,
+                "min": 600
+            },
+            "2G": {
+                "max": 1600,
+                "default": 600,
+                "min": 600
+            },
+            "3G": {
+                "max": 1600,
+                "default": 600,
+                "min": 600
+            }
+        },
+        "device_config": {},
+        "volume_scala": {
+            "HUAWEI G750-T00Huawei": 60,
+            "Coolpad 8675-HDCoolpad": 40,
+            "Nexus 4google": 400,
+            "HM NOTE 1TDXiaomi": 30,
+            "HTC M8ehtc": 60
+        }
+    }
+}

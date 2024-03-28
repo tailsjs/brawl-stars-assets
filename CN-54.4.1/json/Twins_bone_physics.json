@@ -1,0 +1,22 @@
+{
+		"TwinsRare":{"Ins":"TwinsDefault"},
+		"TwinsDefault":{
+			"bone":["hips_s","chest_s","neck_s"],
+			"dir":["y","y","y"],
+			"max":[25,28,25],
+			"min":[-25,-28,-25],
+			"soft":[2,3,1],
+			"follow":[0,0,0],
+			"child":[
+				["spine_lower_s","spine_mid_s","spine_upper_s","chest_s","L_clavicle_s","L_shoulder_s","L_elbow_s","L_forearm_twist_s","L_wrist_s","L_index_01_s",
+					"L_index_02_s","L_middle_01_s","L_middle_02_s","L_pinky_01_s","L_pinky_02_s","L_ring_01_s","L_ring_02_s","L_shoulder_twist_s","L_thumb_01_s","L_thumb_02_s",
+					"R_clavicle_s","R_shoulder_s","R_elbow_s","R_forearm_twist_s","R_wrist_s","R_gunbone_01_s","R_index_01_s","R_index_02_s","R_middle_01_s","R_middle_02_s",
+					"R_pinky_01_s","R_pinky_02_s","R_ring_01_s","R_ring_02_s","R_shoulder_twist_s","R_thumb_01_s","R_thumb_02_s","neck_s","head_s","hat_01_s"],
+				["L_clavicle_s","L_shoulder_s","L_elbow_s","L_forearm_twist_s","L_wrist_s","L_index_01_s","L_index_02_s","L_middle_01_s","L_middle_02_s","L_pinky_01_s",
+					"L_pinky_02_s","L_ring_01_s","L_ring_02_s","L_shoulder_twist_s","L_thumb_01_s","L_thumb_02_s","R_clavicle_s","R_shoulder_s","R_elbow_s","R_forearm_twist_s",
+					"R_wrist_s","R_gunbone_01_s","R_index_01_s","R_index_02_s","R_middle_01_s","R_middle_02_s","R_pinky_01_s","R_pinky_02_s","R_ring_01_s","R_ring_02_s",
+					"R_shoulder_twist_s","R_thumb_01_s","R_thumb_02_s","neck_s","head_s","hat_01_s"],
+				["head_s","hat_01_s"]
+			]
+		}
+	}
