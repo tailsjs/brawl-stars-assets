@@ -7,7 +7,7 @@ Assets from every Brawl Stars version
 <!--
 holy shit why so many
 -->
-* Last update: `April 2nd, 2024`
+* Last update: `April 23nd, 2024`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
 * TODO list [here!](./TODO.md)
 
@@ -24,6 +24,7 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 * Reid1n for `41.131`, `41.144` and `41.148` assets! ([#2](https://github.com/tailsjs/brawl-stars-assets/issues/2))
 * KitenokGene for `20.90` and `10.119` assets! ([#3](https://github.com/tailsjs/brawl-stars-assets/issues/3))
 * NoseBS for `11.99`, `38.153` and `54.243` assets! ([#9](https://github.com/tailsjs/brawl-stars-assets/issues/9))
+* AlecksDeee for `53.166` assets!
 
 ### Supercell Fan Content Policy
 Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for content creators and other fan content in line with Supercell's fan content policy (http://supercell.com/en/fan-content-policy/)
