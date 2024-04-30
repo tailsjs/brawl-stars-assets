@@ -1,0 +1,13 @@
+Name,HeroSpawnEffect,SpawnShieldEffect,AreaEffectReplaceList,ProjectileReplaceList,SkinHomeMusic
+string,string,string,string,string,string
+BowDudeSagittarius,HeroSpawn_k2,Spawn_Shield_k2,BowDudeSuperChargeArea:BowDudeSuperChargeArea_k2,,BowDudeSagittarius_Menu
+RollerCapricorn,HeroSpawn_Stu_k2,Spawn_Stu_Shield_k2,SpeedBoost:RollerCapricorn_k2,,RollerCapricorn_Menu
+ShotgunGirlElectronictoyOrange,,,,,ShotgunGirlElectronictoy_Menu
+ShotgunGirlElectronictoy,,,,,ShotgunGirlElectronictoy_Menu
+GunslingerElectronictoyGreen,,,,,ShotgunGirlElectronictoy_Menu
+GunslingerElectronictoy,,,,,ShotgunGirlElectronictoy_Menu
+MummyAquarius,Emz_007_HeroSpawn_k2,emz_007_Spawn_Shield_k2,MummyAccessoryPushback:Emz_007_gadget_k2,,emzaquarius_Menu
+IllustratedHandbookSpike,,,,,collect_Menu
+SniperPisces,Piper_008_HeroSpawn_k2,piper_008_Spawn_Shield_k2,,PiperHandgunProjectile:Piper008HandgunProjectile,piperPisces_Menu
+UndertakerTron,,,,,Tronmortis_Menu
+BullDudeTaurus,HeroSpawn_bull_009_k2,Spawn_bull_009_Shield_k2,BullSlowArea:Bull009SlowArea_k2,,
