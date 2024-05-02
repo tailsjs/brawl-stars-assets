@@ -1,13 +1,13 @@
 # Brawl Stars Assets Database
 Assets from every Brawl Stars version
 
-* Current size of assets: `~78,32 GB`
-* Current amount of files: `844.448 files` 
-* Current amount of folders: `17.330 folders` 
+* Current size of assets: `~79,42 GB`
+* Current amount of files: `854.640 files` 
+* Current amount of folders: `17.432 folders` 
 <!--
 holy shit why so many
 -->
-* Last update: `April 30th, 2024`
+* Last update: `May 3rd, 2024`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
 * TODO list [here!](./TODO.md)
 
@@ -32,9 +32,10 @@ Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for 
 
 
 ### Something about Chinese versions/Global versions
+#### Global
 * Some changlelogs says that `7.272` exists. But my sources say it doesn't.
 * It's also an interesting situation with the iOS versions. Many have different minors. (For example, 28.189 on Android has a minor of 28.188 on iOS). We'll put together a complete list of versions later.
-
+#### Chinese
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
 * Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
 * Btw, i took changlelogs from TapTap app and Wandoujia site.
