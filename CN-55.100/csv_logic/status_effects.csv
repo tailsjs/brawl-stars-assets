@@ -1,0 +1,4 @@
+"Name","ParentStatusEffectForSkin","DurationTicks","TriggerRate","TriggerOnFirstTick","Stacking","Refreshable","Damage","ServerOnly","UseColorMod","RedAdd","GreenAdd","BlueAdd","StartEffect","LoopedEffect","TriggerEffect","EndEffect"
+"String","string","int","int","boolean","boolean","boolean","int","boolean","boolean","int","int","int","string","string","string","string"
+"DebugDefault",,100,20,"FALSE","FALSE","TRUE",100,"FALSE","TRUE",0,100,0,,"poisoned_001",,
+"Debug",,100,20,"TRUE","FALSE","FALSE",100,"FALSE","TRUE",0,100,0,,"poisoned_001","brock_def_explosion_blue",

@@ -49,8 +49,12 @@ omfg finally done majors -- 15:30 December 07, 2023
 * 44 (minor 270)
 * 46 (minor 210)
 
+### Something about Chinese versions/Global versions
+#### Global
 * Some changlelogs says that `7.272` exists. But my sources say it doesn't.
 * It's also an interesting situation with the iOS versions. Many have different minors. (For example, 28.189 on Android has a minor of 28.188 on iOS). We'll put together a complete list of versions later.
+
+#### CN
 * Kinda interesting situation with Chinese versions. Most of minors not even in changelogs.
 * Also, in some Chinese versions, different companies are involved in assembling the game. For example: UC and Yoozoo.
 * Btw, i took changlelogs from TapTap app and Wandoujia site.

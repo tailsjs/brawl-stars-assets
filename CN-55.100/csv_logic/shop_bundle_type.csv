@@ -1,0 +1,3 @@
+Name,Disabled,EnumValue,MinItemCount,MaxItemCount,ChestType
+String,boolean,int,int,int,int
+K2BrawlPassRewardPackage,FALSE,1,6,8,1000009

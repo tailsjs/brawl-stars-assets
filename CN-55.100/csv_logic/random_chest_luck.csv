@@ -1,0 +1,4 @@
+Name,Type,NoHeroLuck,RareHeroLuck,SRHeroLuck,EpicHeroLuck,MythicHeroLuck,LegendaryHeroLuck,NoSkinLuck,RareSkinLuck,SRSkinLuck,EpicSkinLuck,MythicSkinLuck,LegendarySkinLuck,HighValueItemLuck
+String,int,int,int,int,int,int,int,int,int,int,int,int,int,int
+HeroBoxEngagementLuck,1,205,-736,-2903,-6425,-14049,-31696,,,,,,,-60000
+HeroBoxPaidLuck,2,205,-736,-2903,-6425,-14049,-31696,,,,,,,-60000
