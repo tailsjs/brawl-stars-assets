@@ -1,0 +1,7 @@
+"Name","UniqueValues","UniqueIds","StringContent"
+"String","int","String","String"
+"OfferCoverModes",0,"None",
+,1,"CoverGiftRed","cover_gift_red"
+,2,"CoverGiftGold","cover_gift_gold"
+"ChainOfferArrowModes",0,"None",
+,1,"Arrows",

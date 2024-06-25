@@ -1,0 +1,8 @@
+"Name","ParentStatusEffectForSkin","DurationTicks","TriggerRate","TriggerOnFirstTick","Stacking","Refreshable","Damage","ScaleWithUpgrades","ScaleWithBuffs","ServerOnly","UseColorMod","RedAdd","GreenAdd","BlueAdd","StartEffect","LoopedEffect","TriggerEffect","EndEffect"
+"String","string","int","int","boolean","boolean","boolean","int","boolean","boolean","boolean","boolean","int","int","int","string","string","string","string"
+"WhirlwindTrailFire",,80,20,"FALSE","FALSE","TRUE",370,"TRUE","FALSE","FALSE","TRUE",150,150,0,,"poisoned_002",,
+"PetrolFire",,80,20,"FALSE","FALSE","TRUE",480,"TRUE","TRUE","FALSE","TRUE",150,150,0,,"poisoned_002",,
+"PetrolFireIce","PetrolFire",,,,,,,,,,"TRUE",150,150,150,,"poisoned_008",,
+"PetrolFireBubbles","PetrolFire",,,,,,,,,,"TRUE",150,150,150,,"poisoned_011",,
+"RollerFire",,80,20,"FALSE","FALSE","TRUE",200,"TRUE","TRUE","FALSE","TRUE",150,150,0,,"poisoned_002",,
+"RollerFireIce","RollerFire",,,,,,,,,,"TRUE",150,150,150,,"poisoned_008",,

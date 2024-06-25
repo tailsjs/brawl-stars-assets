@@ -1,0 +1,5 @@
+"Name","minNumberOfItems","maxNumberOfItems","TicketsForSkins","TicketsForCoins","TicketsForPowerPoints","TicketsForBling","TicketsForStardrops","TicketsForHCStardrops","TicketsForToys","TicketsForIcons","TicketsForSprays","TicketsForRecruitTockens","TicketsForEmotes","TicketsForBrawlpassXP","AlwaysHasSkin"
+"string","int","int","int","int","int","int","int","int","int","int","int","int","int","int","boolean"
+"Bundle1",4,5,1,20,20,0,20,20,50,20,20,10,10,10,"TRUE"
+"Bundle2",3,4,0,20,20,20,10,20,80,20,20,20,10,10,
+"Bundle3",2,3,0,10,10,10,10,20,100,20,20,10,10,10,
