@@ -15,7 +15,7 @@ I need to make it look pretter.
 * 26 (minors 159, 171, 185)
 * 27 (minors 247, 270, 535)
 * 28 (minor 166)
-* 29 (minors 268, 274)
+* 29 (minor 268)
 * 30 (minors 223, 237)
 * 31 (minors 78, 85, 97)
 * 32 (minors 152, 159)
