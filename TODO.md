@@ -2,7 +2,6 @@
 I need to make it look pretter.
 
 ### Global
-* 7 (minor 272?)
 * 11 (minors 91, 108, 114)
 * 13 (minor 274)
 * 14 (minor 112)
