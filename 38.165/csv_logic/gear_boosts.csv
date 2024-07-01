@@ -1,0 +1,17 @@
+"Name","SpeedIncrease","Heal","DamageBoost","Resistance","HealthShield","IconSWF","IconExportName","TID"
+"string","int","int","int","int","int","string","string","string"
+"ForestSpeed",10,,,,,"sc/ui.sc","icon_gear_speed","TID_GEAR_FOREST_SPEED_TITLE"
+,25,,,,,,,
+,20,,,,,,,
+"StandingHeal",,100,,,,"sc/ui.sc","icon_gear_heal","TID_GEAR_STANDING_HEAL_TITLE"
+,,150,,,,,,
+,,200,,,,,,
+"LowHealthDamage",,,10,,,"sc/ui.sc","icon_gear_damage","TID_GEAR_LOW_HEALTH_DAMAGE_TITLE"
+,,,15,,,,,
+,,,20,,,,,
+"SlowResistance",,,,15,,"sc/ui.sc","icon_gear_resistance","TID_GEAR_SLOW_RESISTANCE_TITLE"
+,,,,25,,,,
+,,,,30,,,,
+"ConsumableShield",,,,,300,"sc/ui.sc","icon_gear_shield","TID_GEAR_SHIELD_TITLE"
+,,,,,450,,,
+,,,,,600,,,
