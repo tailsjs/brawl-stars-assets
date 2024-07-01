@@ -25,7 +25,7 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 * KitenokGene for `20.90` and `10.119` assets! ([#3](https://github.com/tailsjs/brawl-stars-assets/issues/3))
 * NoseBS for `11.99`, `38.153` and `54.243` assets! ([#9](https://github.com/tailsjs/brawl-stars-assets/issues/9))
 * AlecksDeee for `53.166` assets!
-* TheBreadDev for `11.114`, `13.274` and `29.274` assets!
+* TheBreadDev for `11.114`, `13.274`, `27.535` and `29.274` assets!
 
 ### Supercell Fan Content Policy
 Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for content creators and other fan content in line with Supercell's fan content policy (http://supercell.com/en/fan-content-policy/)

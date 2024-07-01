@@ -13,7 +13,7 @@ I need to make it look pretter.
 * 23 (minor 65)
 * 24 (minor 148)
 * 26 (minors 159, 171, 185)
-* 27 (minors 247, 270, 535)
+* 27 (minors 247, 270)
 * 28 (minor 166)
 * 29 (minor 268)
 * 30 (minors 223, 237)
