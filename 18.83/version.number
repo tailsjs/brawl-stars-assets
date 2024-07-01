@@ -1,0 +1,9 @@
+#Fri, 17 May 2019 17:01:07 +0300
+#build version number file
+
+version=18
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=83
+
+content_revision=1

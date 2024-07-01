@@ -1,9 +1,9 @@
 # Brawl Stars Assets Database
 Assets from every Brawl Stars version
 
-* Current size of assets: `~81,73 GB`
-* Current amount of files: `875.882 files` 
-* Current amount of folders: `17.654 folders` 
+* Current size of assets: `~84,84 GB`
+* Current amount of files: `907.435 files` 
+* Current amount of folders: `18.191 folders` 
 <!--
 holy shit why so many
 -->
@@ -20,7 +20,7 @@ You can do it in [Issues](https://github.com/tailsjs/brawl-stars-assets/issues/)
 * Lwitchy for `25.130`, `26.184`, `27.540`, `28.189`, `29.258`, `30.231` and `31.96` assets!
 * AmokDev for `20.93` and `36.218` assets!
 * Hoi for `CN-41.265` assets!
-* RomashkaTea for `7.272`, `11.108`, `14.112`, `15.156`, `15.168`, `15.175`, `16.160`, `16.175`, `17.149` and `CN-52.8.2` assets! ([#1](https://github.com/tailsjs/brawl-stars-assets/issues/1))
+* RomashkaTea for `7.272`, `11.108`, `14.112`, `15.156`, `15.168`, `15.175`, `16.160`, `16.175`, `17.149`, `18.83` and `CN-52.8.2` assets! ([#1](https://github.com/tailsjs/brawl-stars-assets/issues/1))
 * Reid1n for `41.131`, `41.144` and `41.148` assets! ([#2](https://github.com/tailsjs/brawl-stars-assets/issues/2))
 * KitenokGene for `20.90` and `10.119` assets! ([#3](https://github.com/tailsjs/brawl-stars-assets/issues/3))
 * NoseBS for `11.99`, `38.153` and `54.243` assets! ([#9](https://github.com/tailsjs/brawl-stars-assets/issues/9))
