@@ -1,0 +1,5 @@
+"Name","FileName","ExportName","ParticleFileName","ParticleExportName","ParticleStyle","ParticleVariations","ThemeMusic","UseInLevelSelection"
+"string","string","string","string","string","string","int","string","boolean"
+"Default","sc/ui.sc","bgr","sc/ui.sc",,,,"MenuMusic","true"
+"Winter","sc/ui.sc","bgr","sc/ui.sc","particle_snow_","Snow",2,"Snow_brawl","true"
+"LNY","sc/ui.sc","bgr_cny",,,,,"Cnymenu_music","true"
