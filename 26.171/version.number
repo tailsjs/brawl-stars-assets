@@ -1,0 +1,9 @@
+#Thu, 19 Mar 2020 20:27:28 +0200
+#build version number file
+
+version=26
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=171
+
+content_revision=1
