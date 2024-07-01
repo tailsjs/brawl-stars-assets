@@ -11,7 +11,7 @@ I need to make it look pretter.
 * 19 (minors 95, 105)
 * 21 (minors 64, 76)
 * 23 (minor 65)
-* 26 (minors 159, 171, 185)
+* 26 (minors 159, 171)
 * 27 (minors 247, 270)
 * 28 (minor 166)
 * 29 (minor 268)
