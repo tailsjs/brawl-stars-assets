@@ -1,0 +1,9 @@
+#Mon, 30 Sep 2019 10:53:42 +0300
+#build version number file
+
+version=21
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=76
+
+content_revision=1
