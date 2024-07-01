@@ -3,7 +3,7 @@ I need to make it look pretter.
 
 ### Global
 * 11 (minor 91)
-* 27 (minors 247, 270)
+* 27 (minor 270)
 * 28 (minor 166)
 * 29 (minor 268)
 * 30 (minors 223, 237)
