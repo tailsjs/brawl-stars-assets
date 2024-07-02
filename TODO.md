@@ -20,7 +20,7 @@ omfg finally done majors -- 15:30 December 07, 2023
 * 30 (minor 224)
 * 31 (minor 87)
 * 32 (minor 141)
-* 34 (major+minors 133, 155)
+* 34 (minor 155)
 * 35 (minors 114, 180)
 * 37 (minors 240, 252)
 * 38 (minor 118, 160, 161)
