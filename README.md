@@ -40,3 +40,4 @@ Sounds, CSVs, images and all other assets from the Brawl Stars app. Created for 
 * Btw, i took changlelogs from TapTap app and Wandoujia site.
 * Looks like major `42` doesn't exist.
 * All `52.8.x` versions fingerprint says that is "52.8.1". Both 52.8.2 and 52.8.3 may be hiding under this version. 
+* Interesting situation with `26` major. We found IPAs, but it's unknown if APKs even exists. Maybe it's stored somewhere on cheap chinese servers, idk.
