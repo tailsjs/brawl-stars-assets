@@ -1,0 +1,5 @@
+"Name","Disabled","IconSWF","IconExportName","TID","CanBeBought"
+"string","boolean","string","string","string","boolean"
+"RosalloweenChallenge",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_ROSALLOWEEN","false"
+"WorldFinals",,"sc/ui.sc","pin_pack_wf","TID_EMOTE_BUNDLE_WF","true"
+"Rosalloween",,"sc/ui.sc","pin_pack_rosalloween","TID_EMOTE_BUNDLE_ROSALLOWEEN","true"
