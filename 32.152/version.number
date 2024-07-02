@@ -1,0 +1,9 @@
+#Wed, 16 Dec 2020 17:42:01 +0200
+#build version number file
+
+version=32
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=152
+
+content_revision=1
