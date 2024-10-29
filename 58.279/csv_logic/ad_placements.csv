@@ -1,0 +1,7 @@
+Name,PlacementType,Disabled
+string,int,boolean
+BattleTokens,1,
+ExtraQuests,2,
+DailyFreebies,3,
+StarrDrop,4,
+

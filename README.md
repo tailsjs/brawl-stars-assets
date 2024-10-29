@@ -7,7 +7,7 @@ Assets from every Brawl Stars version
 <!--
 holy shit why so many
 -->
-* Last update: `September 8th, 2024`
+* Last update: `October 29th, 2024`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
 * TODO list [here!](./TODO.md)
 

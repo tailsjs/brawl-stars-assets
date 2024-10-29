@@ -1,0 +1,6 @@
+"Name","Disabled","ContainerAssetPrefix","IdleStopFrameName","ComponentTypes","ComponentNames","ComponentTIDs"
+"string","boolean","string","string","string","string","string"
+"TrophySeasonBoxInfo",,"trophy_season_box_info_screen_",,"SEASON_BOX_PROGRESS","blingbox_progress",
+,,,,"SEASON_BOX_LEVELS",,
+,,,,"TOOLTIP_BUTTON","info_button","TID_SEASON_BOX_INFO_POPUP_TOOLTIP"
+"SeasonBoxIntro",,"season_box_info_screen_","idle",,,
