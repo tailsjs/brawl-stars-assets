@@ -15,3 +15,5 @@ jobs:
             ${{ github.actor }} pushed ${{ github.event.commits[0].message }} (${{github.sha}})
             
             https://github.com/${{ github.repository }}/commit/${{github.sha}}
+
+            #ASSETS
