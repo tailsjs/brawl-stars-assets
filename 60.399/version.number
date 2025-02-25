@@ -1,0 +1,9 @@
+#Fri, 21 Feb 2025 14:09:52 +0200
+#build version number file
+
+version=60
+
+#do not edit this otherwise than change this to 0 when you update version or revision number
+build=399
+
+content_revision=1

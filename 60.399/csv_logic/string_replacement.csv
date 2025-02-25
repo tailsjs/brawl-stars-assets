@@ -1,0 +1,4 @@
+"Name","Needle","Replacement","MatchType","Usage"
+"string","string","string","string","string"
+"price_2499_to_625_dot","/24.99/","/6.25/","Contains","price_divided_by_four"
+"price_2499_to_625_comma","/24,99/","/6,25/","Contains","price_divided_by_four"
