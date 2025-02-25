@@ -9,6 +9,7 @@ holy shit why so many
 -->
 * Last update: `February 25th, 2025`
 * Our telegram channel [(click here :3)](https://t.me/bsdatabase)
+* Only patches [here](https://github.com/tailsjs/brawl-stars-patches)
 * TODO list [here!](./TODO.md)
 
 ### Attention, please!
