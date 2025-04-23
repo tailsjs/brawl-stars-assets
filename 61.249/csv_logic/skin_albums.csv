@@ -1,0 +1,13 @@
+"Name","AlbumType","Skins","AcquireLocation","CompletionRewardSprays","CompletionRewardEmotes","Collabs","ExcludeFromCompletionCheck"
+"string","string","string","string","string","string","string","boolean"
+"WasabiCollabSkinAlbum","Collab","SamuraiJapan","EventMenu","spray_feudaljapan_mask",,"Wasabi",
+,,"WallyJapan","EventGacha",,,,
+,,"DoorManJapan","EventGacha",,,,
+,,"SniperJapan","BrawlPass",,,,
+,,"BlackHoleJapan","EventGacha",,,,
+,,"KnightJapan","EventGacha",,,,
+,,"InsectManJapan","EventGacha",,,,
+,,"SamuraiJapanOvercharge","EventMenu",,,,"TRUE"
+"GraveyardTrio","Trio","FrankDefault","HeroScreen",,,,
+,,"UndertakerDefault","HeroScreen",,,,
+,,"MummyDefault","HeroScreen",,,,

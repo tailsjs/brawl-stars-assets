@@ -1,0 +1,8 @@
+# Files in glob pattern will be ignored by ContentHashCalculator
+version.number
+save.json
+fingerprint.json
+deferred.yml
+sfx/*.ogg
+**/*.meta
+.*

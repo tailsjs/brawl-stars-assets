@@ -1,0 +1,27 @@
+{
+		"Alternator29gem":{"Ins":"AlternatorDefault"},
+		"AlternatorDefault":{
+			"bone":["chest_s","head_s","hips_s","hair_belt_1_s","L_hair_s","R_hair_s"],
+			"dir":["y","y","y","y","y","y"],
+			"max":[25,25,25,25,25,25],
+			"min":[-25,-25,-25,-25,-25,-25],
+			"soft":[1,1,2,3,3,3],
+			"follow":[0,0,0,0,0,0],
+			"child":[
+				["neck_s","head_s","L_brow_s","L_hair_s","R_brow_s","R_hair_s","glasses_s","hair_belt_0_s","hair_belt_1_s","hair_belt_2_s",
+					"lower_head_s","upper_head_s","L_clavicle_s","L_wrist_s","L_index_01_s","L_index_02_s","L_middle_01_s","L_middle_02_s","L_pinky_01_s","L_pinky_02_s",
+					"L_thumb_01_s","L_thumb_02_s","L_lower_elbow_0_bend_s","L_upper_shoulder_0_bend_s","R_clavicle_s","R_wrist_s","R_index_01_s","R_index_02_s","R_middle_01_s","R_middle_02_s",
+					"R_pinky_01_s","R_pinky_02_s","R_thumb_01_s","R_thumb_02_s","R_lower_elbow_0_bend_s","R_upper_shoulder_0_bend_s","R_strap_start_s","R_strap_0_s","R_strap_end_s","birefcase_s",
+					"birefcase_lid_0_s","birefcase_lid_1_s","radio_s"],
+				["L_brow_s","L_hair_s","R_brow_s","R_hair_s","glasses_s","hair_belt_0_s","hair_belt_1_s","hair_belt_2_s","lower_head_s","upper_head_s"],
+				["chest_s","neck_s","head_s","L_brow_s","L_hair_s","R_brow_s","R_hair_s","glasses_s","hair_belt_0_s","hair_belt_1_s",
+					"hair_belt_2_s","lower_head_s","upper_head_s","L_clavicle_s","L_wrist_s","L_index_01_s","L_index_02_s","L_middle_01_s","L_middle_02_s","L_pinky_01_s",
+					"L_pinky_02_s","L_thumb_01_s","L_thumb_02_s","L_lower_elbow_0_bend_s","L_upper_shoulder_0_bend_s","R_clavicle_s","R_wrist_s","R_index_01_s","R_index_02_s","R_middle_01_s",
+					"R_middle_02_s","R_pinky_01_s","R_pinky_02_s","R_thumb_01_s","R_thumb_02_s","R_lower_elbow_0_bend_s","R_upper_shoulder_0_bend_s","R_strap_start_s","R_strap_0_s","R_strap_end_s",
+					"birefcase_s","birefcase_lid_0_s","birefcase_lid_1_s","radio_s","sojubottle_s","spine_lower_s","spine_middle_s","spine_upper_s","spon_s"],
+				["hair_belt_2_s"],
+				[],
+				[]
+			]
+		}
+	}
