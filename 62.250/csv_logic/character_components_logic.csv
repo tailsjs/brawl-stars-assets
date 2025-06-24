@@ -1,0 +1,12 @@
+"Name","Type","Values","Projectiles","AreaEffects","Characters","Skills","StatusEffects"
+"string","string","int","string","string","string","string","string"
+"Stalker_Hunt","BloodHunt",10000,,,,,
+,,50,,,,,
+,,30,,,,,
+,,100,,,,,
+"Brawler_Splitter","Brawler_Splitter",700,"SplitterCirclingProjectile",,,,
+,,1000,,,,,
+,,2000,,,,,
+,,2,,,,,
+"Brawler_Stalker","Brawler_Stalker",,,,,"StalkerWeaponDash",
+,,,,,,"StalkerWeaponJump",

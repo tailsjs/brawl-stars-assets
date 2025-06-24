@@ -1,0 +1,12 @@
+{
+		"Template":{
+			"bone":["hips_s","spine_lower_s","spine_upper_s","chest_s","neck_s","head_s","L_clavicle_s","L_shoulder_s","L_elbow_s","L_forearm_twist_s",
+				"L_wrist_s","L_middle_01_s","L_middle_02_s","L_index_01_s","L_index_02_s","L_thumb_01_s","L_thumb_02_s","R_clavicle_s","R_shoulder_s","R_elbow_s",
+				"R_forearm_twist_s","R_wrist_s","R_middle_01_s","R_middle_02_s","R_index_01_s","R_index_02_s","R_thumb_01_s","R_thumb_02_s","R_upperLeg_s","R_lowerLeg_s",
+				"R_ankle_s","R_toes_s","L_upperLeg_s","L_lowerLeg_s","L_ankle_s","L_toes_s"],
+			"distance":[1,0.4036594,0.3527012,0.26696825,1.2194054,1.1394088,0.69286096,1.0615873,1.405004,0.7386372,
+				0.7386375,0.8587691,0.3366103,0.95465493,0.34243676,0.52377903,0.51091117,0.7872767,1.0615911,1.4050062,
+				0.73863506,0.7386349,0.8587653,0.3366132,0.95465124,0.34243372,0.52378154,0.51090914,0.71813947,1.5683267,
+				2.2256842,0.9149042,0.71813995,1.5614345,2.2159078,0.9149038]
+		}
+	}
