@@ -1,0 +1,12 @@
+{
+		"StalkerRare":{"Ins":"StalkerDefault"},
+		"StalkerDefault":{
+			"bone":["ponytail_1_s","ponytail_2_s","ponytail_3_s"],
+			"dir":["y","y","y"],
+			"max":[41,41,41],
+			"min":[-41,-41,-41],
+			"soft":[6,7,7],
+			"follow":[0,0,0],
+			"child":[["ponytail_2_s","ponytail_3_s"],["ponytail_3_s"],[]]
+		}
+	}

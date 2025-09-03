@@ -1,0 +1,12 @@
+"Name","Slot","BgColorOverride","EventIconOverride","TrophyWorldIconExportPath"
+"string","int","string","string","string"
+"BrawlBallSlot",1,,,"sc/trophy_world_common.sc#reward_item_brawl_ball"
+"DailyEventsSlot",3,,,"sc/trophy_world_common.sc#reward_item_gem_grab"
+"TeamEvents",4,,,"sc/trophy_world_common.sc#reward_item_team_events"
+"SpecialEvents",7,,,"sc/trophy_world_common.sc#reward_item_special_events"
+"Contest",9,,,
+"Ranked",14,"0xFFE33A4E","event_icon_ranked","sc/trophy_world_common.sc#reward_item_ranked"
+"Random",18,"0xFFFCAB90","event_icon_random",
+"Mayhem",34,"0xFF9304C9","event_icon_overcharge",
+"ClubPiggy",35,"0xFFB504B0","event_icon_clubpiggybank",
+"MirrorMatch",37,,,

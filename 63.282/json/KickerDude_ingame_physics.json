@@ -1,0 +1,11 @@
+{
+		"KickerDudeDemon":{
+			"bone":["R_wing_arm_02_s","R_wing_arm_03_s","L_wing_arm_03_s","L_wing_arm_02_s","L_wing_arm_01_s","R_wing_arm_01_s"],
+			"dir":["y","y","y","y","y","y"],
+			"max":[32,28,32,34,34,32],
+			"min":[-32,-28,-32,-34,-34,-32],
+			"soft":[4,4,4,4,4,4],
+			"follow":[0,0,0,0,0,0],
+			"child":[["R_wing_arm_03_s"],[],[],["L_wing_arm_03_s"],["L_wing_arm_02_s","L_wing_arm_03_s"],["R_wing_arm_02_s","R_wing_arm_03_s"]]
+		}
+	}

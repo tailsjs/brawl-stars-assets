@@ -1,0 +1,7 @@
+{
+		"GhostDefault":{"bone":["head_s"],"dir":["y"],"max":[43],"min":[-43],"soft":[4],"follow":[0],"child":[["Glasses_s","hat_01_s"]]},
+		"GhostGold":{"Ins":"GhostDefault"},
+		"GhostGraffiti":{"Ins":"GhostDefault"},
+		"GhostSilver":{"Ins":"GhostDefault"},
+		"GhostSwag":{"Ins":"GhostDefault"}
+	}

@@ -1,0 +1,11 @@
+"Name","ThrowOverWalls","ThrowFromGroundLevel","MaxZ","ThrowSkill","ThrowSkillUlti","ShouldRoll","Bouncing","UseArc","ThrowDistanceSubTiles","ThrowDistanceUltiSubTiles","ThrowForce","StateToNormalMovementPromille","ThrowForceUlti","FlyEffect","FlyEffectUlti","MinScale","MaxScale","ZOffset","ShowTeamCircle","ShowTeamColor","AllowOwnTeamPickup","PreventPickupInTargetBase","PreventPickupFromLastTouchingTeam","ThrowOnTouch","MinHeightForGrab"
+"string","boolean","boolean","int","string","string","boolean","boolean","boolean","int","int","int","int","int","string","string","int","int","int","boolean","boolean","boolean","boolean","boolean","boolean","int"
+"LaserBall","false","false",500,"DummySkillForLaserBall","DummyUltiSkillForLaserBall","true","true","true",,,,,,,,495,495,140,,,"true",,,,-1
+"CaptureFlag","true","true",1500,"DummySkillForCTF","DummyUltiSkillForCTF",,,"true",,,,,,,,270,270,,"true",,,"true",,,300
+"HoldingBall","true","true",1500,"DummySkillForCTF","DummyUltiSkillForCTF",,,"true",,,,,,,,400,400,,,,"true",,,,300
+"VolleyBall","true","false",3500,"DummySkillForCTF","DummyUltiSkillForCTF","true",,"true",,,,,,,,600,800,,,,,,"true","true",500
+"BasketBall","true","true",2000,"DummySkillForBasketBrawl","DummyUltiSkillForBasketBrawl","true","true","true",,,,,,,,400,700,,,,"true",,,,300
+"PaintBall","false","false",500,"DummySkillForLaserBall","DummyUltiSkillForLaserBall","true","true","true",,,,,,"paint_ball_fly","paint_ball_fly_ulti",400,400,140,,"true","true",,,,-1
+"AirDisc","false","false",500,"DummySkillForAirDisc","DummySkillForAirDisc","true","true",,96,,130,960,175,"airhockey_trail","airhockey_ulti_trail",495,495,140,,"true","true",,,,-1
+"UNOCard","false","false",500,"DummySkillForLaserBall","DummyUltiSkillForLaserBall","true","true",,24,36,150,,200,"uno_card_trail","uno_card_ulti_trail",300,300,200,,,,,,,-1
+"DodgeBall","false","false",500,"DummySkillForDodgeBall","DummyUltiSkillForDodgeBall","true","true","true",32,41,180,900,240,"laser_ball_fly_dodge","laser_ball_fly_dodge_ulti",495,495,140,,"true",,,,,-1

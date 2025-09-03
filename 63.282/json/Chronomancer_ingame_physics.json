@@ -1,0 +1,25 @@
+{
+		"ChronomancerGold":{"Ins":"ChronomancerDefault"},
+		"ChronomancerRare":{"Ins":"ChronomancerDefault"},
+		"ChronomancerSilver":{"Ins":"ChronomancerDefault"},
+		"ChronomancerKaijuChromaGreen":{"Ins":"ChronomancerKaiju"},
+		"ChronomancerKaijuChromaWhite":{"Ins":"ChronomancerKaiju"},
+		"ChronomancerKaiju":{
+			"bone":["tail_0_s","tail_1_s","tail_2_s","tail_3_s"],
+			"dir":["y","y","y","y"],
+			"max":[39,36,34,36],
+			"min":[-39,-36,-34,-36],
+			"soft":[4,3,3,3],
+			"follow":[0,0,0,0],
+			"child":[["tail_1_s","tail_2_s","tail_3_s"],["tail_2_s","tail_3_s"],["tail_3_s"],[]]
+		},
+		"ChronomancerDefault":{
+			"bone":["helmet_cape_2_s","tail_1_s","tail_2_s","tail_0_s","tail_3_s"],
+			"dir":["y","y","y","y","y"],
+			"max":[25,39,34,25,25],
+			"min":[-25,-39,-34,-25,-25],
+			"soft":[3,3,3,3,3],
+			"follow":[0,0,0,0,0],
+			"child":[["tail_0_s","tail_1_s","tail_2_s","tail_3_s"],["tail_2_s","tail_3_s"],["tail_3_s"],["tail_1_s","tail_2_s","tail_3_s"],[]]
+		}
+	}
