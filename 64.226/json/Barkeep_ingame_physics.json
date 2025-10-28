@@ -1,0 +1,20 @@
+{
+		"BarkeepPirate":{
+			"bone":["Coat_Rsleeve_01_s","Coat_Lsleeve_01_s","Coat_Lsleeve_03_s","Coat_Rsleeve_03_s","Coat_C_03_s","Coat_Lsleeve_04_s","Coat_Rsleeve_04_s","ribbon_up_1_s"],
+			"dir":["y","y","y","y","y","y","y","y"],
+			"max":[41,41,41,43,41,47,43,51],
+			"min":[-41,-41,-41,-43,-41,-47,-43,-51],
+			"soft":[5,5,5,5,5,5,5,9],
+			"follow":[0,0,0,0,0,0,0,0],
+			"child":[
+				["Coat_Rsleeve_02_s","Coat_Rsleeve_03_s","Coat_Rsleeve_04_s"],
+				["Coat_Lsleeve_02_s","Coat_Lsleeve_03_s","Coat_Lsleeve_04_s"],
+				["Coat_Lsleeve_04_s"],
+				["Coat_Rsleeve_04_s"],
+				["Coat_C_04_s","Coat_L_04_s","Coat_L_03_s","Coat_R_04_s","Coat_R_03_s"],
+				[],
+				[],
+				["ribbon_up_2_s","ribbon_up_3_s","ribbon_down_2_s","ribbon_down_3_s"]
+			]
+		}
+	}

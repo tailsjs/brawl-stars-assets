@@ -1,0 +1,17 @@
+"Name","Disable","DontShowFirstTime","DontShowCover","UseFallbacks","minNumberOfItems","maxNumberOfItems","maxQuota","TicketsForSkins","TicketsForCoins","TicketsForPowerPoints","TicketsForBling","TicketsForStarrdrops","TicketsForLegendaryStarrdrops","TicketsForHCStarrdrops","TicketsForToys","TicketsForIcons","TicketsForSprays","TicketsForRecruitTockens","TicketsForEmotes","TicketsForBrawlpassXP","TicketsForBrawler","TicketsForPresentBoxes","AlwaysHasSkin","ForceAlwaysHasNumItems","AlwaysHasPsiIfPossible","AlwaysHasBrawler","UseSpecialSkins","UseSpecialBrawlers","ValueDiscountNumber1","TicketsForDiscountNumber1","ValueDiscountNumber2","TicketsForDiscountNumber2","ValueDiscountNumber3","TicketsForDiscountNumber3","ValueDiscountNumber4","TicketsForDiscountNumber4","ValueDiscountNumber5","TicketsForDiscountNumber5","ValueDiscountNumber6","TicketsForDiscountNumber6","ValueDiscountNumber7","TicketsForDiscountNumber7","OverrideFinalPrice"
+"string","boolean","boolean","boolean","boolean","int","int","int","int","int","int","int","int","int","int","int","int","int","int","int","int","int","int","boolean","int","boolean","boolean","boolean","boolean","int","int","int","int","int","int","int","int","int","int","int","int","int","int","int"
+"Bundle1",,,"TRUE","TRUE",1,1,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,"1",,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,80
+"Bundle2",,,"TRUE","TRUE",3,3,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,,"3",,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,200
+"Bundle3",,,"TRUE","TRUE",3,3,999,180,325,325,325,0,0,1,0,200,200,0,0,0,3,0,,"1",,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,160
+"Bundle4",,,"TRUE","TRUE",9,9,999,180,325,325,325,0,0,1,0,200,200,0,0,0,3,0,,"3",,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,440
+"Bundle5","TRUE",,"TRUE","TRUE",10,10,999,180,325,325,325,0,0,1,0,200,200,0,0,0,3,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle6","TRUE",,,,4,4,10,25,10,10,10,0,0,1,0,2,2,10,4,10,4,12,,,"TRUE",,,,"0",1,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle7","TRUE","TRUE",,,4,4,10,25,10,10,10,0,0,1,0,2,2,10,4,10,4,12,,,"TRUE",,,,"0",1,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle8","TRUE",,,,4,4,10,25,10,10,10,0,0,1,0,2,2,10,4,10,4,12,,,"TRUE",,,,"0",1,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle9","TRUE","TRUE",,,4,4,10,25,10,10,10,0,0,1,0,2,2,10,4,10,4,12,,,"TRUE",,,,"0",1,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle10","TRUE",,,,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle11","TRUE",,,,4,4,10,15,12,12,12,0,0,1,0,2,2,12,4,12,4,12,,,"TRUE",,,"TRUE","0",0,10,0,15,0,20,0,25,0,30,1,100,0,-1
+"Bundle12","TRUE",,,,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle13","TRUE",,,,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle14","TRUE",,,,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1
+"Bundle15","TRUE",,,,1,1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,,,,,,,"0",0,10,0,15,0,20,0,25,0,30,0,100,0,-1

@@ -1,0 +1,25 @@
+{
+		"PuppeteerWasteland":{
+			"bone":["R_shoulder_s","R_elbow_s","scrop_tail_2_s","scrop_tail_3_s","scrop_tail_4_s","scrop_tail_1_s","R_wrist_s"],
+			"dir":["y","y","y","y","y","y","y"],
+			"max":[25,25,25,25,25,25,25],
+			"min":[-25,-25,-25,-25,-25,-25,-25],
+			"soft":[2,2,3,3,3,3,2],
+			"follow":[0,0,0,0,0,0,0],
+			"child":[
+				["R_elbow_s","R_wrist_s","R_gunbone_01_s","Tail_01_s","Tail_02_s","Tail_03_s","Pincer_l_01_s","Pincer_l_02_s","Pincer_r_01_s","Pincer_r_02_s",
+					"Scorp_leg_l_1_s","Scorp_leg_l_2_s","Scorp_leg_l_3_s","Scorp_leg_r_1_s","Scorp_leg_r_2_s","Scorp_leg_r_3_s","Stinger_s","R_index_01_s","R_index_02_s","R_middle_01_s",
+					"R_middle_02_s","R_pinky_01_s","R_pinky_02_s","R_ring_01_s","R_ring_02_s","R_thumb_01_s","R_thumb_02_s","R_shoulder_twist_s"],
+				["R_wrist_s","R_gunbone_01_s","Tail_01_s","Tail_02_s","Tail_03_s","Pincer_l_01_s","Pincer_l_02_s","Pincer_r_01_s","Pincer_r_02_s","Scorp_leg_l_1_s",
+					"Scorp_leg_l_2_s","Scorp_leg_l_3_s","Scorp_leg_r_1_s","Scorp_leg_r_2_s","Scorp_leg_r_3_s","Stinger_s","R_index_01_s","R_index_02_s","R_middle_01_s","R_middle_02_s",
+					"R_pinky_01_s","R_pinky_02_s","R_ring_01_s","R_ring_02_s","R_thumb_01_s","R_thumb_02_s"],
+				["scrop_tail_3_s","scrop_tail_4_s"],
+				["scrop_tail_4_s"],
+				[],
+				["scrop_tail_2_s","scrop_tail_3_s","scrop_tail_4_s"],
+				["R_gunbone_01_s","Tail_01_s","Tail_02_s","Tail_03_s","Pincer_l_01_s","Pincer_l_02_s","Pincer_r_01_s","Pincer_r_02_s","Scorp_leg_l_1_s","Scorp_leg_l_2_s",
+					"Scorp_leg_l_3_s","Scorp_leg_r_1_s","Scorp_leg_r_2_s","Scorp_leg_r_3_s","Stinger_s","R_index_01_s","R_index_02_s","R_middle_01_s","R_middle_02_s","R_pinky_01_s",
+					"R_pinky_02_s","R_ring_01_s","R_ring_02_s","R_thumb_01_s","R_thumb_02_s"]
+			]
+		}
+	}

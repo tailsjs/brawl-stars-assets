@@ -1,0 +1,11 @@
+"Name","Hero","TicketIconExportPath","InfoFlow","EventInfoFlow","BrawlerBoxRewardContainer","TitleTID","SubtitleTID","BoxIcon","HeroFrameLabel","BoxStampInstanceName","EventIcon","ChatSuggestionItem","GameModeRoomIcon","BoxIdle3DAnimStart","BoxIdle3DAnimEnd","BoxRotations","BoxStartFrameOffsets","GachaBgExportPath"
+"String","String","String","String","String","String","String","String","String","String","String","String","String","String","int","int","int","int","String"
+"DancerEarlyAccess","Dancer","sc/ui_brawler_event.sc#icon_ticket_mina","DancerEarlyAccessInfo","DancerEarlyAccessEventInfo","DancerBrawlerBox","TID_BRAWLER_EARLY_ACCESS_TITLE_DEFAULT","TID_BRAWLER_EARLY_ACCESS_SUBTITLE_MINA","sc/ui_brawler_event.sc#emoji_box_mina","mina","mina_anim","sc/ui.sc#event_icon_brawler_early_access_mina","sc/ui.sc#chat_letsplay_brawler_early_access_mina","sc/ui.sc#event_gameroom_brawler_early_access_mina",50,199,0,8,"sc/ui.sc#gatcha_screen_brawler_mina_appear"
+,,,,,,,,,,,,,,,,60,4,
+,,,,,,,,,,,,,,,,15,,
+"FuryEarlyAccess","Fury","sc/ui_brawler_event.sc#icon_ticket_ziggy","FuryEarlyAccessInfo","FuryEarlyAccessEventInfo","FuryBrawlerBox","TID_BRAWLER_EARLY_ACCESS_TITLE_DEFAULT","TID_BRAWLER_EARLY_ACCESS_SUBTITLE_ZIGGY","sc/ui_brawler_event.sc#emoji_box_ziggy","ziggy","ziggy_anim","sc/ui.sc#event_icon_brawler_early_access_ziggy","sc/ui.sc#chat_letsplay_brawler_early_access_ziggy","sc/ui.sc#event_gameroom_brawler_early_access_ziggy",50,199,0,8,"sc/ui.sc#gatcha_screen_brawler_ziggy_appear"
+,,,,,,,,,,,,,,,,60,4,
+,,,,,,,,,,,,,,,,15,,
+"DaredevilEarlyAccess","Daredevil","sc/ui_brawler_event.sc#icon_ticket_gigi","DaredevilEarlyAccessInfo","DaredevilEarlyAccessEventInfo","DaredevilBrawlerBox","TID_BRAWLER_EARLY_ACCESS_TITLE_DEFAULT","TID_BRAWLER_EARLY_ACCESS_SUBTITLE_ZIGGY","sc/ui_brawler_event.sc#emoji_box_gigi","gigi","gigi_anim","sc/ui.sc#event_icon_brawler_early_access_gigi","sc/ui.sc#chat_letsplay_brawler_early_access_gigi","sc/ui.sc#event_gameroom_brawler_early_access_gigi",50,199,0,8,"sc/ui.sc#gatcha_screen_brawler_gigi_appear"
+,,,,,,,,,,,,,,,,60,4,
+,,,,,,,,,,,,,,,,15,,

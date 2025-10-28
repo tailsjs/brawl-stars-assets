@@ -1,0 +1,15 @@
+"Name","Disabled","ContainerAssetPathPrefix","IdleStopFrameName","ComponentTypes","ComponentNames","ComponentStringValues","ComponentTIDs","NotSetSeen","RequiredScAssetId"
+"string","boolean","string","string","string","string","string","string","boolean","String"
+"TrophySeasonBoxInfo",,"trophy_season_box_info_screen_",,"SEASON_BOX_PROGRESS","blingbox_progress",,,,
+,,,,"SEASON_BOX_LEVELS",,,,,
+,,,,"TOOLTIP_BUTTON","info_button",,"TID_SEASON_BOX_INFO_POPUP_TOOLTIP",,
+"SeasonBoxIntro",,"season_box_info_screen_","idle",,,,,,
+"ClubPiggyXmasReskinInfo",,"club_piggy_bank_info_screen_",,,,,,"TRUE","ClubPiggyXmasReskinSc"
+"ClubPiggyTunaInfo",,"club_piggy_bank_info_screen_",,,,,,"TRUE","ClubPiggyTunaSC"
+"ClubPiggySubwayInfo",,"club_piggy_bank_info_screen_",,,,,,"TRUE","ClubPiggySubwaySC"
+"DancerEarlyAccessInfo",,"sc/ui_brawler_event.sc#mina_early_access_info_screen_",,"SKIN","max_rewards/hero_item","DancerDefault",,"TRUE",
+"DancerEarlyAccessEventInfo",,"sc/ui_brawler_event.sc#event_mina_early_access_info_screen_",,,,,,"TRUE",
+"FuryEarlyAccessInfo",,"sc/ui_brawler_event.sc#ziggy_early_access_info_screen_",,"SKIN","max_rewards/hero_item","FuryDefault",,"TRUE",
+"FuryEarlyAccessEventInfo",,"sc/ui_brawler_event.sc#event_ziggy_early_access_info_screen_",,,,,,"TRUE",
+"DaredevilEarlyAccessInfo",,"sc/ui_brawler_event.sc#gigi_early_access_info_screen_",,"SKIN","max_rewards/hero_item","DaredevilDefault",,"TRUE",
+"DaredevilEarlyAccessEventInfo",,"sc/ui_brawler_event.sc#event_gigi_early_access_info_screen_",,,,,,"TRUE",
