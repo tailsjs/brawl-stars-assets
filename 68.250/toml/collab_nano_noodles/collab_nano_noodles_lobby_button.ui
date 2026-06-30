@@ -1,0 +1,17 @@
+id = "collab_17_lobby_button"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_nano_noodles"
+export_name = "collab_item_lobby"
+
+[animation]
+nano_standard = { path="", end="nanonoodles_rarity_1" }
+nano_augmented = { path="", end="nanonoodles_rarity_2" }
+nano_cybernetic = { path="", end="nanonoodles_rarity_3" }
+nano_quantum = { path="", end="nanonoodles_rarity_4" }
+wind_standard = { path="", end="windstock_rarity_1" }
+wind_augmented = { path="", end="windstock_rarity_2" }
+wind_cybernetic = { path="", end="windstock_rarity_3" }
+wind_quantum = { path="", end="windstock_rarity_4" }
+locked = { path="", end="nanonoodle_locked" }

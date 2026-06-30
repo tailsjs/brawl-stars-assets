@@ -1,0 +1,6 @@
+id = "collab_17_mutant_portrait_vfx_back"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_nano_noodles"
+export_name = "collab_mutant_portrait_vfx_back"

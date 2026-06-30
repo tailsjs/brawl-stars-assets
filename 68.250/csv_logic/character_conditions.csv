@@ -1,0 +1,4 @@
+"Name","Type","Values","Projectiles","AreaEffects","Characters","Skills","StatusEffects"
+"string","string","int","string","string","string","string","string"
+"MenderFacingDirectionUlti","FacingDirectionAngleTargetAndSource","270","","","","",""
+"","","90","","","","",""

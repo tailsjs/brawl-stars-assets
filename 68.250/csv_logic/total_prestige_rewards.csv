@@ -1,0 +1,7 @@
+"Name","RequiredTotalPrestige","Reward"
+"string","int","string"
+"TotalPrestige_1",1,"PLAYER_FRAME#prestige_1"
+"TotalPrestige_25",25,"PLAYER_FRAME#prestige_2"
+"TotalPrestige_50",50,"PLAYER_FRAME#prestige_3"
+"TotalPrestige_100",100,"PLAYER_FRAME#prestige_4"
+"TotalPrestige_200",200,"PLAYER_FRAME#prestige_5"

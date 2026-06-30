@@ -1,0 +1,7 @@
+"Name","RewardContainer","DrawsInstanceName","SeasonEndScreenFrameIndex","SeasonEndScreenBoxLevel","RewardingTID"
+"string","string","string","int","int","string"
+"SeasonRewardLevel1","SeasonBoxLevel1","draws_1",0,1,"TID_SEASON_BOX_REWARDING_LEVEL_1"
+"SeasonRewardLevel2","SeasonBoxLevel2","draws_2",1,2,"TID_SEASON_BOX_REWARDING_LEVEL_2"
+"SeasonRewardLevel3","SeasonBoxLevel3","draws_3",2,3,"TID_SEASON_BOX_REWARDING_LEVEL_3"
+"SeasonRewardLevel4","SeasonBoxLevel4","draws_4",3,4,"TID_SEASON_BOX_REWARDING_LEVEL_4"
+"SeasonRewardLevel5","SeasonBoxLevel5","draws_5",4,5,"TID_SEASON_BOX_REWARDING_LEVEL_5"

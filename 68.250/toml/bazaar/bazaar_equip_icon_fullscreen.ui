@@ -1,0 +1,16 @@
+id = "bazaar_equip_icon_fullscreen"
+priority = 1
+
+type = "UiWidget"
+subtype = "EquipIcon"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "hero_item_star_power"
+
+copy_configs = [ "bazaar_equip_icon_large" ]
+
+[bindings]
+# hero item doesn't have these
+metatype_name = {}
+brawler_name = {}

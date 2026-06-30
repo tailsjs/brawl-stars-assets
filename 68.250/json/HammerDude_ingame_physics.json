@@ -1,0 +1,12 @@
+{
+		"FrankCavemanRed":{"Ins":"FrankCaveman"},
+		"FrankCaveman":{
+			"bone":["tail_01_s","tail_02_s","tail_03_s","cape_back_main_s","L_cape_back_01_s","R_cape_back_01_s","R_cape_back_02_s","L_cape_back_02_s"],
+			"dir":["y","y","y","y","y","y","y","y"],
+			"max":[25,25,25,25,25,25,25,25],
+			"min":[-25,-25,-25,-25,-25,-25,-25,-25],
+			"soft":[3,3,3,3,3,3,3,3],
+			"follow":[0,0,0,0,0,0,0,0],
+			"child":[["tail_02_s","tail_03_s"],["tail_03_s"],[],["L_cape_back_00_s","L_cape_back_01_s","L_cape_back_02_s","R_cape_back_00_s","R_cape_back_01_s","R_cape_back_02_s"],["L_cape_back_02_s"],["R_cape_back_02_s"],[],[]]
+		}
+	}

@@ -1,0 +1,5 @@
+"Name","Disabled","TomlConfigOverride","DefaultAssetFileName","ScreenContainerPrefix","CardPanelAsset","CardAsset","CardAssetWithoutHighlightSkin","DefaultTitleTID","DefaultSubtitleTID"
+"String","boolean","String","String","String","String","String","String","String","String"
+"HyperchargeGrouping1",,"bazaar_panel_hypercharge_offer","sc/ui.sc","shop_chain_offer_screen_","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group","TID_GROUPED_OFFER_HC_TITLE","TID_GROUPED_OFFER_HC_SUBTITLE"
+"bazaar_panel_single_medium",,"bazaar_panel_single_medium",,,,,,,
+"bazaar_panel_png_large",,"bazaar_panel_png_large",,,,,,,

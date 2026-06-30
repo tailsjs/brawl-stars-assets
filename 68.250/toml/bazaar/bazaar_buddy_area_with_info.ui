@@ -1,0 +1,21 @@
+id = "bazaar_buddy_area_with_info"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_buddy_3d_big"
+
+hide_binding=[ "hero_ph" ]
+
+
+[skins]
+skin = { binding="hero_ph", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[bindings]
+hero_ph = { path="hero_area/hero_ph" }
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }
+brawler_pin = { path="brawler_pin/ph" }

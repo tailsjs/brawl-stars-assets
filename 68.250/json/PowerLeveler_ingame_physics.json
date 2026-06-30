@@ -1,0 +1,18 @@
+{
+		"PowerLevelerGenie":{
+			"bone":["hair_00_s","hair_01_s","hair_02_s","cape_00_s","cape_01_s","cape_02_s"],
+			"dir":["y","y","y","y","y","y"],
+			"max":[25,25,25,25,25,25],
+			"min":[-25,-25,-25,-25,-25,-25],
+			"soft":[3,3,3,3,3,3],
+			"follow":[0,0,0,0,0,0],
+			"child":[
+				["hair_01_s","hair_02_s"],
+				["hair_02_s"],
+				[],
+				["L_cape_00_s","cape_01_s","L_cape_01_s","cape_02_s","L_cape_02_s","R_cape_02_s","R_cape_01_s","R_cape_00_s"],
+				["L_cape_01_s","cape_02_s","L_cape_02_s","R_cape_02_s","R_cape_01_s"],
+				["L_cape_02_s","R_cape_02_s"]
+			]
+		}
+	}

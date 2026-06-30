@@ -1,0 +1,6 @@
+id = "contest_score_flying_icon"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/contest_katana.sc"
+export_name = "icon_point_contest"

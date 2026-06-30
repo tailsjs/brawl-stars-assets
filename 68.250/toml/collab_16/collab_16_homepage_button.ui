@@ -1,0 +1,17 @@
+id = "collab_16_homepage_button"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "Collab16"
+export_name = "collab_mainscreen_button"
+
+[bindings]
+teaser_timer_txt = { path="teaser/inner/timer_txt" }
+locked_trophy_amount_txt = { path="locked/inner/amount_txt" }
+notification = { path="notification" }
+
+[animation]
+Teaser = { path="", start="teaser" }
+Locked = { path="", start="locked" }
+Active = { path="", start="active" }
+default_animation = "Active"

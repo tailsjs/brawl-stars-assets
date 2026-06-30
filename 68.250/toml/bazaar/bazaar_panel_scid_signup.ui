@@ -1,0 +1,21 @@
+id = "bazaar_panel_scid_signup"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "item_supercell_id"
+
+hide=[ ]
+
+set_text = [ {binding="connect_txt", tid="TID_SHOP_SCID_SKIN_OFFER_CLAIM" } ]
+
+[bindings]
+notification = {}
+connect_txt = { path="button_connect/txt" }
+title = { path="title_txt" }
+
+[custom]
+float.width = 273.7

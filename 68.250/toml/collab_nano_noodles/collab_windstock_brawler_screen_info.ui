@@ -1,0 +1,8 @@
+id = "collab_18_brawler_screen_info"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "collab_mutant_brawler_screen_info"
+
+copy_configs=[ "collab_17_brawler_screen_info" ]

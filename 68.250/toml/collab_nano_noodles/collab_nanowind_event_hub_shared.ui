@@ -1,0 +1,145 @@
+id = "collab_nanowind_event_hub_shared"
+priority = 2
+
+hide = [
+	"center/bounds"
+]
+
+hide_binding = [
+	"skin_album_clip"
+]
+
+uninteractive = [
+	"center/tab_1_position",
+	"center/tab_2_position",
+	"center/tab_3_position",
+	"center/particles",
+]
+
+set_text = [
+	{ binding = "event_meter_milestone_amount_1_txt", text = "30" },
+	{ binding = "event_meter_milestone_amount_2_txt", text = "60" },
+	{ binding = "event_meter_milestone_amount_3_txt", text = "90" },
+	{ binding = "event_meter_milestone_amount_4_txt", text = "120" },
+	{ binding = "event_meter_milestone_amount_done_1_txt", text = "30" },
+	{ binding = "event_meter_milestone_amount_done_2_txt", text = "60" },
+	{ binding = "event_meter_milestone_amount_done_3_txt", text = "90" },
+	{ binding = "event_meter_milestone_amount_done_4_txt", text = "120" }
+]
+
+[bindings]
+# scroll positions
+tab_1_position = { path="center/tab_1_position" }
+tab_2_position = { path="center/tab_2_position" }
+tab_3_position = { path="center/tab_3_position" }
+
+## tabs
+event_meter =	{ path="center/event_meter" }
+event_powers =	{ path="center/event_powers" }
+event_skins =	{ path="center/event_skins" }
+
+# first tab - tower meter
+event_meter_tower_stack = { parent_binding="event_meter", path="tower_stack" }
+event_meter_bar = { parent_binding="event_meter", path="bar" }
+event_meter_bar_fill = { parent_binding="event_meter_bar", path="bar_fill" }
+event_meter_amount_txt = { parent_binding="event_meter", path="header/amount_txt" }
+event_meter_milestone_amount_1 = { parent_binding="event_meter_bar", path="milestone_amount_1" }
+event_meter_milestone_amount_2 = { parent_binding="event_meter_bar", path="milestone_amount_2" }
+event_meter_milestone_amount_3 = { parent_binding="event_meter_bar", path="milestone_amount_3" }
+event_meter_milestone_amount_4 = { parent_binding="event_meter_bar", path="milestone_amount_4" }
+event_meter_milestone_amount_1_txt = { parent_binding="event_meter_milestone_amount_1", path="amount_txt" }
+event_meter_milestone_amount_2_txt = { parent_binding="event_meter_milestone_amount_2", path="amount_txt" }
+event_meter_milestone_amount_3_txt = { parent_binding="event_meter_milestone_amount_3", path="amount_txt" }
+event_meter_milestone_amount_4_txt = { parent_binding="event_meter_milestone_amount_4", path="amount_txt" }
+event_meter_milestone_amount_done_1_txt = { parent_binding="event_meter_milestone_amount_1", path="amount_done_txt" }
+event_meter_milestone_amount_done_2_txt = { parent_binding="event_meter_milestone_amount_2", path="amount_done_txt" }
+event_meter_milestone_amount_done_3_txt = { parent_binding="event_meter_milestone_amount_3", path="amount_done_txt" }
+event_meter_milestone_amount_done_4_txt = { parent_binding="event_meter_milestone_amount_4", path="amount_done_txt" }
+
+# event calendar
+event_meter_event_calendar = { parent_binding="event_meter", path="event_calendar" }
+event_meter_event_calendar_source_icon = { parent_binding="event_meter_event_calendar", path="source_icon" }
+event_meter_event_calendar_source_icon_emoji_ph = { parent_binding="event_meter_event_calendar_source_icon", path="ph" }
+event_meter_event_calendar_time = { parent_binding="event_meter_event_calendar", path="time/TID_COLLAB_NANO_POWERS_TIME" }
+event_meter_event_calendar_text = { parent_binding="event_meter_event_calendar", path="txt" }
+
+# side quest
+event_meter_side_quest = { parent_binding="event_meter", path="side_quest_brawler" }
+event_meter_side_quest_hero_area = { parent_binding="event_meter_side_quest", path="brawler_ph" }
+event_meter_side_quest_subtitle = { parent_binding="event_meter_side_quest", path="TID_COLLAB_NANO_POWERS_SIDE_QUEST_SUBTITLE" }
+
+event_meter_brawl_pass_skin_1 = { parent_binding="event_meter_side_quest", path="heroes_2_ph_anim/hero_area_1" }
+event_meter_brawl_pass_skin_2 = { parent_binding="event_meter_side_quest", path="heroes_2_ph_anim/hero_area_2" }
+
+# second tab - nano powers
+event_powers_bg = { parent_binding="event_powers", path="bg" }
+event_powers_shop_button = { parent_binding="event_powers", path="buy_button" }
+brawler_list_1 = { parent_binding="event_powers", path="brawlers_rarity_1" }
+brawler_list_2 = { parent_binding="event_powers", path="brawlers_rarity_2" }
+brawler_list_3 = { parent_binding="event_powers", path="brawlers_rarity_3" }
+brawler_list_4 = { parent_binding="event_powers", path="brawlers_rarity_4" }
+event_powers_number_found = { parent_binding="event_powers", path="TID_COLLAB_KATANA_WASABI_POWERS_FOUND" }
+
+## top_right container
+header_event_timer_root = { path="top_right/header_timer/timer" }
+header_event_timer = { parent_binding="header_event_timer_root", path="timer_txt"}
+header_event_timer_icon = { parent_binding="header_event_timer_root", path="icon"}
+# link_button = { path="top_right/button_link" }
+
+# third tab - skin album
+skin_album_tab_parent = { parent_binding="event_skins", path="tab_ph" }
+skin_album_tab_prototype = { parent_binding="skin_album_tab_parent", path="button_navi_shop" }
+skin_album_container = { parent_binding="event_skins", path="scene_ph" }
+skin_album_clip = { parent_binding="skin_album_container", path="scene_1" }
+
+[buttons]
+info_button = { path="top_right/button_info_collab" }
+event_meter_buy_button = { parent_binding="event_meter_side_quest", path="buy_button" }
+event_powers_buy_button = { parent_binding="event_powers", path="buy_button" }
+event_meter_side_quest_go_button = { parent_binding="event_meter_side_quest", path="go_button" }
+
+[custom]
+# shortcut buttons - scroll position offsets
+int.num_shortcut_buttons = 3
+int.num_brawler_lists = 4
+int.brawler_list_1_columns = 3
+int.brawler_list_2_columns = 5
+int.brawler_list_3_columns = 6
+int.brawler_list_4_columns = 3
+
+vector2.grid_spacing = [2, 2]
+
+float.skin_album_tab_height = 55.0
+float.skin_album_collection_width_delta = 900.0
+
+[animation]
+idle_tower_children = { binding="event_meter_tower_stack", apply_to_children=true, start="anim_start", end="anim_end" }
+
+show_side_quest = { binding="event_meter_side_quest", end="side_quest" }
+show_brawl_pass = { binding="event_meter_side_quest", end="brawl_pass" }
+show_community_event = { binding="event_meter_side_quest", end="community_event" }
+show_community_event_2 = { binding="event_meter_side_quest", end="community_event_2" }
+
+calendar_icon_brawlpass = { binding="event_meter_event_calendar_source_icon", end="brawlpass" }
+calendar_icon_emoji = { binding="event_meter_event_calendar_source_icon", end="emoji" }
+calendar_icon_gacha = { binding="event_meter_event_calendar_source_icon", end="gacha" }
+calendar_icon_event = { binding="event_meter_event_calendar_source_icon", end="event" }
+calendar_icon_community = { binding="event_meter_event_calendar_source_icon", end="community_event" }
+calendar_icon_community_2 = { binding="event_meter_event_calendar_source_icon", end="community_event_2" }
+calendar_icon_season2 = { binding="event_meter_event_calendar_source_icon", end="season2" }
+calendar_icon_contest = { binding="event_meter_event_calendar_source_icon", end="contest" }
+
+undone_milestone_1 = { binding="event_meter_milestone_amount_1", end="milestone" }
+undone_milestone_2 = { binding="event_meter_milestone_amount_2", end="milestone" }
+undone_milestone_3 = { binding="event_meter_milestone_amount_3", end="milestone" }
+undone_milestone_4 = { binding="event_meter_milestone_amount_4", end="milestone" }
+done_milestone_1 = { binding="event_meter_milestone_amount_1", end="milestone_done" }
+done_milestone_2 = { binding="event_meter_milestone_amount_2", end="milestone_done" }
+done_milestone_3 = { binding="event_meter_milestone_amount_3", end="milestone_done" }
+done_milestone_4 = { binding="event_meter_milestone_amount_4", end="milestone_done" }
+
+tower_level_0 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=0 }
+tower_level_1 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=0 }
+tower_level_2 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=1 }
+tower_level_3 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=2 }
+tower_level_4 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=3 }

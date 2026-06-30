@@ -1,0 +1,12 @@
+id = "bazaar_hero_area_with_level"
+priority = 1
+
+type = "UiWidget"
+subtype = "BazaarHeroAreaWithLevel"
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "bazaar_hero_area"
+
+show=[
+	"brawler_level"
+]

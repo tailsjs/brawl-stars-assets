@@ -1,0 +1,39 @@
+id = "bazaar_booth_oddities_shop"
+priority = 1
+
+type = "BazaarBooth"
+subtype = "OdditiesShop"
+
+sc_file_source = "OtherTomlConfig"
+other_toml_config = "bazaar_booth_default"
+
+[custom]
+float.panel_offset = 410.0
+string.bg_theme = "sc/background_shop_oddities.sc#bgr_shop_oddities"
+string.shop_character = "sc/shop.sc#oddities_shop_character"
+string.tab_specific_music = "Oddities_Shop_Muzak"
+string.fullscreen_preview_bg = "sc/background_shop_oddities.sc#theme_bg"
+string.panel_bg_theme = "sc/shop.sc#oddities_shop_offer_medium_bg_epic"
+string.panel_bg_theme_small = "sc/shop.sc#oddities_shop_offer_medium_bg_epic"
+string.panel_bg_theme_medium = "sc/shop.sc#oddities_shop_offer_medium_bg_epic"
+string.panel_bg_theme_large = "sc/shop.sc#oddities_shop_offer_large_bg_epic"
+string.panel_bg_skin_rarity_1 = "sc/shop.sc#oddities_shop_offer_medium_bg_rare"
+string.panel_bg_skin_rarity_2 = "sc/shop.sc#oddities_shop_offer_medium_bg_super_rare"
+string.panel_bg_skin_rarity_3 = "sc/shop.sc#oddities_shop_offer_medium_bg_epic"
+string.panel_bg_skin_rarity_4 = "sc/shop.sc#oddities_shop_offer_medium_bg_mythic"
+string.panel_bg_skin_rarity_5 = "sc/shop.sc#oddities_shop_offer_medium_bg_legendary"
+string.panel_bg_skin_rarity_6 = "sc/shop.sc#oddities_shop_offer_medium_bg_ultra"
+string.panel_bg_skin_rarity_7 = "sc/shop.sc#oddities_shop_offer_medium_bg_hypercharge"
+string.panel_bg_skin_rarity_8 = "sc/shop.sc#oddities_shop_offer_medium_bg_ranked_pass"
+string.panel_bg_skin_rarity_large_1 = "sc/shop.sc#oddities_shop_offer_large_bg_rare"
+string.panel_bg_skin_rarity_large_2 = "sc/shop.sc#oddities_shop_offer_large_bg_super_rare"
+string.panel_bg_skin_rarity_large_3 = "sc/shop.sc#oddities_shop_offer_large_bg_epic"
+string.panel_bg_skin_rarity_large_4 = "sc/shop.sc#oddities_shop_offer_large_bg_mythic"
+string.panel_bg_skin_rarity_large_5 = "sc/shop.sc#oddities_shop_offer_large_bg_legendary"
+string.panel_bg_skin_rarity_large_6 = "sc/shop.sc#oddities_shop_offer_large_bg_ultra"
+string.panel_bg_skin_rarity_large_7 = "sc/shop.sc#oddities_shop_offer_large_bg_hypercharge"
+string.panel_bg_skin_rarity_large_8 = "sc/shop.sc#oddities_shop_offer_large_bg_ranked_pass"
+string.panel_bg_skin_multi_rarity = "sc/shop.sc#oddities_shop_offer_medium_bg_bling"
+
+[bindings]
+scroll_area = { path="scroll_area" }

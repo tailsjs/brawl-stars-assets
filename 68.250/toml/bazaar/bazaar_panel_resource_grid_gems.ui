@@ -1,0 +1,37 @@
+id = "bazaar_panel_resource_grid_gems"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ResourceGrid"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_resourses_gems"
+
+interactive = [ "" ]
+
+hide=[ "time_txt", "timer_bgr", ]
+
+set_text=[
+	{ binding="title", tid="TID_SHOP_GEM_PACKS" }
+]
+
+[custom]
+float.width = 531.0
+float.offset = -265.0
+float.step_x = 160.0
+float.bg_scale = 6.6
+float.title_width = 450.0
+
+[bindings]
+touch_area = { path="bounds" }
+me = { path="" }
+pack_parent = { path="" }
+bg = { path="bg" }
+title = { path="title_txt" }
+
+top = { path="shop_item_top" }
+bottom = { path="shop_item_bottom" }
+
+[animations]
+default_animation = {}

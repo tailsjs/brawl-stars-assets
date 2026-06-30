@@ -1,0 +1,31 @@
+id = "buddy_shop_tab"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/buddy_shop.sc"
+export_name = "buddy_shop_tab"
+
+set_text = [
+	{ parent_binding="noti", path="txt_free", tid="TID_SHOP_FREE" },
+	{ parent_binding="noti", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+]
+
+[bindings]
+icon_1 = { parent_binding="gfx", path="brawler_icon_1/ph" }
+icon_2 = { parent_binding="gfx", path="brawler_icon_2/ph" }
+icon_3 = { parent_binding="gfx", path="brawler_icon_3/ph" }
+
+gfx = { path="button_navi_shop" }
+noti = { parent_binding="gfx", path="notification" }
+noti_count = { parent_binding="gfx", path="count_txt" }
+
+[animation]
+selected = { binding="gfx", end="ready" }
+unselected = { binding="gfx", end="idle" }
+
+bling = { binding="noti", end="chromatic" } # TODO: More striking look for bling machine tabs
+empty = { binding="noti", end="attention" } # TODO: More striking look for emptied machine tabs
+
+new = { binding="noti", end="new" }
+
+default_animation = "unselected"

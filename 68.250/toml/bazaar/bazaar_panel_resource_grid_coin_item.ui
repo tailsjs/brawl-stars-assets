@@ -1,0 +1,39 @@
+id = "bazaar_panel_resource_grid_coin_item"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ResourceGrid"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "shop_item_resourses_coins"
+
+copy_configs=[ "bazaar_panel_shared_price_configs" ]
+
+hide = [ "inactive", "processing_ani", "label_recomended", ]
+hide_binding =[ "panel_best_value", "panel_value_breakdown", ]
+
+[custom]
+float.width = 260.0
+
+[bindings]
+touch_area = { path="bounds" }
+price_ph = { path="price" }
+amount_txt = { path="amount_txt" }
+image = { path="image" }
+
+
+panel_value_breakdown = { path="panel_value_breakdown" }
+value_breakdown_amount_txt = { parent_binding="panel_value_breakdown", path="value/amount/txt" }
+value_breakdown_amount_icon = { parent_binding="panel_value_breakdown", path="value/icon" }
+
+panel_best_value = { path="panel_best_value" }
+
+recommended = { path="label_recomended" }
+recommended_txt = { parent_binding="recomended", path="txt" }
+
+[animations]
+price_gray = { path="price_bgr", end_frame=0 }
+price_green = { path="price_bgr", end_frame=1 }
+
+default_animation = "price_gray"

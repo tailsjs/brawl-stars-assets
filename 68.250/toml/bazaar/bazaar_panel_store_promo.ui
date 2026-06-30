@@ -1,0 +1,20 @@
+id = "bazaar_panel_store_promo"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_sc_store"
+
+hide=[ ]
+
+[bindings]
+scstore_title = { path = "shop_item_center/TID_SHOP_SCSTORE_TITLE" }
+scstore_link = { path = "shop_item_center/button/TID_SHOP_SCSTORE_LINK" }
+button = { path = "shop_item_center/button" }
+
+[custom]
+float.width = 428.6
+float.offset = -100.7

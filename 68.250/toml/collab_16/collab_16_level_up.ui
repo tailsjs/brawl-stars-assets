@@ -1,0 +1,14 @@
+id = "collab_16_level_up"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "Collab16_levelup"
+export_name = "collab_starr_nova_level_up"
+
+[bindings]
+bg = { path="bg"}
+play_once = { path="ui"}
+power_level = { parent_binding="play_once", path="brawler_level/txt" }
+
+[skins]
+skin = { path="hero_ph/hero_ph", animation="HAPPY", animation_next="HAPPY_LOOP" }

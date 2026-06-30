@@ -1,0 +1,6 @@
+"Name","Suffix","TitleTextField","Gradient"
+"string","string","string","string"
+"Normal",,"TID_DAILY_WINS_TITLE","DailyWins"
+"Lucky","_lucky","TID_DAILY_WINS_LUCKY_DAY","DailyWins"
+"Unlucky","_unlucky","TID_DAILY_WINS_UNLUCKY_DAY","DailyWins"
+"Max","_max_lucky","TID_DAILY_WINS_MAX_DAY","DailyWins"

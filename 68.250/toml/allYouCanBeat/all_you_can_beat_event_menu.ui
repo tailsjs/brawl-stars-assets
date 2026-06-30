@@ -1,0 +1,165 @@
+id = "AllYouCanBeatEventMenu"
+priority = 1
+
+sc_file_source = "EventData"
+container_prefix = "all_you_can_beat_select_brawler_screen_"
+
+[animation]
+default_animation = "Start"
+
+# fullscreen anims
+new_tower_start = { path="center", start="new_tower_start", end="new_tower_idle", also_play="roof_new_tower_start"}
+new_tower_continue = { path="center", start="new_tower_idle", end="select_a_brawler", also_play="roof_new_tower_continue"}
+select_a_brawler = { path="center", start="select_a_brawler", also_play="roof_select_a_brawler"}
+game_mode_won = { path="center", start="game_mode_won_start", end="game_mode_won_end", also_play="roof_game_mode_won"}
+game_mode_lost = { path="center", start="game_mode_lost_start", end="game_mode_lost_end", also_play="roof_game_mode_lost"}
+
+tower_complete_start = { path="center", start="tower_complete_start", end="tower_complete_start_end"}
+tower_complete_go_to_idle = { path="center", start="tower_complete_start_end", end="tower_complete_idle", also_play="roof_tower_complete_start"}
+tower_complete_continue = { path="center", start="tower_complete_idle", end="tower_complete_end", also_play="roof_tower_complete_continue"}
+
+perfect_run_start = { path="center", start="perfect_run_start", end="perfect_run_start_end"}
+perfect_run_go_to_idle = { path="center", start="perfect_run_start_end", end="perfect_run_idle", also_play="roof_perfect_run_start"}
+perfect_run_continue = { path="center", start="perfect_run_idle", end="perfect_run_end", also_play="roof_perfect_run_continue"}
+
+tower_failed_start = { path="center", start="tower_failed_start", end="tower_failed_idle", also_play="roof_tower_failed_start"}
+tower_failed_continue = { path="center", start="tower_failed_idle", end="tower_failed_end", also_play="roof_tower_failed_continue"}
+
+roof_new_tower_start = { path="center/tower/roof", start="new_tower_start", end="new_tower_idle"}
+roof_new_tower_continue = { path="center/tower/roof", start="new_tower_idle", end="select_a_brawler"}
+roof_select_a_brawler = { path="center/tower/roof", start="select_a_brawler"}
+roof_game_mode_won = { path="center/tower/roof", start="game_mode_won_start", end="game_mode_won_end"}
+roof_game_mode_lost = { path="center/tower/roof", start="game_mode_lost_start", end="game_mode_lost_end"}
+roof_tower_complete_start = { path="center/tower/roof", start="tower_complete_start", end="tower_complete_idle"}
+roof_tower_complete_continue = { path="center/tower/roof", start="tower_complete_idle", end="tower_complete_end"}
+roof_perfect_run_start = { path="center/tower/roof", start="perfect_run_start", end="perfect_run_idle"}
+roof_perfect_run_continue = { path="center/tower/roof", start="perfect_run_idle", end="perfect_run_end"}
+roof_tower_failed_start = { path="center/tower/roof", start="tower_failed_start", end="tower_failed_idle"}
+roof_tower_failed_continue = { path="center/tower/roof", start="tower_failed_idle", end="tower_failed_end"}
+
+# tower
+Start = { binding="tower", start="start", end="waiting_to_select_brawler_1"}
+select_1 = { binding="tower", start="waiting_to_select_brawler_1", end="floor_1"}
+select_2 = { binding="tower", start="waiting_to_select_brawler_2", end="floor_2"}
+select_3 = { binding="tower", start="waiting_to_select_brawler_3", end="floor_3"}
+select_4 = { binding="tower", start="waiting_to_select_brawler_4", end="floor_4"}
+select_5 = { binding="tower", start="waiting_to_select_brawler_5", end="floor_5"}
+floor_1 = { binding="tower", start="floor_1", end="waiting_to_select_brawler_2"}
+floor_2 = { binding="tower", start="floor_2", end="waiting_to_select_brawler_3"}
+floor_3 = { binding="tower", start="floor_3", end="waiting_to_select_brawler_4"}
+floor_4 = { binding="tower", start="floor_4", end="waiting_to_select_brawler_5"}
+floor_5 = { binding="tower", start="floor_5", end="all_floors_complete"}
+complete = { binding="tower", start="all_floors_complete"}
+
+# perfect run reward
+perfect_run_reward_ani_in = { binding="perfect_run_reward", start="ani_in", end="ani_idle"}
+perfect_run_reward_ani_idle = { binding="perfect_run_reward", start="ani_idle"}
+perfect_run_reward_ani_out = { binding="perfect_run_reward", start="ani_idle", end="ani_out"}
+
+# current floor's modifiers
+modifiers_0 = {binding="game_mode", start="modifiers_0"}
+modifiers_1 = {binding="game_mode", start="modifiers_1"}
+modifiers_2 = {binding="game_mode", start="modifiers_2"}
+modifiers_3 = {binding="game_mode", start="modifiers_3"}
+
+[buttons]
+brawler_1 = {parent_binding="brawlers", path="brawler_1"}
+brawler_2 = {parent_binding="brawlers", path="brawler_2"}
+brawler_3 = {parent_binding="brawlers", path="brawler_3"}
+brawler_4 = {parent_binding="brawlers", path="brawler_4"}
+brawler_5 = {parent_binding="brawlers", path="brawler_5"}
+brawler_6 = {parent_binding="brawlers", path="brawler_6"}
+brawler_7 = {parent_binding="brawlers", path="brawler_7"}
+brawler_8 = {parent_binding="brawlers", path="brawler_8"}
+brawler_9 = {parent_binding="brawlers", path="brawler_9"}
+brawler_10 = {parent_binding="brawlers", path="brawler_10"}
+game_mode = {parent_binding="brawlers", path="game_mode"}
+button_help = {parent_binding="brawlers", path="button_help"}
+
+[bindings]
+
+# tower and floors
+tower = {path="center/tower"}
+floor_1 = {parent_binding="tower", path="floor_1/floor_ph"}
+floor_2 = {parent_binding="tower", path="floor_2/floor_ph"}
+floor_3 = {parent_binding="tower", path="floor_3/floor_ph"}
+floor_4 = {parent_binding="tower", path="floor_4/floor_ph"}
+floor_5 = {parent_binding="tower", path="floor_5/floor_ph"}
+
+primary_animator = {path="center"}
+
+# perfect run reward - small in tower
+perfect_run_reward = {parent_binding="tower", path="perfect_run_reward"}
+perfect_run_reward_inner = {parent_binding="perfect_run_reward", path="reward"}
+perfect_run_reward_title = {parent_binding="perfect_run_reward_inner", path="title_reward"}
+perfect_run_reward_title_txt = {parent_binding="perfect_run_reward_title", path="player_title/txt"}
+perfect_run_reward_fallback = {parent_binding="perfect_run_reward_inner", path="fallback_reward"}
+
+# perfect run reward - big in fullscreen perfect run anim
+perfect_run_reward_to_claim = {path="center/perfect_run_reward_to_claim"}
+perfect_run_reward_to_claim_inner = {parent_binding="perfect_run_reward_to_claim", path="reward"}
+perfect_run_reward_to_claim_title = {parent_binding="perfect_run_reward_to_claim_inner", path="title_reward"}
+perfect_run_reward_to_claim_title_txt = {parent_binding="perfect_run_reward_to_claim_title", path="player_title/txt"}
+perfect_run_reward_to_claim_fallback = {parent_binding="perfect_run_reward_to_claim_inner", path="fallback_reward"}
+
+# brawlers
+brawlers = { path="center/select_brawler"}
+brawlers_title_txt = { parent_binding="brawlers", path="title/txt"}
+brawler_1_portrait = {parent_binding="brawler_1", path="portrait"}
+brawler_2_portrait = {parent_binding="brawler_2", path="portrait"}
+brawler_3_portrait = {parent_binding="brawler_3", path="portrait"}
+brawler_4_portrait = {parent_binding="brawler_4", path="portrait"}
+brawler_5_portrait = {parent_binding="brawler_5", path="portrait"}
+brawler_6_portrait = {parent_binding="brawler_6", path="portrait"}
+brawler_7_portrait = {parent_binding="brawler_7", path="portrait"}
+brawler_8_portrait = {parent_binding="brawler_8", path="portrait"}
+brawler_9_portrait = {parent_binding="brawler_9", path="portrait"}
+brawler_10_portrait = {parent_binding="brawler_10", path="portrait"}
+
+# game mode
+modifier_1 = {parent_binding="game_mode", path="modifier_1"}
+modifier_2 = {parent_binding="game_mode", path="modifier_2"}
+modifier_3 = {parent_binding="game_mode", path="modifier_3"}
+
+[custom]
+# brawler list
+string.brawlers_frame_suffix = "_brawlers"
+string.brawler_binding_prefix = "brawler_"
+string.brawler_portait_binding_suffix = "_portrait"
+string.brawler_portait_ph_instance_name = "portrait_ph"
+string.brawlers_title_tid = "TID_ALL_YOU_CAN_BEAT_SELECT_BRAWLER"
+
+# each brawler item has noodle/wind mutations that need to be toggled on/off
+string.brawler_noodle_power = "noodle_power"
+string.brawler_wind_power = "wind_power"
+
+# frame labels for brawler bindings
+string.brawler_frame_available = "available"
+string.brawler_frame_won_with = "won_with"
+string.brawler_frame_won_with_start = "won_with_start"
+string.brawler_frame_lost_with = "lost_with"
+string.brawler_frame_lost_with_start = "lost_with_start"
+string.brawler_frame_unavailable = "unavailable"
+string.brawler_frame_hidden = "hidden"
+float.intro_animation_delay_per_brawler = 0.2
+
+# current game mode
+string.modifier_binding_prefix = "modifier_"
+int.max_modifiers = 3
+string.modifier_anim_prefix = "modifiers_"
+string.game_mode_ph_name = "game_mode_ph"
+
+# loc strings
+string.brawler_already_used_lost_floater_format = "TID_AYCB_BRAWLER_ALREADY_USED_LOST"
+string.brawler_already_used_floater_format = "TID_AYCB_BRAWLER_ALREADY_USED"
+string.brawler_unavailable_floater_format = "TID_AYCB_BRAWLER_UNAVAILABLE"
+string.brawler_floater_name_replacement = "<NAME>"
+
+# floor items
+string.floor_item_config_id = "AllYouCanBeatFloorItemFullscreen"
+string.floor_item_binding_prefix = "floor_"
+
+# music
+string.music = "AllYouCanBeat_Menu"
+string.perfect_music = "AllYouCanBeat_Menu_Perfect"
+string.perfect_run_music_frame_label = "music_perfect_run"

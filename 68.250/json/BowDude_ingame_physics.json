@@ -1,0 +1,22 @@
+{
+		"BowDudeBrawlentine":{
+			"bone":["C_cape_01_s","C_cape_02_s","C_cape_03_s"],
+			"dir":["y","y","y"],
+			"max":[25,25,25],
+			"min":[-25,-25,-25],
+			"soft":[3,3,3],
+			"follow":[0.1,0.1,0.1],
+			"child":[["C_cape_02_s","C_cape_03_s","L_cape_02_s","L_cape_03_s","R_cape_02_s","R_cape_03_s","L_cape_01_s","R_cape_01_s"],["C_cape_03_s","L_cape_02_s","L_cape_03_s","R_cape_03_s","R_cape_02_s"],["L_cape_03_s","R_cape_03_s"]]
+		},
+		"BowDudeFantasy":{
+			"bone":["helmetFur_01_s","helmetFur_02_s","L_cape_01_s","L_cape_02_s","L_cape_03_s","R_cape_01_s","R_cape_02_s","R_cape_03_s"],
+			"dir":["y","y","z","z","z","z","z","z"],
+			"max":[28,32,-24,-24,-24,-24,-21,-19],
+			"min":[-28,-32,24,24,24,24,21,19],
+			"soft":[3,3,3,3,3,3,3,3],
+			"follow":[0,0,0,0,0,0,0,0],
+			"child":[["helmetFur_02_s"],[],["L_cape_02_s","L_cape_03_s"],["L_cape_03_s"],[],["R_cape_02_s","R_cape_03_s"],["R_cape_03_s"],[]]
+		},
+		"BowDudeFantasyChroma1":{"Ins":"BowDudeFantasy"},
+		"BowDudeFantasyChroma2":{"Ins":"BowDudeFantasy"}
+	}

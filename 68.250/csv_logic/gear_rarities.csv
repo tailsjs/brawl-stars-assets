@@ -1,0 +1,5 @@
+"Name","CoinPrice","TID","AvailableToAllBrawlers","IconFrameIndex","NotOwnedIconBgFrameIndex","TextColor","GearTitleWithRarityTID"
+"string","int","string","boolean","int","int","string","string"
+"RareGear",1000,"TID_GEAR_RARITY_RARE","TRUE",1,11,"0xFF9EF0FF","TID_GEAR_RARITY_TITLE_RARE_GEAR"
+"SuperRareGear",1500,"TID_GEAR_RARITY_SUPER_RARE",,2,12,"0xFFECBAFF","TID_GEAR_RARITY_TITLE_SUPER_RARE_GEAR"
+"EpicGear",2000,"TID_GEAR_RARITY_EPIC",,3,13,"0xFFFF9BCF","TID_GEAR_RARITY_TITLE_EPIC_GEAR"

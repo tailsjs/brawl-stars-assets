@@ -1,0 +1,3 @@
+"Name","SequenceType","Anim","Face","Effect","LoopAnim","LoopFace","EnvironmentSkin","EnvironmentAnim","NearZ","NearZDivisor","FarZ","AnimStartSound","FadedOutMusicLevel"
+"string","string","string","string","string","string","string","string","string","int","int","int","string","int"
+"UndertakerSBHighlightSequence","HIGHLIGHT","UndertakerSBHighlight","Mortis007Winbp","mortis_007_bp_highlight","UndertakerSBHighlightLoop",,"HighlightEnvironmentDefault","UndertakerSBHighlightEnv",5,10,320,"UndertakerSBHighlightSequenceSfx",20

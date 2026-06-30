@@ -1,0 +1,12 @@
+id = "generic_hero_area_with_level"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroAreaWithLevel"
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "generic_hero_area"
+
+show=[
+	"brawler_level"
+]

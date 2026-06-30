@@ -1,0 +1,26 @@
+id = "collab_17_brawler_screen_info"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_nano_noodles"
+export_name = "collab_mutant_brawler_screen_info"
+
+[bindings]
+timer = { path="timer" }
+timer_txt = { parent_binding="timer", path="timer_txt" }
+rarity = { parent_binding="timer", path="icon_rarity" }
+
+[buttons]
+info_button = { parent_binding="timer", path="info_button" }
+
+[animation]
+nano_standard = { binding="rarity", end="nanonoodles_rarity_1", also_play="unlocked" }
+nano_augmented = { binding="rarity", end="nanonoodles_rarity_2", also_play="unlocked"  }
+nano_cybernetic = { binding="rarity", end="nanonoodles_rarity_3", also_play="unlocked"  }
+nano_quantum = { binding="rarity", end="nanonoodles_rarity_4", also_play="unlocked"  }
+wind_standard = { binding="rarity", end="windstock_rarity_1", also_play="unlocked"  }
+wind_augmented = { binding="rarity", end="windstock_rarity_2", also_play="unlocked"  }
+wind_cybernetic = { binding="rarity", end="windstock_rarity_3", also_play="unlocked"  }
+wind_quantum = { binding="rarity", end="windstock_rarity_4", also_play="unlocked"  }
+unlocked = { path="", end="mutation_found" }
+locked = { path="", end="mutation_not_found" }

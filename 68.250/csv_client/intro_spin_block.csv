@@ -1,0 +1,2 @@
+"Name","BlockDurationMs","BlockDurationFrames","LimitedSpinRangeMin","LimitedSpinRangeMax","LimitToAnimations"
+"String","int","int","int","int","String"

@@ -1,0 +1,19 @@
+id = "AllYouCanBeatFloorItem"
+priority = 1
+
+sc_file_source = "EventData"
+export_name = "all_you_can_beat_floor_item_event_panel"
+
+[bindings]
+event_icon = "event_icon"
+reward = "reward"
+brawler = "brawler/portrait_ph"
+
+[animation]
+default_animation = "future"
+future = { path="", start="future"}
+waiting_to_select_brawler = { path="", start="waiting_to_select_brawler"}
+brawler_selected = { path="", start="brawler_selected"}
+game_mode_won = { path="", start="game_mode_won_start", end="game_mode_won_end"}
+game_mode_lost = { path="", start="game_mode_lost_start", end="game_mode_lost_end"}
+

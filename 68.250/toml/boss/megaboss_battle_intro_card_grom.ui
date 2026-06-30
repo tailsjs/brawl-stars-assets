@@ -1,0 +1,17 @@
+id = "boss_dragons_grom"
+priority = 1
+
+type = "IntroCard" # Doesn't do anything, yet
+subtype = "MegaBoss" # Doesn't do anything, yet
+
+#EventData,
+#AssetIdList,
+#ChronosFolder,
+#ClientFile,
+#OtherTomlConfig,
+sc_file_source = "ChronosFolder"
+sc_file = "game_mode_bosses_dragons_2026.sc"
+export_name = "boss_event_banner"
+
+[skins]
+boss_skin = { path="boss_ph", skin="MegaBossCrossBomberDragon", scale = 3, rotation = 5, position=[0,-3,0], offset=[0,100] }

@@ -1,0 +1,20 @@
+id = "bazaar_panel_png_small"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "SinglePng"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small"
+
+move=[
+	{ binding="png_ph", scale=2.0 }
+]
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+[custom]
+int.large_item_count = 0
+int.small_item_count = 0
+float.width = 220.0

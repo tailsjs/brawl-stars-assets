@@ -1,0 +1,84 @@
+id = "bazaar_fullscreen_preview"
+priority = 1
+
+type = "Popup"
+subtype = "BazaarFullscreenPreview"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+container_prefix = "shop_expanded_view_"
+
+copy_configs = [ "bazaar_panel_shared_price_configs" ]
+
+set_text = [
+	{ binding="try_txt", tid="TID_BUTTON_TEST_HERO" },
+]
+
+uninteractive = [ "center/glow" ]
+
+hide_binding = [ "drop_chances", "unlock_info", "purchase_info", "price_info_wrapper", "overcharge_skin_info", "skin_navigation", "collection_tags", "collection_tags_title", "ok_gem_top_up", "ok_2_gem_top_up" ]
+
+replace = [{ binding="price_2_ph", sc_file_source="OtherTomlConfig", sc_file="generic_price_container" }]
+
+[bindings]
+price_ph = { parent_binding="buy", path="price_ph" }
+price_2_ph = { parent_binding="buy_2", path="price_ph" }
+price_cont_2 = { parent_binding="price_2_ph" }
+
+included_title = { path="right/bundle_title" }
+when_no_grid_show_this_instead = {}
+
+large_1 = { path="center/item_ph" }
+bg_ph = { path="center/bg_ph" }
+unlock_info = { path="bottom_right/unlock_info" }
+unlock_info_txt = { path="bottom_right/unlock_info/unlock_info_txt" }
+purchase_info = { path="bottom_right/purchase_info" }
+price_info_wrapper = { path="bottom_right/sp_price_info" }
+ok_wrapper = { path="bottom_right/ok_buttons" }
+ok_gem_top_up = { parent_binding="buy", path="gem_top_up" }
+ok_2_gem_top_up = { parent_binding="buy_2", path="gem_top_up" }
+try_txt = { path="bottom_left/btn_test/txt" }
+
+scroll_area = { path="right/scroll_area" }
+small_item_parent = { path="right" }
+try = { path="bottom_left/btn_test" }
+try_bubble_parent = { path="bottom_left" }
+
+overcharge_skin_info = { path="bottom/overcharge_skin_info" }
+skin_navigation = { path="bottom/skin_navigation" }
+
+
+title = { path="left/info_title" }
+subtitle = { path="left/info_subtitle" }
+description = { path="left/info_txt" }
+hero_rarity = { path="left/rarity_bg" }
+skin_rarity = { path="left/rarity_skin_bg" }
+skin_label = { path="left/skin_label" }
+collection_tags_title = { path="left/TID_CATALOG_ITEM_PART_OF" }
+collection_tags = { path="left/collection_tags" }
+skin_info_small = { path="left/skin_info_small" }
+
+
+oc_anim = { parent_binding="large_1", path="anim" }
+oc_vfx = { parent_binding="large_1", path="oc_vfx_top_start" }
+
+
+[buttons]
+
+buy = { path="bottom_right/ok_buttons/ok_button" }
+buy_2 = { path="bottom_right/ok_buttons/ok_2_button" }
+
+drop_chances = { path="right/drop_chances_button" }
+choose_skin = { path="bottom/choose_skin_button" }
+
+[animations]
+hero = { path="left", end="brawler" }
+skin = { path="left", end="skins" }
+resources = { path="left", end="resources" }
+seasonal_skin = { binding="skin_label", end="seasonal" }
+time_limited_skin = { binding="skin_label", end="time_limited" }
+
+default_animation = "skin"
+
+[custom]
+float.item_height = 120

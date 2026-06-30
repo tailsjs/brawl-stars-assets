@@ -1,0 +1,29 @@
+id = "prestige_list"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "screen_area"
+
+
+hide=[
+	{ path="scroll_area" },
+]
+
+[custom]
+int.column_count = 5
+float.column_width = 105
+float.row_height = 100
+float.emblem_width = 100
+float.emblem_height = 100
+float.appear_interval = 0.05
+float.appear_interval_quickening = 1.015
+float.appear_delay = 0.5
+#float.appear_delay = 0.0
+float.icon_appear_duration = 0.4
+float.icon_appear_distance = 100
+float.icon_appear_alpha_duration = 0.3
+vector2.offset = [50,0]
+
+[bindings]
+icon_parent = { path="" }

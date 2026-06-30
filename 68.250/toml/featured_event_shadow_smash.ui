@@ -1,0 +1,17 @@
+id = "featured_event_sirius"
+priority = 1
+
+type = "FeaturedEvent"
+subtype = "Sirius"
+
+#EventData,
+#AssetIdList,
+#ChronosFolder,
+#ClientFile,
+#OtherTomlConfig,
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "screen_area"
+
+[skins]
+boss_skin = { path="scroll_area", skin="ShadowdemonDefault", animation="HERO_SCREEN", scale = 1.5, rotation = -10, position=[0,-0.1,0], offset=[0,100] }

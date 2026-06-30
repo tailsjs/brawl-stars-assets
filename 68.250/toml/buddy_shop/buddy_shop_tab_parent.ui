@@ -1,0 +1,24 @@
+id = "buddy_shop_tab_parent"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "login_calendar_screen_hud_left" # TODO: Proper asset
+
+interactive = [ "" ]
+uninteractive = [ "rewards_scroll_area" ]
+
+[custom]
+float.tab_slide_distance = 130.0
+float.tab_bg_slide_distance = 100.0
+float.crop_from_top = 0.0
+float.width = 180.0
+vector2.tab_step = [0.0, 60.0]
+vector2.first_tab_pos = [-10.0, 120.0]
+
+[bindings]
+tab_parent = { path="" }
+scroll_area = { path="rewards_scroll_area" }
+
+[animation]
+default_animation = { path="", end_frame = 0 }

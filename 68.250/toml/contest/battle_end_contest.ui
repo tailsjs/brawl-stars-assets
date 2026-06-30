@@ -1,0 +1,9 @@
+id = "battle_end_contest"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/contest_katana.sc"
+export_name = "battle_end_contest"
+
+[custom]
+bool.use_sprite_font = true

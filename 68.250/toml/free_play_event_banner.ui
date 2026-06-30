@@ -1,0 +1,51 @@
+id = "FreePlayEventBannerBase"
+priority = 1
+
+type = "EventBanner"
+subtype = "Tall"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "special_event_info"
+
+hide=[
+	"button_solo_3",
+	"button_duo_3",
+	"button_trio_3",
+	"button_solo",
+	"button_duo",
+	"collab_play_reward_icon",
+	"TID_RAID_BOSS_LEVEL",
+	"mutant_ph",
+	"details_container/gamemode_txt",
+	"details_container/location_txt",
+	"details_container/powerup",
+	"no_trophies_info_container",
+]
+
+[custom]
+bool.full_override = false
+
+[animation]
+New = { path="", start="new" }
+Idle = { path="", start="idle" }
+default_animation = "Idle"
+
+
+[[set_text]]
+path = "new_event_txt"
+tid = "TID_EVENTS_NEW"
+
+[[move]]
+path = "details_container/location_txt"
+offset = [0,40]
+
+[[move]]
+path = "details_container/info_txt"
+offset = [0,40]
+
+[bindings]
+gameroom_icon =  { path="event_mode" }
+new_map_in = "details_container/time_txt"
+#event_time = "details_container/time_txt"
+modifier_icon = { path="details_container/powerup" }

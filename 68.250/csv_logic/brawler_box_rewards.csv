@@ -1,0 +1,372 @@
+"Name","TicketsInDancerBrawlerBox","TicketsInFuryBrawlerBox","TicketsInDaredevilBrawlerBox","TicketsInPierceBox","TicketsInGlowbertBox","TicketsInShadowdemonBox","TicketsInRedirecterBox","TicketsInGladiatorBox","TicketsInMagicalGirlBox","TicketsInRockBox","TicketsInKatanaKidBox","TicketsInFutureGirlBox","TypeName","SpecificBrawler","TypeValue","InPremiumDraw","TypePriceMin","TypePriceMax","AmountMin","AmountMax","FallbackTypeName","FallbackAmount","NoEventFallbackTypeName","NoEventFallbackAmount","TierForVisualization","SkinsInReward","TicketsInSkinDraw","SpraysInReward","TicketsInSprayDraw","ProfilePicsInReward","TicketsInProfilePicDraw","PinsInReward","TicketsInPinDraw"
+"String","int","int","int","int","int","int","int","int","int","int","int","int","String","String","int","boolean","int","int","int","int","String","int","String","int","int","String","int","String","int","String","int","String","int"
+"COINS S",300,300,300,300,300,320,300,300,300,300,300,300,"Coins",,,,,,30,70,,,,,,,,,,,,,
+"COINS M",25,25,30,30,30,180,30,30,30,30,40,40,"Coins",,,,,,80,120,,,,,,,,,,,,,
+"COINS L",4,4,4,4,4,35,4,4,4,4,4,4,"Coins",,,,,,130,350,,,,,,,,,,,,,
+"COINS XL",,,,,,12,,,,,1,1,"Coins",,,,,,400,650,,,,,,,,,,,,,
+"COINS JACKPOT",1,1,1,1,1,5,1,1,1,1,1,1,"Coins",,,,,,1000,1000,,,,,,,,,,,,,
+"POWER POINTS S",100,100,120,120,120,280,120,120,120,120,120,120,"PowerPoints",,,,,,10,26,,,,,,,,,,,,,
+"POWER POINTS M",6,6,6,6,6,120,6,6,6,6,10,10,"PowerPoints",,,,,,30,70,,,,,,,,,,,,,
+"POWER POINTS L",3,3,3,3,3,50,3,3,3,3,5,5,"PowerPoints",,,,,,80,120,,,,,,,,,,,,,
+"POWER POINTS XL",,,,2,,30,,,,,1,1,"PowerPoints",,,,,,130,350,,,,,,,,,,,,,
+"POWER POINTS JACKPOT",1,1,1,1,1,5,1,1,1,1,1,1,"PowerPoints",,,,,,1000,1000,,,,,,,,,,,,,
+"CREDITS S",,,,,,140,,,,,,,"Credits",,,,,,4,10,,,,,,,,,,,,,
+"CREDITS M",100,100,100,90,100,80,100,100,100,100,100,100,"Credits",,,,,,10,26,,,,,,,,,,,,,
+"CREDITS L",15,15,15,20,15,45,15,15,15,10,15,15,"Credits",,,,,,30,70,,,,,,,,,,,,,
+"CREDITS XL",5,5,5,5,5,20,5,5,5,3,5,5,"Credits",,,,,,80,120,,,,,,,,,,,,,
+"CREDITS JACKPOT",,,,,,,,,,,,,"Credits",,,,,,300,300,,,,,,,,,,,,,
+"BLING S",41,60,50,50,50,,50,50,50,50,50,50,"Bling",,,,,,30,70,,,,,,,,,,,,,
+"BLING M",,,,,,,,,,,,,"Bling",,,,,,80,120,,,,,,,,,,,,,
+"BLING L",,,,,,,,,,,,,"Bling",,,,,,130,350,,,,,,,,,,,,,
+"BLING XL",,,,,,,,,,,,,"Bling",,,,,,400,650,,,,,,,,,,,,,
+"BLING JACKPOT",1,1,1,1,1,,1,1,1,1,1,1,"Bling",,,,,,1000,1000,,,,,,,,,,,,,
+"XP DOUBLERS S",149,149,143,120,120,280,120,120,120,120,110,110,"TokenDoubler",,,,,,100,300,,,,,,,,,,,,,
+"XP DOUBLERS L",,,,,,,,,,,,,"TokenDoubler",,,,,,500,1000,,,,,,,,,,,,,
+"XP DOUBLERS JACKPOT",1,1,1,1,1,16,1,1,1,1,1,1,"TokenDoubler",,,,,,5000,5000,,,,,,,,,,,,,
+"GEMS S",10,10,,,,,,,,,,,"Gems",,,,,,3,3,,,,,,,,,,,,,
+"GEMS L",,,,,,,,,,,,,"Gems",,,,,,10,10,,,,,,,,,,,,,
+"GEMS JACKPOT",1,1,,,,,,,,,,,"Gems",,,,,,100,100,,,,,,,,,,,,,
+"GADGET",,,,,,15,,,,,,,"Gadget",,,,,,,,"Coins",500,,,2,,,,,,,,
+"STAR POWER",,,,,,8,,,,,,,"StarPower",,,,,,,,"Coins",1000,,,2,,,,,,,,
+"HYPERCHARGE",,,,,,2,,,,,,,"Overcharge",,,,,,,,"Coins",1000,,,3,,,,,,,,
+"BRAWLER EPIC",,,,,,15,,,,,,,"Brawler",,3,,,,,,"Credits",500,,,3,,,,,,,,
+"BRAWLER MYTHIC",,,,,,8,,,,,,,"Brawler",,4,,,,,,"Credits",1000,,,3,,,,,,,,
+"BRAWLER LEGENDARY",,,,,,2,,,,,,,"Brawler",,5,,,,,,"Credits",1000,,,3,,,,,,,,
+"Dancer Brawler",2,,,,,,,,,,,,"SpecificBrawler","Dancer",,,,,,,"Credits",1000,,,,,,,,,,,
+"Dancer Skin 29",,,,,,,,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"SkaterRapper",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Alternator29gem",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BeamerMC",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"GhostSwag",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DancerGraffitiSpecial",1,,,,,,
+"Dancer Skin 79",5,,,,,,,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"RocketGirlBoombox",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"HammerDudeDJ",1,,,,,,
+"Dancer Skin 149",5,,,,,,,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"DuplicatorCholaChroma",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"MummyDj",1,,,,,,
+"Dancer Skin 199",8,,,,,,,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"Dancer199Gem",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Dancer199GemChroma1",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Dancer199GemChroma2",1,,,,,,
+"Dancer Spray",80,,,,,,,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_hub1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_badgem",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_poco_street",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_graffiti_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_sushi_6",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_mila_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_mila_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_mila_3",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_box_mina",1,,,,
+"Dancer Icon",20,,,,,,,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_starr",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_whatcouldthisbe",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_mina_box",1,,
+"Dancer Pin",60,,,,,,,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_aprilfools_eggcool",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_popstar",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_champie_whistle",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_box_mina",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_mina_phew",1
+"Fury Brawler",,2,,,,,,,,,,,"SpecificBrawler","Fury",,,,,,,"Credits",1000,,,,,,,,,,,
+"Fury Skin 29",,,,,,,,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"TntGuyRare",1,,,,,,
+"Fury Skin 79",,10,,,,,,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"RollerPunk",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BaseballWarrior",1,,,,,,
+"Fury Skin 149",,10,,,,,,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"UndertakerGreaser",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"RocketGirlHotrod",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"JesterLoki",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DeadMariachiPunk",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SnakeOilWizard_white",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SplitterCultist",1,,,,,,
+"Fury Skin 199",,6,,,,,,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"Fury199Gem",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Fury199GemChroma1",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Fury199GemChroma2",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DeadMariachiOnceupon",1,,,,,,
+"Fury Skin 299",,1,,,,,,,,,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"DragonRiderOnceupon",1,,,,,,
+"Fury Spray",,40,,,,,,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_saw_robot_01",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_saw_robot_02",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_saw_robot_03",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_ziggy_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_ziggy_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_ziggy_3",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_box_ziggy",1,,,,
+"Fury Icon",,20,,,,,,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_action",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_badrandoms",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_super1",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_ziggy_box",1,,
+"Fury Pin",,93,,,,,,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_monkey_blind",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_monkey_dumb",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_champie_lighter",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_fire",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_box_ziggy",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_ziggy_clap",1
+"Daredevil Brawler",,,3,,,,,,,,,,"SpecificBrawler","Daredevil",,,,,,,"Credits",1000,,,,,,,,,,,
+"Daredevil Skin 29",,,,,,,,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"PuppeteerAxl",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CocoonerRare",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"VoodooRare",1,,,,,,
+"Daredevil Skin 79",,,5,,,,,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"WeaponThrowerDarkcircus",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"JesterWoodspirit",1,,,,,,
+"Daredevil Skin 149",,,8,,,,,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"DuplicatorDarkcircus",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"ArcadeHauntedHouse",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DuplicatorOutlaw",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DeadMariachiOutlaw",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"JetpackGirlDarkFairy",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CrowVulture",1,,,,,,
+"Daredevil Skin 199",,,5,,,,,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"DaredevilScarecrow",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DaredevilScarecrow199GemChroma1",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DaredevilScarecrow199GemChroma2",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SnakeOilDarkcircus",1,,,,,,
+"Daredevil Skin 299",,,1,,,,,,,,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"ShamanDarkcircus",1,,,,,,
+"Daredevil Spray",,,80,,,,,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_gigi",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_crymask",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_wasteland",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_sad_clown",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_saw_robot_01",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_saw_robot_02",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_saw_robot_03",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_gigi_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_gigi_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_gigi_3",1,,,,
+"Daredevil Icon",,,20,,,,,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_gigi_box",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_toys1",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_toys2",1,,
+"Daredevil Pin",,,60,,,,,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_gigi",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_clown",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_fire",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_football_vuvuzela",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_gigi_clap",1
+"Bulletstorm Brawler",,,,2,,,,,,,,,"SpecificBrawler","Bulletstorm",,,,,,,"Credits",1000,,,,,,,,,,,
+"Bulletstorm Skin 29",,,,,,,,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"DomainRare",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"ElectroSniperRare",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"HammerDudeVacation",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WallyHawaii",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SnakeOilTropical",1,,,,,,
+"Bulletstorm Skin 79",,,,8,,,,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"NinjaDino",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"UndertakerBeach",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"MinigunDudeSummer",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"RocketGirlBeach",1,,,,,,
+"Bulletstorm Skin 149",,,,5,,,,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"RosaCoco",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"RopeDudeLollipop",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"ReviverFantasy",1,,,,,,
+"Bulletstorm Skin 199",,,,5,,,,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"Bulletstorm199Gem",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Bulletstorm199GemChroma1",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Bulletstorm199GemChroma2",1,,,,,,
+"Bulletstorm Skin 299",,,,2,,,,,,,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"FireDudeFrost",1,,,,,,
+"Bulletstorm Spray",,,,50,,,,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_pierce",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_floaty_donut",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_floaty_flamingo",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_floaty_palmtree",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_floaty_hotdog",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_icecreamcactus",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_pierce_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_pierce_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_pierce_3",1,,,,
+"Bulletstorm Icon",,,,20,,,,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_pierce_box",1,,
+"Bulletstorm Pin",,,,50,,,,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_pierce",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_pierce_clap",1
+"Mender Brawler",,,,,2,,,,,,,,"SpecificBrawler","Mender",,,,,,,"Credits",1000,,,,,,,,,,,
+"Mender Skin 29",,,,,,,,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"BeeSniperLadyBug",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"NinjaCat",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AmbusherRare",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SilencerSewer",1,,,,,,
+"Mender Skin 79",,,,,8,,,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"ElectroSniperPlanthunter",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SpawnerDudeFly",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"ShamanKoala",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WallyWeirdPlant",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"PuppeteerWasteland",1,,,,,,
+"Mender Skin 149",,,,,7,,,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"BaseballPirate",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BullDudeLion",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DuelistWasteland",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AssaultShotgunTreasure",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"RosaMantis",1,,,,,,
+"Mender Skin 199",,,,,6,,,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"MechaDudePirate",1,,,,,,
+"Mender Spray",,,,,50,,,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_bp_deepsea-extra2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_bp_deepsea-extra1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_box_glowbert",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_feudaljapan_stinky",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_feudaljapan_lily",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_glowbert1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_glowbert2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_glowbert3",1,,,,
+"Mender Icon",,,,,20,,,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_glowbert_box",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_kaiju_eye",1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"player_icon_steampunk_skull",1,,
+"Mender Pin",,,,,50,,,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_glowbert",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_glowbert_clap",1
+"Shadowdemon Brawler",,,,,,1,,,,,,,"SpecificBrawler","Shadowdemon",,,,,,,"Credits",1500,,,,,,,,,,,
+"Redirecter Brawler",,,,,,,3,,,,,,"SpecificBrawler","Redirecter",,,,,,,"Credits",1000,,,,,,,,,,,
+"Redirecter Skin 29",,,,,,,10,,,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"ChronomancerRare",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"HookDudeMonkey",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Sandstormsleepy",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BlackHoleBlue",1,,,,,,
+"Redirecter Skin 79",,,,,,,8,,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"RuffsSandsOfTimes",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"VoodooSandsOfTimes",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CrowWhite",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"PuppeteerWasteland",1,,,,,,
+"Redirecter Skin 149",,,,,,,7,,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"MeepleSandsOfTimes",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"SkaterSandsOfTimes",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"PowerLevelerGenie",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WhirlwindRamadan",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"TrickshotDudeBazaar",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"UndertakerBazaar",1,,,,,,
+"Redirecter Skin 199",,,,,,,6,,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"EnragerThief",1,,,,,,
+"Redirecter Spray",,,,,,,50,,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_najia",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_najia_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_najia_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_najia_3",1,,,,
+"Redirecter Icon",,,,,,,20,,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_najia_box",1,,
+"Redirecter Pin",,,,,,,50,,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_najia",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_naji_clap",1
+"Gladiator Brawler",,,,,,,,3,,,,,"SpecificBrawler","Gladiator",,,,,,,"Credits",1000,,,,,,,,,,,
+"Gladiator Skin 79",,,,,,,,8,,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"MorningstarGreekGod",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BarkeepUnicorn",1,,,,,,
+"Gladiator Skin 149",,,,,,,,7,,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"MechanicKnight",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"LuchadorDragonChroma",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BeamerOnceupon",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherOnceupon",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"ControllerOnceupon",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"PainterGreekGod",1,,,,,,
+"Gladiator Skin 199",,,,,,,,6,,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"ClusterBombDudeCerberus",1,,,,,,
+"Gladiator Skin 299",,,,,,,,1,,,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"DragonRiderOnceupon",1,,,,,,
+"Gladiator Spray",,,,,,,,50,,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_damian",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_damian_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_damian_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_damian_3",1,,,,
+"Gladiator Icon",,,,,,,,20,,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_damian_box",1,,
+"Gladiator Pin",,,,,,,,50,,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_damian",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_damian_clap",1
+"MagicalGirl Brawler",,,,,,,,,3,,,,"SpecificBrawler","MagicalGirl",,,,,,,"Credits",1000,,,,,,,,,,,
+"MagicalGirl Skin 29",,,,,,,,,10,,,,"ListedSkin",,,,1,29,,,"Bling",500,,,,"AttacherRareChroma3",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherRareChroma4",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherRareChroma2",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherRareChroma5",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherRareChroma1",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AttacherRareChroma6",1,,,,,,
+"MagicalGirl Skin 79",,,,,,,,,8,,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"BeeSniperArchvillain",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"JetpackGirlPopstar",1,,,,,,
+"MagicalGirl Skin 149",,,,,,,,,17,,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"PercenteranimeChromaYellow",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"PercenteranimeChromaGreen",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"Percenteranime",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"TrickshotDudeDevil",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"AxeJugglerGreek",1,,,,,,
+"MagicalGirl Skin 199",,,,,,,,,6,,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"JetpackGirlMoon",1,,,,,,
+"MagicalGirl Skin 299",,,,,,,,,1,,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"Cactuscartoon",1,,,,,,
+"MagicalGirl Spray",,,,,,,,,50,,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_stella",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_stella_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_stella_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_stella_3",1,,,,
+"MagicalGirl Icon",,,,,,,,,20,,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_stella_box",1,,
+"MagicalGirl Pin",,,,,,,,,50,,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_stella",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_stella_clap",1
+"Rock Brawler",,,,,,,,,,3,,,"SpecificBrawler","Rock",,,,,,,"Credits",1000,,,,,,,,,,,
+"Rock Skin 79",,,,,,,,,,8,,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"ClusterBombMonster",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BarrelBotFootball",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CookerOnceupon",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"RollerPunk",1,,,,,,
+"Rock Skin 149",,,,,,,,,,6,,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"ArcadePiano_black",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WhirlwindSupercellMake",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BarrelBotCrash",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"KnightPizza",1,,,,,,
+"Rock Skin 199",,,,,,,,,,4,,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"FishTankWasteland",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BaseballGamer_remake",1,,,,,,
+"Rock Skin 299",,,,,,,,,,1,,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"BoMecha",1,,,,,,
+"Rock Spray",,,,,,,,,,50,,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_bolt",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_bolt_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_bolt_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_bolt_3",1,,,,
+"Rock Icon",,,,,,,,,,20,,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_bolt_box",1,,
+"Rock Pin",,,,,,,,,,50,,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_bolt",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_bolt_clap",1
+"KatanaKid Brawler",,,,,,,,,,,3,,"SpecificBrawler","KatanaKid",,,,,,,"Credits",1000,,,,,,,,,,,
+"KatanaKid Skin 79",,,,,,,,,,,8,,"ListedSkin",,,,30,79,,,"Bling",750,,,,"BeeSniperArchvillain",1,,,,,,
+"KatanaKid Skin 149",,,,,,,,,,,7,,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"SilencerOni",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"DuplicatorKitsune",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BlackHoleJapan",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"InsectManJapan",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"TntDudeTengu",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"KnightJapan",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WallyJapan",1,,,,,,
+"KatanaKid Skin 199",,,,,,,,,,,6,,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"LuchadorSuperbowl",1,,,,,,
+"KatanaKid Skin 299",,,,,,,,,,,1,,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"SamuraiJapan",1,,,,,,
+"KatanaKid Spray",,,,,,,,,,,50,,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_nori",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_nori_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_nori_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_nori_3",1,,,,
+"KatanaKid Icon",,,,,,,,,,,20,,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_nori_box",1,,
+"KatanaKid Pin",,,,,,,,,,,50,,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_nori",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_nori_clap",1
+"FutureGirl Brawler",,,,,,,,,,,,3,"SpecificBrawler","FutureGirl",,,,,,,"Credits",1000,,,,,,,,,,,
+"FutureGirl Skin 79",,,,,,,,,,,,8,"ListedSkin",,,,30,79,,,"Bling",750,,,,"TrickshotDudeFirefly",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"WallyWeirdPlant",1,,,,,,
+"FutureGirl Skin 149",,,,,,,,,,,,7,"ListedSkin",,,,80,149,,,"Bling",1000,,,,"FleaSpaceCactus",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CookerDeepsea",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"CocoonerRosie",1,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,"BowDudeWasp",1,,,,,,
+"FutureGirl Skin 199",,,,,,,,,,,,6,"ListedSkin",,,,150,199,,,"Bling",1000,,,,"TntDudeToxic",1,,,,,,
+"FutureGirl Skin 299",,,,,,,,,,,,1,"ListedSkin",,,,200,299,,,"Bling",1000,,,,"SandstormGreekGod",1,,,,,,
+"FutureGirl Spray",,,,,,,,,,,,50,"ListedSpray",,,,,,,,"Bling",75,,,,,,"spray_box_wendy",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_wendy_1",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_wendy_2",1,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,"spray_wendy_3",1,,,,
+"FutureGirl Icon",,,,,,,,,,,,20,"ListedProfilePic",,,,,,,,"Bling",50,,,,,,,,"player_icon_wendy_box",1,,
+"FutureGirl Pin",,,,,,,,,,,,50,"ListedPin",,,,,,,,"Bling",100,,,,,,,,,,"emoji_box_wendy",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_sad",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_angry",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_gg",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_thanks",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_phew",1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"emoji_wendy_clap",1

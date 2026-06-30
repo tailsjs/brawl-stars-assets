@@ -1,0 +1,44 @@
+id = "AllYouCanBeatEventItem"
+priority = 1
+
+type = "EventBanner"
+subtype = "Tall"
+
+sc_file_source = "EventData"
+export_name = "extended_special_event_panel"
+hide_binding=[
+	"perfect_run_reward"
+]
+
+[animation]
+default_animation = "Start"
+Start = { binding="tower", start="start", end="waiting_to_select_brawler_1", also_play="roof_select_a_brawler"}
+floor_1 = { binding="tower", start="floor_1", end="waiting_to_select_brawler_2",  also_play="roof_select_a_brawler"}
+floor_2 = { binding="tower", start="floor_2", end="waiting_to_select_brawler_3",  also_play="roof_select_a_brawler"}
+floor_3 = { binding="tower", start="floor_3", end="waiting_to_select_brawler_4",  also_play="roof_select_a_brawler"}
+floor_4 = { binding="tower", start="floor_4", end="waiting_to_select_brawler_5",  also_play="roof_select_a_brawler"}
+floor_5 = { binding="tower", start="floor_5", end="all_floors_complete",  also_play="roof_select_a_brawler"}
+complete = { binding="tower", start="all_floors_complete",  also_play="roof_tower_complete_start"}
+
+roof_select_a_brawler = { binding="roof", start="select_a_brawler"}
+roof_tower_complete_start = { binding="roof", start="tower_complete_start", end="tower_complete_idle"}
+roof_perfect_run_start = { binding="roof", start="perfect_run_start", end="perfect_run_idle"}
+roof_tower_failed_start = { binding="roof", start="tower_failed_start", end="tower_failed_idle"}
+
+[bindings]
+tower = {path="tower"}
+floor_1 = {parent_binding="tower", path="floor_1/floor_ph"}
+floor_2 = {parent_binding="tower", path="floor_2/floor_ph"}
+floor_3 = {parent_binding="tower", path="floor_3/floor_ph"}
+floor_4 = {parent_binding="tower", path="floor_4/floor_ph"}
+floor_5 = {parent_binding="tower", path="floor_5/floor_ph"}
+perfect_run_reward = {parent_binding="tower", path="perfect_run_reward"}
+roof = {parent_binding="tower", path="roof"}
+
+bg = "bg"
+extended_special_event_panel_ph = "extended_special_event_panel_ph"
+event_spacer = "spacer"
+
+[custom]
+string.floor_item_binding_prefix = "floor_"
+string.floor_item_config_id = "AllYouCanBeatFloorItemFullscreen"

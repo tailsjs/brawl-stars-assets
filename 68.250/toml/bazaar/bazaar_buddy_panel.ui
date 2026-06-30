@@ -1,0 +1,81 @@
+id = "bazaar_buddy_panel"
+priority = 1
+
+type = "ShopPanel"
+subtype = "BazaarBuddyPanel"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/buddy_shop.sc"
+export_name = "panel_buddy_offer"
+
+
+hide=[
+	"notification",
+	"panel_discount",
+	"panel_best_value",
+	"TID_SHOP_ONE_TIME_PURCHASE",
+]
+
+set_text=[
+	{ path="price/price_free/txt", tid="TID_SHOP_FREE" }
+]
+
+hide_binding = [
+	"price_free_wrapper",
+	"price_wrapper",
+	"discount_warpper",
+	"dual_price_wrapper",
+]
+
+[custom]
+int.large_item_count = 1
+int.small_item_count = 0
+float.width = 220.0
+
+[bindings]
+brawler_pin = { path="brawler_pin/ph" }
+inactive = { path="inactive" }
+locked = { path="locked" }
+locked_reason = { path="locked/txt" }
+title = { path="title_txt" }
+time_txt = { path="time_txt" }
+
+price_container = { path="price" }
+price_cont = { path="price" }
+price_ph = { path="price" }
+
+price_free_wrapper = { path="price/price_free" }
+price_free_txt = { path="price/price_free/txt" }
+
+price_wrapper = { path="price/price_gems" }
+price_txt = { path="price/price_gems/txt" }
+price_icon = { path="price/price_gems/icon" }
+
+discount_warpper = { path="price/price_gems_discount" }
+discount_price_txt = { path="price/price_gems_discount/price_ani/txt" }
+discount_price_icon = { path="price/price_gems_discount/price_ani/icon" }
+discount_txt = { path="price/price_gems_discount/discount_container/discount_ani/txt" }
+
+dual_price_wrapper = { path="price/price_cosmetic_coins_plus_gems_discount" }
+primary_price_txt = { path="price/price_cosmetic_coins_plus_gems_discount/price_cosmetic_coins/txt" }
+primary_price_icon = { path="price/price_cosmetic_coins_plus_gems_discount/price_cosmetic_coins/icon" }
+secondary_price_txt = { path="price/price_cosmetic_coins_plus_gems_discount/price_gems/txt" }
+secondary_price_icon = { path="price/price_cosmetic_coins_plus_gems_discount/price_gems/icon" }
+
+primary_discount_wrapper = { path="price/price_cosmetic_coins_plus_gems_discount/discount_container" }
+primary_discount_txt = { path="price/price_cosmetic_coins_plus_gems_discount/discount_container/discount_ani/txt" }
+
+secondary_discount_wrapper = { path="price/price_cosmetic_coins_plus_gems_discount/discount_container" }
+secondary_discount_txt = { path="price/price_cosmetic_coins_plus_gems_discount/discount_container/discount_ani/txt" }
+
+[skins]
+buddy_skin = { path="buddy/buddy", animation="RECRUITROAD_OVERRIDE", animation_next="RECRUITROAD_OVERRIDE", position=[1.5,1,0] }
+large_1 = { path="buddy/buddy", animation="RECRUITROAD_OVERRIDE", animation_next="RECRUITROAD_OVERRIDE", position=[1.5,1,0] }
+
+[animation]
+gadget = { path="", end_frame=0 }
+starpower = { path="", end_frame=1 }
+hypercharge = { path="", end_frame=2 }
+random = { path="", end_frame=3 }
+default_animation = "random"
+#default_animation = "gadget"
