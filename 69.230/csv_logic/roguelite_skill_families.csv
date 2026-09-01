@@ -1,0 +1,8 @@
+"Name","Category","Rarity","MaxLevel","TitleTID","DescriptionTID","SWF","IconExportName"
+"string","string","string","int","string","string","string","string"
+"Swarm_BarleyBottle","Weapon","common",3,"TID_SWARM_BARLEY_TITLE","TID_SWARM_BARLEY_DESC","sc/ui_roguelite.sc","icon_power_card_area_effect"
+"Swarm_Whirlwind","Weapon","common",3,"TID_SWARM_WHIRLWIND_TITLE","TID_SWARM_WHIRLWIND_DESC","sc/ui_roguelite.sc","icon_power_card_projectile_size"
+"Swarm_HealthBoost","Passive","common",3,"TID_SWARM_HEALTH_TITLE","TID_SWARM_HEALTH_DESC","sc/ui_roguelite.sc","icon_power_card_health"
+"Swarm_DamageBoost","Passive","common",3,"TID_SWARM_DAMAGE_TITLE","TID_SWARM_DAMAGE_DESC","sc/ui_roguelite.sc","icon_power_card_damage"
+"Swarm_ElectroBolt","Weapon","common",3,"TID_SWARM_ELECTROBOLT_TITLE","TID_SWARM_ELECTROBOLT_DESC","sc/ui_roguelite.sc","icon_power_card_projectile_speed"
+"Swarm_FireAura","Passive","common",3,"TID_SWARM_FIREAURA_TITLE","TID_SWARM_FIREAURA_DESC","sc/ui_roguelite.sc","icon_power_card_damage"

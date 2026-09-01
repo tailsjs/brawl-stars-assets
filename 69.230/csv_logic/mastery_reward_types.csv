@@ -1,0 +1,13 @@
+"Name","Disabled","OfferType","RequiresData","ForcedCount","RewardDataType","FallbackRewardCoins"
+"string","Boolean","int","Boolean","int","int","int"
+"Credits",,38,,,,
+"Coins",,1,,,,
+"PowerPoints",,41,,,,
+"ChromaCredits",,39,,,,
+"StarPoints",,17,,,,
+"UniquePlayerIcon",,25,"TRUE",1,28,200
+"UniqueEmote",,19,"TRUE",1,52,200
+"UniqueTitle",,43,"TRUE",1,76,200
+"Bling",,45,,,,
+"CollabPoints",,57,,,,
+"UniqueSpray",,35,"TRUE",1,68,200

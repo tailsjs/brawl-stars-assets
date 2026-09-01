@@ -1,0 +1,11 @@
+id = "bazaar_equip_icon_grid"
+priority = 1
+
+type = "UiWidget"
+subtype = "EquipIcon"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_star_power_small"
+
+copy_configs = [ "bazaar_equip_icon_large" ]

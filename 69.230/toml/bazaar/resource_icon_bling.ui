@@ -1,0 +1,9 @@
+id = "resource_icon_bling"
+priority = 1
+
+type = "ResourceIcon"
+subtype = "Bling"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "icon_resource_cosmetic_coins"

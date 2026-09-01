@@ -1,0 +1,17 @@
+id = "boss_vecna"
+priority = 1
+
+type = "IntroCard" # Doesn't do anything, yet
+subtype = "MegaBoss" # Doesn't do anything, yet
+
+#EventData,
+#AssetIdList,
+#ChronosFolder,
+#ClientFile,
+#OtherTomlConfig,
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "event_gameroom_megaboss"
+
+[skins]
+boss_skin = { path="", skin="MegaSTVec", scale = 7, rotation = 0, position=[0,0,0], offset=[200,100] }

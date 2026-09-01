@@ -1,0 +1,10 @@
+id="brawler_wheel_visual_test"
+priority=1
+
+type="TestablePopup"
+subtype="BrawlerWheel"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_wheel.sc"
+container_prefix = "starr_wheel_screen_"
+

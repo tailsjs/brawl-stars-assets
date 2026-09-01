@@ -1,0 +1,55 @@
+id = "bazaar_brawl_pass"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawl_pass.sc"
+export_name = "panel_vault_pass"
+
+copy_configs = [ "bazaar_panel_shared_price_configs" ]
+
+hide = [ "inactive", "processing_ani" ]
+
+hide_binding = [ "discount_1" ]
+
+move = [
+	{ path="", offset=[ -120,0  ] }
+]
+
+[custom]
+float.width = 600
+
+[bindings]
+price_ph = { path="panel_offer/price" }
+bp_illustration = { path="bp_illustration" }
+
+skin_1_name = { path="bp_vault_anim/skin_set_1/skin_set_name/name_txt" }
+skin_2_name = { path="bp_vault_anim/skin_set_2/skin_set_name/name_txt" }
+skin_1_number = { path="bp_vault_anim/skin_set_1/skin_set_name/TID_VAULT_SKIN_SET_1" }
+skin_2_number = { path="bp_vault_anim/skin_set_2/skin_set_name/TID_VAULT_SKIN_SET_1" }
+
+buddy_1_name = { path="bp_vault_anim/buddy_1/buddy_name/name_txt" }
+buddy_2_name = { path="bp_vault_anim/buddy_2/brawler_name/name_txt" }
+
+brawler_1_name = { path="bp_vault_anim/brawler_1/brawler_name/name_txt" }
+brawler_2_name = { path="bp_vault_anim/brawler_2/brawler_name/name_txt" }
+
+touch_area = { path="bounds" }
+discount_1 = { path="bp_discount" }
+discount_1_warpper = { parent_binding="discount_1", path="" }
+best_value_multiplier = {} # was at panel_best_value
+best_value_multiplier_txt = {} # was at panel_best_value/value_txt
+
+[skins]
+skin_1 = { path="bp_vault_anim/skin_set_1/hero_area_1/hero_ph" }
+skin_2 = { path="bp_vault_anim/skin_set_2/hero_area_1/hero_ph" }
+
+brawler_1 = { path="bp_vault_anim/brawler_1/hero_area_1/hero_ph" }
+brawler_2 = { path="bp_vault_anim/brawler_2/hero_area_1/hero_ph" }
+
+buddy_1 = { path="bp_vault_anim/buddy_1/hero_area_1/hero_ph" }
+buddy_2 = { path="bp_vault_anim/buddy_2/hero_area_1/hero_ph" }
+
+[animations]
+discount_1 = {}
+
+default_animation = { binding="bp_illustration", end_frame=0 }

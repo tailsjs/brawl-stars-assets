@@ -1,0 +1,17 @@
+id = "hero_collection_popup_fame_panel"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "fame_panel"
+
+[bindings]
+fame_tier_title = { path="fame_tier_title" }
+fame_tier_icon = { path="fame_big_tier_ph" }
+bar_parent = { path="progress_bar" }
+bar = { path="progress_bar/bar" }
+bar_txt = { path="progress_bar/value_txt" }
+fame_unlock_info = {path="TID_FAME_PANEL_UNLOCK_INFO" }
+
+[buttons]
+info_button = { path="button_info" }

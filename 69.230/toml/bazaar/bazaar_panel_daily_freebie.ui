@@ -1,0 +1,27 @@
+id = "bazaar_panel_daily_freebie"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+copy_configs=[ "bazaar_panel_shared_price_configs" ]
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_daily_freebie"
+
+hide=[ ]
+
+[bindings]
+shop_item_center = { path="shop_item_center" }
+price_ph = { path="shop_item_center/price" }
+title = { path="title_txt" }
+bg = { path="bg" }
+root = { path="" }
+time_txt = { path="time_txt" }
+button_add_freebie = { path="button_add_freebie" }
+notification = {}
+
+[custom]
+float.width = 273.7
+float.offset = -136.8

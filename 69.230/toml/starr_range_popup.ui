@@ -1,0 +1,295 @@
+id = "starr_range_popup"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+container_prefix = "starr_range_screen_"
+
+hide_binding="hero_item"
+
+[skins]
+skin_brawler_unlocked = { binding="brawler_unlocked", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[animation]
+# center anims
+Start = { binding="sparkle_parent", start="screen_1_start", end="screen_1_idle", also_play=["guns_start", "weapon_left_idle", "weapon_right_idle", "buttons_hidden", "power_counter_hidden", "camera_shake_stop", "camera_stop", "start_title"]}
+screen_2 = { binding="sparkle_parent", start="screen_2_start", end="screen_2_idle", also_play=["start_title_out", "guns_in", "power_counter_start"]}
+screen_2_final_brawler = { binding="sparkle_parent", start="screen_2_final_brawler_start", end="screen_2_final_brawler_idle", also_play=["guns_out", "power_counter_out"], next_animation="screen_3"}
+screen_choose = { binding="sparkle_parent", start="screen_choose_start", end="choose_screen_idle", also_play=["zoom_out", "guns_out", "power_counter_out"]}
+choose_screen_final_brawler = { binding="sparkle_parent", start="choose_screen_final_brawler_start", end="choose_screen_final_brawler_idle", next_animation="screen_3", also_play=["zoom_in"]}
+screen_3 = { binding="sparkle_parent", start="screen_3_start", end="screen_3_idle"}
+screen_4 = { binding="sparkle_parent", start="screen_4_start", end="screen_4_idle", also_play=["power_counter_bonus_power"]}
+
+# camera anims
+camera_shake_stop = { binding="center_container", start="default"}
+camera_shake = { binding="center_container", start="shake_start", end="shake_end"}
+camera_shake_right = { binding="center_container", start="shake_right_start", end="shake_right_end"}
+camera_stop = { binding="camera", start="default"}
+camera_recoil = { binding="camera", start="recoil_start", end="recoil_end"}
+zoom_out = { binding="camera", start="zoom_out_start", end="zoom_out_end"}
+zoom_in = { binding="camera", start="zoom_in_start", end="zoom_in_end"}
+
+# starting title anims
+start_title = { binding="start_title", start="start", end="idle"}
+start_title_out = { binding="start_title", start="idle", end="end"}
+
+# 2-gun anims
+guns_start = { binding="bottom_left_container", start="ani_in_start", also_play="guns_start_right"}
+guns_start_right = { binding="bottom_right_container", start="ani_in_start", also_play=["hints_hidden"]}
+
+guns_in = { binding="bottom_left_container", start="ani_in_start", end="ani_in_end", also_play=["guns_in_right"]}
+guns_in_right = { binding="bottom_right_container", start="ani_in_start", end="ani_in_end"}
+
+guns_out = { binding="bottom_left_container", start="ani_out_start", end="ani_out_idle", also_play="guns_out_right"}
+guns_out_right = { binding="bottom_right_container", start="ani_out_start", end="ani_out_idle"}
+
+guns_idle = { binding="bottom_left_container", start="idle", also_play="guns_idle_right"}
+guns_idle_right = { binding="bottom_right_container", start="idle"}
+
+hint_right_hidden = { parent_binding="bottom_right_container", path="hint", start="hidden"}
+hint_right = { parent_binding="bottom_right_container", path="hint", start="hint_start", end="hint_end"}
+
+hint_left_hidden = { parent_binding="bottom_left_container", path="hint", start="hidden"}
+hint_left = { parent_binding="bottom_left_container", path="hint", start="hint_start", end="hint_end"}
+weapon_hint_left = { binding="weapon_left", start="hint_start", end="hint_end"}
+weapon_hint_right = { binding="weapon_right", start="hint_start", end="hint_end"}
+
+hint_bottom_hidden = { parent_binding="bottom_container", path="hint", start="hidden"}
+hint_bottom = { parent_binding="bottom_container", path="hint", start="hint_start", end="hint_end"}
+
+hints = { parent_binding="bottom_left_container", path="hint", start="hint_start", end="hint_end", also_play=["hint_right", "hint_bottom", "weapon_hint_left", "weapon_hint_right"]}
+hints_hidden = { parent_binding="bottom_left_container", path="hint", start="hidden", also_play=["hint_right_hidden", "hint_bottom_hidden"]}
+
+# individual gun anims
+weapon_left_idle = { binding="weapon_left", start="idle_loop_start", end="idle_loop_end"} # todo: loop?
+weapon_right_idle = { binding="weapon_right", start="idle_loop_start", end="idle_loop_end"}
+
+weapon_left_fire = { binding="weapon_left", start="fire_start", end="fire_end", next_animation="weapon_left_idle", also_play=["camera_shake"]}
+weapon_right_fire = { binding="weapon_right", start="fire_start", end="fire_end", next_animation="weapon_right_idle", also_play=["camera_shake_right"]}
+
+# bottom anims
+power_counter_start = {binding="bottom_container", start="ani_start", end="ani_idle_loop_start", next_animation="power_counter_idle"}
+power_counter_idle = {binding="bottom_container", start="ani_idle_loop_start", end="ani_idle_loop_end"}
+power_counter_out = {binding="bottom_container", start="ani_idle_loop_end", end="ani_out"}
+power_counter_bonus_power = {binding="bottom_container", start="ani_out", end="ani_bonus_power"}
+power_counter_orb_out = {binding="bottom_container", start="ani_bonus_power", end="ani_orb_out"}
+power_counter_hidden = {binding="bottom_container", start="ani_start", also_play=["orb_explosion_hidden", "power_0", "power_0_evolutions", "power_0_console_front", "power_0_console_back"]}
+
+# orb explosion anims
+orb_explosion_hidden = {binding="orb_explosion", start="hidden"}
+orb_explosion_anim = {binding="orb_explosion", start="explode_start", end="explode_transition"}
+orb_explosion_transition = {binding="orb_explosion", start="explode_transition", end="explode_end"}
+
+# power counter level anims
+power_0 = {binding="power_counter", start="power_0", also_play="power_0_inner"}
+power_0_inner = {binding="power_counter_orb", start="power_0"}
+power_0_evolutions =  {binding="power_counter_evolutions", start="power_0"}
+power_0_console_front = {binding="console_front", start="power_0"}
+power_0_console_back = {binding="console_back", start="power_0"}
+
+# bonus item anims
+bonus_item_0_in = {binding="bonus_items", start="item_1_start"}
+bonus_item_1_in = {binding="bonus_items", start="item_1_start", end="item_1_end"}
+bonus_item_2_in = {binding="bonus_items", start="item_1_end", end="item_2_end"}
+bonus_item_3_in = {binding="bonus_items", start="item_2_end", end="item_3_end"}
+bonus_item_4_in = {binding="bonus_items", start="item_3_end", end="item_4_end"}
+bonus_item_5_in = {binding="bonus_items", start="item_4_end", end="item_5_end"}
+bonus_item_6_in = {binding="bonus_items", start="item_5_end", end="item_6_end"}
+bonus_item_7_in = {binding="bonus_items", start="item_6_end", end="item_7_end"}
+
+# buttons anims
+buttons_hidden = {binding="bonus_items_buttons", start="hidden", }
+buttons_in = {binding="bonus_items_buttons", start="hidden", end="show_buttons"}
+
+# class icon anims
+class_tank = {binding="brawler_class_icon", start="tank"}
+class_marksman = {binding="brawler_class_icon", start="marksman"}
+class_support = {binding="brawler_class_icon", start="support"}
+class_damage = {binding="brawler_class_icon", start="damage"}
+class_assassin = {binding="brawler_class_icon", start="assassin"}
+class_controller = {binding="brawler_class_icon", start="controller"}
+class_artillery = {binding="brawler_class_icon", start="artillery"}
+
+# choose_brawlers layout (2/3/4 choice count)
+choose_2 = {binding="choose_brawlers", start="choose_2_start", end="choose_2_end"}
+choose_3 = {binding="choose_brawlers", start="choose_3_start", end="choose_3_end"}
+choose_4 = {binding="choose_brawlers", start="choose_4_start", end="choose_4_end"}
+
+# choose_brawlers selection transitions (per choice count + slot)
+choose_2_brawler_1_selected = {binding="choose_brawlers", start="choose_2_brawler_1_selected_start", end="choose_2_brawler_1_selected_end"}
+choose_2_brawler_2_selected = {binding="choose_brawlers", start="choose_2_brawler_2_selected_start", end="choose_2_brawler_2_selected_end"}
+choose_3_brawler_1_selected = {binding="choose_brawlers", start="choose_3_brawler_1_selected_start", end="choose_3_brawler_1_selected_end"}
+choose_3_brawler_2_selected = {binding="choose_brawlers", start="choose_3_brawler_2_selected_start", end="choose_3_brawler_2_selected_end"}
+choose_3_brawler_3_selected = {binding="choose_brawlers", start="choose_3_brawler_3_selected_start", end="choose_3_brawler_3_selected_end"}
+choose_4_brawler_1_selected = {binding="choose_brawlers", start="choose_4_brawler_1_selected_start", end="choose_4_brawler_1_selected_end"}
+choose_4_brawler_2_selected = {binding="choose_brawlers", start="choose_4_brawler_2_selected_start", end="choose_4_brawler_2_selected_end"}
+choose_4_brawler_3_selected = {binding="choose_brawlers", start="choose_4_brawler_3_selected_start", end="choose_4_brawler_3_selected_end"}
+choose_4_brawler_4_selected = {binding="choose_brawlers", start="choose_4_brawler_4_selected_start", end="choose_4_brawler_4_selected_end"}
+
+[buttons]
+weapon_left = {parent_binding="bottom_left_container", path="weapon"}
+weapon_right = {parent_binding="bottom_right_container", path="weapon"}
+continue_button = {parent_binding="bonus_items_buttons", path="continue_button"}
+equip_button = {parent_binding="bonus_items_buttons", path="equip_button"}
+screen_3_continue_button = {parent_binding="sparkle_parent", path="screen_3_continue_button"}
+attack_info_button = {parent_binding="sparkle_parent", path="attack_info_button"}
+super_info_button = {parent_binding="sparkle_parent", path="super_info_button"}
+brawler_vo_button = {parent_binding="sparkle_parent", path="brawler_vo_button"}
+
+[bindings]
+# Screen hierarchy
+center_container = { path="center" }
+camera = { parent_binding="center_container", path="camera" }
+sparkle_parent = { parent_binding="camera", path="inner" }
+sparkle_holder = { path="bottom/sparkle_holder" }
+start_title = { parent_binding="sparkle_parent", path="start_title" }
+title = { parent_binding="start_title", path="title/inner/txt" }
+doors_rarity_bg = { parent_binding="start_title", path="rarity_bg" }
+
+brawler_unlocked_parent = { parent_binding="sparkle_parent", path="brawler_unlocked" }
+brawler_unlocked = { parent_binding="brawler_unlocked_parent", path="inner/hero_area" }
+hero_item = { parent_binding="sparkle_parent", path="brawler/hero_item/inner/hero_area" }
+rarity_bg = { parent_binding="sparkle_parent", path="rarity_bg" }
+brawler_name_txt = { parent_binding="sparkle_parent", path="brawler_name/inner/name_txt" }
+
+# brawler info
+brawler_tagline = { parent_binding="sparkle_parent", path="tagline/inner/txt" }
+brawler_description = { parent_binding="sparkle_parent", path="description/txt" }
+brawler_class = { parent_binding="sparkle_parent", path="rarity_and_class/inner/brawler_class" }
+brawler_class_txt = { parent_binding="brawler_class", path="type_txt" }
+brawler_class_icon = { parent_binding="brawler_class", path="icon_brawler_class" }
+brawler_rarity_badge = { parent_binding="sparkle_parent", path="rarity_and_class/inner/rarity" }
+brawler_rarity_badge_bg = { parent_binding="brawler_rarity_badge", path="rarity_bg" }
+brawler_rarity_badge_txt = { parent_binding="brawler_rarity_badge", path="rarity_txt" }
+super_info_icon_ph = { parent_binding="super_info_button", path="icon_ph" }
+
+# bottom
+bottom_left_container = { path="bottom_left" }
+bottom_right_container = { path="bottom_right" }
+bottom_container = { path="bottom" }
+console_back = { parent_binding="bottom_container", path="console_back" }
+power_counter_evolutions = { parent_binding="bottom_container", path="power_counter" }
+power_counter = { parent_binding="power_counter_evolutions", path="inner" }
+power_counter_orb = { parent_binding="power_counter", path="orb" }
+orb_explosion = { parent_binding="power_counter_orb", path="orb_explosion" }
+power = { parent_binding="power_counter_orb", path="power" }
+console_front = { parent_binding="bottom_container", path="console_front" }
+
+# brawler targets
+brawler_group = { parent_binding="sparkle_parent", path="brawler_group/inner" }
+brawler_1 = { parent_binding="brawler_group", path="brawler_1" }
+brawler_2 = { parent_binding="brawler_group", path="brawler_2" }
+brawler_3 = { parent_binding="brawler_group", path="brawler_3" }
+brawler_4 = { parent_binding="brawler_group", path="brawler_4" }
+brawler_5 = { parent_binding="brawler_group", path="brawler_5" }
+brawler_6 = { parent_binding="brawler_group", path="brawler_6" }
+brawler_7 = { parent_binding="brawler_group", path="brawler_7" }
+brawler_8 = { parent_binding="brawler_group", path="brawler_8" }
+brawler_9 = { parent_binding="brawler_group", path="brawler_9" }
+brawler_10 = { parent_binding="brawler_group", path="brawler_10" }
+
+# choose_brawlers (multi-choice heroes; slots swapped with starr_range_choose_brawler_3d_item)
+choose_brawlers = { parent_binding="sparkle_parent", path="choose_brawlers" }
+choose_brawler_1 = { parent_binding="choose_brawlers", path="brawler_1" }
+choose_brawler_2 = { parent_binding="choose_brawlers", path="brawler_2" }
+choose_brawler_3 = { parent_binding="choose_brawlers", path="brawler_3" }
+choose_brawler_4 = { parent_binding="choose_brawlers", path="brawler_4" }
+
+# bonus items
+bonus_items = { parent_binding="sparkle_parent", path="bonus_items" }
+bonus_item_1 = { parent_binding="bonus_items", path="bonus_item_1" }
+bonus_item_2 = { parent_binding="bonus_items", path="bonus_item_2" }
+bonus_item_3 = { parent_binding="bonus_items", path="bonus_item_3" }
+bonus_item_4 = { parent_binding="bonus_items", path="bonus_item_4" }
+bonus_item_5 = { parent_binding="bonus_items", path="bonus_item_5" }
+bonus_item_6 = { parent_binding="bonus_items", path="bonus_item_6" }
+bonus_item_7 = { parent_binding="bonus_items", path="bonus_item_7" }
+bonus_item_1_ph = { parent_binding="bonus_item_1", path="bonus_item_ph" }
+bonus_item_2_ph = { parent_binding="bonus_item_2", path="bonus_item_ph" }
+bonus_item_3_ph = { parent_binding="bonus_item_3", path="bonus_item_ph" }
+bonus_item_4_ph = { parent_binding="bonus_item_4", path="bonus_item_ph" }
+bonus_item_5_ph = { parent_binding="bonus_item_5", path="bonus_item_ph" }
+bonus_item_6_ph = { parent_binding="bonus_item_6", path="bonus_item_ph" }
+bonus_item_7_ph = { parent_binding="bonus_item_7", path="bonus_item_ph" }
+bonus_items_buttons = { parent_binding="bonus_items", path="buttons" }
+
+[custom]
+# music
+string.music = "StarrRange_Menu"
+# Duck StarrRange_Menu while the screen-1 intro SFX plays (~4s for Starr_Range_Intro).
+float.intro_music_fade_volume = 0.4
+float.intro_music_fade_time = 0.3
+float.intro_music_duck_duration = 4.0
+# Duck StarrRange_Menu while the screen-3 rarity reveal SFX plays.
+float.reveal_music_fade_volume = 0.4
+float.reveal_music_fade_time = 0.3
+float.reveal_music_duck_duration = 4.0
+float.reveal_sfx_volume = 0.8
+float.signature_sfx_volume = 1.3
+
+# weapon buttons
+string.weapon_button_anim_suffix = "_fire"
+float.hint_cooldown = 0.f # min time between hint replays (tap or idle); includes ~4s hint anim length
+float.hint_idle_delay = 8.0f # play hints if guns are not tapped for this long during screen_2
+
+# brawler targets
+string.brawler_item_config_id = "StarrRangeBrawlerItem"
+string.brawler_binding_prefix = "brawler_"
+int.max_brawlers = 10
+float.delay_per_brawler_portrait_appear = 0.1f
+int.max_sparkles_per_target = 4
+# Character names (CSV Name) that prefer back slots (higher brawler_N index) when shuffling pool + empties into targets.
+string.prefer_back_slot_brawlers = "HammerDude, SoulCollector"
+
+# choose_brawlers
+string.choose_brawler_item_config_id = "starr_range_choose_brawler_3d_item"
+string.choose_brawler_binding_prefix = "choose_brawler_"
+string.choose_count_anim_prefix = "choose_"
+int.max_choose_brawlers = 4
+
+# bonus items
+float.screen_4_reveal_delay = 2.1
+string.bonus_item_binding_prefix = "bonus_item_"
+string.bonus_item_anim_suffix = "_in"
+string.bonus_power_config_id = "starr_range_brawler_bonus_power"
+string.bonus_gadget_config_id = "starr_range_brawler_bonus_gadget"
+string.bonus_gear_config_id = "starr_range_brawler_bonus_gear"
+string.bonus_star_power_config_id = "starr_range_brawler_bonus_star_power"
+string.bonus_hypercharge_config_id = "starr_range_brawler_bonus_hypercharge"
+string.bonus_buddy_config_id = "starr_range_brawler_bonus_buddy"
+
+# power counter
+string.power_anim_prefix = "power_"
+string.spend_power_anim_prefix = "spend_power_"
+int.max_power = 17
+string.bindings_to_animate_power_levels = "power_counter_evolutions, power_counter, power_counter_orb, console_front, console_back"
+
+# sparkle anims (brawler -> power counter)
+# Prefix + sparkle count -> config id (starr_range_sparkle_particle_1 .. _4).
+string.sparkle_config_id_prefix = "starr_range_sparkle_particle_"
+float.sparkle_spawn_delay = 0.3f # how long after shooting brawler before the first sparkle appears
+float.sparkle_fly_delay = 0.5f # how long a sparkle floats near spawn before flying to power counter
+float.sparkle_fly_duration = 1.0f # how long it takes each sparkle to get from spawn to the power counter (same duration no matter the distance)
+float.sparkle_fly_curve_amount = 80.0f
+float.sparkle_fly_stagger = 0.2f # after each sparkle spawns, spawn the next sparkle after this delay
+float.post_shot_advance_delay = 1.0f # after the last sparkle-revealing brawler is shot, wait at least this long before advancing to choose / screen 3 (once all shots are done)
+
+# sparkle anims (power counter -> bonus items)
+string.spend_sparkle_config_id_prefix = "starr_range_sparkle_particle_"
+float.spend_sparkle_spawn_delay = 0.0f # delay before the first spend sparkle leaves the power counter
+float.spend_sparkle_fly_delay = 0.5f # how long a spend sparkle floats near the power counter before flying to the bonus item
+float.spend_sparkle_fly_duration = 0.6f # how long it takes each spend sparkle to reach the bonus item
+float.spend_sparkle_fly_curve_amount = 30.0f
+float.spend_sparkle_fly_stagger = 0.1f # after each spend sparkle spawns, spawn the next after this delay
+
+# brawler info
+string.class_anim_prefix = "class_"
+
+# title texts
+string.tid_title_binding_prefix = "tid_title_rarity_"
+string.tid_title_rarity_1 = "TID_STARR_RANGE_TITLE_RARE"
+string.tid_title_rarity_2 = "TID_STARR_RANGE_TITLE_SUPER_RARE"
+string.tid_title_rarity_3 = "TID_STARR_RANGE_TITLE_EPIC"
+string.tid_title_rarity_4 = "TID_STARR_RANGE_TITLE_MYTHIC"
+string.tid_title_rarity_5 = "TID_STARR_RANGE_TITLE_LEGENDARY"
+string.tid_title_rarity_6 = "TID_STARR_RANGE_TITLE_ULTRA_LEGENDARY"

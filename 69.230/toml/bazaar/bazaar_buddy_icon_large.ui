@@ -1,0 +1,20 @@
+id = "bazaar_buddy_icon_large"
+priority = 1
+
+type = "UiWidget"
+subtype = "BuddyIcon"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_buddy_big"
+
+copy_configs = [ "bazaar_equip_icon_large" ]
+
+[bindings]
+wrapper = { path="image/panel_brawler_buddy" }
+
+gadget_ph = { path="image/panel_brawler_buddy/gadget_ph/icon_ph" }
+star_power_ph = { path="image/panel_brawler_buddy/star_power_ph/icon_ph" }
+hypercharge_ph = { path="image/panel_brawler_buddy/hypercharge_ph/icon_ph" }
+
+brawler_name = {}

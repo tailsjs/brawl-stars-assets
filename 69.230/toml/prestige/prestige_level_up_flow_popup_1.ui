@@ -1,0 +1,83 @@
+id = "prestige_level_up_flow_1"
+priority = 2
+
+type = "Popup"
+subtype = "PrestigeLevelUpPopup"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/prestige.sc"
+export_name = "prestige_1_flow"
+
+center_to_screen = true
+hide = [
+	{ path="multiple_prestiged_icon" },
+	{ path="multiple_prestiged_brawler_name" },
+	{ path="multiple_prestiged_title" },
+]
+
+set_text = [
+	{ path="prestiged_title/ani/inner/TID_PRESTIGED_TITLE", gradient={ colors=["0xFFFF4400", "0xFF00FF44", "0xFF4444FF"], speed=200, scale=200 } },
+	{ path="prestige_icon/inner/inner/prestige_number/txt", gradient={ colors=["0xFFFFFFFF"], speed=200, scale=200 }, outline="0xFF4317B4" },
+]
+
+[custom]
+# intro
+float.intro_spin_speed = 1080
+float.shake_duration_seconds = 3
+vector2.shake_interval_min_max = [0.0, 0.1]
+vector2.shake_magnitude = [0, 0]
+string.bgm = "Prestige_1_Music"
+int.intro_skin_low_perf_limit = 2
+
+# tunnel
+int.skins_per_side = 5
+int.skins_per_side_low_perf = 3
+int.first_prestige_level_frame_number = 4
+int.first_rave_skin = 5
+int.first_mirror_x_skin = 10
+float.bg_effect_speed = 0.305
+float.tunnel_rotation = -15
+float.spin_speed = -1600
+float.roll_speed = 20
+vector2.start = [100.0, 230.0 ]
+vector2.end = [ 900.0, 630.0]
+vector2.zoom_start_end = [ 200.0, 900.0 ] 
+float.rave_alpha = 0.3
+vector3.spin_pivot = [-1, 15, 0]
+
+# prestige list
+float.particle_acceleration_power = 2.0
+float.particle_curve_depth = 400.0
+float.particle_curve_width = -200.1
+float.prestige_list_appear_interval = 0.01
+float.prestige_list_appear_delay = 0.5
+string.particle_export_name = "prestige_particle_1"
+
+[bindings]
+skin_1 = { path="brawler_ph_1/hero_image_ph" }
+skin_2 = { path="brawler_ph_2/hero_image_ph" }
+skin_3 = { path="brawler_ph_3/hero_image_ph" }
+skin_4 = { path="brawler_ph_4/hero_image_ph" }
+
+brawler_name = { path="brawler_name/inner/txt" }
+bg_ph = { path="prestige_bg/color/brawler_rave_ph" }
+prestige_level = { path="prestige_icon/inner/inner/prestige_number/txt" }
+prestige_brawler = { path="prestige_icon/inner/inner/brawler_ph" }
+total_prestiged = { path="total_prestige/inner/amount/txt" }
+particle_target_animated = { path="" }
+prestige_list = { path="prestige_list/scroll_area" }
+multi_prestige_count = { path="multiple_prestiged_icon/inner/amount/txt" }
+particle_fly_target = { path="prestige_particle_ph" }
+particle_parent = { path="prestige_particle_ph" }
+
+[buttons]
+next_button = { path="button_next" }
+
+[animation]
+Start = { path="", start="screen_1_start", end="screen_2_idle" }
+Last = { path="", start="screen_2_idle", end="screen_3_idle" }
+#default_animation = { path="", end="screen_2_idle" }
+default_animation = "Start" 
+#default_animation = "Last"
+#default_animation = { path="", start="screen_2_idle", end="screen_2_idle" }
+

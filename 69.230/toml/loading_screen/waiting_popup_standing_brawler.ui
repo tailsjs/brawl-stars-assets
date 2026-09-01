@@ -1,0 +1,46 @@
+id = "waiting_popup_standing_brawler"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_brawler_big"
+
+hide_binding=[ "hero_ph" ]
+
+hide=[ "brawler_level", ]
+
+move = [ { path="hero_area", scale=[1.0, 1.0] }, { path="", scale=[1.2, 1.2] } ]
+
+[custom]
+
+bool.happy_animation_only = true
+#vector2.start = [-150.0, -250.0] 
+
+vector2.self_pos = [0.0, 120.0]
+
+float.speed_x = 400.0
+float.fade_distance = 50.0
+float.min_x = -800.0
+float.max_x = 600.0
+
+float.y_start = -350.0
+float.y_travel = 400.0
+
+bool.dvd_logo = false
+float.min_y = -250.0
+float.max_y = 300.0
+float.speed_y = 200.0
+float.fade_distance_y = 0.0
+
+[skins]
+skin  = { binding="hero_ph" }
+buddy = { binding="hero_ph" }
+
+[bindings]
+hero_area = { path="hero_area" }
+hero_ph = { path="hero_area/hero_ph" }
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }

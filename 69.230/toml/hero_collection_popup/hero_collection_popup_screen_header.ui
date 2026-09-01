@@ -1,0 +1,40 @@
+id = "hero_collection_popup_screen_header"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "screen_header"
+
+hide = [
+	"fame_tier_ph",
+	"button_trophy_road",
+	"button_season_box",
+	"tabs",
+]
+
+set_text = [{ binding="title_brawlers_txt", tid="TID_HERO_LIST_LABEL_NEW" }, {binding="search_help", tid="TID_HERO_LIST_SEARCH"} ]
+
+[bindings]
+selected_sorting = { parent_binding="button_sorting", path="txt" }
+title_brawlers_txt = { path="header_brawlers/title_brawlers_txt" }
+search_container = { path="header_brawlers/button_search" }
+search_input_txt = { parent_binding="search_container", path="input_field" }
+search_help = { parent_binding="search_container", path="search_help" }
+
+[buttons]
+button_back = { path="button_back" }
+button_home = { path="button_home" }
+button_sorting = { path="header_brawlers/button_sorting" }
+button_quests = { path="header_brawlers/button_quests" }
+button_favorites = { path="header_brawlers/button_fav_brawler" }
+button_search = { parent_binding="search_container", path="debug_menu_input_button" }
+button_search_reset = { path="header_brawlers/button_cancel" }
+
+[animations]
+sort_quests_enabled = { parent_binding="button_quests", path="state", end="enable" }
+sort_quests_disabled = { parent_binding="button_quests", path="state", end="disable" }
+
+sort_favorites_enabled = { parent_binding="button_favorites", path="state", end="enable" }
+sort_favorites_disabled = { parent_binding="button_favorites", path="state", end="disable" }
+
+default_animation = { path="", also_play=["sort_quests_disabled", "sort_favorites_disabled"] }

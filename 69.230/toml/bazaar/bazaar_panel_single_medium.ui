@@ -1,0 +1,24 @@
+id = "bazaar_panel_single_medium"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_medium"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+move = [
+	{ binding="small_item_grid", offset=[-50, 0] },
+	{ binding="large_1", offset=[-30, 10] },
+]
+
+[custom]
+bool.force_first_to_be_large = true
+int.small_item_count = 4
+int.large_item_count = 1
+int.columns = 2
+float.width = 540.0
+float.small_item_row_nudge = -10.0

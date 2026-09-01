@@ -1,0 +1,25 @@
+id = "starr_range_brawler_bonus_power"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+export_name = "brawler_bonus_power"
+
+[animation]
+rarity_rare = { binding="rarity", start="rare", also_play="bg_anim"}
+rarity_super_rare = { binding="rarity", start="super_rare", also_play="bg_anim"}
+rarity_epic = { binding="rarity", start="epic", also_play="bg_anim"}
+rarity_mythic = { binding="rarity", start="mythic", also_play="bg_anim"}
+rarity_legendary = { binding="rarity", start="legendary", also_play="bg_anim"}
+rarity_ultra = { binding="rarity", start="ultra", also_play="bg_anim"}
+bg_anim = {binding="bg", start="start", end="idle"}
+
+[bindings]
+icon = { path="icon" }
+bg = { parent_binding="icon", path="bg" }
+rarity = { parent_binding="bg", path="rarity" }
+level_txt = { parent_binding="icon", path="brawler_level/txt" }
+upgrade_noti = { parent_binding="icon", path="upgrade_noti" }
+
+[custom]
+string.rarity_anim_prefix = "rarity_"

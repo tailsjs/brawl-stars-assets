@@ -1,0 +1,35 @@
+id = "bazaar_tab_button_default"
+priority = 1
+
+type = "Background"
+subtype = "Bazaar"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "button_navi_shop"
+
+hide_binding = [
+	"notification",
+]
+
+set_text = [
+	{ parent_binding="notification", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="notification", path="txt_free", tid="TID_SHOP_FREE" }
+]
+
+[bindings]
+me = { path="" }
+title = { parent_binding="me", path="txt" }
+icon = {  parent_binding="me", path="icon_ph" }
+notification = {  parent_binding="me", path="notification" }
+
+[animations]
+new = {  parent_binding="me", path="notification", end="new" }
+unselected = {  binding="me", end="idle" }
+selected = { binding="me", end="ready" }
+rainbow = { binding="me", end="themed" }
+notification_free = { binding="notification", end="free" }
+notification_new = { binding="notification", end="new" }
+
+default_animation = "rainbow"
+

@@ -1,0 +1,170 @@
+id = "waiting_popup_running_brawler"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_brawler_big"
+
+hide_binding=[ "hero_ph" ]
+
+hide=[ "brawler_level", ]
+
+move = [ { path="hero_area", scale=[1.0, 1.0] }, { path="", scale=[1.0, 1.0] } ]
+
+[skins]
+# "Profile"
+skin  = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=75.0, position=[0,-7.0,0], offset=[  0, 100] }
+buddy = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=75.0, position=[0,-7.0,0], offset=[-150, 110] }
+
+# More face
+#skin  = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=55.0, position=[0,-7.0,0], offset=[  0, 100] }
+#buddy = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=55.0, position=[0,-7.0,0], offset=[-50, 110] }
+
+# Full side on
+#skin  = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=90.0, position=[0,-7.0,0], offset=[  0, 100] }
+#buddy = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=90.0, position=[0,-7.0,0], offset=[-50, 110] }
+
+# Full side on with level camera
+#skin  = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=90.0, position=[0,0.0,0], offset=[  0, 240] }
+#buddy = { binding="hero_ph", animation="WALK", animation_next="WALK", rotation=90.0, position=[0,0.0,0], offset=[-50, 250] }
+
+[bindings]
+hero_area = { path="hero_area" }
+hero_ph = { path="hero_area/hero_ph" }
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }
+
+[custom]
+
+#bool.hide_spinner = true
+#bool.behind_spinner = true
+bool.happy_animation_only = false
+#vector2.start = [-150.0, 0.0] # start neart the center
+vector2.start = [10000.0, 0.0] # start at screen edge
+#vector2.start = [0.0, -250.0] 
+
+vector2.self_pos = [0.0, 120.0]
+vector2.shadow_pos = [100, 240.0]
+vector2.shadow_scale = [0.6, 0.6]
+
+float.speed_x = 400.0
+#float.speed_x = 0.0
+float.fade_distance = 50.0
+float.min_x = -650.0
+float.max_x = 700.0
+
+float.y_start = -200.0
+float.y_travel = 0.0
+
+bool.dvd_logo = false
+float.min_y = -250.0
+float.max_y = 300.0
+float.speed_y = 200.0
+float.fade_distance_y = 0.0
+
+float.outline_thickness = 4.0
+float.white_outline_thickness = 12.0
+
+vector2.buddy_offset_TrickshotDude = [320,0]
+vector2.buddy_offset_HammerDude = [320,-5]
+vector2.buddy_offset_Cactus= [300, 0]
+vector2.buddy_offset_Undertaker = [-80, -120]
+vector2.buddy_offset_BowDude = [-20, -200]
+vector2.buddy_offset_Mummy= [-50, 0]
+vector2.buddy_offset_Speedy = [50, 0]
+vector2.buddy_offset_SoulCollector = [0, -60]
+vector2.buddy_offset_Ghost = [0, -70]
+vector2.buddy_offset_Conductor = [-70, 0]
+
+float.rotation_override_IceDudeToon = 0.0
+float.rotation_override_Samurai = -150.0
+
+float.speed_mult_BanditGirl = 0.75
+float.speed_mult_BullDude = 0.85
+float.speed_mult_RocketGirl = 1.1
+float.speed_mult_TrickshotDude = 0.8
+float.speed_mult_Cactus = 0.7
+float.speed_mult_Barkeep = 1.1
+float.speed_mult_Mechanic = 1.2
+float.speed_mult_Shaman = 1.1
+float.speed_mult_TntDude = 1.1
+float.speed_mult_Luchador = 1.1
+float.speed_mult_Undertaker = 0.95
+float.speed_mult_Crow = 1.0
+float.speed_mult_DeadMariachi = 1.1
+float.speed_mult_BowDude = 1.1
+float.speed_mult_MinigunDude = 1.1
+float.speed_mult_BlackHole = 1.4
+float.speed_mult_BarrelBot = 0.9
+float.speed_mult_ArtilleryDude = 0.95
+float.speed_mult_HammerDude = 0.7
+float.speed_mult_ClusterBombDude = 0.6
+float.speed_mult_Rosa = 0.9
+float.speed_mult_Baseball = 0.85
+float.speed_mult_Arcade = 0.95
+float.speed_mult_Sandstorm = 0.9
+float.speed_mult_BeeSniper = 0.85
+float.speed_mult_Mummy = 0.8
+float.speed_mult_SpawnerDude = 1.0
+float.speed_mult_Speedy = 1.3
+float.speed_mult_Controller = 0.95
+float.speed_mult_PowerLeveler = 1.1
+float.speed_mult_Percenter = 1.0
+float.speed_mult_FireDude = 1.0
+float.speed_mult_IceDude = 1.0
+float.speed_mult_SnakeOil = 0.95
+float.speed_mult_Enrager = 1.0
+float.speed_mult_Ruffs = 0.85
+float.speed_mult_ElectroSniper = 0.9
+float.speed_mult_StickyBomb = 0.85
+float.speed_mult_CrossBomber = 0.95
+float.speed_mult_RopeDude = 0.9
+float.speed_mult_AssaultShotgun = 0.7
+float.speed_mult_Knight = 1.0
+float.speed_mult_MechaDude = 0.9
+float.speed_mult_Duplicator = 0.9
+float.speed_mult_KickerDude = 1.25
+float.speed_mult_JetpackGirl = 0.8
+float.speed_mult_Silencer = 1.0
+float.speed_mult_WeaponThrower = 1.2
+float.speed_mult_SoulCollector = 0.8
+float.speed_mult_Jester = 1.4
+float.speed_mult_DoorMan = 1.3
+float.speed_mult_Beamer = 1.6
+float.speed_mult_Splitter = 0.7
+float.speed_mult_Puppeteer = 1.2
+float.speed_mult_Maisie = 1.4
+float.speed_mult_Duelist = 1.4
+float.speed_mult_Reviver = 0.65
+float.speed_mult_Cooker = 1.20
+float.speed_mult_Conductor = 1.4
+float.speed_mult_Cocooner = 1.45
+float.speed_mult_Leaper = 1.4
+float.speed_mult_Attacher = 0.8
+float.speed_mult_Twins = 1.3
+float.speed_mult_DragonRider = 1.3
+float.speed_mult_Ambusher = 1.5
+float.speed_mult_Painter = 1.4
+float.speed_mult_Crab = 0.55
+float.speed_mult_Samurai = -1.2
+float.speed_mult_Voodoo = 1.4
+float.speed_mult_Meeple = 1.1
+float.speed_mult_Alternator = 1.1
+float.speed_mult_Geisha = 0.9
+float.speed_mult_Stalker = 1.45
+float.speed_mult_Domain = 1.4
+float.speed_mult_Dancer = -0.25
+float.speed_mult_Fury = 1.1
+float.speed_mult_Bulletstorm = 1.2
+float.speed_mult_Daredevil = 0.5
+float.speed_mult_Mender = 1.1
+float.speed_mult_Shadowdemon = 1.4
+float.speed_mult_Redirecter = 1.2
+float.speed_mult_Gladiator = 1.2
+float.speed_mult_MagicalGirl = 0.4
+float.speed_mult_Rock = 0.85
+float.speed_mult_KatanaKid = 1.1
+float.speed_mult_Attractor = 0.4

@@ -1,0 +1,56 @@
+id = "SteampunkLosShowdown"
+priority = 1
+
+type = "EventBanner"
+subtype = "Tall"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "special_event_info"
+
+hide=[
+	"button_solo_3",
+	"button_duo_3",
+	"button_trio_3",
+	"button_solo",
+	"button_duo",
+	"collab_play_reward_icon",
+	"TID_RAID_BOSS_LEVEL",
+	"mutant_ph",
+	"details_container/gamemode_txt",
+	"details_container/location_txt",
+	"details_container/powerup",
+	"no_trophies_info_container",
+]
+
+[animation]
+New = { path="", start="new" }
+Idle = { path="", start="idle" }
+default_animation = "Idle"
+
+
+[[replace]]
+path="event_mode"
+sc_file_source = "ClientFile"
+sc_file="sc/ui.sc"
+export_name="event_gameroom_steampunk_showdown_override"
+
+
+
+[[set_text]]
+path = "new_event_txt"
+tid = "TID_EVENTS_NEW"
+
+[[move]]
+path = "details_container/location_txt"
+offset = [0,40]
+
+[[move]]
+path = "details_container/info_txt"
+offset = [0,40]
+
+[bindings]
+new_map_in = "details_container/time_txt"
+#event_time = "details_container/time_txt"
+location_name = { find="collab_location_txt" }
+modifier_icon = { path="details_container/powerup" }

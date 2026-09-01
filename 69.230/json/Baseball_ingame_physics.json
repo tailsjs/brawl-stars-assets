@@ -1,0 +1,25 @@
+{
+		"BaseballBopeep":{
+			"bone":["cape_00_s","cape_01_s","cape_02_s"],
+			"dir":["y","y","y"],
+			"max":[25,25,25],
+			"min":[-25,-25,-25],
+			"soft":[5,5,5],
+			"follow":[0,0,0],
+			"child":[["cape_01_s","cape_02_s","L_cape_00_s","L_cape_01_s","L_cape_02_s","R_cape_00_s","R_cape_01_s","R_cape_02_s"],["cape_02_s","L_cape_01_s","L_cape_02_s","R_cape_01_s","R_cape_02_s"],["L_cape_02_s","R_cape_02_s"]]
+		},
+		"BaseballThor":{
+			"bone":["Cloak_c_01_s","Cloak_c_02_s","Cloak_c_03_s"],
+			"dir":["y","y","y"],
+			"max":[25,25,25],
+			"min":[-25,-25,-25],
+			"soft":[3,4,4],
+			"follow":[0,0,0],
+			"child":[
+				["Cloak_c_02_s","Cloak_c_03_s","Cloak_c_04_s","Cloak_l_04_s","Cloak_l_03_s","Cloak_l_02_s","Cloak_l_01_s","Cloak_r_04_s","Cloak_r_03_s","Cloak_r_02_s",
+					"Cloak_r_01_s","Cloak_l_l_02_s","Cloak_r_r_02_s","Cloak_l_l_01_s","Cloak_r_r_01_s"],
+				["Cloak_c_03_s","Cloak_c_04_s","Cloak_l_04_s","Cloak_l_03_s","Cloak_r_04_s","Cloak_r_03_s","Cloak_l_02_s","Cloak_r_02_s"],
+				["Cloak_c_04_s","Cloak_l_03_s","Cloak_l_04_s","Cloak_r_03_s","Cloak_r_04_s"]
+			]
+		}
+	}

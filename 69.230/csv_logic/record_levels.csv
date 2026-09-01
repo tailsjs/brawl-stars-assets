@@ -1,0 +1,15 @@
+"Name","CumulativeRecordScore","Level","EmblemSwf","EmblemExportName","RewardType","Reward","DontShow"
+"string","int","int","string","string","string","string","boolean"
+"Level0",0,0,"sc/ui_achievements.sc","icon_records_tier_0","NONE",,
+"Level1",50,1,"sc/ui_achievements.sc","icon_records_tier_1","PLAYER_FRAME","records_frame_level_1",
+"Level2",300,2,"sc/ui_achievements.sc","icon_records_tier_2","PLAYER_FRAME","records_frame_level_2",
+"Level3",1000,3,"sc/ui_achievements.sc","icon_records_tier_3","PLAYER_FRAME","records_frame_level_3",
+"Level4",2000,4,"sc/ui_achievements.sc","icon_records_tier_4","PLAYER_FRAME","records_frame_level_4",
+"Level5",7000,5,"sc/ui_achievements.sc","icon_records_tier_5","PLAYER_FRAME","records_frame_level_5",
+"Level6",20000,6,"sc/ui_achievements.sc","icon_records_tier_6","PLAYER_FRAME","records_frame_level_6",
+"Level7",45000,7,"sc/ui_achievements.sc","icon_records_tier_7","PLAYER_FRAME","records_frame_level_7",
+"Level8",70000,8,"sc/ui_achievements.sc","icon_records_tier_8","PLAYER_FRAME","records_frame_level_8",
+"Level9",95000,9,"sc/ui_achievements.sc","icon_records_tier_9","PLAYER_FRAME","records_frame_level_9",
+"Level10",120000,10,"sc/ui_achievements.sc","icon_records_tier_10","PLAYER_FRAME","records_frame_level_10",
+"Level11",145000,11,"sc/ui_achievements.sc","icon_records_tier_11","PLAYER_FRAME","records_frame_level_11","TRUE"
+"Level12",165000,12,"sc/ui_achievements.sc","icon_records_tier_12","PLAYER_FRAME","records_frame_level_12","TRUE"

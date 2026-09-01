@@ -1,0 +1,8 @@
+"Name","Price","Rarity","ChromaPrice"
+"string","int","string","int"
+"Rare",29,"RARE",0
+"SuperRare",79,"SUPER_RARE",29
+"Epic",149,"EPIC",39
+"Mythic",199,"MYTHIC",49
+"Legendary",299,"LEGENDARY",49
+"Hypercharge",499,"HYPERCHARGE",200

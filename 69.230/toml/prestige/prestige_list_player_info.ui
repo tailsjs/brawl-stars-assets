@@ -1,0 +1,34 @@
+id = "prestige_list_player_info"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "screen_area"
+
+
+hide=[
+	{ path="scroll_area" },
+]
+
+[custom]
+int.column_count = 5
+int.row_count = 2
+float.column_width = 105
+float.row_height = 100
+float.emblem_width = 100
+float.emblem_height = 100
+float.appear_interval = 0.02
+float.appear_delay = 0.0
+float.icon_appear_duration = 0.3
+float.icon_appear_distance = 20
+float.icon_appear_alpha_duration = 0.5
+vector2.offset = [70,20]
+
+#
+# appearing animation
+#  * flickering in
+# scroll to the currently prestiging brawler (if offscreen)
+# 
+
+[bindings]
+icon_parent = { path="" }

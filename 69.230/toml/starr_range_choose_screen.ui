@@ -1,0 +1,51 @@
+id = "starr_range_choose_screen"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+container_prefix = "starr_range_choose_screen_"
+
+[animation]
+default_animation = "Start"
+Start = {path="top", start="start", end="idle", also_play="popover_start"}
+popover_start = {path="bottom", start="start", end="title"}
+popover_title = {path="bottom", start="title", end="idle"}
+
+# class icon anims
+class_tank = {binding="brawler_class_icon", start="tank"}
+class_marksman = {binding="brawler_class_icon", start="marksman"}
+class_support = {binding="brawler_class_icon", start="support"}
+class_damage = {binding="brawler_class_icon", start="damage"}
+class_assassin = {binding="brawler_class_icon", start="assassin"}
+class_controller = {binding="brawler_class_icon", start="controller"}
+class_artillery = {binding="brawler_class_icon", start="artillery"}
+
+# rarity frame on popover
+rarity_rare = {binding="portrait", start="rare"}
+rarity_super_rare = {binding="portrait", start="super_rare"}
+rarity_epic = {binding="portrait", start="epic"}
+rarity_mythic = {binding="portrait", start="mythic"}
+rarity_legendary = {binding="portrait", start="legendary"}
+rarity_ultra = {binding="portrait", start="ultra"}
+
+[buttons]
+accept_button = {parent_binding="popover", path="accept_button"}
+try_button = { parent_binding = "popover", path="btn_test"}
+info_button = {parent_binding= "popover", path="button_info"}
+attack_info_button = {parent_binding="popover", path="attack_info_button"}
+super_info_button = {parent_binding="popover", path="super_info_button"}
+
+[bindings]
+popover = {path="bottom/popover"}
+name_txt = {parent_binding="popover", path="name/inner/name_txt"}
+type_txt = {parent_binding="popover", path="type_txt"}
+tagline_txt = {parent_binding="popover", path="tagline_txt"}
+brawler_class_icon = {parent_binding="popover", path="icon_brawler_class"}
+portrait = {parent_binding="popover", path="portrait"}
+portrait_ph = {parent_binding="portrait", path="portrait_ph"}
+try_button_txt = {parent_binding="try_button", path="inner/txt"}
+super_info_icon_ph = {parent_binding="super_info_button", path="icon_ph"}
+
+[custom]
+string.class_archetype_anim_prefix = "class_"
+string.rarity_anim_prefix = "rarity_"

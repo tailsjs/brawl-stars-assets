@@ -1,0 +1,15 @@
+id = "prestige_level_up_flow_2_multi"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "prestige_level_up_flow_2"
+
+hide = [
+	{ path="brawler_name" },
+	{ path="prestiged_title" },
+	{ path="prestige_icon" },
+]
+
+[custom]
+float.prestige_list_appear_interval = 0.2
+string.particle_export_name = "prestige_particle_2"

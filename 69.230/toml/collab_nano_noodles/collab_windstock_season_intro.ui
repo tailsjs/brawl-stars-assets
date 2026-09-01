@@ -1,0 +1,17 @@
+id = "collab_18_event_intro"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "collab_info_screen_center"
+
+[buttons]
+ok_button = {path="ok_button"}
+
+[custom]
+float.musicFadeVolume = 0.2
+float.musicFadeTime = 1.0
+
+[animation]
+transition = {path="", start="animation starts", end="animation ends"}
+info_screen = {path="", start="info screen starts", end="animation ends" }

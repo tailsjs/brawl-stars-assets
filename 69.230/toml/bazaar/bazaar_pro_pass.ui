@@ -1,0 +1,38 @@
+id = "bazaar_pro_pass"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_competitive_pass"
+
+hide = [ "inactive", "processing_ani", "panel_offer/timer_bgr", "panel_offer/title_txt", "panel_offer/time_txt" ]
+
+hide_binding = [ "discount_1", "notification", "best_value_multiplier" ]
+
+[custom]
+float.width = 300
+
+[bindings]
+price_txt = { path="price_txt" }
+per_month_price = { path="ranked_boost/month_price_text/TID_COMPETITIVE_PASS_PURCHASE_POPUP_DURATION_OFFER" }
+season_name = { path="season_name_txt" }
+season_bg = { path="season_background" }
+time = { path="time_txt" }
+notification = { path="notification" }
+
+discount_1 = { path="panel_discount" }
+discount_1_warpper = { parent_binding="discount_1", path="inner" }
+best_value_multiplier = { path="panel_best_value" }
+best_value_multiplier_txt = { parent_binding="best_value_multiplier", path="value_txt" }
+
+
+[skins]
+skin_1 = { path="heroes_2_ph_anim/hero_area_1/hero_ph", animation="HERO_SCREEN_LOOP", animation_next="HERO_SCREEN_LOOP" }
+skin_2 = { path="heroes_2_ph_anim/hero_area_2/hero_ph", animation="HERO_SCREEN_LOOP", animation_next="HERO_SCREEN_LOOP" }
+skin_3 = { path="heroes_2_ph_anim/hero_area_3/hero_ph", animation="HERO_SCREEN_LOOP", animation_next="HERO_SCREEN_LOOP" }
+
+[animations]
+discount_1_idle = { binding="discount_1", start="idle_start", end="idle_end" }
+discount_1 = { binding="discount_1", start="ani_in_start", end="ani_in_end", next_animation="discount_1_idle" }
+
+default_animation = { binding="notification", end_frame=0 }

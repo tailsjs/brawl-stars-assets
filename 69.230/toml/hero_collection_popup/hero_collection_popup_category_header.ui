@@ -1,0 +1,11 @@
+id = "hero_collection_popup_category_header"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "separator_brawlers_class"
+
+[bindings]
+stretchy_bgr = { path="bg" }
+header = { path="txt" }
+class_icon = { path="icon_brawler_class" }

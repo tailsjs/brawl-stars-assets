@@ -1,0 +1,11 @@
+{
+		"BullDudeDemon":{
+			"bone":["tail_04_s","tail_03_s","tail_02_s"],
+			"dir":["y","y","y"],
+			"max":[41,39,39],
+			"min":[-41,-39,-39],
+			"soft":[5,5,5],
+			"follow":[0,0,0],
+			"child":[[],["tail_04_s"],["tail_03_s","tail_04_s"]]
+		}
+	}

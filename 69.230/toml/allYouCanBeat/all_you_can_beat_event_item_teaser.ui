@@ -1,0 +1,26 @@
+id = "AllYouCanBeatEventItemTeaser"
+priority = 1
+
+type = "EventBanner"
+subtype = "Tall"
+
+sc_file_source = "EventData"
+export_name = "event_teaser"
+
+hide_binding=[
+	"perfect_run_reward"
+]
+
+[animation]
+default_animation = "roof_select_a_brawler"
+roof_select_a_brawler = { binding="roof", start="select_a_brawler"}
+
+[bindings]
+bg = "bg"
+extended_special_event_panel_ph = "extended_special_event_panel_ph"
+event_spacer = "spacer"
+tower = {path="tower"}
+perfect_run_reward = {parent_binding="tower", path="perfect_run_reward"}
+roof = {parent_binding="tower", path="roof"}
+
+teaser_time_txt = { path="teaser_time_txt" }

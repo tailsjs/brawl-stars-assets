@@ -1,0 +1,16 @@
+id = "skin_item"
+priority = 1
+
+type = "UiWidget"
+subtype = "SmallPortrait"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "gatcha_summary_skin_3d"
+
+hide = [
+	"reward_item/hero_ph"
+]
+
+[skins]
+skin = { path="reward_item/hero_ph", portrait=true }

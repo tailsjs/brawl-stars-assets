@@ -1,0 +1,8 @@
+"Name","BossDifficulty","EasyOdds","MediumOdds","DifficultOdds"
+"string","int","int","int","int"
+"BossDifficulty0",0,45,40,15
+"BossDifficulty1",1,45,40,15
+"BossDifficulty2",2,45,40,15
+"BossDifficulty3",3,45,40,15
+"BossDifficulty4",4,45,40,15
+"BossDifficulty5",5,45,40,15

@@ -1,0 +1,32 @@
+id = "hero_collection_popup_category_hud"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_list_screen_hud_right"
+
+[buttons]
+tank = { path="tank" }
+assassin = { path="assassin" }
+support = { path="support" }
+controller = { path="controller" }
+damage = { path="damage" }
+marksman = { path="marksman" }
+artillery = { path="artillery" }
+
+[animations]
+deselect_tank = { binding="tank", end="idle" }
+deselect_assassin = { binding="assassin", end="idle" }
+deselect_support = { binding="support", end="idle" }
+deselect_controller = { binding="controller", end="idle" }
+deselect_damage = { binding="damage", end="idle" }
+deselect_marksman = { binding="marksman", end="idle" }
+deselect_artillery = { binding="artillery", end="idle" }
+
+select_tank= { binding="tank", end="selected", also_play=["deselect_assassin", "deselect_support", "deselect_controller", "deselect_damage", "deselect_marksman", "deselect_artillery"] }
+select_assassin= { binding="assassin", end="selected", also_play=["deselect_tank", "deselect_support", "deselect_controller", "deselect_damage", "deselect_marksman", "deselect_artillery"] }
+select_support= { binding="support", end="selected", also_play=["deselect_tank", "deselect_assassin", "deselect_controller", "deselect_damage", "deselect_marksman", "deselect_artillery"] }
+select_controller= { binding="controller", end="selected", also_play=["deselect_tank", "deselect_assassin", "deselect_support", "deselect_damage", "deselect_marksman", "deselect_artillery"] }
+select_damage= { binding="damage", end="selected", also_play=["deselect_tank", "deselect_assassin", "deselect_support", "deselect_controller", "deselect_marksman", "deselect_artillery"] }
+select_marksman= { binding="marksman", end="selected", also_play=["deselect_tank", "deselect_assassin", "deselect_support", "deselect_controller", "deselect_damage", "deselect_artillery"] }
+select_artillery= { binding="artillery", end="selected", also_play=["deselect_tank", "deselect_assassin", "deselect_support", "deselect_controller", "deselect_damage", "deselect_marksman"] }

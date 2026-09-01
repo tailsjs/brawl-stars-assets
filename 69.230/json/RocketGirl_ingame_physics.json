@@ -1,0 +1,11 @@
+{
+		"RocketGirlZeus":{
+			"bone":["L_gunbone_01_s","Cape_main_s","Cape_01_s","Cape_02_s"],
+			"dir":["y","y","y","y"],
+			"max":[25,25,25,25],
+			"min":[-25,-25,-25,-25],
+			"soft":[3,3,3,3],
+			"follow":[1,0,0,0],
+			"child":[["L_gunbone_02_s"],["Cape_01_s","Cape_02_s","Cape_03_s"],["Cape_02_s","Cape_03_s"],["Cape_03_s"]]
+		}
+	}

@@ -1,0 +1,62 @@
+id = "collab_18_event_hub"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+container_prefix = "event_hub_screen_"
+
+copy_configs=[ "collab_nanowind_event_hub_shared" ]
+
+set_text = [
+    { binding="event_meter_milestone_reward_1_amount_txt", text="1000" },
+    { binding="event_meter_milestone_reward_2_amount_txt", text="1000" },
+    { binding="event_meter_milestone_reward_3_amount_txt", text="1000" },
+    { binding="event_meter_milestone_reward_4_amount_txt", text="2000" },
+    { binding="event_meter_milestone_reward_5_amount_txt", text="1000" },
+]
+
+[bindings]
+
+milestone_1 = {parent_binding="event_meter_tower_stack", path="map_1" }
+milestone_2 = {parent_binding="event_meter_tower_stack", path="map_2" }
+milestone_3 = {parent_binding="event_meter_tower_stack", path="map_3" }
+milestone_4 = {parent_binding="event_meter_tower_stack", path="map_4" }
+milestone_5 = {parent_binding="event_meter_tower_stack", path="map_5" }
+
+milestone_1_progress_amount_text = { parent_binding="milestone_1", path="milestone/amount_txt" }
+milestone_2_progress_amount_text = { parent_binding="milestone_2", path="milestone/amount_txt" }
+milestone_3_progress_amount_text = { parent_binding="milestone_3", path="milestone/amount_txt" }
+milestone_4_progress_amount_text = { parent_binding="milestone_4", path="milestone/amount_txt" }
+milestone_5_progress_amount_text = { parent_binding="milestone_5", path="milestone/amount_txt" }
+
+event_meter_milestone_reward_1_amount_txt = { parent_binding="milestone_1", path="milestone_reward/amount_txt" }
+event_meter_milestone_reward_2_amount_txt = { parent_binding="milestone_2", path="milestone_reward/amount_txt" }
+event_meter_milestone_reward_3_amount_txt = { parent_binding="milestone_3", path="milestone_reward/amount_txt" }
+event_meter_milestone_reward_4_amount_txt = { parent_binding="milestone_4", path="milestone_reward/amount_txt" }
+event_meter_milestone_reward_5_amount_txt = { parent_binding="milestone_5", path="milestone_reward/amount_txt" }
+
+[buttons]
+milestone_1_buy_button = {parent_binding="milestone_1", path="milestone/plus_button" }
+milestone_2_buy_button = {parent_binding="milestone_2", path="milestone/plus_button" }
+milestone_3_buy_button = {parent_binding="milestone_3", path="milestone/plus_button" }
+milestone_4_buy_button = {parent_binding="milestone_4", path="milestone/plus_button" }
+milestone_5_buy_button = {parent_binding="milestone_5", path="milestone/plus_button" }
+
+event_meter_skin_button = { parent_binding="event_meter", path="skin_info" }
+event_meter_info_button = { parent_binding="event_meter", path="skin_info/button_info" }
+
+[custom]
+string.event_meter_info_tid = "TID_COLLAB_WINDSTOCK_MECH_TOOLTIP"
+
+string.color_total_progress = "D9FFBF"
+string.color_total_goal = "3ACFE9"
+string.color_milestone_progress = "FFFF01"
+string.color_milestone_goal = "9CFF80"
+
+[animation]
+tower_level_1 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=1 }
+tower_level_2 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=2 }
+tower_level_3 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=3 }
+tower_level_4 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=4 }
+tower_level_5 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=5 }
+tower_level_6 = { binding="event_meter_tower_stack", start_frame=-1, end_frame=5 }

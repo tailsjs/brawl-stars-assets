@@ -1,0 +1,60 @@
+id = "bazaar_panel_shared_configs"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "SharedConfigs"
+
+set_text = [
+	{ parent_binding="notification", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="notification", path="txt_free", tid="TID_SHOP_FREE" }
+]
+
+hide = [
+	"notification",
+	"inactive",
+	"processing_ani",
+	"skin_label",
+	#"lock",
+	"panel_best_value",
+	#"TID_SHOP_ONE_TIME_PURCHASE",
+]
+
+hide_binding = [
+	"discount_1",
+	"discount_2",
+]
+
+copy_configs = [
+	"bazaar_panel_shared_price_configs"
+]
+
+dont_animate_skins_on_lowend_devices = true
+
+[custom]
+int.small_item_count = 2
+vector2.small_item_step = [105,120]
+int.discount_2_limit = 50
+
+[bindings]
+bg_ph = { path="bg_ph" }
+title = { path="title_txt" }
+subtitle = {}
+time_txt = { path="time_txt" }
+timer_bgr = { path="timer_bgr" }
+large_1 = { path="item_ph" }
+large_parent = { path="" }
+small_item_grid = { path="item_grid_ph" }
+png_ph = {}
+touch_area = { path="bounds" }
+discount_1 = { path="panel_discount_1" }
+discount_2 = { path="panel_discount_2" }
+discount_1_wrapper = { parent_binding="discount_1", path="inner" }
+discount_2_wrapper = { parent_binding="discount_2", path="inner" }
+best_value_multiplier = {} # was at panel_best_value
+best_value_multiplier_txt = {} # was at panel_best_value/value_txt
+
+[animations]
+discount_1_idle = { binding="discount_1", start="idle_start", end="idle_end" }
+discount_1 = { binding="discount_1", start="ani_in_start", end="ani_in_end", next_animation="discount_1_idle" }
+discount_2_idle = { binding="discount_2", start="idle_start", end="idle_end" }
+discount_2 = { binding="discount_2", start="ani_in_start", end="ani_in_end", next_animation="discount_2_idle" }

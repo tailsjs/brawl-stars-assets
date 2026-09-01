@@ -1,0 +1,44 @@
+id = "demo_select_hero_screen"
+priority = 1
+
+type = "TestablePopup"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/apple_store_demo.sc"
+export_name = "apple_store_demo_screen"
+
+center_to_screen = true
+
+uninteractive = [ "bounds", "hero_item_1", "hero_item_2", "hero_item_3" ]
+hide = [ "bounds" ]
+
+set_text = [
+	{ path="btn_play_hero_1/txt", tid="TID_BATTLE" },
+	{ path="btn_play_hero_2/txt", tid="TID_BATTLE" },
+	{ path="btn_play_hero_3/txt", tid="TID_BATTLE" },
+#	{ path="btn_play_hero_3/txt", tid="TID_BATTLE" },
+]
+
+[bindings]
+logo = { path="logo" }
+bounds = { path="bounds" }
+qr_text = { path="TID_APPLE_QR_CODE_INFO" }
+hero_3 = { path="hero_item_1/hero_area" }
+hero_2 = { path="hero_item_2/hero_area" }
+hero_1 = { path="hero_item_3/hero_area" }
+
+[skins]
+hero_3 = { parent_binding="hero_3", path="hero_ph", skin="EnragerDefault", animation="HAPPY", animation_next="HAPPY_LOOP", load_immediately=true, suppress_pet=true }
+hero_2 = { parent_binding="hero_2", path="hero_ph", skin="CactusDefault", animation="HAPPY", animation_next="HAPPY_LOOP", load_immediately=true, suppress_pet=true }
+hero_1 = { parent_binding="hero_1", path="hero_ph", skin="ShamanDefault", animation="HAPPY", animation_next="HAPPY_LOOP", load_immediately=true, suppress_pet=true }
+
+[buttons]
+play_hero_3 = { path="btn_play_hero_1" }
+play_hero_2 = { path="btn_play_hero_2" }
+play_hero_1 = { path="btn_play_hero_3" }
+next_game_mode = { path="next_game_mode" }
+
+[animations]
+next_showdown = { binding="next_game_mode", end="showdown" }
+next_brawlball = { binding="next_game_mode", end="brawl_ball" }
+default_animation = "next_brawlball"

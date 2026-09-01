@@ -1,0 +1,108 @@
+id = "LineOfSightShowdownEventBanner"
+priority = 1
+
+
+# These don't do anything yet
+type = "EventBanner"
+subtype = "Tall"
+
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "special_event_info"
+
+hide=[
+	"button_solo_3",
+	"button_duo_3",
+	"button_trio_3",
+	"button_solo",
+	"button_duo",
+	"collab_play_reward_icon",
+	"TID_RAID_BOSS_LEVEL",
+	"mutant_ph",
+]
+
+[custom]
+bool.full_override = true
+
+[animation]
+New = { path="", start="new" }
+Idle = { path="", start="idle" }
+
+[default_animation]
+#self = "New"
+self = "Idle"
+
+
+
+
+# This [[double bracket]] syntax is used to define lists of objects (there are multiple replaces)
+
+[[replace]]
+path="details_container/powerup"
+sc_file_source = "ClientFile"
+sc_file="sc/ui.sc"
+export_name="icon_modifier_48"
+
+[[replace]]
+path="map_container/map"
+sc_file_source = "ClientFile"
+sc_file="sc/events.sc"
+export_name="event_showdown_banner_square"
+
+[[replace]]
+path="event_mode"
+sc_file_source = "ClientFile"
+sc_file="sc/ui.sc"
+export_name="event_gameroom_survival_square"
+
+
+
+# Same [[double bracket]] syntax as [[replace]]
+
+[[set_text]]
+path = "details_container/gamemode_txt"
+text = "Line Of Sight\nShowdown"
+
+[[set_text]]
+path = "details_container/location_txt"
+text = "Testing dynamic UI config!"
+
+[[set_text]]
+path = "details_container/info_txt"
+text = "I can't believe\nit's not code!"
+
+[[set_text]]
+path = "new_event_txt"
+tid = "TID_EVENTS_NEW"
+
+[[move]]
+path = "details_container/location_txt"
+offset = [0,40]
+
+[[move]]
+path = "details_container/info_txt"
+offset = [0,40]
+
+
+
+
+[skins]
+have_this_colt = { path="details_container", skin="GunSlingerDefault", position = [4, -25, 0], scale = 1, rotation = 0 }
+
+# Hehe! :)
+
+[buttons]
+self = ""
+#info_button = "info_button"
+#quest_button = "quest_button"
+
+
+
+# Bindings for programmers and animations to refer to
+
+[bindings]
+event_time = "details_container/time_txt"
+location_name = { find="collab_location_txt" }
+gamemode_txt = { parent_clip="some_container", find="game_mode_txt" }
+boss_level = "TID_RAID_BOSS_LEVEL"

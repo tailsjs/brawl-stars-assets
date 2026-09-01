@@ -1,0 +1,400 @@
+id = "StarrRangeBrawlerItem"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+export_name = "starr_range_brawler_portrait"
+
+[skins]
+skin = { binding="skin", dont_animate=true, force_suppress_pet=true, unload_non_visible=true, animation="STARR_RANGE_PROFILE", animation_next="STARR_RANGE_PROFILE", hide_outline=true}
+
+[animation]
+default_animation = "hidden"
+
+# brawler_portrait transition anims
+hidden = {path="", start="brawler_hidden", also_play=["inner_empty", "mask_highlight_default", "panels_idle"]}
+appear = {path="", start="appear_start", end="appear_end", next_animation="idle", also_play="mask_highlight_default"}
+idle = {path="", start="idle_loop_start", end="idle_loop_end", loop=true, also_play="panels_move_sideways"}
+debug_preview = {path="", start="idle_loop_start", also_play=["mask_highlight_default", "panels_idle"]}
+
+# brawler_portrait shooting anims
+shot_0 = {path="", start="shot_0_start", end="shot_0_end", also_play="panels_idle"}
+shot_1 = {path="", start="shot_1_start", end="shot_1_end", also_play="panels_idle"}
+shot_2 = {path="", start="shot_2_start", end="shot_2_end", also_play="panels_idle"}
+shot_3 = {path="", start="shot_3_start", end="shot_3_end", also_play="panels_idle"}
+shot_4 = {path="", start="shot_4_start", end="shot_4_end", also_play="panels_idle"}
+shot_choose = {path="", start="shot_choose_start", end="shot_choose_end", also_play="panels_idle"}
+trapdoor_dark = {path="", start="trapdoor_dark_start", end="trapdoor_dark_end"}
+choose_start = {path="", start="idle_choose_start", end="idle_choose_end", also_play=["mask_highlight_choose_start", "panels_idle"]}
+
+# inner anims
+inner_empty = { path="brawler", start="empty"}
+
+# brawler_3d / empty_targets panel motion (idle hold -> move_sideways, loop)
+panels_idle = { path="", also_play=["brawler_3d_idle", "empty_targets_idle"] }
+panels_move_sideways = { path="", also_play=["brawler_3d_move_sideways", "empty_targets_move_sideways"] }
+brawler_3d_idle = { binding="brawler_3d_group", start="idle" }
+brawler_3d_move_sideways = { binding="brawler_3d_group", start="idle", end="move_sideways_end", loop=true }
+empty_targets_idle = { binding="empty_targets", start="idle" }
+empty_targets_move_sideways = { binding="empty_targets", start="idle", end="move_sideways_end", loop=true }
+
+# brawler_3d mask highlight states (on inner)
+mask_highlight_default = { binding="brawler3d", start="default" }
+mask_highlight_choose_start = { binding="brawler3d", start="default", end="choose_default" }
+
+[bindings]
+brawler_3d_group = { path="brawler_3d"}
+brawler3d = { parent_binding="brawler_3d_group", path="inner/transform"}
+transform = { parent_binding="brawler_3d_group", path="inner/transform"}
+empty_targets = { path="empty_targets"}
+empty_targets_inner = { parent_binding="empty_targets", path="inner"}
+skin = {parent_binding = "brawler3d", path="hero_item/inner/hero_area"}
+hero_item = {parent_binding = "brawler3d", path="hero_item"}
+mask_wood = {parent_binding="brawler3d", path="mask_wood"}
+mask_highlight = {parent_binding="brawler3d", path="mask_highlight"}
+mask_outline_1 = {parent_binding="brawler3d", path="mask_outline_1"}
+mask_outline_2 = {parent_binding="brawler3d", path="mask_outline_2"}
+mask_outline_3 = {parent_binding="brawler3d", path="mask_outline_3"}
+mask_outline_4 = {parent_binding="brawler3d", path="mask_outline_4"}
+mask_outline_5 = {parent_binding="brawler3d", path="mask_outline_5"}
+mask_outline_6 = {parent_binding="brawler3d", path="mask_outline_6"}
+mask_outline_7 = {parent_binding="brawler3d", path="mask_outline_7"}
+mask_outline_8 = {parent_binding="brawler3d", path="mask_outline_8"}
+mask_outline_9 = {parent_binding="brawler3d", path="mask_outline_9"}
+mask_outline_10 = {parent_binding="brawler3d", path="mask_outline_10"}
+
+[custom]
+string.mask_export_name_prefix = "starr_range_mask_"
+string.mask_binding_prefix = "mask_outline_"
+string.fallback_mask_export_name = "starr_range_mask_rico"
+
+# shooting animations
+string.shot_anim_prefix = "shot_"
+int.max_sparkles = 4
+
+vector2.offset_ShotgunGirl = [3,-10] #Shelly
+vector2.offset_hero_item_ShotgunGirl = [0,0]
+float.scale_ShotgunGirl = 1.0
+vector2.offset_Gunslinger = [8,0] #Colt
+vector2.offset_hero_item_Gunslinger = [0,-5]
+float.scale_Gunslinger = 1.0
+vector2.offset_BullDude = [30,0] #Bull
+vector2.offset_hero_item_BullDude = [0,0]
+float.scale_BullDude = 1.0
+vector2.offset_RocketGirl = [0,0] #Brock
+vector2.offset_hero_item_RocketGirl = [0,0]
+float.scale_RocketGirl = 1.0
+vector2.offset_TrickshotDude = [0,0] #Rico
+vector2.offset_hero_item_TrickshotDude = [0,-4]
+float.scale_TrickshotDude = 1.0
+vector2.offset_Cactus = [0,-14] #Spike
+vector2.offset_hero_item_Cactus = [0,0]
+float.scale_Cactus = 1.0
+vector2.offset_Barkeep = [12,0] #Barley
+vector2.offset_hero_item_Barkeep = [0,0]
+float.scale_Barkeep = 1.0
+vector2.offset_Mechanic = [0,0] #Jessie
+vector2.offset_hero_item_Mechanic = [0,-10]
+float.scale_Mechanic = 1.0
+vector2.offset_Shaman = [10,0] #Nita
+vector2.offset_hero_item_Shaman = [0,-1]
+float.scale_Shaman = 1.0
+vector2.offset_TntDude = [0,0] #Dynamike
+vector2.offset_hero_item_TntDude = [0,0]
+float.scale_TntDude = 1.0
+vector2.offset_Luchador = [0,0] #ElPrimo
+vector2.offset_hero_item_Luchador = [0,-4]
+float.scale_Luchador = 1.0
+vector2.offset_Undertaker = [0,0] #Mortis
+vector2.offset_hero_item_Undertaker = [0,-4]
+float.scale_Undertaker = 1.0
+vector2.offset_Crow = [0,0] #Crow
+vector2.offset_hero_item_Crow = [0,0]
+float.scale_Crow = 1.0
+vector2.offset_DeadMariachi = [5,0] #Poco
+vector2.offset_hero_item_DeadMariachi = [0,-5]
+float.scale_DeadMariachi = 1.0
+vector2.offset_BowDude = [0,0] #Bo
+vector2.offset_hero_item_BowDude = [0,-14]
+float.scale_BowDude = 1.0
+vector2.offset_Sniper = [0,0] #Piper
+vector2.offset_hero_item_Sniper = [0,-2]
+float.scale_Sniper = 1.0
+vector2.offset_MinigunDude = [3,-12] #Pam
+vector2.offset_hero_item_MinigunDude = [0,-1]
+float.scale_MinigunDude = 1.0
+vector2.offset_BlackHole = [5,0] #Tara
+vector2.offset_hero_item_BlackHole = [0,-3]
+float.scale_BlackHole = 1.1
+vector2.offset_BarrelBot = [0,0] #Darryl
+vector2.offset_hero_item_BarrelBot = [0,-3]
+float.scale_BarrelBot = 1.0
+vector2.offset_ArtilleryDude = [10,0] #Penny
+vector2.offset_hero_item_ArtilleryDude = [0,-2]
+float.scale_ArtilleryDude = 1.0
+vector2.offset_HammerDude = [0,0] #Frank
+vector2.offset_hero_item_HammerDude = [0,-4]
+float.scale_HammerDude = 1.0
+vector2.offset_HookDude = [0,0] #Gene
+vector2.offset_hero_item_HookDude = [0,-2]
+float.scale_HookDude = 1.15
+vector2.offset_ClusterBombDude = [5,0] #Tick
+vector2.offset_hero_item_ClusterBombDude = [0,0]
+float.scale_ClusterBombDude = 1.0
+vector2.offset_Ninja = [6,0] #Leon
+vector2.offset_hero_item_Ninja = [0,0]
+float.scale_Ninja = 1.1
+vector2.offset_Rosa = [0,0] #Rosa
+vector2.offset_hero_item_Rosa = [-1,-6]
+float.scale_Rosa = 1.0
+vector2.offset_Whirlwind = [0,0] #Carl
+vector2.offset_hero_item_Whirlwind = [3,-2]
+float.scale_Whirlwind = 1.0
+vector2.offset_Baseball = [10,0] #Bibi
+vector2.offset_hero_item_Baseball = [0,0]
+float.scale_Baseball = 1.0
+vector2.offset_Arcade = [0,0] #8Bit
+vector2.offset_hero_item_Arcade = [0,-3]
+float.scale_Arcade = 1.0
+vector2.offset_Sandstorm = [6,-10] #Sandy
+vector2.offset_hero_item_Sandstorm = [0,0]
+float.scale_Sandstorm = 1.0
+vector2.offset_BeeSniper = [5,0] #Bea
+vector2.offset_hero_item_BeeSniper = [0,-2]
+float.scale_BeeSniper = 1.1
+vector2.offset_Mummy = [0,0] #Emz
+vector2.offset_hero_item_Mummy = [0,0]
+float.scale_Mummy = 1.0
+vector2.offset_SpawnerDude = [12,0] #Mr.P
+vector2.offset_hero_item_SpawnerDude = [0,-5.5]
+float.scale_SpawnerDude = 1.0
+vector2.offset_Speedy = [10,0] #Max
+vector2.offset_hero_item_Speedy = [0,-5]
+float.scale_Speedy = 1.0
+vector2.offset_Driller = [0,0] #Jacky
+vector2.offset_hero_item_Driller = [0,0]
+float.scale_Driller = 1.0
+vector2.offset_Blower = [10,0] #Gale
+vector2.offset_hero_item_Blower = [0,0]
+float.scale_Blower = 1.0
+vector2.offset_Controller = [0,0] #Nani
+vector2.offset_hero_item_Controller = [0,0]
+float.scale_Controller = 1.0
+vector2.offset_Wally = [16,0] #Sprout
+vector2.offset_hero_item_Wally = [-3,-6]
+float.scale_Wally = 0.9
+vector2.offset_PowerLeveler = [5,0] #Surge
+vector2.offset_hero_item_PowerLeveler = [0,0]
+float.scale_PowerLeveler = 1.0
+vector2.offset_Percenter = [8,0] #Colette
+vector2.offset_hero_item_Percenter = [0,-2]
+float.scale_Percenter = 1.0
+vector2.offset_FireDude = [-10,0] #Amber
+vector2.offset_hero_item_FireDude = [0,0]
+float.scale_FireDude = 1.0
+vector2.offset_IceDude = [0,0] #Lou
+vector2.offset_hero_item_IceDude = [0,-4]
+float.scale_IceDude = 1.0
+vector2.offset_SnakeOil = [0,0] #Byron
+vector2.offset_hero_item_SnakeOil = [0,-2]
+float.scale_SnakeOil = 1.0
+vector2.offset_Enrager = [2,0] #Edgar
+vector2.offset_hero_item_Enrager = [0,0]
+float.scale_Enrager = 1.0
+vector2.offset_Ruffs = [5,0] #Ruffs
+vector2.offset_hero_item_Ruffs = [0,0]
+float.scale_Ruffs = 1.0
+vector2.offset_Roller = [5,0] #Stu
+vector2.offset_hero_item_Roller = [0,-2]
+float.scale_Roller = 1.0
+vector2.offset_ElectroSniper = [0,0] #Belle
+vector2.offset_hero_item_ElectroSniper = [0,0]
+float.scale_ElectroSniper = 1.0
+vector2.offset_StickyBomb = [15,0] #Squeak
+vector2.offset_hero_item_StickyBomb = [0,-5]
+float.scale_StickyBomb = 1.0
+vector2.offset_CrossBomber = [10,0] #Grom
+vector2.offset_hero_item_CrossBomber = [0,-4]
+float.scale_CrossBomber = 1.0
+vector2.offset_RopeDude = [5,0] #Buzz
+vector2.offset_hero_item_RopeDude = [0,-3]
+float.scale_RopeDude = 1.0
+vector2.offset_AssaultShotgun = [0,0] #Griff
+vector2.offset_hero_item_AssaultShotgun = [0,0]
+float.scale_AssaultShotgun = 1.1
+vector2.offset_Knight = [10,0] #Ash
+vector2.offset_hero_item_Knight = [0,-2]
+float.scale_Knight = 1.0
+vector2.offset_MechaDude = [5,0] #Meg
+vector2.offset_hero_item_MechaDude = [0,-2]
+float.scale_MechaDude = 1.0
+vector2.offset_Duplicator = [-8,0] #Lola
+vector2.offset_hero_item_Duplicator = [0,-1]
+float.scale_Duplicator = 1.0
+vector2.offset_KickerDude = [10,0] #Fang
+vector2.offset_hero_item_KickerDude = [0,0]
+float.scale_KickerDude = 1.0
+vector2.offset_Flea = [10,50] #Eve
+vector2.offset_hero_item_Flea = [0,0]
+float.scale_Flea = 1.0
+vector2.offset_JetpackGirl = [0,0] #Janet
+vector2.offset_hero_item_JetpackGirl = [0,0]
+float.scale_JetpackGirl = 1.0
+vector2.offset_CannonGirl = [0,0] #Bonnie
+vector2.offset_hero_item_CannonGirl = [-3,-4]
+float.scale_CannonGirl = 1.0
+vector2.offset_Silencer = [0,0] #Otis
+vector2.offset_hero_item_Silencer = [0,-2]
+float.scale_Silencer = 1.0
+vector2.offset_WeaponThrower = [0,2] #Sam
+vector2.offset_hero_item_WeaponThrower = [0,-3]
+float.scale_WeaponThrower = 1.0
+vector2.offset_SoulCollector = [0,0] #Gus
+vector2.offset_hero_item_SoulCollector = [0,-1]
+float.scale_SoulCollector = 1.0
+vector2.offset_ShieldTank = [0,0] #Buster
+vector2.offset_hero_item_ShieldTank = [0,0]
+float.scale_ShieldTank = 1.0
+vector2.offset_Jester = [30,-8] #Chester
+vector2.offset_hero_item_Jester = [0,0]
+float.scale_Jester = 1.0
+vector2.offset_DoorMan = [0,0] #Gray
+vector2.offset_hero_item_DoorMan = [0,0]
+float.scale_DoorMan = 1.0
+vector2.offset_Beamer = [0,0] #Mandy
+vector2.offset_hero_item_Beamer = [0,0]
+float.scale_Beamer = 1.0
+vector2.offset_Splitter = [0,0] #R-T
+vector2.offset_hero_item_Splitter = [0,-5]
+float.scale_Splitter = 1.0
+vector2.offset_Puppeteer = [0,0] #Willow
+vector2.offset_hero_item_Puppeteer = [0,-2]
+float.scale_Puppeteer = 1.0
+vector2.offset_Maisie = [-5,0] #Maisie
+vector2.offset_hero_item_Maisie = [0,0]
+float.scale_Maisie = 1.0
+vector2.offset_FishTank = [0,0] #Hank
+vector2.offset_hero_item_FishTank = [0,-4]
+float.scale_FishTank = 0.9
+vector2.offset_Duelist = [0,0] #Cordelius
+vector2.offset_hero_item_Duelist = [0,0]
+float.scale_Duelist = 1.0
+vector2.offset_Reviver = [0,0] #Doug
+vector2.offset_hero_item_Reviver = [0,0]
+float.scale_Reviver = 1.0
+vector2.offset_Cooker = [-4,0] #Pearl
+vector2.offset_hero_item_Cooker = [0,0]
+float.scale_Cooker = 0.9
+vector2.offset_Conductor = [10,0] #Chuck
+vector2.offset_hero_item_Conductor = [-1,-4]
+float.scale_Conductor = 1.0
+vector2.offset_Cocooner = [-12,0] #Charlie
+vector2.offset_hero_item_Cocooner = [0,-6]
+float.scale_Cocooner = 1.0
+vector2.offset_Leaper = [25,0] #Mico
+vector2.offset_hero_item_Leaper = [0,-2]
+float.scale_Leaper = 1.0
+vector2.offset_Attacher = [0,-16] #Kit
+vector2.offset_hero_item_Attacher = [0,0]
+float.scale_Attacher = 1.0
+vector2.offset_Twins = [-14,0] #Twins
+vector2.offset_hero_item_Twins = [0,0]
+float.scale_Twins = 1.0
+vector2.offset_AxeJuggler = [-45,40] #Melody
+vector2.offset_hero_item_AxeJuggler = [0,0]
+float.scale_AxeJuggler = 1.0
+vector2.offset_InsectMan = [5,-5] #Angelo
+vector2.offset_hero_item_InsectMan = [0,0]
+float.scale_InsectMan = 1.0
+vector2.offset_DragonRider = [50,0] #Draco
+vector2.offset_hero_item_DragonRider = [0,0]
+float.scale_DragonRider = 1.0
+vector2.offset_Ambusher = [20,18] #Lily
+vector2.offset_hero_item_Ambusher = [0,-4]
+float.scale_Ambusher = 1.0
+vector2.offset_Painter = [0,0] #Berry
+vector2.offset_hero_item_Painter = [0,-4]
+float.scale_Painter = 1.0
+vector2.offset_Crab = [95,10] #Clancy
+vector2.offset_hero_item_Crab = [0,0]
+float.scale_Crab = 1.1
+vector2.offset_Digger = [-110,-20] #Moe
+vector2.offset_hero_item_Digger = [0,0]
+float.scale_Digger = 0.8
+vector2.offset_Samurai = [6,-15] #Kenji
+vector2.offset_hero_item_Samurai = [0,0]
+float.scale_Samurai = 1.0
+vector2.offset_Ghost = [0,0] #Shade
+vector2.offset_hero_item_Ghost = [0,0]
+float.scale_Ghost = 1.0
+vector2.offset_Voodoo = [8,-10] #Juju
+vector2.offset_hero_item_Voodoo = [0,0]
+float.scale_Voodoo = 1.0
+vector2.offset_Meeple = [0,0] #Meeple
+vector2.offset_hero_item_Meeple = [0,5]
+float.scale_Meeple = 1.0
+vector2.offset_Skater = [40,40] #Ollie
+vector2.offset_hero_item_Skater = [0,0]
+float.scale_Skater = 1.0
+vector2.offset_Morningstar = [16,26] #Lumi
+vector2.offset_hero_item_Morningstar = [0,0]
+float.scale_Morningstar = 1.1
+vector2.offset_Chronomancer = [68,10] #Finx
+vector2.offset_hero_item_Chronomancer = [0,0]
+float.scale_Chronomancer = 1.1
+vector2.offset_Alternator = [-5,60] #Jae
+vector2.offset_hero_item_Alternator = [0,0]
+float.scale_Alternator = 1.0
+vector2.offset_Geisha = [5,0] #Kaze
+vector2.offset_hero_item_Geisha = [0,0]
+float.scale_Geisha = 1.0
+vector2.offset_Stalker = [30,15] #Alli
+vector2.offset_hero_item_Stalker = [0,0]
+float.scale_Stalker = 1.0
+vector2.offset_Domain = [0,0] #Trunk
+vector2.offset_hero_item_Domain = [0,0]
+float.scale_Domain = 1.0
+vector2.offset_Dancer = [0,0] #Mina
+vector2.offset_hero_item_Dancer = [0,0]
+float.scale_Dancer = 1.0
+vector2.offset_Fury = [55,-10] #Ziggy
+vector2.offset_hero_item_Fury = [0,0]
+float.scale_Fury = 1.1
+vector2.offset_Bulletstorm = [32,0] #Pierce
+vector2.offset_hero_item_Bulletstorm = [0,0]
+float.scale_Bulletstorm = 1.0
+vector2.offset_Daredevil = [5,-16] #Gigi
+vector2.offset_hero_item_Daredevil = [0,0]
+float.scale_Daredevil = 1.0
+vector2.offset_Mender = [90,55] #Glowy
+vector2.offset_hero_item_Mender = [0,0]
+float.scale_Mender = 1.1
+vector2.offset_Shadowdemon = [0,-10] #Sirius
+vector2.offset_hero_item_Shadowdemon = [0,0]
+float.scale_Shadowdemon = 1.1
+vector2.offset_Redirecter = [50,20] #Najia
+vector2.offset_hero_item_Redirecter = [0,0]
+float.scale_Redirecter = 1.3
+vector2.offset_Gladiator = [55,30] #Damian
+vector2.offset_hero_item_Gladiator = [0,0]
+float.scale_Gladiator = 1.0
+vector2.offset_MagicalGirl = [30,50] #Stella
+vector2.offset_hero_item_MagicalGirl = [0,0]
+float.scale_MagicalGirl = 1.0
+vector2.offset_Rock = [0,0] #Bolt
+vector2.offset_hero_item_Rock = [0,0]
+float.scale_Rock = 0.75
+vector2.offset_KatanaKid = [8,0] #Nori
+vector2.offset_hero_item_KatanaKid = [0,0]
+float.scale_KatanaKid = 1.0
+vector2.offset_FutureGirl = [8,0] #Wendy
+vector2.offset_hero_item_FutureGirl = [0,-6]
+float.scale_FutureGirl = 1.0
+vector2.offset_Attractor = [10,0] #Cosmo
+vector2.offset_hero_item_Attractor = [0,0]
+float.scale_Attractor = 1.2
+vector2.offset_Stacker = [-17,-6] #Vince
+vector2.offset_hero_item_Stacker = [0,0]
+float.scale_Stacker = 1.0
+
+

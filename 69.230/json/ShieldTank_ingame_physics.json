@@ -1,0 +1,11 @@
+{
+		"ShieldTankAngel":{
+			"bone":["R_wingArm_01_s","L_wingArm_01_s","R_wing_bend_02_s","L_wing_bend_02_s"],
+			"dir":["y","y","y","y"],
+			"max":[47,47,54,56],
+			"min":[-47,-47,-54,-56],
+			"soft":[5,5,5,5],
+			"follow":[0,0,0,0],
+			"child":[["R_wingArm_02_s","R_wing_bend_01_s","R_wing_bend_02_s","R_wing_bend_03_s","R_wing_bend_04_s"],["L_wingArm_02_s","L_wing_bend_01_s","L_wing_bend_02_s","L_wing_bend_03_s","L_wing_bend_04_s"],["R_wing_bend_03_s","R_wing_bend_04_s"],["L_wing_bend_03_s","L_wing_bend_04_s"]]
+		}
+	}

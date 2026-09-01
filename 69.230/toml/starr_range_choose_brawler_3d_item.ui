@@ -1,0 +1,20 @@
+id = "starr_range_choose_brawler_3d_item"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+export_name = "choose_brawler_3d"
+
+[skins]
+skin = { binding="skin", force_suppress_pet=true, unload_non_visible=true, animation="IDLE", animation_next="IDLE"}
+
+[animation]
+default_animation = "default"
+
+default = {path="", start="default"}
+highlight = {path="", start="highlight"}
+unlock = {path="", start="unlock_start", end="unlock_end"}
+rejected = {path="", start="rejected_start", end="rejected_end"}
+
+[bindings]
+skin = { path="inner/inner/hero_area" }

@@ -1,0 +1,30 @@
+id = "bazaar_equip_icon_large"
+priority = 1
+
+type = "UiWidget"
+subtype = "EquipIcon"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_star_power_big"
+
+[bindings]
+wrapper = { path="image/panel_brawler_star_power" }
+
+gadget_ph = { path="image/panel_brawler_star_power/gadget_ph/icon_ph" }
+star_power_ph = { path="image/panel_brawler_star_power/star_power_ph/icon_ph" }
+hypercharge_ph = { path="image/panel_brawler_star_power/hypercharge_ph/icon_ph" }
+
+metatype_name = { path="title_txt" }
+brawler_name = { path="name_txt" }
+
+[animations]
+gadget_2 = { binding="wrapper", end="gadget" }
+star_power_2 = { binding="wrapper", end="star_power" }
+hypercharge_2 = { binding="wrapper", end="hypercharge" }
+
+gadget = { path="", end="gadget", also_play=["gadget_2"] }
+star_power = { path="", end="star_power", also_play=["star_power_2"] }
+hypercharge = { path="", end="hypercharge", also_play=["hypercharge_2"] }
+
+default_animation = "gadget"

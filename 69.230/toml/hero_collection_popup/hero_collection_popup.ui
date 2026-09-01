@@ -1,0 +1,40 @@
+id = "hero_collection_popup"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+container_bg = "bg_anim_skulls"
+
+screen_header_config = "hero_collection_popup_screen_header"
+show_back_and_home_buttons = true
+
+[custom]
+float.header_margin_left = 8.0
+float.header_margin_right = 43.0
+float.header_icon_gap = 7.0
+float.header_offset = 27.0
+float.category_gap = 27.0
+float.category_offset_y = 27.0
+float.peek_unlocking_panel_scroll_offset = 70.0
+
+float.scroll_bar_touch_margin_top = 132.0
+float.scroll_bar_touch_margin_bottom = 70.0
+
+float.tile_top = 100.0
+float.tile_left = 80.0
+float.tile_bottom = 15.0
+float.tile_gap_x = 14.0
+float.tile_gap_y = 14.0
+
+float.tile_width = 229.0
+float.tile_height = 143.0
+float.tile_offset_x = -20.0
+float.tile_offset_y = -5.0
+
+float.unowned_tile_width = 229.0
+float.unowned_tile_height = 143.0
+float.unowned_tile_offset_x = -20.0
+float.unowned_tile_offset_y = -5.0
+
+[bindings]
+scroll_area = { path="scroll_area" }

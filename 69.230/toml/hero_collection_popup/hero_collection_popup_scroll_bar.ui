@@ -1,0 +1,30 @@
+id = "hero_collection_popup_scroll_bar"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "collection_scroll_bar"
+
+[custom]
+float.scroll_bar_all_inactive_alpha = 1.0
+
+float.scroll_bar_handle_inactive_alpha = 0.7
+float.scroll_bar_handle_active_alpha = 1.0
+
+float.scroll_bar_track_inactive_alpha = 0.4
+float.scroll_bar_track_active_alpha = 1.0
+
+float.scroll_bar_backer_inactive_alpha = 0.2
+float.scroll_bar_backer_active_alpha = 0.5
+
+float.track_margin_top = 0.0
+float.track_margin_bottom = 0.0
+float.backer_margin_top = 26.0
+float.backer_margin_bottom = 35.0
+
+[bindings]
+handle = { path="hitbox_handle" }
+backer = { path="back" }
+track= { path="track" }
+hit_area = { path="hit_area" }
+unlocking_panel_marker = {}

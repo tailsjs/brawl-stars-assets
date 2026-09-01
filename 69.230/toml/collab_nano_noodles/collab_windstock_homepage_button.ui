@@ -1,0 +1,24 @@
+id = "collab_18_homepage_button"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "collab_mainscreen_button"
+
+[bindings]
+teaser_timer_txt = { path="timer_txt" }
+locked_trophy_amount_txt = { path="locked/inner/amount_txt" }
+notification = { path="notification" }
+progress_bar = { path="progress_bar" }
+value_txt = { path="value_txt" }
+milestone_icon = { path="milestone_icon" }
+
+[animation]
+Teaser = { path="", start="teaser" }
+Locked = { path="", start="locked" }
+Active = { path="", start="active" }
+
+Stop2 = { path="milestone_icon", end_frame=0, also_play="Active" }
+Stop = { path="progress_bar", end_frame=0, also_play="Stop2" }
+
+default_animation = "Stop"

@@ -1,0 +1,17 @@
+"Name","Disabled","LayoutType","AssetFileName","PanelAsset","Asset","AssetWithoutHighlightSkin","Items","ItemPlaceholderNames","ItemContextNames","CustomTitleTID","CustomSubtitleTID"
+"String","boolean","String","String","String","String","String","String","String","String","String","String"
+"BrawlerAsEmoteAndSkinAsModel",,,"sc/ui.sc","panel_offer","offer_1_item_brawler_and_skin_layout_1",,"GUARANTEEDHERO","item_brawler","CTX_HERO_AS_DEFAULT_EMOTE",,
+,,,,,,,"SKIN","item_skin","CTX_SHOP_LARGE",,
+"BrawlerAndSkinAsModels",,,"sc/ui.sc","panel_starter_pack","offer_1_item_brawler_and_skin_layout_2",,"GUARANTEEDHERO","item_brawler","CTX_HERO_MODEL_ITEM",,
+,,,,,,,"SKIN","item_skin","CTX_HERO_MODEL_ITEM",,
+"EsportsPinsOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"ESPORTS_EMOTE","TODO","TODO",,
+"EsportsIconsOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"ESPORTS_PLAYER_THUMBNAIL","TODO","TODO",,
+"GroupPinsOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"GROUP_EMOTE","TODO","TODO",,
+"GroupIconsOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"GROUP_PLAYER_THUMBNAIL","TODO","TODO",,
+"GroupSpraysOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"GROUP_SPRAYS","TODO","TODO",,
+"EsportSpraysOffer",,,"sc/ui.sc","panel_offer","offer_1_item_esports_pack",,"ESPORTS_SPRAYS","TODO","TODO",,
+"CHAIN_A",,"CHAIN_OFFER","sc/ui.sc","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group",,,,,
+"CHAIN_B",,"CHAIN_OFFER","sc/ui.sc","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group",,,,,
+"CHAIN_C",,"CHAIN_OFFER","sc/ui.sc","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group",,,,,
+"CHAIN_D",,"CHAIN_OFFER","sc/ui.sc","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group",,,,,
+"CHAIN_E",,"CHAIN_OFFER","sc/ui.sc","panel_offer","chain_offer_shop_panel_group","chain_offer_shop_panel_narrow_group",,,,,

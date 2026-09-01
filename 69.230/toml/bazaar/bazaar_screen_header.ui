@@ -1,0 +1,47 @@
+id = "bazaar_screen_header"
+priority = 1
+
+type = "UiWidget"
+subtype = "ScreenHeader"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "shop_screen_header"
+
+hide = [
+	"header_cosmetic_coins_resource/exclamation",
+	"offer_timer",
+]
+
+uninteractive = [
+	"offer_title_txt"
+]
+
+set_text = [
+	{ parent_binding="value_list", path="txt", tid="TID_VALUE_LIST_BUTTON" },
+]
+
+[bindings]
+button_back = { path="button_back" }
+button_home = { path="button_home" }
+value_list = { path="button_value_list" }
+
+title_txt = { path="title_txt" }
+creator_name = { path="creator_name_txt" }
+
+offer_title = { path="offer_title_txt" }
+
+timer = { path="offer_timer" }
+expire_time = { path="offer_timer/timer_txt" }
+expire_time_icon = { path="offer_timer/timer_icon" }
+
+
+bling_txt		= { path="header_cosmetic_coins_resource/value_txt" }
+powerpoints_txt	= { path="header_power_points_resource/value_txt" }
+coins_txt		= { path="header_craft_resource/value_txt" }
+gems_txt		= { path="header_gem_resource/value_txt" }
+
+button_bling		= { path="header_cosmetic_coins_resource/button_cosmetic_coins" }
+button_power_points	= { path="header_power_points_resource/button_power_points" }
+button_coins		= { path="header_craft_resource/button_coins" }
+button_gems			= { path="header_gem_resource/button_gems" }

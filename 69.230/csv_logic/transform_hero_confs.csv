@@ -1,0 +1,6 @@
+"Name","Type","ItemName","Traits","TransformDurationTicks"
+"String","String","String","String","int"
+"SuperNovaCactus","SuperNova","SuperNovaTransformCactus","SN_ChargeSuper;SN_ChargeRate;SN_Spike_ProjectileSize;SN_Spike_AreaEffect;SN_Spike_ProjectileSpeed",200
+"SuperNovaBeeSniper","SuperNova","SuperNovaTransformBeeSniper","SN_ChargeSuper;SN_ChargeRate;SN_Bea_ProjectileSize;SN_AttackRange_Add2;SN_Bea_ProjectileSpeed",200
+"SuperNovaFireDude","SuperNova","SuperNovaTransformFireDude","SN_ChargeSuper;SN_ChargeRate;SN_Amber_ProjectileSize;SN_AttackRange_Add1",200
+"SuperNovaVoodoo","SuperNova","SuperNovaTransformVoodoo","SN_ChargeSuper;SN_ChargeRate;SN_Juju_ProjectileSize;SN_Juju_AreaEffect;SN_AttackRange_Add1",200

@@ -1,0 +1,25 @@
+id = "bazaar"
+priority = 1
+
+type = "Popup"
+subtype = "Bazaar"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+container_left = "shop_screen_hud_left"
+
+uninteractive = [ "left/panel/scroll_area" ]
+
+[custom]
+float.tab_slide_distance = 130.0
+float.tab_bg_slide_distance = 100.0
+vector2.tab_step = [-5.5, 64.0]
+#string.generic_music = "Regular_Shop_Muzak"
+
+[bindings]
+shop_front_parent = { path="" }
+tab_parent = { path="left/panel" }
+self = { path="" }
+
+first_tab = { path="left/panel/tab_ph_1" }
+tab_bg = { path="left/panel/tabs_bg_panel" }

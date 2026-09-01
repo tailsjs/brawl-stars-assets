@@ -1,0 +1,51 @@
+id = "hero_collection_automated_offer_popup"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_unlock_automated_offer_popup"
+
+set_text = [
+    { binding="title", tid="TID_STARR_RANGE_EARLY_UNLOCK_TITLE" },
+    { binding="description", tid="TID_STARR_RANGE_EARLY_UNLOCK_DESC" },
+    { binding="gem_button_unlock_title", tid="TID_RECRUIT_ROAD_CURRENT_BRAWLER_UNLOCK_NOW" },
+]
+
+[bindings]
+title = {path="title_txt"}
+description = {path = "decription_txt"}
+rarity_bg = {path="popup"}
+progress_bar = {path="progress_bar/progress_bar"}
+progress_value = {path="progress_bar/value_txt"}
+remaining_value = {path="value/txt"}
+hero_item_1 = {path="hero_item_1"}
+hero_item_2 = {path="hero_item_2"}
+hero_item_3 = {path="hero_item_3"}
+hero_area_1 = {path="hero_item_1/hero_area/hero_rotate"}
+hero_area_2 = {path="hero_item_2/hero_area/hero_rotate"}
+hero_area_3 = {path="hero_item_3/hero_area/hero_rotate"}
+gem_button_unlock_title = {parent_binding="gem_button", path="unlock_title_txt"}
+discount_badge = {path="discount_badge"}
+discount_badge_percentage = {parent_binding="discount_badge", path="badge/percentage_txt"}
+discount_original_price = {path="discount_number"}
+discount_original_price_value = {path="discount_number/discount_ani/txt"}
+
+[buttons]
+close_button = {path="popup/close_button"}
+gem_button = {path="gem_button"}
+info_button = {path="button_info"}
+
+[skins]
+skin_brawler_1 = { binding="hero_area_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_brawler_2 = { binding="hero_area_2", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_brawler_3 = { binding="hero_area_3", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[animation]
+rarity_rare = {binding="rarity_bg", end_frame=1}
+rarity_super_rare = {binding="rarity_bg", end_frame=2}
+rarity_epic = {binding="rarity_bg", end_frame=3}
+rarity_mythic = {binding="rarity_bg", end_frame=4}
+rarity_legendary = {binding="rarity_bg", end_frame=5}
+rarity_ultra_legendary = {binding="rarity_bg", end_frame=6}
+
+

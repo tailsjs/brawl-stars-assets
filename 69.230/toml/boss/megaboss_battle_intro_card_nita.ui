@@ -1,0 +1,17 @@
+id = "boss_april_fools_nita"
+priority = 1
+
+type = "IntroCard" # Doesn't do anything, yet
+subtype = "MegaBoss" # Doesn't do anything, yet
+
+#EventData,
+#AssetIdList,
+#ChronosFolder,
+#ClientFile,
+#OtherTomlConfig,
+sc_file_source = "ChronosFolder"
+sc_file = "game_mode_bosses_april_fools_2026.sc"
+export_name = "boss_event_banner"
+
+[skins]
+boss_skin = { path="boss_ph", skin="MegaBossShamanAprilFools", scale = 5, rotation = 15, position=[0,0,0], offset=[0,100] }

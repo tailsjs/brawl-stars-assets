@@ -1,0 +1,98 @@
+id = "AllYouCanBeatFloorItemFullscreen"
+priority = 1
+
+sc_file_source = "EventData"
+export_name = "all_you_can_beat_floor_item_full_screen"
+
+[bindings]
+reward = {path="reward"}
+brawler = {path="brawler"}
+brawler_portrait = {parent_binding="brawler", path="portrait"}
+inner = {path="game_mode"}
+
+[animation]
+hidden = { path="", start="hidden", also_play="inner_hidden"}
+inner_hidden = { binding="inner", start="hidden", also_play="brawler_hidden"}
+brawler_hidden = {binding="brawler", start="hidden"}
+brawler_hidden_continue = {binding="brawler", start="hidden"}
+
+hidden_continue = { path="", start="hidden", end="future", also_play="inner_hidden_continue"}
+inner_hidden_continue = { binding="inner", start="hidden", end="future", also_play="brawler_hidden_continue"}
+
+
+# first floor is special - play all the way to the highlighted state
+hidden_continue_first_floor = { path="", start="first_floor_start", end="waiting_to_select_brawler", also_play="inner_hidden_continue_first_floor"}
+inner_hidden_continue_first_floor = { binding="inner", start="first_floor_start", end="waiting_to_select_brawler"}
+
+future = { path="", start="future", also_play="inner_future"}
+inner_future = { binding="inner", start="future", also_play="brawler_future"}
+brawler_future = { binding="inner", start="available"}
+
+waiting_to_select_brawler = { path="", start="waiting_to_select_brawler", also_play="inner_waiting_to_select_brawler"}
+inner_waiting_to_select_brawler = { binding="inner", start="waiting_to_select_brawler", also_play="brawler_available"}
+brawler_available = { binding="brawler", start="available"}
+
+brawler_selected = { path="", start="brawler_selected", also_play="inner_brawler_selected"}
+inner_brawler_selected = { binding="inner", start="brawler_selected", also_play="brawler_available"}
+
+# this is a floor you've already won (but not the current/most recent battle)
+previous_game_mode_won = { path="", start="game_mode_won_end", also_play="inner_game_mode_won"}
+inner_previous_game_mode_won = { binding="inner", start="game_mode_won_end", also_play="brawler_game_mode_won"}
+brawler_previous_game_mode_won = {binding="brawler", start="won_with"}
+
+# when you just played this floor and won
+game_mode_won = { path="", start="game_mode_won_start", end="game_mode_won_end", also_play="inner_game_mode_won"}
+inner_game_mode_won = { binding="inner", start="game_mode_won_start", end="game_mode_won_end", also_play="brawler_game_mode_won"}
+brawler_game_mode_won = {binding="brawler", start="won_with_start", end="won_with"}
+
+perfect_run = { path="", start="game_mode_won_start", end="perfect_run_stop", also_play="inner_perfect_run_game_mode_won"}
+inner_perfect_run_game_mode_won = { binding="inner", start="game_mode_won_start", end="game_mode_won_end", also_play="perfect_run_brawler_game_mode_won"}
+perfect_run_brawler_game_mode_won = {binding="brawler", start="won_with_start", end="won_with"}
+
+tower_complete_start = {path="", also_play="future"}
+tower_complete = {path="", also_play="perfect_run"}
+perfect_run_start = {path="", also_play="future"}
+
+final_floor_tower_complete_start = {path="", also_play="future"}
+final_floor_tower_complete = {path="", also_play="perfect_run"}
+final_floor_perfect_run_start = {path="", also_play="future"}
+final_floor_perfect_run = {path="", also_play="perfect_run"}
+
+# when you just won on the previous floor and now this floor is the active floor
+previous_game_mode_won_now_waiting_to_select = { path="", start="future", end="waiting_to_select_brawler", also_play="inner_previous_game_mode_won_now_waiting_to_select"}
+inner_previous_game_mode_won_now_waiting_to_select = { binding="inner", start="future", end="waiting_to_select_brawler", also_play="brawler_previous_game_mode_won_now_waiting_to_select"}
+brawler_previous_game_mode_won_now_waiting_to_select = {binding="brawler", start="hidden", end="available"}
+
+game_mode_lost = { path="", start="game_mode_lost_start", end="game_mode_lost_end", also_play="inner_game_mode_lost"}
+inner_game_mode_lost = { binding="inner", start="game_mode_lost_start", end="game_mode_lost_end", also_play="brawler_game_mode_lost"}
+brawler_game_mode_lost = {binding="brawler", start="lost_with_start", end="lost_with"}
+
+# when you just lost with a brawler and this future floor has become inaccessible
+floor_locked = { path="", start="floor_locked_start", end="floor_locked_end"}
+
+# when you can't reach this floor due to too few brawlers after previously losing (not newly locked)
+previous_floor_locked = { path="", start="floor_locked_end"}
+
+[custom]
+string.brawler_portrait_ph_instance_name = "portrait_ph"
+
+# export names for game modes
+string.floor_export_name_string_prefix = "floor_export_name_gmv_"
+string.floor_export_name_gmv_default = "event_default_beat_floor"
+string.floor_export_name_gmv_0 = "event_gemgrab_beat_floor"
+string.floor_export_name_gmv_2 = "event_heist_beat_floor"
+string.floor_export_name_gmv_3 = "event_bounty_beat_floor"
+string.floor_export_name_gmv_5 = "event_brawlball_beat_floor"
+string.floor_export_name_gmv_17 = "event_hotzone_beat_floor"
+string.floor_export_name_gmv_20 = "event_knockout_beat_floor"
+string.floor_export_name_gmv_25 = "event_wipeout_beat_floor"
+
+# animation delays when showing staggered floor anims
+float.animation_delay_per_floor_new_tower = 0.15f
+float.animation_delay_per_floor_perfect_run = 0.5f
+float.animation_delay_final_floor_perfect_run = 0.5f
+float.animation_delay_per_floor_tower_complete = 0.5f
+float.animation_delay_final_floor_tower_complete = 0.5f
+
+
+string.floor_locked_floater_tid = "TID_AYCB_FLOOR_LOCKED"
