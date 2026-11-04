@@ -1,0 +1,39 @@
+id = "bazaar"
+priority = 1
+
+type = "Popup"
+subtype = "Bazaar"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+container_left = "shop_screen_hud_left"
+container_right = "shop_quick_button_screen_hud_right"
+
+uninteractive = [ "left/panel/scroll_area" ]
+
+set_text = [
+	{ parent_binding="shortcut_bubble", path="notification/txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="shortcut_bubble", path="notification/txt_free", tid="TID_SHOP_FREE" }
+]
+
+[custom]
+float.tab_slide_distance = 130.0
+float.tab_bg_slide_distance = 100.0
+float.shortcut_scroll_duration = 0.3
+vector2.tab_step = [-5.5, 64.0]
+
+[buttons]
+shortcut_bubble = { path="right/suggested" }
+
+[bindings]
+shortcut_bubble_container = { path="right" }
+shop_front_parent = { path="" }
+tab_parent = { path="left/panel" }
+self = { path="" }
+
+first_tab = { path="left/panel/tab_ph_1" }
+tab_bg = { path="left/panel/tabs_bg_panel" }
+
+[animations]
+shortcut_free = { parent_binding="shortcut_bubble", path="notification", end="free" }
+shortcut_new = { parent_binding="shortcut_bubble", path="notification", end="new" }

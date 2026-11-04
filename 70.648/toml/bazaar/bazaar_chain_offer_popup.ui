@@ -1,0 +1,18 @@
+id = "bazaar_chain_offer_popup"
+priority = 1
+
+type = "Popup"
+subtype = "BazaarChainOfferPopup"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+container_prefix = "shop_chain_offer_screen_"
+
+[bindings]
+scroll_area = { path="center/scroll_area" }
+bg_scaler = { path="center/bg_scaler" }
+bg_wrapper = { path="center/bg_scaler" }
+bg_ph = { path="center/bg_scaler/bg_ph" }
+drop_chances = { path="top_right/button" }
+title_txt = { path="top_left/title_txt" }
+timer_txt = { path="top_left/timer_txt" }

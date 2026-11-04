@@ -1,0 +1,41 @@
+id = "bazaar_chain_offer_item_small_plus_two"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ChainOfferItemSmall"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "chain_offer_item_small"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+hide = [
+	"timer_bgr",
+	"time_txt",
+	"lock",
+]
+
+move = [
+	{ binding="small_item_grid", offset=[60, -30] },
+	{ binding="large_1", offset=[0, -30], scale=0.6 },
+]
+
+[custom]
+bool.dont_center_last_row = false
+int.small_item_count = 2
+int.small_items_rows = 1
+int.large_item_count = 1
+int.columns = 2
+float.width = 246.0
+string.custom_theme_bg = "offer_panel_small_bg"
+string.bazaar_hero_area_with_level = "bazaar_hero_area_with_level"
+string.bazaar_hero_area = "bazaar_hero_area"
+
+[bindings]
+title = { path="title_txt" }
+price_ph = { path="price_ph" } 
+
+locked = { path="lock" }
+time_txt = { path="time_txt" }
+small_item_grid = { path="item_grid_ph" }

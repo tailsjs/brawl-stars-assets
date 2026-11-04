@@ -1,0 +1,21 @@
+id = "prestige_level_up_flow_3"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "prestige_level_up_flow_1"
+export_name = "prestige_3_flow"
+
+set_text = [
+	{ path="prestiged_title/ani/inner/TID_PRESTIGED_TITLE", gradient={ colors=["0xFFFF4400", "0xFF00FF44", "0xFF4444FF"], speed=200, scale=200 } },
+	{ path="prestige_icon/inner/inner/prestige_number/txt", gradient={ colors=["0xFFFFFFFF"], speed=200, scale=200 }, outline="0xFF5F5600" },
+]
+
+
+[custom]
+float.shake_duration_seconds = 3
+vector2.shake_interval_min_max = [0.0, 0.05]
+vector2.shake_magnitude = [100, 100]
+float.roll_speed = 1000
+float.spin_speed = 1000
+string.bgm = "Prestige_3_Music"
+string.particle_export_name = "prestige_particle_3"

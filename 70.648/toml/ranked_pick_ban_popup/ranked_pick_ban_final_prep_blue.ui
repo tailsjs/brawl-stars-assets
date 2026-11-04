@@ -1,0 +1,73 @@
+id = "ranked_pick_ban_final_prep_blue"
+priority = 1
+
+hide_binding = [
+	"power_bg",
+	"power_txt",
+	"equipment_items_group",
+	"overcharge",
+	"green_notification",
+]
+hide = [
+	"equipment_items_group/item_ph/notification",
+	"highlight_anim",
+]
+uninteractive = [ "bubble_chat", "overcharge/power_overcharge/anim", "bubble_psi", "swap_brawler/spinner" ]
+
+[nested_clips]
+chat_bubble = { path="bubble_chat", config="ranked_pick_ban_quick_chat_bubble_chat" }
+emote_bubble = { path="bubble_psi", config="ranked_pick_ban_quick_chat_bubble_psi" }
+
+[skins]
+skin = { path="player_brawler_1/hero_area/hero_ph" }
+
+[bindings]
+name_txt = { path="name_txt" }
+power_txt = { path="power_txt" }
+power_bg = { path="power_bg" }
+overcharge = { path="overcharge" }
+overcharge_icon = { path="overcharge/power_overcharge/oc_icon" }
+equipment_items_group = { path="equipment_items_group" }
+gadget_icon_ph = { parent_binding="equipment_items_group", path="item_ph" }
+sp_icon_ph = { parent_binding="equipment_items_group", path="sp_ph" }
+gear1_icon_ph = { parent_binding="equipment_items_group", path="gear1_ph" }
+gear2_icon_ph = { parent_binding="equipment_items_group", path="gear2_ph" }
+green_notification = { parent_binding="equipment_items_group", path="green_notification" }
+player_dimmed = { path="player_dimmed" }
+swap_brawler = { path="swap_brawler" }
+swap_bubble_request = { parent_binding="swap_brawler", path="swap_turns_bubble_send" }
+swap_bubble_response = { parent_binding="swap_brawler", path="swap_turns_bubble_accept" }
+spinner = { parent_binding="swap_brawler", path="spinner" }
+
+[buttons]
+swap_button = { parent_binding="swap_brawler", path="swap" }
+swap_request_close_bubble_button = { parent_binding="swap_bubble_request", path="cancel_button" }
+swap_request_send_button = { parent_binding="swap_bubble_request", path="send_button" }
+swap_response_reject_button = { parent_binding="swap_bubble_response", path="cancel_button" }
+swap_response_accept_button = { parent_binding="swap_bubble_response", path="send_button" }
+swap_cancel_inflight_button = { parent_binding="swap_brawler", path="cancel_swap_process" }
+
+[animation]
+swap_available = { binding="swap_brawler", end="swap_available" }
+swap_unavailable = { binding="swap_brawler", end="swap_unavailable" }
+swap_send = { binding="swap_brawler", end="swap_send" }
+swap_accept = { binding="swap_brawler", end="swap_accept" }
+swap_request_inflight = { binding="swap_brawler", end="swap_cancel_process" }
+swap_request_bubble_appear = { binding="swap_bubble_request", start="anim_enter_start", end="anim_enter_end" }
+swap_request_bubble_disappear = { binding="swap_bubble_request", start="anim_exit_start", end="anim_exit_end", next_animation="swap_available" }
+swap_request_bubble_disappear_sent = { binding="swap_bubble_request", start="anim_exit_start", end="anim_exit_end", next_animation="swap_request_inflight" }
+swap_response_bubble_appear = { binding="swap_bubble_response", start="anim_enter_start", end="anim_enter_end" }
+swap_response_bubble_disappear = { binding="swap_bubble_response", start="anim_exit_start", end="anim_exit_end", next_animation="swap_available" }
+
+overcharge_basic = { binding="overcharge_icon", end="basic" }
+overcharge_buddy = { binding="overcharge_icon", end="buddy" }
+equipment_items_group_stop = { binding="equipment_items_group", end_frame=0 }
+gadget_stop = { parent_binding="equipment_items_group", path="item_ph", end_frame=0 }
+sp_stop = { parent_binding="equipment_items_group", path="sp_ph", end_frame=0 }
+gear1_bg_stop = { parent_binding="equipment_items_group", path="gear1_ph", end_frame=0 }
+gear1_stop = { parent_binding="equipment_items_group", path="gear1_ph", end_frame=0 }
+gear2_stop = { parent_binding="equipment_items_group", path="gear2_ph", end_frame=0 }
+bubble_swap_response_stop = { binding="swap_bubble_response", end_frame=0 }
+bubble_swap_request_stop = { binding="swap_bubble_request", end_frame=0 }
+ 
+default_animation = { also_play=[ "swap_unavailable", "bubble_swap_response_stop", "bubble_swap_request_stop", "gadget_stop", "sp_stop", "gear1_stop", "gear2_stop" ] }

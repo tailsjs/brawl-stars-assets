@@ -1,0 +1,19 @@
+id = "bazaar_booth_default"
+priority = 1
+
+type = "BazaarFront"
+subtype = "Default"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "shop_screen_center"
+
+center_to_screen = true
+
+[custom]
+float.panel_offset = -20.0
+string.bg_theme = "sc/background_sandoftime.sc#bgr_sandoftime"
+
+[bindings]
+bg_ph = { path="bg_ph" }
+scroll_area = { path="scroll_area" }

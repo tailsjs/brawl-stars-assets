@@ -1,0 +1,6 @@
+id = "collab_18_mutant_portrait_vfx_front"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "collab_mutant_portrait_vfx_front"

@@ -1,0 +1,11 @@
+id = "bazaar_hero_area"
+priority = 1
+
+type = "UiWidget"
+subtype = "BazaarHeroArea"
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "generic_hero_area"
+
+dont_animate_skins_on_lowend_devices = true
+

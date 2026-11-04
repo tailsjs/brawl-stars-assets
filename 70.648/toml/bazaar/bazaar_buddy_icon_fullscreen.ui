@@ -1,0 +1,11 @@
+id = "bazaar_buddy_icon_fullscreen"
+priority = 1
+
+type = "UiWidget"
+subtype = "BuddyIcon"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_buddy_big"
+
+copy_configs = [ "bazaar_buddy_icon_large" ]

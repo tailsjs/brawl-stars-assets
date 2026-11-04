@@ -1,0 +1,27 @@
+id = "ranked_pick_ban_skin_item"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+export_name = "skin_selector_item_container"
+
+hide = [
+	"reward_item/hero_ph",
+]
+hide_binding = [
+	"icon_hidden",
+]
+
+[bindings]
+name_txt = { path="reward_item/title_txt" }
+icon_check = { path="icon_check" }
+icon_hidden = { path="icon_hidden" }
+
+[skins]
+skin = { path="reward_item/hero_ph", portrait=true }
+
+[animation]
+available = { path="", end="available" }
+selected_checkmark = { binding="icon_check", start="tap_anim", end="idle" }
+selected = { path="", end="selected", also_play=[ "selected_checkmark" ] }
+default_animation = "available"

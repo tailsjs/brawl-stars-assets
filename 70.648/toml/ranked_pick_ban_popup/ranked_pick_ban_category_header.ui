@@ -1,0 +1,11 @@
+id = "ranked_pick_ban_category_header"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+export_name = "separator_brawlers_class_pick_ban"
+
+[bindings]
+stretchy_bgr = { path="bg" }
+header = { path="txt" }
+class_icon = { path="icon_brawler_class" }

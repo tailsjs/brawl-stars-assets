@@ -1,0 +1,37 @@
+id = "bazaar_panel_resource_grid_coins"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ResourceGrid"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_resourses_coins"
+
+interactive = [ "" ]
+
+hide=[ "time_txt", "timer_bgr", ]
+
+set_text=[
+	{ binding="title", tid="TID_SHOP_HERO_LVL_UP_MATERIAL_PACKS" }
+]
+
+[custom]
+float.width = 370.0
+float.offset = -185.0
+float.step_x = 160.0
+float.bg_scale = 4.6
+float.title_width = 300.0
+
+[bindings]
+touch_area = { path="bounds" }
+me = { path="" }
+pack_parent = { path="" }
+bg = { path="bg" }
+title = { path="title_txt" }
+
+top = { path="shop_item_top" }
+bottom = { path="shop_item_bottom" }
+
+[animations]
+default_animation = {}

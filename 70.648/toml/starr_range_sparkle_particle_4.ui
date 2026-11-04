@@ -1,0 +1,6 @@
+id = "starr_range_sparkle_particle_4"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "starr_range_sparkle_particle"
+export_name = "starr_range_sparkle_particle_4"

@@ -1,0 +1,39 @@
+id = "starr_range_brawler_bonus_buddy"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+export_name = "brawler_bonus_buddy"
+
+[animation]
+gadget = { binding="icon_inner", start="gadget", also_play="panel_gadget" }
+star_power = { binding="icon_inner", start="star_power", also_play="panel_star_power" }
+hypercharge = { binding="icon_inner", start="hypercharge", also_play="panel_hypercharge" }
+
+panel_gadget = { binding="buddy_panel", start="gadget" }
+panel_star_power = { binding="buddy_panel", start="star_power" }
+panel_hypercharge = { binding="buddy_panel", start="hypercharge" }
+
+rarity_rare = { binding="rarity", start="rare" }
+rarity_super_rare = { binding="rarity", start="super_rare" }
+rarity_epic = { binding="rarity", start="epic" }
+rarity_mythic = { binding="rarity", start="mythic" }
+rarity_legendary = { binding="rarity", start="legendary" }
+rarity_ultra = { binding="rarity", start="ultra" }
+
+[bindings]
+icon = { path="icon" }
+icon_inner = { parent_binding="icon", path="icon" }
+rarity = { parent_binding="icon", path="rarity" }
+info_button = { parent_binding="icon", path="info_button" }
+buddy_3d = { path="buddy_3d" }
+buddy_panel = { parent_binding="icon_inner", path="image/panel_brawler_buddy" }
+gadget_icon_ph = { parent_binding="buddy_panel", path="gadget_ph/icon_ph" }
+star_power_icon_ph = { parent_binding="buddy_panel", path="star_power_ph/icon_ph" }
+hypercharge_icon_ph = { parent_binding="buddy_panel", path="hypercharge_ph/icon_ph" }
+title_txt = {parent_binding="icon", path="title/txt" }
+power_level_lock = { parent_binding="icon", path="power_level_lock" }
+power_level_lock_txt = { parent_binding="power_level_lock", path="txt" }
+
+[custom]
+string.rarity_anim_prefix = "rarity_"

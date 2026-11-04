@@ -1,0 +1,10 @@
+id = "collab_18_mutant_portrait_rarity_bg"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "collab_mutant_portrait_rarity_bg"
+
+[animation]
+nanopower = { path="", end="nanonoodles" }
+windpower = { path="", end="windstock" }

@@ -1,0 +1,79 @@
+id = "battle_stats_popup"
+priority = 1
+
+type = "Popup"
+subtype = "BattleStats"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+container_prefix = "stats_screen_"
+
+hide_binding = [
+	"modifier_name",
+	"modifier_icon",
+	"mode_info_button",
+]
+
+[bindings]
+stats = { path="center/stats_3v3" }
+stats_3v3 = { path="center/stats_3v3" }
+stats_duels = { path="center/stats_duels" }
+stats_2v2 = { path="center/stats_2v2" }
+stats_5v5 = { path="center/stats_5v5" }
+blue_team = { parent_binding="stats", path="stats_blue_team" }
+red_team = { parent_binding="stats", path="stats_red_team" }
+blue_team_bg = { parent_binding="blue_team", path="bg" }
+red_team_bg = { parent_binding="red_team", path="bg" }
+
+kills_deaths_stat = { parent_binding="stats", path="stat_icons/stat_1" }
+damage_stat = { parent_binding="stats", path="stat_icons/stat_2" }
+healing_stat = { parent_binding="stats", path="stat_icons/stat_3" }
+damage_taken_stat = { parent_binding="stats", path="stat_icons/stat_4" }
+gmv_stat = { parent_binding="stats", path="stat_icons/stat_5" }
+gmv_stat_icon = { parent_binding="gmv_stat", path="icon_ph" }
+
+result_container = { path="top_left/result_container" }
+result_bg = { parent_binding="result_container", path="result_bg" }
+result = { parent_binding="result_container", path="result" }
+result_victory_text = { parent_binding="result", path="victory_txt" }
+result_defeat_text = { parent_binding="result", path="defeat_txt" }
+result_draw_text = { parent_binding="result", path="draw_txt" }
+
+game_mode = { path="top/game_mode" }
+match_type = { parent_binding="game_mode", path="match_type" }
+ranked_subtitle_text = { parent_binding="match_type", path="ranked_subtitle_text" }
+ranked_rounds = { parent_binding="match_type", path="ranked_rounds" }
+ranked_round_1_blue = { parent_binding="ranked_rounds", path="round_1_blue" }
+ranked_round_2_blue = { parent_binding="ranked_rounds", path="round_2_blue" }
+ranked_round_1_red = { parent_binding="ranked_rounds", path="round_1_red" }
+ranked_round_2_red = { parent_binding="ranked_rounds", path="round_2_red" }
+event_mode = { parent_binding="game_mode", path="event_mode" }
+event_mode_icon = { parent_binding="event_mode", path="event_ph" }
+game_mode_name = { parent_binding="game_mode", path="details_container/gamemode_txt" }
+location_name = { parent_binding="game_mode", path="details_container/location_txt" }
+modifier_name = { parent_binding="game_mode", path="modifier_name" }
+modifier_icon = { parent_binding="game_mode", path="modifier_icon_ph" }
+mode_info_button = { parent_binding="game_mode", path="button_info" }
+
+[buttons]
+close_button = { path="top_right/button_close" }
+
+[animation]
+match_ranked = { binding="match_type", end="ranked" }
+match_trophy = { binding="match_type", end="trophy" }
+match_challenge = { binding="match_type", end="challenge" }
+
+stats_rows_4_red = { binding="red_team_bg", end="4_rows" }
+stats_rows_4 = { binding="blue_team_bg", end="4_rows", also_play="stats_rows_4_red" }
+stats_rows_5_red = { binding="red_team_bg", end="5_rows" }
+stats_rows_5 = { binding="blue_team_bg", end="5_rows", also_play="stats_rows_5_red" }
+
+result_bg_victory = { binding="result_bg", end="victory" }
+result_bg_defeat = { binding="result_bg", end="defeat" }
+result_bg_draw = { binding="result_bg", end="draw" }
+result_victory = { binding="result", end="victory", also_play="result_bg_victory" }
+result_defeat = { binding="result", end="defeat", also_play="result_bg_defeat" }
+result_draw = { binding="result", end="draw", also_play="result_bg_draw" }
+
+result_enter = { binding="result_container", start="anim_enter_start", end="anim_enter_end" }
+appear = { binding="stats", start="anim_enter_start", end="anim_enter_end", also_play="result_enter" }

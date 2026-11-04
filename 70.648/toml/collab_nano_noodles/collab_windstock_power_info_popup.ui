@@ -1,0 +1,11 @@
+id = "collab_windstock_power_info_popup"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_windstock"
+export_name = "event_hub_powers_info_popup"
+
+copy_configs=[ "collab_nano_power_info_popup" ]
+
+[bindings]
+wind_unlock = { path="wind_unlock" }

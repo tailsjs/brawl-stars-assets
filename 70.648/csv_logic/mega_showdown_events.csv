@@ -1,0 +1,6 @@
+"Name","Pool","Weight","Characters","MinCount","MaxCount","PowerCubes","SpawnRadius","Spacing"
+"string","string","int","string","int","int","int","int","int"
+"Boss","MegaShowdownCamps",1,"CoopBoss1",1,1,4,900,100
+"RangedCreeps","MegaShowdownCamps",1,"LargeShowdownRangedEnemy",3,3,1,900,100
+"LootBoxes","MegaShowdown",1,"LootBox",4,4,1,1800,0
+"MeleeCreeps","MegaShowdownCamps",1,"LargeShowdownMeleeEnemy",3,3,1,900,100

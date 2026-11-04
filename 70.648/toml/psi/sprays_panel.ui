@@ -1,0 +1,40 @@
+id = "sprays_panel"
+priority = 1
+
+set_text = [
+    { binding="txt", tid="TID_SPRAYS_POPUP_TEXT" },
+    { binding="shared_sprays_txt", tid="TID_SPRAY_CATEGORY_SHARED" },
+    { binding="spray_1_txt", tid="TID_SPRAY_CATEGORY_1" },
+    { binding="spray_2_txt", tid="TID_SPRAY_CATEGORY_2" },
+    { binding="spray_3_txt", tid="TID_SPRAY_CATEGORY_3" },
+    { binding="spray_4_txt", tid="TID_SPRAY_CATEGORY_4" },
+    { binding="spray_5_txt", tid="TID_SPRAY_CATEGORY_5" },
+]
+
+hide_binding = [
+    "item_1",
+    "item_2",
+    "item_3",
+]
+
+[bindings]
+txt = { path="txt" }
+brawler_spray_txt = { path="brawler_spray_txt" }
+shared_sprays_txt = { path="shared_sprays_txt" }
+panel_info = { path="panel_info" }
+scroll_area = { parent_binding="panel_info", path="scroll_area" }
+pointer = { parent_binding="panel_info", path="pointer" }
+item_1 = { parent_binding="panel_info", path="item_1" }
+item_2 = { parent_binding="panel_info", path="item_2" }
+item_3 = { parent_binding="panel_info", path="item_3" }
+button_wip_spray_slot = { path="button_wip_spray_slot" }
+spray_1 = { path="spray_1" }
+spray_2 = { path="spray_2" }
+spray_3 = { path="spray_3" }
+spray_4 = { path="spray_4" }
+spray_5 = { path="spray_5" }
+spray_1_txt = { path="spray_1_txt" }
+spray_2_txt = { path="spray_2_txt" }
+spray_3_txt = { path="spray_3_txt" }
+spray_4_txt = { path="spray_4_txt" }
+spray_5_txt = { path="spray_5_txt" }

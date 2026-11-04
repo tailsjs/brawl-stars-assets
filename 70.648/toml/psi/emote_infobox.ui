@@ -1,0 +1,43 @@
+id = "emote_infobox"
+priority = 1
+
+[bindings]
+
+emote_infobox = { path="" }
+emote_infobox_title_txt = { parent_binding="emote_infobox", path="emote_title_infobox/item_title_txt" }
+emote_infobox_collection_tags = { parent_binding="emote_infobox", path="collection_tags" }
+emote_infobox_collection_1 = { parent_binding="emote_infobox_collection_tags", path="collection_1" }
+emote_infobox_collection_2 = { parent_binding="emote_infobox_collection_tags", path="collection_2" }
+emote_infobox_collection_3 = { parent_binding="emote_infobox_collection_tags", path="collection_3" }
+emote_infobox_collection_4 = { parent_binding="emote_infobox_collection_tags", path="collection_4" }
+emote_infobox_collection_1_icon_ph = { parent_binding="emote_infobox_collection_1", path="icon_ph" }
+emote_infobox_collection_2_icon_ph = { parent_binding="emote_infobox_collection_2", path="icon_ph" }
+emote_infobox_collection_3_icon_ph = { parent_binding="emote_infobox_collection_3", path="icon_ph" }
+emote_infobox_collection_4_icon_ph = { parent_binding="emote_infobox_collection_4", path="icon_ph" }
+
+[buttons]
+
+button_pins = { binding="button_pins" }
+button_sprays = { binding="button_sprays" }
+
+button_brawler = { binding="button_brawler" }
+button_defaults = { binding="button_defaults" }
+
+button_reset_set = { binding="button_reset_set" }
+
+emote_infobox_collection_1 = { binding="emote_infobox_collection_1" }
+emote_infobox_collection_2 = { binding="emote_infobox_collection_2" }
+emote_infobox_collection_3 = { binding="emote_infobox_collection_3" }
+emote_infobox_collection_4 = { binding="emote_infobox_collection_4" }
+
+[animations]
+default_animation= { also_play=["infobox_1_collections" ] }
+
+select = { binding="emote_infobox", start="select_start", end="selected" }
+deselect = { binding="emote_infobox", end="unselected" }
+deselect_autopin = { binding="emote_infobox", end="unselected_autopin" }
+
+infobox_1_collections = { binding="emote_infobox_collection_tags", end="1_collections" }
+infobox_2_collections = { binding="emote_infobox_collection_tags", end="2_collections" }
+infobox_3_collections = { binding="emote_infobox_collection_tags", end="3_collections" }
+infobox_4_collections = { binding="emote_infobox_collection_tags", end="4_collections" }

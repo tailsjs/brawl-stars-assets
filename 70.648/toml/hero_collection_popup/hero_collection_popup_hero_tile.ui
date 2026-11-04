@@ -1,0 +1,93 @@
+id = "hero_collection_popup_hero_tile"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_list"
+
+hide = ["mutant_vfx_back_ph","mutant_rarity_bg_ph",]
+hide_binding = ["selected_frame"]
+
+move = [{ path="", scale=1.0 }]
+
+set_text = [{ parent_binding="notification", path="txt_new", tid="TID_HERO_LIST_NEW" }]
+
+[bindings]
+name = { path="name_level_group/name_txt" }
+portrait_ph = { path="image_ph/image_ph" }
+selected_frame = { path="selected_frame" }
+rarity_bg = { path="rarity_bg" }
+quest_1 = { path="quest_icon/quest_1" }
+quest_2 = { path="quest_icon/quest_2" }
+quest_3 = { path="quest_icon/quest_3" }
+notification = { path="notification" }
+favourite = { path="icon_fav_brawler" }
+power_level = { path="buddy/level/txt" }
+win_streak = { path="button_winstreak" }
+win_streak_value_1 = { path="button_winstreak/counter/counter_1/value_txt" }
+win_streak_value_2 = { path="button_winstreak/counter/counter_2/value_txt" }
+progress_bar = { path="score_container/progress_bar" }
+progress_txt = { path="score_container/tropycount/progress_txt" }
+progress_bar_prestige = { path="score_container/progress_bar_prestige" }
+emblem = { path="score_container" }
+prestige_count = { path="score_container/tier/txt" }
+gadget_lock = { path="buddy/gadget/lock" }
+gadget_add_icon = { path="buddy/gadget/add_icon" }
+sp_lock = { path="buddy/sp/lock" }
+sp_add_icon = { path="buddy/sp/add_icon" }
+oc_lock = { path="buddy/oc/lock" }
+oc_add_icon = { path="buddy/oc/add_icon" }
+touch_area = { path="bounds" }
+brawler_cost_txt = { path="brawler_cost/txt" }
+brawler_arrival_txt = { path="brawler_arrival/txt_timer" }
+
+[animations]
+win_streak_1 = { path="button_winstreak/counter", end="counter_1" }
+win_streak_2 = { path="button_winstreak/counter", end="counter_2" }
+stop_win_streak={ path="button_winstreak/counter", end_frame=0 }
+stop_notification={ path="notification", end_frame=0 } 
+stop_quest_3={ path="quest_icon/quest_3", end_frame=0 }
+stop_quest_2={ path="quest_icon/quest_2", end_frame=0 }
+stop_quest_1={ path="quest_icon/quest_1", end_frame=0 }
+stop_quest={ path="quest_icon", end_frame=0 }
+stop_bar={ binding="progress_bar", end_frame=40 }
+stop_emblem={ binding="emblem", end_frame=0 }
+stop_level={ path="buddy/level", end_frame=0 }
+stop_gadget={ path="buddy/gadget", end_frame=1 }
+stop_oc={ path="buddy/oc", end_frame=1 }
+stop_sp={ path="buddy/sp", end_frame=1 }
+stop_buddy={ path="buddy", end_frame=0 }
+unowned={ path="", end="locked" }
+owned={ path="", end="unlocked" }
+comingsoon = { path="", end="comingsoon" }
+
+gadget_basic = { path="buddy/gadget", end="basic" }
+gadget_buddy = { path="buddy/gadget", end="buddy" }
+gadget_empty = { path="buddy/gadget", end="empty" }
+gadget_basic_locked = { path="buddy/gadget", end="basic_locked" }
+
+sp_basic = { path="buddy/sp", end="basic" }
+sp_buddy = { path="buddy/sp", end="buddy" }
+sp_empty = { path="buddy/sp", end="empty" }
+sp_basic_locked = { path="buddy/sp", end="basic_locked" }
+
+oc_basic = { path="buddy/oc", end="basic" }
+oc_buddy = { path="buddy/oc", end="buddy" }
+oc_empty = { path="buddy/oc", end="empty" }
+oc_basic_locked = { path="buddy/oc", end="basic_locked" }
+oc_not_available = { path="buddy/oc", end="not_available" }
+
+level_icon_normal = { path="buddy/level", end="power_level" }
+level_icon_oc = { path="buddy/level", end="over_charge" }
+level_icon_oc_buddy = { path="buddy/level", end="over_charge_buddy" }
+
+level_all_buddies = {path="buddy", end="all_buddies", also_play="level_icon_oc_buddy" }
+level_oc_buddy = {path="buddy", end="over_charge", also_play="level_icon_oc_buddy" }
+level_oc = {path="buddy", end="over_charge", also_play="level_icon_oc" }
+level_max = {path="buddy", end="max_level", also_play="level_icon_normal" }
+level_up = {path="buddy", end="level_up", also_play="level_icon_normal" }
+level_base = {path="buddy", end="base", also_play="level_icon_normal" }
+
+
+default_animation={ path="buddy", end_frame=0, also_play=[ "owned", "stop_buddy","stop_sp","stop_oc","stop_gadget","stop_level","stop_bar","stop_emblem","stop_quest", "stop_quest_1", "stop_quest_2", "stop_quest_3","stop_notification", "stop_win_streak"] }
+

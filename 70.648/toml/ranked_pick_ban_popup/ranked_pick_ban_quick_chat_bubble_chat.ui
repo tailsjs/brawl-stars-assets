@@ -1,0 +1,13 @@
+id = "ranked_pick_ban_quick_chat_bubble_chat"
+priority = 1
+
+[bindings]
+bubble = { path="" }
+txt = { path="chat_txt/TID_RANKED_SWAP_TURNS" }
+
+
+[animation]
+hidden = { binding="bubble", end="anim_enter_start" }
+appear = { binding="bubble", start="anim_enter_start", end="anim_enter_end" }
+disappear = { binding="bubble", start="anim_exit_start", end="anim_exit_end" }
+default_animation = "hidden"

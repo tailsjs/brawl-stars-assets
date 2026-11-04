@@ -1,0 +1,12 @@
+Name,Characters,GameMode,TID,WeNeedTID,NonGameModeIcon
+string,string,string,string,string,string
+WallBreaker,ShotgunGirl,,TID_RANKED_SUGGEST_WALL_BREAKER,TID_RANKED_SUGGESTION_ROLE_WALLBREAKER,sc/ranked.sc#icon_wall_breaker
+,BlackHole,,,,
+CrowdControl,Whirlwind,,TID_RANKED_SUGGEST_CROWD_CONTROL,TID_RANKED_SUGGESTION_ROLE_CROWDCONTOL,sc/ranked.sc#icon_crowd_control
+,Ninja,,,,
+GemCarrier,RocketGirl,GemGrab,TID_RANKED_SUGGESTION_ROLE_GEMGRAB,TID_RANKED_SUGGESTION_ROLE_GEMGRAB_MESSAGE,
+,ClusterBombDude,,,,
+Striker,ShotgunGirl,BrawlBall,TID_RANKED_SUGGESTION_ROLE_BRAWLBALL,TID_RANKED_SUGGESTION_ROLE_BRAWLBALL_MESSAGE,
+,ClusterBombDude,,,,
+Goalie,HammerDude,AirHockey,TID_RANKED_SUGGESTION_ROLE_BRAWLHOCKEY,TID_RANKED_SUGGESTION_ROLE_BRAWLHOCKEY_MESSAGE,
+,Sandstorm,,,,

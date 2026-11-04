@@ -1,0 +1,5 @@
+id = "ranked_pick_ban_quick_chat_text_button"
+priority = 1
+
+[bindings]
+txt = { path="txt" }

@@ -1,0 +1,140 @@
+id = "ranked_pick_ban_popup"
+priority = 1
+
+type = "TestablePopup"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+container_prefix = "ranked_pick_ban_screen_"
+#container_bg = "sc/ui.sc#bg_anim_skulls"
+
+hide = [
+	"top_left/button_prepick",
+	"bottom_right/quick_chat_panel/quick_chat_options",
+]
+hide_binding = []
+
+set_text = [
+	{ binding="search_help", tid="TID_HERO_LIST_SEARCH" },
+	{ parent_binding="sorting_button", path="txt", tid="TID_HERO_LIST_SEARCH" },
+]
+
+[nested_clips]
+blue_1 = { binding="blue_1", config="ranked_pick_ban_blue_player" }
+blue_2 = { binding="blue_2", config="ranked_pick_ban_blue_player" }
+blue_3 = { binding="blue_3", config="ranked_pick_ban_blue_player" }
+red_1 = { binding="red_1", config="ranked_pick_ban_red_player" }
+red_2 = { binding="red_2", config="ranked_pick_ban_red_player" }
+red_3 = { binding="red_3", config="ranked_pick_ban_red_player" }
+#quick_chat_panel = { binding="quick_chat_panel", config="ranked_pick_ban_quick_chat_panel" }
+#suggestion_panel = { parent_binding="teams_panel", path="suggestion_panel", config="ranked_pick_ban_suggestion_panel" }
+quick_chat_panel = { parent_binding="quick_chat_panel", path="quick_chat_options_suggestions", config="ranked_pick_ban_quick_chat_panel" }
+suggestion_panel = { parent_binding="quick_chat_panel", path="quick_chat_options_suggestions", config="ranked_pick_ban_suggestion_panel" }
+quick_chat_wrapper = { binding="quick_chat_panel", config="ranked_pick_ban_quick_chat_wrapper" }
+
+[custom]
+float.tile_width = 100.0
+float.tile_height = 70.0
+float.tile_gap_x = 0.0
+float.tile_gap_y = 0.0
+float.tile_top_margin = 110.0
+float.tile_top_margin_classes = 135.0
+float.category_header_y = 70.0
+float.tile_bottom_margin = -30.0
+float.category_gap_x = 20.0
+float.scroll_starting_offset = 450.0
+
+float.bg_alpha_over_map = 0.7
+float.bg_fade_back_seconds = 0.2
+float.bg_fade_away_seconds = 1.0
+float.bg_alpha_intro_cooldown = 5.0
+float.bg_alpha_touch_cooldown = 3.0
+float.bg_alpha_your_turn_end_cooldown = 0.5
+
+[bindings]
+scroll_area = { path="scroll_area" }
+bg = { path="bg" }
+bg_pattern = { path="bg/bg_pattern" }
+
+teams_panel = { path="top_left/teams_panel" }
+blue_1 = { parent_binding="teams_panel", path="team_blue_1" }
+blue_2 = { parent_binding="teams_panel", path="team_blue_2" }
+blue_3 = { parent_binding="teams_panel", path="team_blue_3" }
+
+red_1 = { parent_binding="teams_panel", path="team_red_1" }
+red_2 = { parent_binding="teams_panel", path="team_red_2" }
+red_3 = { parent_binding="teams_panel", path="team_red_3" }
+
+vs = { parent_binding="teams_panel", path="vs" }
+
+header_you = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim_your_turn" }
+header_other = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim" }
+header_you_info = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim_your_turn/ranked_pick_ban_header/turn_info_text" }
+header_other_info = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim/ranked_pick_ban_header/turn_info_text" }
+header_you_time = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim_your_turn/ranked_pick_ban_header/turn_time" }
+header_other_time = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim/ranked_pick_ban_header/turn_time" }
+timer_icon_you = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim_your_turn/ranked_pick_ban_header/timer_icon" }
+timer_icon_other = { parent_binding="teams_panel", path="ranked_pick_ban_header_anim/ranked_pick_ban_header/timer_icon" }
+
+event_ph = { path="top_left/game_mode/event_mode/event_ph" }
+gamemode_txt = { path="top_left/game_mode/details_container/gamemode_txt" }
+location_txt = { path="top_left/game_mode/details_container/location_txt" }
+modifier_name = { path="top_left/game_mode/modifier_name" }
+modifier_icon_ph = { path="top_left/game_mode/modifier_icon_ph" }
+
+search_container = { path="top_right/search_filters/button_search" }
+search_input_txt = { parent_binding="search_container", path="input_field" }
+search_help = { parent_binding="search_container", path="search_help" }
+button_search = { parent_binding="search_container", path="debug_menu_input_button" }
+
+fav_sort_state = { parent_binding="fav_sort_button", path="state" }
+sorting_text = { parent_binding="sorting_button", path="txt" }
+quick_chat_panel_container = { path="bottom_right" }
+quick_chat_panel = { parent_binding="quick_chat_panel_container", path="quick_chat_panel" }
+
+swap_arrows = { parent_binding="teams_panel", path="swap_arrows" }
+
+[buttons]
+info_button = { path="top_left/game_mode/button_info" }
+sorting_button = { path="top_right/search_filters/button_sorting" }
+fav_sort_button = { path="top_right/search_filters/button_fav_brawler" }
+button_search_reset = { path="top_right/search_filters/button_cancel" }
+
+button_prepick = { path="bottom_left/button_prepick" }
+
+[animation]
+header_you_appear = { binding="header_you", start="entry_anim", end="3_sec_countdown" }
+header_other_appear = { binding="header_other", end_frame=0 }
+
+appear_bottom_right = { path="bottom_right", start="anim_enter_start", end="anim_enter_end" }
+appear_prepick = { path="bottom_left", start="anim_enter_start", end="anim_enter_end" }
+appear_top_right = { path="top_right", start="anim_enter_start", end="anim_enter_end" }
+appear = { path="top_left", start="anim_enter_start", end="anim_enter_end", also_play=[ "appear_bottom_right", "appear_prepick", "appear_top_right" ] }
+
+skip_appear = { path="top_left", end="anim_enter_end", also_play=["appear_top_right", "appear_bottom_right", "appear_prepick"] }
+
+disappear_bottom_right = { path="bottom_right", start="anim_exit_start", end="anim_exit_end" }
+disappear_prepick = { path="bottom_left", start="anim_exit_start", end="anim_exit_end" }
+disappear_top_right = { path="top_right", start="anim_exit_start", end="anim_exit_end" }
+disappear = { path="top_left", start="anim_exit_start", end="anim_exit_end", also_play=["disappear_top_right", "disappear_bottom_right"] }
+
+bg_ban = { path="bg", end="ban_turn" }
+bg_blue = { path="bg", end="pick_turn" }
+bg_red = { path="bg", end="ban_turn" }
+
+fav_sorting_enabled = { binding="fav_sort_state", end="enable" }
+fav_sorting_disabled = { binding="fav_sort_state", end="disable" }
+
+prepick_show = { binding="button_prepick", end="pre_pick" }
+prepick_cancel = { binding="button_prepick", end="cancel" }
+
+short_arrow_play = { parent_binding="swap_arrows", path="short_arrow", start_frame=0, end_frame=59 }
+long_arrow_play = { parent_binding="swap_arrows", path="long_arrow", start_frame=0, end_frame=59 }
+long_arrow_stop = { parent_binding="swap_arrows", path="long_arrow", end_frame=0 }
+
+swap_arrows_1_2 = { binding="swap_arrows", end="1_2", also_play=["short_arrow_play"] }
+swap_arrows_2_3 = { binding="swap_arrows", end="2_3", also_play=["short_arrow_play"] }
+swap_arrows_1_3 = { binding="swap_arrows", end="1_3", also_play=["long_arrow_play"] }
+swap_arrows_stop = { binding="swap_arrows", end="1_3", also_play=["long_arrow_stop"] }
+
+default_animation = { also_play=[ "appear", "bg_ban", "fav_sorting_enabled", "swap_arrows_stop", ] }

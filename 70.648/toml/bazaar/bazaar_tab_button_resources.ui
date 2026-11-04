@@ -1,0 +1,12 @@
+id = "bazaar_tab_button_resources"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "bazaar_tab_button_default"
+
+replace = [
+	{ binding="icon", sc_file_source="ClientFile", sc_file="sc/shop.sc", export_name="tab_icons"}
+]
+
+[animation]
+default_animation = { binding="icon", end="gems" }

@@ -1,0 +1,9 @@
+id = "resource_icon_collab_currency"
+priority = 1
+
+type = "ResourceIcon"
+subtype = "CollabCurrency"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "icon_resource_gem"

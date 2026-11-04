@@ -1,0 +1,107 @@
+id = "emote_sets"
+priority = 1
+
+set_text = [
+    { parent_binding="button_defaults", path="set_tab_text/txt", tid="TID_EMOTE_CONFIG_TAB_DEFAULTS" },
+    { parent_binding="button_brawler", path="set_tab_text/txt", tid="TID_EMOTE_CONFIG_TAB_CUSTOM" },
+]
+
+[nested_clips]
+
+## Player layer
+# "pin slots"
+player_emote_button_1 = { parent_binding="emote_set_player", path="emote_button_1", config="emote_slot" }
+player_emote_button_2 = { parent_binding="emote_set_player", path="emote_button_2", config="emote_slot" }
+player_emote_button_3 = { parent_binding="emote_set_player", path="emote_button_3", config="emote_slot" }
+player_emote_button_4 = { parent_binding="emote_set_player", path="emote_button_4", config="emote_slot" }
+player_emote_button_5 = { parent_binding="emote_set_player", path="emote_button_5", config="emote_slot" }
+
+# "spray slots"
+player_emote_button_6 = { parent_binding="emote_set_player", path="emote_button_6", config="emote_slot" }
+player_emote_button_7 = { parent_binding="emote_set_player", path="emote_button_7", config="emote_slot" }
+player_emote_button_8 = { parent_binding="emote_set_player", path="emote_button_8", config="emote_slot" }
+player_emote_button_9 = { parent_binding="emote_set_player", path="emote_button_9", config="emote_slot" }
+player_emote_button_10 = { parent_binding="emote_set_player", path="emote_button_10", config="emote_slot" }
+
+# autofire slots
+player_emote_auto_1 = { parent_binding="emote_set_player", path="emote_auto_1", config="emote_slot" }
+player_emote_auto_2 = { parent_binding="emote_set_player", path="emote_auto_2", config="emote_slot" }
+player_emote_auto_3 = { parent_binding="emote_set_player", path="emote_auto_3", config="emote_slot" }
+
+## Brawler layer
+# "pin slots"
+brawler_emote_button_1 = { parent_binding="emote_set_brawler", path="emote_button_1", config="emote_slot" }
+brawler_emote_button_2 = { parent_binding="emote_set_brawler", path="emote_button_2", config="emote_slot" }
+brawler_emote_button_3 = { parent_binding="emote_set_brawler", path="emote_button_3", config="emote_slot" }
+brawler_emote_button_4 = { parent_binding="emote_set_brawler", path="emote_button_4", config="emote_slot" }
+brawler_emote_button_5 = { parent_binding="emote_set_brawler", path="emote_button_5", config="emote_slot" }
+
+# "spray slots"
+brawler_emote_button_6 = { parent_binding="emote_set_brawler", path="emote_button_6", config="emote_slot" }
+brawler_emote_button_7 = { parent_binding="emote_set_brawler", path="emote_button_7", config="emote_slot" }
+brawler_emote_button_8 = { parent_binding="emote_set_brawler", path="emote_button_8", config="emote_slot" }
+brawler_emote_button_9 = { parent_binding="emote_set_brawler", path="emote_button_9", config="emote_slot" }
+brawler_emote_button_10 = { parent_binding="emote_set_brawler", path="emote_button_10", config="emote_slot" }
+
+# autofire slots
+brawler_emote_auto_1 = { parent_binding="emote_set_brawler", path="emote_auto_1", config="emote_slot" }
+brawler_emote_auto_2 = { parent_binding="emote_set_brawler", path="emote_auto_2", config="emote_slot" }
+brawler_emote_auto_3 = { parent_binding="emote_set_brawler", path="emote_auto_3", config="emote_slot" }
+
+[bindings]
+
+emote_sets = { path="" }
+emote_set_player = { parent_binding="emote_sets", path="emote_set_player" }
+emote_set_brawler = { parent_binding="emote_sets", path="emote_set_brawler" }
+button_reset_set = { parent_binding="emote_sets", path="button_reset_set" }
+
+tabs = { parent_binding="emote_sets", path="tabs" }
+button_brawler = { parent_binding="tabs", path="button_brawler" }
+button_brawler_txt = { parent_binding="button_brawler", path="set_tab_text/txt" }
+button_brawler_checkmark = { parent_binding="button_brawler", path="icon_checkmark" }
+button_defaults = { parent_binding="tabs", path="button_defaults" }
+button_defaults_checkmark = { parent_binding="button_defaults", path="icon_checkmark" }
+
+button_player_autopin_info_match_start = { parent_binding="emote_set_player", path="autopin_match_start_banner" }
+button_player_autopin_info_triple_td = { parent_binding="emote_set_player", path="autopin_triple_takedown_banner" }
+button_player_autopin_info_victory = { parent_binding="emote_set_player", path="autopin_victory_banner" }
+
+button_brawler_autopin_info_match_start = { parent_binding="emote_set_brawler", path="autopin_match_start_banner" }
+button_brawler_autopin_info_triple_td = { parent_binding="emote_set_brawler", path="autopin_triple_takedown_banner" }
+button_brawler_autopin_info_victory = { parent_binding="emote_set_brawler", path="autopin_victory_banner" }
+
+[buttons]
+
+button_brawler = { binding="button_brawler" }
+button_defaults = { binding="button_defaults" }
+
+button_autopin_info_match_start = { binding="button_autopin_info_match_start" }
+button_autopin_info_triple_td = { binding="button_autopin_info_triple_td" }
+button_autopin_info_victory = { binding="button_autopin_info_victory" }
+
+button_reset_set = { binding="button_reset_set" }
+
+[animations]
+default_animation= { also_play=["select_defaults_instant" ] }
+
+select_brawler = { binding="emote_sets", start="set_brawler_start", end="set_brawler_end", also_play=["select_brawler_button", "brawler_checkmark"] }
+select_defaults = { binding="emote_sets", start="set_player_start", end="set_player_end", also_play=["select_defaults_button", "defaults_checkmark"] }
+select_brawler_instant = { binding="emote_sets", end="set_brawler", also_play=["select_brawler_button", "brawler_checkmark"] }
+select_defaults_instant = { binding="emote_sets", end="set_player", also_play=["select_defaults_button", "defaults_checkmark"] }
+
+brawler_checkmark = { binding="button_brawler_checkmark", start="checkmark_start", end="checkmark_end" }
+defaults_checkmark = { binding="button_defaults_checkmark", start="checkmark_start", end="checkmark_end" }
+
+select_brawler_button = { binding="button_brawler", end="active", also_play=["deselect_defaults_button"] }
+select_defaults_button = { binding="button_defaults", end="active", also_play=["deselect_brawler_button"] }
+deselect_brawler_button = { binding="button_brawler", end="inactive" }
+deselect_defaults_button = { binding="button_defaults", end="inactive" }
+
+[custom]
+bool.copy_from_defaults_only_to_empty_slots = true
+bool.enable_drag_and_drop = true
+vector2.drag_and_drop_clip_offset = [0, 0]
+vector3.drag_and_drop_source_color_transform_rgb = [0.5, 0.5, 0.5]
+float.drag_and_drop_source_color_transform_alpha = 1.0
+vector3.drag_and_drop_error_color_transform_rgb = [1.0, 0.25, 0.25]
+float.drag_and_drop_error_color_transform_alpha = 1.0

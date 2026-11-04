@@ -1,0 +1,5 @@
+id = "bazaar_tab_button_time_limited_3"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "bazaar_tab_button_default"

@@ -1,0 +1,31 @@
+id = "debug_ui_test"
+priority = 1
+type = "TestablePopup"
+subtype = "DebugUi"
+
+debug_ui = true
+
+# Only used for the background behind the placeholders
+sc_file_source = "ClientFile"
+container_bg = "sc/ui.sc#bg_anim_skulls"
+
+show_back_and_home_buttons = true
+
+[buttons]
+increment = { path = "button_increment" }
+toggle_hint = { path = "button_toggle_hint" }
+close = { path = "button_close" }
+
+[bindings]
+title = { path = "title_txt" }
+counter = { path = "counter_txt" }
+hint = { path = "hint_txt" }
+icon = { path = "icon_container/icon" }
+
+[[set_text]]
+binding = "title"
+text = "Built from debug_ui_test.ui"
+
+[[set_text]]
+binding = "hint"
+text = "Placeholders until the .sc exists"

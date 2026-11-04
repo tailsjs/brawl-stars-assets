@@ -1,0 +1,10 @@
+id = "hero_collection_popup_brawler_unlock_quick_button"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_unlock_quick_button"
+
+[bindings]
+progress_bar = { path="progress_bar" }
+progress_value = { path="value_txt" }

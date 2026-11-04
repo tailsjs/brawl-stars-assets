@@ -1,0 +1,19 @@
+id = "ranked_pick_ban_coin_flip"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+container_prefix = "ranked_coin_flip_screen_"
+
+[custom]
+# Total length of the intro in seconds. The authored animation is sped up or slowed down to fit. 0 = play at the authored pace.
+float.intro_duration_seconds = 0.0
+
+[bindings]
+coin_placeholder = { path="center/coin_placeholder" }
+coin_flip_container = { path="center" }
+blue_team_banner = { path="center/blue_team_banner" }
+red_team_banner = { path="center/red_team_banner" }
+
+[animation]
+default_animation = { also_play=[] }

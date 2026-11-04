@@ -1,0 +1,73 @@
+id = "bazaar_panel_chain_offer_medium"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "ChainOffer"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "chain_offer_panel_medium"
+
+hide=[
+	"inactive",
+	"panel_discount",
+	"panel_best_value",
+	"processing_ani",
+]
+
+set_text = [
+	{ parent_binding="notification", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="notification", path="txt_free", tid="TID_SHOP_FREE" }
+]
+
+[custom]
+int.small_item_count = 6
+int.large_item_count = 3
+float.width = 545.9
+
+[bindings]
+rotating_panels = { path="inner_offer_panels" }
+static_panels = { path="inner_offer_panels_static" }
+bg_ph = { path="bg_ph" }
+title = { path="title_txt" }
+subtitle = { path="subtitle_txt" }
+time_txt = { path="time_txt" }
+highlighted_skin = { path="item_ph" }
+notification = { path="notification" }
+
+offer_1 = { path="inner_offer_panels/offer_1" }
+offer_2 = { path="inner_offer_panels/offer_2" }
+offer_3 = { path="inner_offer_panels/offer_3" }
+offer_ph_1 = { parent_binding="offer_1", path="offer_ph" }
+offer_ph_2 = { parent_binding="offer_2", path="offer_ph" }
+offer_ph_3 = { parent_binding="offer_3", path="offer_ph" }
+offer_name_1 = { parent_binding="offer_1", path="number_txt" }
+offer_name_2 = { parent_binding="offer_2", path="number_txt" }
+offer_name_3 = { parent_binding="offer_3", path="number_txt" }
+offer_cover_1 = { parent_binding="static_offer_1", path="cover" }
+offer_cover_2 = { parent_binding="static_offer_2", path="cover" }
+offer_cover_3 = { parent_binding="static_offer_3", path="cover" }
+
+static_offer_1 = { path="inner_offer_panels_static/offer_1" }
+static_offer_2 = { path="inner_offer_panels_static/offer_2" }
+static_offer_3 = { path="inner_offer_panels_static/offer_3" }
+static_offer_ph_1 = { parent_binding="static_offer_1", path="offer_ph" }
+static_offer_ph_2 = { parent_binding="static_offer_2", path="offer_ph" }
+static_offer_ph_3 = { parent_binding="static_offer_3", path="offer_ph" }
+static_offer_name_1 = { parent_binding="static_offer_1", path="number_txt" }
+static_offer_name_2 = { parent_binding="static_offer_2", path="number_txt" }
+static_offer_name_3 = { parent_binding="static_offer_3", path="number_txt" }
+static_offer_cover_1 = { parent_binding="static_offer_1", path="cover" }
+static_offer_cover_2 = { parent_binding="static_offer_2", path="cover" }
+static_offer_cover_3 = { parent_binding="static_offer_3", path="cover" }
+
+[animations]
+stop_6 = { path="inner_offer_panels/offer_3", end_frame=0 }
+stop_5 = { path="inner_offer_panels/offer_2", end_frame=0, also_play="stop_6" }
+stop_4 = { path="inner_offer_panels/offer_1", end_frame=0, also_play="stop_5" }
+stop_3 = { path="inner_offer_panels_static/offer_1/cover", end_frame=0, also_play="stop_4" }
+stop_2 = { path="oddities_shop_offer_medium_bg_epic", end_frame=0, also_play="stop_3" }
+stop_1 = { path="inner_offer_panels", end_frame=0, also_play="stop_3" }
+
+notification_free = { binding="notification", end="free" }
+notification_new = { binding="notification", end="new" }

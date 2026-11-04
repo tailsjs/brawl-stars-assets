@@ -1,0 +1,48 @@
+id = "bazaar_panel_support_content_creator"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "SupportContentCreators"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_support_creator"
+
+interactive = [""]
+
+copy_configs=[]
+
+hide=[]
+
+move=[
+	{ binding="me", offset=[0.0, -200.0] }
+]
+
+set_text = [
+	{ parent_binding="button_stop", path="txt", tid="TID_SUPPORT_CREATOR_BTN_STOP" },
+	{ path="info_txt", tid="TID_SUPPORT_CREATOR_INFO" },
+	{ path="title_txt", tid="TID_SUPPORT_CREATOR_SHOP_TITLE" },
+	{ binding="no_supported_creator", tid="TID_SUPPORT_CREATOR_NOT_SUPPORTING" },
+]
+
+[bindings]
+touch_area = { path="bounds" }
+me = { path="" }
+
+category_title = { path="title_txt" }
+time_txt = { path="time_txt" }
+
+button_support_txt = { parent_binding="button_support", path="txt" }
+button_support = { path="button_support" }
+button_stop = { path="button_stop" }
+
+no_supported_creator = { path="no_creator_supporting_txt" }
+supported_creator_name = { path="creator_supporting_txt" }
+title_txt = { path="title_txt" }
+
+[custom]
+float.width = 372.0
+float.offset = -186.0
+
+[animations]
+default_animation = {}

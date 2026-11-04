@@ -1,0 +1,14 @@
+id = "button_emote_category"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/emote_config_screen.sc"
+export_name = "button_emote_category"
+
+[bindings]
+ph_icon = { path="ph_icon" }
+
+[animations]
+default_animation="unselected"
+selected = { path="", end="selected" }
+unselected = { path="", end="unselected" }

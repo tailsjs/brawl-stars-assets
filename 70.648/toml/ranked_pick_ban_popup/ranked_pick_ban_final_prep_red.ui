@@ -1,0 +1,29 @@
+id = "ranked_pick_ban_final_prep_red"
+priority = 1
+
+hide_binding = [
+	"overcharge",
+	"power_bg",
+	"power_txt",
+]
+
+[nested_clips]
+chat_bubble = { path="bubble_chat", config="ranked_pick_ban_quick_chat_bubble_chat" }
+emote_bubble = { path="bubble_psi", config="ranked_pick_ban_quick_chat_bubble_psi" }
+
+[skins]
+skin = { path="player_brawler_1/hero_area/hero_ph" }
+
+[bindings]
+name_txt = { path="name_txt" }
+overcharge = { path="overcharge" }
+bubble_psi = { path="bubble_psi" }
+bubble_chat_txt = { parent_binding="bubble_chat", path="chat_txt" }
+bubble_emote_root = { parent_binding="bubble_psi", path="emote" }
+bubble_emote_ph = { parent_binding="bubble_psi", path="emote/emote_ph" }
+bubble_chat = { path="bubble_chat" }
+power_bg = { path="power_bg" }
+power_txt = { path="power_txt" }
+
+[animation]
+default_animation = { also_play=[] }

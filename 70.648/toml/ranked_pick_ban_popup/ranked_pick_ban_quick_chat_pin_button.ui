@@ -1,0 +1,8 @@
+id = "ranked_pick_ban_quick_chat_pin_button"
+priority = 1
+
+hide_binding = [ "pin_ph" ]
+
+[bindings]
+emote_root = { path="" }
+emote_ph = { path="banned_brawler_pin" }

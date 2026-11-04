@@ -1,0 +1,89 @@
+id = "ranked_pick_ban_blue_player"
+priority = 1
+
+hide = [ "suggest", ]
+
+hide_binding = [
+	"brawler_profile_image",
+	"selected_glow",
+	"checkmark",
+	"power_bg",
+	"power_txt",
+	"equipment_items_group",
+	"next",
+	"overcharge",
+	"banned_brawler_pin",
+	"highlight_anim",
+	"coin",
+]
+uninteractive = [
+	"bubble_chat",
+	"overcharge/power_overcharge/anim",
+	"bubble_psi",
+	"next_banner",
+	"bubble_suggestion",
+]
+
+set_text = [ { binding="turn_txt", text="X" } ]
+
+[nested_clips]
+swap_turn = { path="swap_turn", config="ranked_pick_ban_turn_swap" }
+chat_bubble = { path="bubble_chat", config="ranked_pick_ban_quick_chat_bubble_chat" }
+emote_bubble = { path="bubble_psi", config="ranked_pick_ban_quick_chat_bubble_psi" }
+suggest_bubble = { path="bubble_suggestion", config="ranked_pick_ban_quick_chat_bubble_suggestion" }
+
+[bindings]
+player_turn_highlight = { path="player_turn_highlight" }
+hidden_hero = { path="hidden_hero" }
+brawler_profile_image = { path="brawler_profile_image" }
+brawler_ph = { path="brawler_profile_image/image_ph" }
+name_txt = { path="name_txt" }
+power_txt = { path="power_txt" }
+power_bg = { path="power_bg" }
+checkmark = { path="checkmark" }
+turn_txt = { path="turn_txt_container/turn_txt/txt" }
+turn_txt_container = { path="turn_txt_container" }
+banned_brawler_pin = { path="banned_brawler_pin" }
+selected_glow = { path="selected_glow_anim" }
+overcharge = { path="overcharge" }
+overcharge_icon = { path="overcharge/power_overcharge/oc_icon" }
+suggest = { path="suggest" }
+equipment_items_group = { path="equipment_items_group" }
+gadget_icon_ph = { parent_binding="equipment_items_group", path="item_ph/icon_ph" }
+sp_icon_ph = { parent_binding="equipment_items_group", path="sp_ph/icon_ph" }
+gear1_icon_ph = { parent_binding="equipment_items_group", path="gear1_ph/icon_ph" }
+gear2_icon_ph = { parent_binding="equipment_items_group", path="gear2_ph/icon_ph" }
+next = { path="next_banner" }
+highlight_anim = { path="highlight_anim" }
+pre_selection_highlight = { path="pre_selection_highlight" }
+coin = { path="coin" }
+
+[buttons]
+suggest_button = { path="suggest" }
+
+[animation]
+suggestion_bubble_stop = { path="bubble_suggestion", end_frame=0 }
+suggest_stop = { path="suggest", end_frame=0 }
+ban_confirmed = { path="banned_icon", start="in", end="idle" }
+pick_confirmed = { binding="selected_glow", start_frame=0, end_frame=19 }
+banned_icon_show = { path="banned_icon", end="idle" }
+banned_icon_hide = { path="banned_icon", end="in" }
+checkmark_stop = { binding="checkmark", end_frame=0 }
+next_banner_show = { path="next_banner", end_frame=0 }
+next_banner_hide = { path="next_banner", end_frame=0 }
+next_banner_idle = { path="next_banner", end_frame=0 }
+
+overcharge_basic = { binding="overcharge_icon", end="basic" }
+overcharge_buddy = { binding="overcharge_icon", end="buddy" }
+equipment_items_group_stop = { binding="equipment_items_group", end_frame=0 }
+gadget_stop = { parent_binding="equipment_items_group", path="item_ph", end_frame=0 }
+sp_stop = { parent_binding="equipment_items_group", path="sp_ph", end_frame=0 }
+gear1_stop = { parent_binding="equipment_items_group", path="gear1_ph", end_frame=0 }
+gear2_stop = { parent_binding="equipment_items_group", path="gear2_ph", end_frame=0 }
+
+next_team = { binding="next", end="players" }
+next_player = { binding="next", end="player_is_next" }
+my_turn = { binding="turn_txt_container", end="player_turn" }
+others_turn = { binding="turn_txt_container", end="others_turn" }
+
+default_animation = { also_play=[ "suggest_stop", "checkmark_stop", "overcharge_basic", "equipment_items_group_stop", "gadget_stop", "sp_stop", "gear1_stop", "gear2_stop", "next_player" ] }

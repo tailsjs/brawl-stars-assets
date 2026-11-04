@@ -1,0 +1,17 @@
+id = "fullscreen_hero_area"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "hero_item_skin_brawler"
+
+[skins]
+skin = { binding="hero_ph", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[bindings]
+hero_ph = { path="hero_area/hero_ph" }
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }

@@ -1,0 +1,15 @@
+id = "ranked_pick_ban_floating_text_overlay"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+export_name = "ranked_floating_text_screen_center"
+
+[bindings]
+big_txt = { path="FloaterContent/text" }
+small_txt = { path="FloaterContent/small_text" }
+
+[animation]
+big_font = { path="FloaterContent", end="big_font" }
+small_font = { path="FloaterContent", end="small_font" }
+default_animation = { also_play=[ "big_font" ] }

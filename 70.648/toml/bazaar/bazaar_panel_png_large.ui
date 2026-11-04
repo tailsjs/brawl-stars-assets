@@ -1,0 +1,21 @@
+id = "bazaar_panel_png_large"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "LargePng"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_big"
+
+move=[
+	{ binding="bg_ph", scale=0.61, offset=[134.0, -5.0] }
+]
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+[custom]
+int.large_item_count = 0
+int.small_item_count = 0
+float.width = 730.0
+

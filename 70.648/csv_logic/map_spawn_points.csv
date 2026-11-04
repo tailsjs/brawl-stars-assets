@@ -1,0 +1,13 @@
+"Name","Map","Code","Character","PowerCubes","AllowBotTargeting","InterestPoint","EventPool","WaveTimeSeconds","WavePointCount","RepeatPoints","WarningAreaEffect","PreviewIcon","PreviewIconSWF","CampPool","CampCount","CampAreaEffect","SpawnAllCampPoints"
+"string","string","int","string","int","boolean","boolean","string","int","int","boolean","string","string","string","string","int","string","boolean"
+"LootBox","SuperSurvival_701",4,"LootBox",1,"TRUE",,,,,,,,,,,,
+"InterestPoint","SuperSurvival_701",5,,0,"FALSE","TRUE","MegaShowdown",60,2,"FALSE","MegaShowdownEventIndicator","powerup_barrel","sc/level.sc","MegaShowdownCamps",6,"MegaShowdownCreepCampGroundArea",
+"Creep","SuperSurvival_701",6,"LargeShowdownMeleeEnemy",1,"TRUE",,,,,,,,,,,,
+"InterestPointLarge703","SuperSurvival_703",5,,0,"FALSE","TRUE","MegaShowdown",60,2,"FALSE","MegaShowdownEventIndicator","powerup_barrel","sc/level.sc","MegaShowdownCamps",4,"MegaShowdownCreepCampGroundArea",
+"LootBoxLarge703","SuperSurvival_703",4,"LootBox",1,"TRUE",,,,,,,,,,,,
+"CreepLarge703","SuperSurvival_703",6,"LargeShowdownMeleeEnemy",1,"TRUE",,,,,,,,,,,,
+"RandomCampPointsLarge704","SuperSurvival_704",5,,0,"FALSE","TRUE","MegaShowdown",60,2,"FALSE","MegaShowdownEventIndicator","powerup_barrel","sc/level.sc","MegaShowdownCamps",3,"MegaShowdownCreepCampGroundArea",
+"LootBoxLarge704","SuperSurvival_704",4,"LootBox",1,"TRUE",,,,,,,,,,,,
+"CreepLarge704","SuperSurvival_704",6,"LargeShowdownMeleeEnemy",1,"TRUE",,,,,,,,,,,,
+"FixedCampPointsLarge704","SuperSurvival_704",7,,0,"FALSE","TRUE",,,,"FALSE",,"powerup_barrel","sc/level.sc","MegaShowdownCamps",,"MegaShowdownCreepCampGroundArea","TRUE"
+"FixedCampPointsLarge703","SuperSurvival_703",7,,0,"FALSE","TRUE",,,,"FALSE",,"powerup_barrel","sc/level.sc","MegaShowdownCamps",,"MegaShowdownCreepCampGroundArea","TRUE"

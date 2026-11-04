@@ -1,0 +1,45 @@
+id = "bazaar_panel_esports_pins"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_1_item_esports_pack"
+
+copy_configs=[ "bazaar_panel_shared_price_configs" ]
+
+hide=[
+	"panel_best_value", "inactive", "panel_discount"
+]
+
+set_text = [
+	{ parent_binding="notification", path="txt_new", tid="TID_SHOP_OFFER_NEW" },
+	{ parent_binding="notification", path="txt_free", tid="TID_SHOP_FREE" }
+]
+
+[bindings]
+bg_ph = { path="panel_offer/bg" }
+price_ph = { path="panel_offer/price" }
+title = { path="panel_offer/title_txt" }
+time_txt = { path="panel_offer/time_txt" }
+info_subtitle= { path="item_0/info_subtitle" }
+info_title= { path="item_0/info_title" }
+offer_each = { path="panel_offer/TID_ESPORTS_OFFER_SUBTITLE_EACH" }
+item_base = { path="item_0" }
+touch_area = { path="bounds" }
+
+[custom]
+float.width = 442.0
+float.offset = -97.0
+int.columns = 3
+int.max_items = 9
+vector2.column_spacing = [100, 0]
+vector2.row_spacing = [0, 80]
+vector2.topleft_offset = [-100, -50]
+float.icon_scale = 1.2
+bool.center_last_row = true
+
+[animations]
+default_animation = { binding="bg_ph", end="bg_esports" }

@@ -1,0 +1,20 @@
+id = "shop_item_skins"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "SoloSkin"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small"
+
+copy_configs = [
+	"bazaar_panel_shared_configs"
+]
+
+[skins]
+large_1 = { binding="large_1", portrait=true }
+
+[animations]
+stop_flickering = { path="skin_label", end_frame=0 }
+default_animation = "stop_flickering"

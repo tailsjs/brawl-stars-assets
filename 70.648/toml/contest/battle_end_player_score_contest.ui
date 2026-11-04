@@ -1,0 +1,14 @@
+id = "battle_end_player_score_contest"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/contest_katana.sc"
+export_name = "player_score_contest"
+
+[custom]
+bool.use_sprite_font = true
+
+[animation]
+stop_2 = { path="counter/inner", start="normal" }
+stop = { path="counter", start="score_up_end", also_play=[ "stop_2" ] }
+default_animation = "stop"

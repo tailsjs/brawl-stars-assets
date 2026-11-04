@@ -1,0 +1,41 @@
+id = "bazaar_panel_xp_doublers"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "XpDoublers"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "panel_resourses_coin_doubler"
+
+interactive = [""]
+
+copy_configs =[ "bazaar_panel_shared_price_configs" ]
+
+hide=[ "timer_bgr", "time_txt" ]
+show_binding=[ "price_icon_wrapper" ]
+
+set_text = [
+	{ path="title_txt", tid="TID_SHOP_DOUBLE_COINS_TITLE" },
+	{ parent_binding="existing_doublers", path="info_txt", tid="TID_SHOP_DOUBLE_COINS_COINS_REMAINING" },
+]
+
+[bindings]
+price_ph = { parent_binding="button", path="price" }
+touch_area = { path="bounds" }
+
+button = { path="shop_item_center" }
+
+existing_doublers = { parent_binding="button", path="purchased_container" }
+purchase_container = { parent_binding="button", path="purchase_container" }
+
+price_icon_wrapper = { parent_binding="price_ph", path="price_icon" }
+price_text = { parent_binding="price_ph", path="price_icon/txt" }
+price_icon = { parent_binding="price_ph", path="price_icon/icon" }
+
+[custom]
+float.width = 274.0
+float.offset = -137.0
+
+[animations]
+default_animation = {}

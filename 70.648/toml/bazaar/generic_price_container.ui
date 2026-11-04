@@ -1,0 +1,52 @@
+id = "generic_price_container"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "SharedPriceConfigs"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_price"
+
+set_text=[
+	{ path="price_free/txt", tid="TID_SHOP_FREE" }
+]
+
+hide_binding = [
+	"price_free_wrapper",
+	"price_wrapper",
+	"discount_warpper",
+	"dual_price_wrapper",
+	"dual_discount_warpper",
+]
+
+[bindings]
+price_cont = { parent_binding="price_ph" }
+price_ph = { path="" }
+
+price_free_wrapper = { parent_binding="price_ph", path="price_free" }
+price_free_txt = { parent_binding="price_ph", path="price_free/txt" }
+
+price_wrapper = { parent_binding="price_ph", path="price_icon" }
+price_txt = { parent_binding="price_ph", path="price_icon/txt" }
+price_icon = { parent_binding="price_ph", path="price_icon/icon" }
+
+discount_warpper = { parent_binding="price_ph", path="price_icon_discount" }
+discount_price_txt = { parent_binding="price_ph", path="price_icon_discount/price_ani/txt" }
+discount_price_icon = { parent_binding="price_ph", path="price_icon_discount/price_ani/icon" }
+discount_txt = { parent_binding="price_ph", path="price_icon_discount/discount_container/discount_ani/txt" }
+
+dual_price_wrapper = { parent_binding="price_ph", path="price_2_icons" }
+primary_price_txt = { parent_binding="price_ph", path="price_2_icons/price_icon/txt" }
+primary_price_icon = { parent_binding="price_ph", path="price_2_icons/price_icon/icon" }
+secondary_price_txt = { parent_binding="price_ph", path="price_2_icons/price_icon_2/txt" }
+secondary_price_icon = { parent_binding="price_ph", path="price_2_icons/price_icon_2/icon" }
+
+dual_discount_warpper = { parent_binding="price_ph", path="price_2_icons_discount" }
+dual_discount_gems_icon = { parent_binding="price_ph", path="price_2_icons_discount/price_gems/icon" }
+dual_discount_gems_txt = { parent_binding="price_ph", path="price_2_icons_discount/price_gems/txt" }
+dual_discount_gems_orig = { parent_binding="price_ph", path="price_2_icons_discount/discount_container" }
+dual_discount_gems_orig_txt = { parent_binding="price_ph", path="price_2_icons_discount/discount_container/discount_ani/txt" }
+
+dual_discount_secondary_icon = { parent_binding="price_ph", path="price_2_icons_discount/price_icon_2/icon" }
+dual_discount_secondary_txt = { parent_binding="price_ph", path="price_2_icons_discount/price_icon_2/txt" }

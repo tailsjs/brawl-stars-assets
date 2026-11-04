@@ -1,0 +1,11 @@
+{
+		"WeaponThrowerEmperor":{
+			"bone":["B_cape_1_s","B_cape_2_s"],
+			"dir":["y","y"],
+			"max":[26,39],
+			"min":[-26,-39],
+			"soft":[3,4],
+			"follow":[0,0],
+			"child":[["B_cape_2_s","L_cape_2_s","R_cape_2_s","R_cape_1_s","L_cape_1_s"],["L_cape_2_s","R_cape_2_s"]]
+		}
+	}

@@ -1,0 +1,29 @@
+id = "generic_hero_area"
+priority = 1
+
+type = "UiWidget"
+subtype = "GenericHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_brawler_big"
+
+move=[
+	{ path="", offset=[0,0]}
+]
+
+hide_binding=[
+	"hero_ph"
+]
+
+hide=[
+	"brawler_level",
+]
+
+[skins]
+skin = { binding="hero_ph", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[bindings]
+hero_ph = { path="hero_area/hero_ph" }
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }

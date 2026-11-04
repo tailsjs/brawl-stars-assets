@@ -1,0 +1,17 @@
+id = "oddities_panel_choose_skin_plus_smalls"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "oddities_shop_offer_panel_medium"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+[custom]
+int.discount_2_limit = 50
+int.small_item_count = 2
+int.large_item_count = 1
+float.width = 380.0

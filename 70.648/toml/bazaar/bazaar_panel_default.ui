@@ -1,0 +1,11 @@
+id = "bazaar_panel_default"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small" # medium, big
+
+copy_configs=[ "bazaar_panel_shared_configs" ]

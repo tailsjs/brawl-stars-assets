@@ -1,0 +1,43 @@
+id = "bazaar_panel_single"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+hide=[
+	"lock",
+]
+
+move = [
+	{ binding="small_item_grid", offset=[60, 0] },
+]
+
+
+[custom]
+int.small_item_count = 2
+int.small_items_rows = 1
+int.large_item_count = 1
+int.columns = 2
+float.width = 246.0
+string.custom_theme_bg = "offer_panel_small_bg"
+string.bazaar_hero_area_with_level = "bazaar_hero_area_with_level"
+string.bazaar_hero_area = "bazaar_hero_area"
+
+
+
+
+
+
+
+
+
+
+
+
+

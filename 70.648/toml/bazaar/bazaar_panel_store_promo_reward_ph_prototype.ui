@@ -1,0 +1,19 @@
+id = "bazaar_panel_store_promo_prototype"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "AssetIdList"
+sc_file = "sc_store_promo_asset"
+export_name = "panel_sc_store_reward_ph"
+
+[bindings]
+scstore_title = { path = "shop_item_center/TID_SHOP_SCSTORE_TITLE" }
+scstore_link = { path = "shop_item_center/button/TID_SHOP_SCSTORE_LINK" }
+button = { path = "shop_item_center/button" }
+reward_ph = { path = "shop_item_center/reward_ph" }
+
+[custom]
+float.width = 428.6
+float.offset = -100.7

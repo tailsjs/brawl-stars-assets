@@ -1,0 +1,24 @@
+id = "bazaar_panel_double_small"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "DoubleSmall"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small" # TODO: Replace with an asset containing item_1_ph and item_2_ph
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+hide=[ "lock", ]
+
+[custom]
+int.small_items_rows = 0
+int.large_item_count = 2
+int.columns = 1
+float.width = 246.0
+string.custom_theme_bg = "offer_panel_small_bg"
+
+[bindings]
+large_1 = { path="item_1_ph" }
+large_2 = { path="item_2_ph" }

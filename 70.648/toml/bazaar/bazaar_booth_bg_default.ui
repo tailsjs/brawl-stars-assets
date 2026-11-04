@@ -1,0 +1,9 @@
+id = "bazaar_booth_bg_default"
+priority = 1
+
+type = "Background"
+subtype = "Bazaar"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawl_pass.sc"
+export_name = "bgr_brawlentines25"

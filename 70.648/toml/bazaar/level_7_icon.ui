@@ -1,0 +1,5 @@
+id = "level_7_icon"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "hero_level_pseudo_item"

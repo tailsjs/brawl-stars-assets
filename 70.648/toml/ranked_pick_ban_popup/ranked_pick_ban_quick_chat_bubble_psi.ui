@@ -1,0 +1,13 @@
+id = "ranked_pick_ban_quick_chat_bubble_psi"
+priority = 1
+
+[bindings]
+bubble = { path="" }
+emote_root = { path="emote" }
+emote_ph = { path="emote/emote_ph" }
+
+[animation]
+hidden = { binding="bubble", end="anim_enter_start" }
+appear = { binding="bubble", start="anim_enter_start", end="anim_enter_end" }
+disappear = { binding="bubble", start="anim_exit_start", end="anim_exit_end" }
+default_animation = "hidden"

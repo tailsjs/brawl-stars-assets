@@ -1,0 +1,26 @@
+id = "bazaar_panel_only_smalls"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_small"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+hide=[
+	"lock",
+]
+
+move = [
+	{ binding="small_item_grid", offset=[68.55,-108.45] }
+]
+
+[custom]
+int.small_item_count = 6
+int.large_item_count = 0
+int.columns = 2
+float.width = 246.0
+string.custom_theme_bg = "offer_panel_small_bg"

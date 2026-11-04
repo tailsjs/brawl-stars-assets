@@ -1,0 +1,47 @@
+id = "ranked_pick_ban_quick_chat_panel"
+priority = 1
+
+[nested_clips]
+text_button_1 = { binding="text_button_1", config="ranked_pick_ban_quick_chat_text_button" }
+text_button_2 = { binding="text_button_2", config="ranked_pick_ban_quick_chat_text_button" }
+pin_button_1 = { binding="pin_button_1", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_2 = { binding="pin_button_2", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_3 = { binding="pin_button_3", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_4 = { binding="pin_button_4", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_5 = { binding="pin_button_5", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_6 = { binding="pin_button_6", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_7 = { binding="pin_button_7", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_8 = { binding="pin_button_8", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_9 = { binding="pin_button_9", config="ranked_pick_ban_quick_chat_pin_button" }
+pin_button_10 = { binding="pin_button_10", config="ranked_pick_ban_quick_chat_pin_button" }
+
+[bindings]
+panel = { path="" }
+text_button_1 = { parent_binding="panel", path="button_quick_chat_1" }
+text_button_2 = { parent_binding="panel", path="button_quick_chat_2" }
+pin_button_1 = { parent_binding="panel", path="button_psi_1" }
+pin_button_2 = { parent_binding="panel", path="button_psi_2" }
+pin_button_3 = { parent_binding="panel", path="button_psi_3" }
+pin_button_4 = { parent_binding="panel", path="button_psi_4" }
+pin_button_5 = { parent_binding="panel", path="button_psi_5" }
+pin_button_6 = { parent_binding="panel", path="button_psi_6" }
+pin_button_7 = { parent_binding="panel", path="button_psi_7" }
+pin_button_8 = { parent_binding="panel", path="button_psi_8" }
+pin_button_9 = { parent_binding="panel", path="button_psi_9" }
+pin_button_10 = { parent_binding="panel", path="button_psi_10" }
+
+[custom]
+string.fallback_pin_1 = "emoji_thumbsup"
+string.fallback_pin_2 = "emoji_thumbsdown"
+string.fallback_pin_3 = "emoji_bad_connection"
+string.fallback_pin_4 = "emoji_shocked"
+string.fallback_pin_5 = "emoji_frenzied"
+string.fallback_pin_6 = "emoji_laugh"
+string.fallback_pin_7 = "emoji_ecstatic"
+string.fallback_pin_8 = "emoji_rage"
+string.fallback_pin_9 = "emoji_blank"
+string.fallback_pin_10 = "emoji_grin"
+
+[buttons]
+mid_button = { parent_binding="panel", path="button_mid" }
+sides_button = { parent_binding="panel", path="button_sides" }

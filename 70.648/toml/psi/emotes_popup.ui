@@ -1,0 +1,45 @@
+id = "emotes_popup"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "emote_config_popup"
+
+set_text = [
+    { path="title_txt", tid="TID_EMOTES_POPUP_TITLE" },
+    { parent_binding="tab", path="txt", tid="TID_EMOTES_POPUP_TITLE" },
+    { parent_binding="tab_2", path="txt", tid="TID_SPRAYS_POPUP_TITLE" },
+    { binding="item_part_of_txt", tid="TID_CATALOG_ITEM_PART_OF" } ]
+
+hide_binding = [ "notification_tab_1", "notification_tab_2", "ok_buttons" ]
+
+[nested_clips]
+panel_emotes = { binding="panel_emotes", config="emotes_panel" }
+panel_sprays = { binding="panel_sprays", config="sprays_panel" }
+
+[bindings]
+
+popup_bg_tabs = { path="popup_bg_tabs" }
+footer = { path="footer" }
+ok_buttons = { parent_binding="footer", path="ok_buttons" }
+old_price_container = { parent_binding="ok_buttons", path="old_price_container" }
+notification_tab_1 = { parent_binding="popup_bg_tabs", path="notification_tab_1" }
+notification_tab_2 = { parent_binding="popup_bg_tabs", path="notification_tab_2" }
+panel_emotes = { path="panel" }
+panel_sprays = { path="panel_sprays" }
+
+item_title_txt = { parent_binding="footer", path="item_title_txt" }
+item_category_txt = { parent_binding="footer", path="item_category_txt" }
+item_part_of_txt = { parent_binding="footer", path="item_part_of_txt" }
+
+[buttons]
+
+tab = { parent_binding="popup_bg_tabs", path="tab" }
+tab_2 = { parent_binding="popup_bg_tabs", path="tab_2" }
+button_close = { path="button_close" }
+
+[animations]
+select_emotes = { binding="tab", end_frame=0, also_play="unselect_sprays" }
+select_sprays = { binding="tab_2", end_frame=0, also_play="unselect_emotes" }
+unselect_emotes = { binding="tab", end_frame=1 }
+unselect_sprays = { binding="tab_2", end_frame=1 }

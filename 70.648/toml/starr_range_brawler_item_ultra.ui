@@ -1,0 +1,6 @@
+id = "StarrRangeBrawlerItem_ultra"
+priority = 1
+
+sc_file_source = "OtherTomlConfig"
+sc_file = "StarrRangeBrawlerItem"
+export_name = "starr_range_brawler_portrait_ultra"

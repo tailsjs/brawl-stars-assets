@@ -1,0 +1,51 @@
+id = "collab_17_event_hub"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_nano_noodles"
+container_prefix = "event_hub_screen_"
+
+copy_configs=[ "collab_nanowind_event_hub_shared" ]
+
+set_text = [
+    { binding="event_meter_milestone_reward_1_amount_txt", text="2000" },
+    { binding="event_meter_milestone_reward_2_amount_txt", text="30" }
+]
+
+[bindings]
+event_meter_info_button = { parent_binding="event_meter", path="header/button_info" }
+event_meter_milestone_icons = { parent_binding="event_meter_bar", path = "milestone_icons" }
+event_meter_milestone_reward_1 = { parent_binding="event_meter_milestone_icons", path="milestone_reward_1" }
+event_meter_milestone_reward_2 = { parent_binding="event_meter_milestone_icons", path="milestone_reward_2" }
+event_meter_milestone_reward_3 = { parent_binding="event_meter_milestone_icons", path="milestone_reward_3" }
+event_meter_milestone_reward_4 = { parent_binding="event_meter_milestone_icons", path="milestone_reward_4" }
+event_meter_milestone_reward_1_amount_txt = { parent_binding="event_meter_milestone_reward_1", path = "amount_txt" }
+event_meter_milestone_reward_2_amount_txt = { parent_binding="event_meter_milestone_reward_2", path = "amount_txt" }
+
+[custom]
+string.event_meter_info_tid = "TID_COLLAB_NANO_NOODLES_NOODLE_METER_TOOLTIP"
+
+[animation]
+default_animation="reward_icons_appear"
+
+reward_icons_appear = { binding="event_meter_milestone_icons", start="anim_start", end="anim_end" }
+
+undone_milestone_reward_1 = { binding="event_meter_milestone_reward_1", end="not owned" }
+undone_milestone_reward_2 = { binding="event_meter_milestone_reward_2", end="not owned" }
+undone_milestone_reward_3 = { binding="event_meter_milestone_reward_3", end="not owned" }
+undone_milestone_reward_4 = { binding="event_meter_milestone_reward_4", end="not owned" }
+
+done_milestone_reward_1 = { binding="event_meter_milestone_reward_1", end="owned" }
+done_milestone_reward_2 = { binding="event_meter_milestone_reward_2", end="owned" }
+done_milestone_reward_3 = { binding="event_meter_milestone_reward_3", end="owned" }
+done_milestone_reward_4 = { binding="event_meter_milestone_reward_4", end="owned" }
+
+undone_milestone_1 = { binding="event_meter_milestone_amount_1", end="milestone", also_play="undone_milestone_reward_1"}
+undone_milestone_2 = { binding="event_meter_milestone_amount_2", end="milestone", also_play="undone_milestone_reward_2" }
+undone_milestone_3 = { binding="event_meter_milestone_amount_3", end="milestone", also_play="undone_milestone_reward_3" }
+undone_milestone_4 = { binding="event_meter_milestone_amount_4", end="milestone", also_play="undone_milestone_reward_4" }
+
+done_milestone_1 = { binding="event_meter_milestone_amount_1", end="milestone_done", also_play="done_milestone_reward_1" }
+done_milestone_2 = { binding="event_meter_milestone_amount_2", end="milestone_done", also_play="done_milestone_reward_2" }
+done_milestone_3 = { binding="event_meter_milestone_amount_3", end="milestone_done", also_play="done_milestone_reward_3" }
+done_milestone_4 = { binding="event_meter_milestone_amount_4", end="milestone_done", also_play="done_milestone_reward_4" }

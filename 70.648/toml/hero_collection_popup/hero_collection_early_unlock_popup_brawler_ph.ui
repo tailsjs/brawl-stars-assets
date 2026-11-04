@@ -1,0 +1,21 @@
+id = "hero_collection_early_unlock_popup_brawler_ph"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_ph"
+
+[skins]
+skin = { binding="hero_ph", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[bindings]
+hero_ph = { path="inner/hero_area" }
+brawler_name = { path="brawler_name"}
+
+[animations]
+rarity_rare = { path="", end="rare"}
+rarity_super_rare = {path="", end="super_rare"}
+rarity_epic = {path="", end="epic"}
+rarity_mythic = {path="", end="mythic"}
+rarity_legendary = {path="", end="legendary"}
+rarity_ultra = {path="", end="ultra"}

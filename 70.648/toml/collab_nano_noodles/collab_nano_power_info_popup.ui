@@ -1,0 +1,94 @@
+id = "collab_nano_power_info_popup"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "event_hub_nano_noodles"
+
+export_name="event_hub_powers_info_popup"
+
+set_text = [
+    { binding = "power_up_1_try_button_text", tid = "TID_BUTTON_TEST_HERO" },
+    { binding = "power_up_2_try_button_text", tid = "TID_BUTTON_TEST_HERO" },
+    { binding = "power_up_3_try_button_text", tid = "TID_BUTTON_TEST_HERO" }
+]
+
+[bindings]
+gradient_rarity = { path="gradient_rarity" }
+brawler_name = { path="txt" }
+brawler_icon = { path="brawler_pin" }
+timer_collectable_txt = { path="timer_tablet_collectable/timer_event/timer_txt" }
+
+power_up_1 = { path="power_up" }
+power_up_2 = { path="power_up_2" }
+power_up_3 = { path="power_up_3" }
+
+power_up_1_rarity = { parent_binding="power_up_1", path="rarity" }
+power_up_2_rarity = { parent_binding="power_up_2", path="rarity" }
+power_up_3_rarity = { parent_binding="power_up_3", path="rarity" }
+
+power_up_1_try_button_text = { parent_binding="power_up_1_try_button", path="txt" }
+power_up_2_try_button_text = { parent_binding="power_up_2_try_button", path="txt" }
+power_up_3_try_button_text = { parent_binding="power_up_3_try_button", path="txt" }
+
+power_up_1_info = { parent_binding="power_up_1", path="swarm_info" }
+power_up_2_info = { parent_binding="power_up_2", path="swarm_info" }
+power_up_3_info = { parent_binding="power_up_3", path="swarm_info" }
+
+power_up_1_description = { parent_binding="power_up_1_info", path="txt" }
+power_up_2_description = { parent_binding="power_up_2_info", path="txt" }
+power_up_3_description = { parent_binding="power_up_3_info", path="txt" }
+
+power_up_1_name = { parent_binding="power_up_1_info", path="name_txt" }
+power_up_2_name = { parent_binding="power_up_2_info", path="name_txt" }
+power_up_3_name = { parent_binding="power_up_3_info", path="name_txt" }
+
+power_up_1_icon = { parent_binding="power_up_1_info", path="icon_ph" }
+power_up_2_icon = { parent_binding="power_up_2_info", path="icon_ph" }
+power_up_3_icon = { parent_binding="power_up_3_info", path="icon_ph" }
+
+[buttons]
+power_up_1_try_button = { parent_binding="power_up_1", path="btn_test" }
+power_up_2_try_button = { parent_binding="power_up_2", path="btn_test" }
+power_up_3_try_button = { parent_binding="power_up_3", path="btn_test" }
+
+select_button = { path="select_button" }
+
+button_close = { path="button_close" }
+
+[animation]
+default_animation = "all_powers_idle"
+
+rarity_standard = { path="", also_play=["gradient_rarity_standard", "power_1_rarity_standard", "power_2_rarity_standard", "power_3_rarity_standard"]}
+rarity_augmented = { path="", also_play=["gradient_rarity_augmented", "power_1_rarity_augmented", "power_2_rarity_augmented", "power_3_rarity_augmented"]}
+rarity_cybernetic = { path="", also_play=["gradient_rarity_cybernetic", "power_1_rarity_cybernetic", "power_2_rarity_cybernetic", "power_3_rarity_cybernetic"]}
+rarity_quantum = { path="", also_play=["gradient_rarity_quantum", "power_1_rarity_quantum", "power_2_rarity_quantum", "power_3_rarity_quantum"]}
+
+gradient_rarity_standard = { binding="gradient_rarity", end="super_rare" }
+gradient_rarity_augmented = { binding="gradient_rarity", end="epic" }
+gradient_rarity_cybernetic = { binding="gradient_rarity", end="mythic" }
+gradient_rarity_quantum = { binding="gradient_rarity", end="legendary" }
+
+power_1_rarity_standard = { binding="power_up_1_rarity", end="super_rare" }
+power_1_rarity_augmented = { binding="power_up_1_rarity", end="epic" }
+power_1_rarity_cybernetic = { binding="power_up_1_rarity", end="mythic" }
+power_1_rarity_quantum = { binding="power_up_1_rarity", end="legendary" }
+
+power_2_rarity_standard = { binding="power_up_2_rarity", end="super_rare" }
+power_2_rarity_augmented = { binding="power_up_2_rarity", end="epic" }
+power_2_rarity_cybernetic = { binding="power_up_2_rarity", end="mythic" }
+power_2_rarity_quantum = { binding="power_up_2_rarity", end="legendary" }
+
+power_3_rarity_standard = { binding="power_up_3_rarity", end="super_rare" }
+power_3_rarity_augmented = { binding="power_up_3_rarity", end="epic" }
+power_3_rarity_cybernetic = { binding="power_up_3_rarity", end="mythic" }
+power_3_rarity_quantum = { binding="power_up_3_rarity", end="legendary" }
+
+all_powers_idle = { path="", also_play=["power_1_idle", "power_2_idle", "power_3_idle" ] }
+
+power_1_idle = { binding = "power_up_1", end="idle" }
+power_2_idle = { binding = "power_up_2", end="idle" }
+power_3_idle = { binding = "power_up_3", end="idle" }
+
+power_1_selected = { binding = "power_up_1", end="selected" }
+power_2_selected = { binding = "power_up_2", end="selected" }
+power_3_selected = { binding = "power_up_3", end="selected" }

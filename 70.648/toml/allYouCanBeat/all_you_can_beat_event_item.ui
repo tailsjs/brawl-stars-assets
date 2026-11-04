@@ -1,0 +1,52 @@
+id = "AllYouCanBeatEventItem"
+priority = 1
+
+type = "EventBanner"
+subtype = "Tall"
+
+sc_file_source = "EventData"
+export_name = "extended_special_event_panel"
+hide_binding=[
+	"perfect_run_reward"
+]
+
+[animation]
+default_animation = "Start"
+Start = { binding="tower", start="start", end="waiting_to_select_brawler_1"}
+floor_1 = { binding="tower", start="floor_1", end="waiting_to_select_brawler_2"}
+floor_2 = { binding="tower", start="floor_2", end="waiting_to_select_brawler_3"}
+floor_3 = { binding="tower", start="floor_3", end="waiting_to_select_brawler_4"}
+floor_4 = { binding="tower", start="floor_4", end="waiting_to_select_brawler_5"}
+floor_5 = { binding="tower", start="floor_5", end="all_floors_complete"}
+complete = { binding="tower", start="all_floors_complete"}
+
+roof_select_a_brawler = { binding="roof", start="select_a_brawler"}
+roof_tower_complete_start = { binding="roof", start="tower_complete_start", end="tower_complete_idle"}
+roof_perfect_run_start = { binding="roof", start="perfect_run_start", end="perfect_run_idle"}
+roof_tower_failed_start = { binding="roof", start="tower_failed_start", end="tower_failed_idle"}
+
+[bindings]
+tower = {path="tower"}
+floor_1 = {parent_binding="tower", path="floor_1/floor_ph"}
+floor_2 = {parent_binding="tower", path="floor_2/floor_ph"}
+floor_3 = {parent_binding="tower", path="floor_3/floor_ph"}
+floor_4 = {parent_binding="tower", path="floor_4/floor_ph"}
+floor_5 = {parent_binding="tower", path="floor_5/floor_ph"}
+# Built-in version that's checked before replacing above placeholders, see also string.floor_builtin_binding_suffix below
+floor_1_builtin = {parent_binding="tower", path="floor_1/floor"}
+floor_2_builtin = {parent_binding="tower", path="floor_2/floor"}
+floor_3_builtin = {parent_binding="tower", path="floor_3/floor"}
+floor_4_builtin = {parent_binding="tower", path="floor_4/floor"}
+floor_5_builtin = {parent_binding="tower", path="floor_5/floor"}
+
+perfect_run_reward = {parent_binding="tower", path="perfect_run_reward"}
+roof = {parent_binding="tower", path="roof"}
+
+bg = { path="bg" }
+extended_special_event_panel_ph = { path="extended_special_event_panel_ph" }
+event_spacer = { path="spacer" }
+
+[custom]
+string.floor_item_binding_prefix = "floor_"
+string.floor_item_config_id = "AllYouCanBeatFloorItemFullscreen"
+string.floor_builtin_binding_suffix = "_builtin"

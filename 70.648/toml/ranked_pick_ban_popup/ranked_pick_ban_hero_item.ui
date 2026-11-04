@@ -1,0 +1,65 @@
+id = "ranked_pick_ban_hero_item"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+export_name = "brawler_pick_ban_item"
+
+hide_binding = [ "free_max", "event_power" ]
+
+set_text = [
+	{ path="prepick_banner/wants_to_play", tid="TID_WANTS_TO_PLAY" },
+	{ path="suggested_banner/wants_to_play", tid="TID_RANKED_BRAWLER_SUGGESTED" },
+	{ path="suggested_ban_banner/wants_to_play", tid="TID_RANKED_BAN_SUGGESTED" },
+	{ binding="my_suggestion_txt", tid="TID_SUGGEST" },
+]
+
+[bindings]
+brawler_ph = { path="brawler_profile_image/image_ph" }
+power_bg = { path="power_bg" }
+power_level_txt = { path="power_level_number/power_level_txt" }
+icon_fav_brawler = { path="icon_fav_brawler" }
+overcharge = { path="overcharge" }
+overcharge_icon = { path="overcharge/power_overcharge/oc_icon" }
+free_max = { path="max_level" }
+rarity_bg = { path="rarity_bg" }
+event_power = { path="mutation" }
+wants_to_play_name = { path="prepick_banner/playername" }
+pre_pick_pin = { path="prepick_banner/brawler_pin" }
+suggestion_pin = { path="suggested_banner/brawler_pin" }
+pick_suggester_name = { path="suggested_banner/playername" }
+ban_suggestion_pin = { path="suggested_ban_banner/brawler_pin" }
+ban_suggester_name = { path="suggested_ban_banner/playername" }
+my_suggestion_txt = { path="suggest_banner/txt" }
+gadget_icon = { path="gadget_icon" }
+sp_icon = { path="sp_icon" }
+
+[animation]
+overcharge_basic = { path="overcharge/power_overcharge/oc_icon", end="basic" }
+overcharge_buddy = { path="overcharge/power_overcharge/oc_icon", end="buddy" }
+gadget_basic = { binding="gadget_icon", end="basic" }
+gadget_buddy = { binding="gadget_icon", end="buddy" }
+sp_basic = { binding="sp_icon", end="basic" }
+sp_buddy = { binding="sp_icon", end="buddy" }
+white_frame_stop = { path="white_frame_anim", end_frame=0 }
+prompt_highlight_stop = { path="prompt_highlight", end_frame=0 }
+pre_selection_highlight_stop = { path="pre_selection_highlight", end_frame=0 }
+
+locked = { path="", end="locked" }
+under_leveled = { path="", end="locked_under_power" }
+ban = { path="", end="ban" }
+available = { path="", end="available" }
+blue_team_pick = { path="", end="blue_team_pick" }
+red_team_pick = { path="", end="red_team_pick" }
+picked = { path="", end="picked" }
+confirm_pick = { path="", end="confirm_pick" }
+pre_selected = { path="", end="pre_selected" }
+ban_option = { path="", end="ban_option" }
+ban_suggestion = { path="", end="suggested_ban" }
+banned = { path="", end="banned" }
+pre_pick = { path="", end="pre_pick" }
+suggest = { path="", end="suggest" }
+suggested_by_me = { path="", end="suggested" }
+suggested = { path="", end="suggested" }
+suggested_role = { path="", end="suggest_lite" }
+default_animation = { also_play=[ "overcharge_basic", "white_frame_stop", "prompt_highlight_stop", "pre_selection_highlight_stop" ] }

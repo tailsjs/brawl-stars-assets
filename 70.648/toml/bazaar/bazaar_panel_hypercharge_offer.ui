@@ -1,0 +1,18 @@
+id = "bazaar_panel_hypercharge_offer"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_panel_medium"
+
+copy_configs=[ "bazaar_panel_single_medium" ]
+
+[custom]
+string.bazaar_hero_area_with_level = "hypercharge_hero_area"
+string.bazaar_hero_area = "hypercharge_hero_area"
+
+[bindings]
+large_1 = { path="item_ph" }

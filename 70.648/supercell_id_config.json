@@ -1,0 +1,19 @@
+{
+  "Enabled": true,
+  "ScFileName": "sc/supercell_id.sc",
+  "Game": "laser",
+  "PreloadingEnabled":  true,
+  "UseNative": true,
+  "UseNativeCountries": [
+    "ALL"
+  ],
+  "UseSocialCountries": ["ALL"],
+  "UseSocialPlatforms": ["ALL"],
+  "InternalDomains": [
+    "www.google.com"
+  ],
+  "EnableStoreAndGifts":true,
+  "UseSessionToken": true,
+  "UseUniqueHandles": true,
+  "AgeFillFlowForcedCountries": ["KR"]
+}

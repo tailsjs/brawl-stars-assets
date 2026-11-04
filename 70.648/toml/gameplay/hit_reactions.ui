@@ -1,0 +1,16 @@
+id = "hit_reactions"
+priority = 1
+
+[custom.int]
+damage_min = 500
+damage_max = 3000
+
+[custom.float]
+jitter_min_ms = 100.0
+jitter_max_ms = 200.0
+jitter_amplitude_x_min = 40.0
+jitter_amplitude_x_max = 120.0
+jitter_amplitude_y_min = 20.0
+jitter_amplitude_y_max = 40.0
+jitter_frequency_min_hz = 2.0
+jitter_frequency_max_hz = 2.0

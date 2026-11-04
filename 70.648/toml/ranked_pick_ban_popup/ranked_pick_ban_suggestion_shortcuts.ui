@@ -1,0 +1,29 @@
+id = "ranked_pick_ban_suggestion_shortcuts"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+container_prefix = "suggested_quick_buttons_screen_"
+
+interactive = [ "" ]
+uninteractive = [ "scroll_area" ]
+
+hide_binding = [ "left_1_icon_ph", "left_2_icon_ph", "right_1_icon_ph", "right_2_icon_ph" ]
+
+[bindings]
+left_1_icon_ph = { parent_binding="left_1", path="icon_ph" }
+left_2_icon_ph = { parent_binding="left_2", path="icon_ph" }
+right_1_icon_ph = { parent_binding="right_1", path="icon_ph" }
+right_2_icon_ph = { parent_binding="right_2", path="icon_ph" }
+
+[buttons]
+left_1 = { path="left/suggested_1" }
+left_2 = { path="left/suggested_2" }
+right_1 = { path="right/suggested_1" }
+right_2 = { path="right/suggested_2" }
+
+[animation]
+left_1_in = { binding="left_1", start="suggestion_in", end="suggestion_idle" }
+left_2_in = { binding="left_2", start="suggestion_in", end="suggestion_idle" }
+right_1_in = { binding="right_1", start="suggestion_in", end="suggestion_idle" }
+right_2_in = { binding="right_2", start="suggestion_in", end="suggestion_idle" }

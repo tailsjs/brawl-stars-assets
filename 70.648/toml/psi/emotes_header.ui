@@ -1,0 +1,9 @@
+id = "emotes_header"
+priority = 1
+
+[bindings]
+
+topmenu_header = {path=""}
+brawler_name_txt = { parent_binding="topmenu_header", path="txt_page" }
+brawler_icon_ph = { parent_binding="topmenu_header", path="ph_icon" }
+header_bg_element = { parent_binding="topmenu_header", path="header_bg_element" }

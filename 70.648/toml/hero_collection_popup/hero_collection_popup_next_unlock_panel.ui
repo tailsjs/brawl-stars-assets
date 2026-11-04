@@ -1,0 +1,62 @@
+id = "hero_collection_popup_next_unlock_panel"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_unlock_panel"
+
+[bindings]
+progress_bar = { path="progress_bar/progress_bar" }
+progress_icon = { path="progress_bar/icon" }
+progress_value = { path="progress_bar/value_txt" }
+rarity_bg = { path="brawler_unlock_rarity" }
+discount_badge = { path="discount_badge" }
+discount_percentage = { path="discount_badge/badge/percentage_txt" }
+discount_original_price = { path="discount_number" }
+discount_original_price_value = { path="discount_number/discount_ani/txt" }
+
+gem_price = { path="price_gems" }
+unlock_now_txt = { path="TID_RECRUIT_ROAD_UNLOCK_NOW" }
+purchase_bg = { path="purchase_bg" }
+purchase_bg_2 = { path="brawler_unlock_rarity/purchase_bg" }
+
+brawlers_group_1 = { path="brawlers_group_1" }
+brawlers_group_2 = { path="brawlers_group_2" }
+brawlers_group_3 = { path="brawlers_group_3" }
+brawlers_group_4 = { path="brawlers_group_4" }
+
+brawlers_group_1_brawler_1 = { parent_binding="brawlers_group_1", path="brawler_1/inner/hero_area" }
+
+brawlers_group_2_brawler_1 = { parent_binding="brawlers_group_2", path="brawler_1/inner/hero_area" }
+brawlers_group_2_brawler_2 = { parent_binding="brawlers_group_2", path="brawler_2/inner/hero_area" }
+
+brawlers_group_3_brawler_1 = { parent_binding="brawlers_group_3", path="brawler_1/inner/hero_area" }
+brawlers_group_3_brawler_2 = { parent_binding="brawlers_group_3", path="brawler_2/inner/hero_area" }
+brawlers_group_3_brawler_3 = { parent_binding="brawlers_group_3", path="brawler_3/inner/hero_area" }
+
+brawlers_group_4_brawler_1 = { parent_binding="brawlers_group_4", path="brawler_1/inner/hero_area" }
+brawlers_group_4_brawler_2 = { parent_binding="brawlers_group_4", path="brawler_2/inner/hero_area" }
+brawlers_group_4_brawler_3 = { parent_binding="brawlers_group_4", path="brawler_3/inner/hero_area" }
+brawlers_group_4_brawler_4 = { parent_binding="brawlers_group_4", path="brawler_4/inner/hero_area" }
+
+rarity_next1 = { path="next_rarities/rarity_next1" }
+rarity_next2 = { path="next_rarities/rarity_next2" }
+
+[skins]
+skin_group_1_brawler_1 = { binding="brawlers_group_1_brawler_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+skin_group_2_brawler_1 = { binding="brawlers_group_2_brawler_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_2_brawler_2 = { binding="brawlers_group_2_brawler_2", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+skin_group_3_brawler_1 = { binding="brawlers_group_3_brawler_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_3_brawler_2 = { binding="brawlers_group_3_brawler_2", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_3_brawler_3 = { binding="brawlers_group_3_brawler_3", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+skin_group_4_brawler_1 = { binding="brawlers_group_4_brawler_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_4_brawler_2 = { binding="brawlers_group_4_brawler_2", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_4_brawler_3 = { binding="brawlers_group_4_brawler_3", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_group_4_brawler_4 = { binding="brawlers_group_4_brawler_4", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[animations]
+rarity_stop = { path="brawler_unlock_rarity", end="legendary" }
+default_animation= { binding="progress_bar", end_frame=50, also_play=["rarity_stop"] }

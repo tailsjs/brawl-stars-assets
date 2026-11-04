@@ -1,0 +1,37 @@
+id = "oddities_panel_single"
+priority = 1
+
+type = "BazaarPanel"
+subtype = "Single"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "oddities_shop_offer_panel_small"
+
+copy_configs=[ "bazaar_panel_shared_configs" ]
+
+hide=[
+	"skin_label",
+]
+
+move = [
+	{ binding="small_item_grid", offset=[60, 0] },
+]
+
+
+[custom]
+float.width = 300.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+

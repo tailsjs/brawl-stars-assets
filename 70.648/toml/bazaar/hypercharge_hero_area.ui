@@ -1,0 +1,20 @@
+id = "hypercharge_hero_area"
+priority = 1
+
+type = "UiWidget"
+subtype = "HyperchargeHeroArea"
+
+sc_file_source = "ClientFile"
+sc_file = "sc/shop.sc"
+export_name = "offer_item_brawler_hypercharge_big"
+
+hide=[
+	"hero_area/hero_ph",
+]
+
+[bindings]
+title = { path="info_title" }
+subtitle = { path="info_subtitle" }
+
+[skins]
+skin = { path="hero_area/hero_ph" }

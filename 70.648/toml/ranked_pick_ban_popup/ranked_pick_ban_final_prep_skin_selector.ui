@@ -1,0 +1,29 @@
+id = "ranked_pick_ban_final_prep_skin_selector"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+container_prefix = "skin_selector_popup_screen_"
+
+hide = [
+	"bottom/skin_items/skin_01",
+	"bottom/skin_items/skin_02",
+]
+
+uninteractive = [
+	"bottom/skin_items/skin_selector_background"
+]
+
+[bindings]
+skin_items = { path="bottom/skin_items" }
+scroll_parent = { path="bottom/skin_items" }
+scroll_area = { parent_binding="skin_items", path="scroll_area" }
+skin_selector_background = { parent_binding="skin_items", path="skin_selector_background" }
+
+[buttons]
+overlay_bg = { path="bottom/overlay_bg" }
+
+[animation]
+appear = { path="bottom", start="appear", end="disappear" }
+disappear = { path="bottom", start="disappear", end_frame=23 }
+default_animation = "appear"

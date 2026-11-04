@@ -1,0 +1,14 @@
+id="emote_category_break"
+priority=1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/emote_config_screen.sc"
+export_name = "emote_category_break"
+
+[bindings]
+txt_category_name = {path="txt_category_name"}
+ph_icon = {path="ph_icon"}
+break_bg = {path="break_bg"}
+
+[custom]
+bool.wide_background = true # if false, the background matches text length, if true, it matches the entire width of the scroll area

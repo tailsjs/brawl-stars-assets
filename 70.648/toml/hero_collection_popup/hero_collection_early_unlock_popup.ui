@@ -1,0 +1,53 @@
+id = "hero_collection_early_unlock_popup"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/brawler_collection.sc"
+export_name = "brawler_unlock_screen"
+show_back_and_home_buttons = true
+
+[bindings]
+progress_bar = {parent_binding="sidepanel",path="progress_bar/progress_bar"}
+progress_value = {parent_binding="sidepanel",path="progress_bar/value_txt"}
+hero_item_1 = {path="brawler_1"}
+hero_area_1 = {parent_binding="hero_item_1", path="inner/hero_area"}
+hero_rotate_1 = {parent_binding="hero_area_1", path="hero_rotate"}
+hero_item_2 = {path="brawler_2"}
+hero_area_2 = {parent_binding="hero_item_2", path="inner/hero_area"}
+hero_rotate_2 = {parent_binding="hero_area_2", path="hero_rotate"}
+discount_badge = {parent_binding="sidepanel", path="discount_badge"}
+discount_badge_percentage = {parent_binding="discount_badge", path="badge/percentage_txt"}
+discount_original_price = {parent_binding="sidepanel", path="discount_number"}
+discount_original_price_value = {parent_binding="discount_original_price", path="discount_ani/txt"}
+
+bg = {path="unlock_bg" }
+sidepanel = {path="unlock_sidepanel" }
+
+scroll_area = { path="scrollarea" }
+
+[skins]
+skin_brawler_1 = { binding="hero_area_1", animation="HAPPY", animation_next="HAPPY_LOOP" }
+skin_brawler_2 = { binding="hero_area_2", animation="HAPPY", animation_next="HAPPY_LOOP" }
+
+[buttons]
+gem_button = {parent_binding="sidepanel", path="button_price"}
+info_button = {parent_binding="sidepanel", path="button_info"}
+
+[animation]
+rarity_rare = {binding="bg", end="rare", also_play="sidepanel_rarity_rare"}
+rarity_super_rare = {binding="bg", end="super_rare", also_play="sidepanel_rarity_super_rare"}
+rarity_epic = {binding="bg", end="epic", also_play="sidepanel_rarity_epic"}
+rarity_mythic = {binding="bg", end="mythic", also_play="sidepanel_rarity_mythic"}
+rarity_legendary = {binding="bg", end="legendary", also_play="sidepanel_rarity_legendary"}
+rarity_ultra = {binding="bg", end="ultra", also_play="sidepanel_rarity_ultra"}
+
+sidepanel_rarity_rare = {binding="sidepanel", end="rare"}
+sidepanel_rarity_super_rare = {binding="sidepanel", end="super_rare"}
+sidepanel_rarity_epic = {binding="sidepanel", end="epic"}
+sidepanel_rarity_mythic = {binding="sidepanel", end="mythic"}
+sidepanel_rarity_legendary = {binding="sidepanel", end="legendary"}
+sidepanel_rarity_ultra = {binding="sidepanel", end="ultra"}
+
+
+
+

@@ -1,0 +1,25 @@
+{
+		"LeaperDefault":{
+			"bone":["Tail_03_s","Tail_04_s","Tail_05_s","Tail_02_s"],
+			"dir":["y","y","y","y"],
+			"max":[43,45,34,30],
+			"min":[-43,-45,-34,-30],
+			"soft":[5,5,5,5],
+			"follow":[0,0,0,0],
+			"child":[["Tail_04_s","Tail_05_s"],["Tail_05_s"],[],["Tail_03_s","Tail_04_s","Tail_05_s"]]
+		},
+		"LeaperGold":{"Ins":"LeaperDefault"},
+		"LeaperKaiju":{
+			"bone":["Tail_05_s","Tail_04_s","Tail_03_s","Tail_02_s","Tail_01_s"],
+			"dir":["y","y","y","y","y"],
+			"max":[25,25,25,25,25],
+			"min":[-25,-25,-25,-25,-25],
+			"soft":[5,5,5,5,5],
+			"follow":[0,0,0,0,0],
+			"child":[[],["Tail_05_s"],["Tail_04_s","Tail_05_s"],["Tail_03_s","Tail_04_s","Tail_05_s"],["Tail_02_s","Tail_03_s","Tail_04_s","Tail_05_s"]]
+		},
+		"LeaperSilver":{"Ins":"LeaperDefault"},
+		"LeaperRare":{"Ins":"LeaperDefault"},
+		"LeaperDarkXmas":{"Ins":"LeaperDefault"},
+		"Leaperwukong":{"Ins":"LeaperDefault"}
+	}

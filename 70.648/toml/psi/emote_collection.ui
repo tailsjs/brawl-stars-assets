@@ -1,0 +1,76 @@
+id = "emote_collection"
+priority = 1
+
+[bindings]
+
+emote_collection = { path="" }
+emote_collection_scroll_area = { parent_binding="emote_collection", path="scroll_area" }
+emote_collection_tabs = { parent_binding="emote_collection", path="collection_tabs" }
+sorting_panel = { parent_binding="emote_collection", path="sorting_panel" }
+sorting_panel_bg = { parent_binding="sorting_panel", path="sorting_panel_bg" }
+category_scroll_area = { parent_binding="sorting_panel", path="scroll_area_box/category_scroll_area" }
+button_pins = { parent_binding="emote_collection_tabs", path="button_pins" }
+button_sprays = { parent_binding="emote_collection_tabs", path="button_sprays" }
+button_brawler = { parent_binding="emote_collection_tabs", path="button_brawler" }
+
+button_change_sorting = { parent_binding="emote_collection", path="button_change_sorting" }
+
+brawler_icon_ph = { parent_binding="button_brawler", path="icon/ph_icon_brawler" }
+
+[buttons]
+
+button_pins = { binding="button_pins" }
+button_sprays = { binding="button_sprays" }
+button_brawler = { binding="button_brawler" }
+
+button_change_sorting = { binding="button_change_sorting" }
+
+[animations]
+default_animation= { also_play=["select_pins", "deselect_sprays", "deselect_brawler", "change_sorting_pins_categories", "set_icon_pins", "set_icon_sprays", "set_icon_brawler" ] }
+
+select_pins = { binding="button_pins", end="active" }
+select_sprays = { binding="button_sprays", end="active" }
+deselect_pins = { binding="button_pins", end="inactive" }
+deselect_sprays = { binding="button_sprays", end="inactive" }
+
+disable_sprays = { binding="button_sprays", end="disabled" }
+
+select_brawler = { binding="button_brawler", end="active" }
+deselect_brawler = { binding="button_brawler", end="inactive" }
+disable_brawler = { binding="button_brawler", end="disabled" }
+
+set_icon_pins = { parent_binding="button_pins", path="icon", end="pins" }
+set_icon_sprays = { parent_binding="button_sprays", path="icon", end="sprays" }
+set_icon_brawler = { parent_binding="button_brawler", path="icon", end="brawler" }
+
+change_sorting_pins_categories = { binding="button_change_sorting", end="toggle_categories" }
+change_sorting_pins_themes = { binding="button_change_sorting", end="toggle_themes" }
+change_sorting_sprays = { binding="button_change_sorting", end="themes" }
+change_sorting_brawler = { binding="button_change_sorting", end="sprays_pins" }
+
+[custom]
+bool.collection_exclude_brawler_emotes_from_other_tabs = false
+bool.collection_exclude_default_emotes_from_latest_category = true
+bool.collection_hide_latest_category_if_empty = false
+bool.collection_horizontal_scroll = false
+int.collection_rows = 4
+int.collection_columns = 5
+float.collection_xoffset = 88.0
+float.collection_yoffset = 78.0
+float.collection_startx = 42.0
+float.collection_starty = 42.0
+
+float.collection_left_margin = 520.0
+float.collection_bottom_padding = 100.0
+
+int.collection_max_latest_emotes = 20
+
+float.category_title_height = 52.0
+float.category_title_xoffset = -41.0
+float.category_title_yoffset = -82.0
+
+float.category_button_xoffset = 43.0
+float.category_button_startx = 19.0
+float.category_button_starty = 22.0
+float.category_bar_right_padding = 36.0
+float.category_bar_autoscroll_ahead = 6.5 # number of button widths to autoscroll ahead of the active category

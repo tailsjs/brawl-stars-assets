@@ -1,0 +1,15 @@
+id = "starr_range_sparkle_particle"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/starr_range.sc"
+# Base / fallback export. Count-specific variants inherit this config
+# (ids from starr_range_popup.ui sparkle_config_id_prefix / spend_sparkle_config_id_prefix + count).
+export_name = "starr_range_sparkle_particle"
+
+[animation]
+default_animation = "charge_up"
+
+charge_up = {path="", start="charge_up", end="start_move"}
+start_move = {path="", start="start_move", end="hit"}
+hit = {path="", start="hit", end="end"}

@@ -1,0 +1,10 @@
+id = "collab_windstock_skin_album_scene_5"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "screen_area"
+
+[custom]
+float.fade_start = 4.8
+float.fade_end = 5.9

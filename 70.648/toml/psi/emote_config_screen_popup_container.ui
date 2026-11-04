@@ -1,0 +1,18 @@
+id = "emote_config_screen_popup_container"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/emote_config_screen.sc"
+container_bottom_right = "emote_infobox_element"
+container_top_right = "emote_collection_element"
+container_top_left = "emotes_header_element"
+container_left = "emote_sets_element"
+container_bg = "sc/ui.sc#bg_anim_skulls"
+
+show_back_and_home_buttons = true
+
+[nested_clips]
+emote_collection = { path="top_right", config="emote_collection" }
+emote_infobox = { path="bottom_right", config="emote_infobox" }
+emotes_header = { path="top_left", config="emotes_header" }
+emote_sets = { path="left", config="emote_sets" }

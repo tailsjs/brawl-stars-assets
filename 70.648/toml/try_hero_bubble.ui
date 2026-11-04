@@ -1,0 +1,25 @@
+id = "try_hero_bubble"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ui.sc"
+export_name = "bubble_try"
+
+set_text = [
+{ path="bubble/title_txt", tid="TID_TRY_BRAWLER_TITLE" },
+{ parent_binding="practice_match", path="txt", tid="TID_TRY_BRAWLER_BUTTON_PRACTICE_MATCH" },
+{ parent_binding="training_grounds", path="txt", tid="TID_TRY_BRAWLER_BUTTON_TRAINING_GROUNDS" },
+]
+
+interactive = [ "" ]
+
+[bindings]
+self = { path="" }
+practice_match = { path="bubble/button_practice_match" }
+training_grounds = { path="bubble/button_training_grounds" }
+
+[animations]
+show = { path="", start="ani_in", end="ani_idle" }
+hide = { path="", start="ani_out", end_frame=20 }
+stop = { path="", end="ani_in" }
+default_animation = "stop"

@@ -1,0 +1,39 @@
+id = "emotes_panel"
+priority = 1
+
+set_text = [
+    { binding="txt", tid="TID_EMOTES_POPUP_TEXT" },
+    { binding="shared_pins_txt", tid="TID_EMOTE_CATEGORY_PLAYER_PINS" },
+    { binding="emote_1_txt", tid="TID_EMOTE_CATEGORY_1" },
+    { binding="emote_2_txt", tid="TID_EMOTE_CATEGORY_2" },
+    { binding="emote_3_txt", tid="TID_EMOTE_CATEGORY_3" },
+    { binding="emote_4_txt", tid="TID_EMOTE_CATEGORY_4" },
+    { binding="emote_5_txt", tid="TID_EMOTE_CATEGORY_5" },
+]
+
+hide_binding = [
+    "item_1",
+    "item_2",
+    "item_3",
+]
+
+[bindings]
+txt = { path="txt" }
+brawler_pins_txt = { path="brawler_pins_txt" }
+shared_pins_txt = { path="shared_pins_txt" }
+panel_info = { path="panel_info" }
+scroll_area = { parent_binding="panel_info", path="scroll_area" }
+pointer = { parent_binding="panel_info", path="pointer" }
+item_1 = { parent_binding="panel_info", path="item_1" }
+item_2 = { parent_binding="panel_info", path="item_2" }
+item_3 = { parent_binding="panel_info", path="item_3" }
+emote_1 = { path="emote_1" }
+emote_2 = { path="emote_2" }
+emote_3 = { path="emote_3" }
+emote_4 = { path="emote_4" }
+emote_5 = { path="emote_5" }
+emote_1_txt = { path="emote_1_txt" }
+emote_2_txt = { path="emote_2_txt" }
+emote_3_txt = { path="emote_3_txt" }
+emote_4_txt = { path="emote_4_txt" }
+emote_5_txt = { path="emote_5_txt" }

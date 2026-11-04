@@ -1,0 +1,56 @@
+id = "ranked_pick_ban_suggestion_panel"
+priority = 1
+
+[bindings]
+quick_chat_panel = { path="" }
+
+role_game_mode_1_icon = { parent_binding="role_game_mode_1_button", path="icon_ph" }
+role_game_mode_2_icon = { parent_binding="role_game_mode_2_button", path="icon_ph" }
+role_game_mode_3_icon = { parent_binding="role_game_mode_3_button", path="icon_ph" }
+
+role_game_mode_1_txt = { parent_binding="role_game_mode_1_button", path="txt" }
+role_game_mode_2_txt = { parent_binding="role_game_mode_2_button", path="txt" }
+role_game_mode_3_txt = { parent_binding="role_game_mode_3_button", path="txt" }
+
+counter_button_1_pin = { parent_binding="counter_button_1", path="banned_brawler_pin" }
+counter_button_2_pin = { parent_binding="counter_button_2", path="banned_brawler_pin" }
+counter_button_3_pin = { parent_binding="counter_button_3", path="banned_brawler_pin" }
+
+role_game_mode_1_button  = { path="button_game_mode_specific_1" }
+role_game_mode_2_button  = { path="button_game_mode_specific_2" }
+role_game_mode_3_button  = { path="button_game_mode_specific_3" }
+
+[buttons]
+assassin_button   = { path="button_class_1" }
+tank_button       = { path="button_class_2" }
+marksman_button   = { path="button_class_3" }
+controller_button = { path="button_class_4" }
+support_button    = { path="button_class_5" }
+damage_button     = { path="button_class_6" }
+artillery_button  = { path="button_class_7" }
+
+role_wall_breaker_button  = { path="button_wall_breaker" }
+role_crowd_control_button  = { path="button_crowd_control" }
+
+counter_button_1 = { path="button_suggest_counter_1" }
+counter_button_2 = { path="button_suggest_counter_2" }
+counter_button_3 = { path="button_suggest_counter_3" }
+
+[animation]
+counter_1_not_picked = { binding="counter_button_1", end="counter_not_picked" }
+counter_1_picked = { binding="counter_button_1", end="counter_picked" }
+counter_2_not_picked = { binding="counter_button_2", end="counter_not_picked" }
+counter_2_picked = { binding="counter_button_2", end="counter_picked" }
+counter_3_not_picked = { binding="counter_button_3", end="counter_not_picked" }
+counter_3_picked = { binding="counter_button_3", end="counter_picked" }
+
+assassin = { parent_binding="assassin_button", path="icon_class", end="assassin" }
+artillery = { parent_binding="artillery_button", path="icon_class", end="artillery" }
+damage = { parent_binding="damage_button", path="icon_class", end="damage" }
+support = { parent_binding="support_button", path="icon_class", end="support" }
+controller = { parent_binding="controller_button", path="icon_class", end="controller" }
+marksman = { parent_binding="marksman_button", path="icon_class", end="marksman" }
+tank = { parent_binding="tank_button", path="icon_class", end="tank" }
+
+default_animation = { also_play=[ "assassin", "tank", "marksman", "controller", "support", "damage", "artillery"
+, "counter_1_not_picked", "counter_2_not_picked", "counter_3_not_picked" ] }

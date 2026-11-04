@@ -1,0 +1,74 @@
+id = "ranked_pick_ban_final_prep"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/ranked.sc"
+container_prefix = "ranked_final_prep_screen_"
+
+hide_binding = [ "vs_cn" ]
+
+hide = [
+	"top_left/teams_panel/ranked_pick_ban_header_anim_your_turn",
+	"bottom_right/quick_chat_panel/quick_chat_options_suggestions",
+]
+
+[nested_clips]
+blue_1 = { binding="blue_1", config="ranked_pick_ban_final_prep_blue" }
+blue_2 = { binding="blue_2", config="ranked_pick_ban_final_prep_blue" }
+blue_3 = { binding="blue_3", config="ranked_pick_ban_final_prep_blue" }
+red_1 = { binding="red_1", config="ranked_pick_ban_final_prep_red" }
+red_2 = { binding="red_2", config="ranked_pick_ban_final_prep_red" }
+red_3 = { binding="red_3", config="ranked_pick_ban_final_prep_red" }
+quick_chat_panel = { parent_binding="quick_chat_panel", path="quick_chat_options", config="ranked_pick_ban_quick_chat_panel" }
+quick_chat_wrapper = { binding="quick_chat_panel", config="ranked_pick_ban_quick_chat_wrapper" }
+
+[bindings]
+teams_panel = { path="center/teams" }
+blue_1 = { parent_binding="teams_panel", path="blue_team/team_blue_1" }
+blue_2 = { parent_binding="teams_panel", path="blue_team/team_blue_2" }
+blue_3 = { parent_binding="teams_panel", path="blue_team/team_blue_3" }
+red_1 = { parent_binding="teams_panel", path="red_team/team_red_1" }
+red_2 = { parent_binding="teams_panel", path="red_team/team_red_2" }
+red_3 = { parent_binding="teams_panel", path="red_team/team_red_3" }
+
+quick_chat_panel_container = { path="bottom_right" }
+quick_chat_panel = { parent_binding="quick_chat_panel_container", path="quick_chat_panel" }
+sub_text = { path="center/final_prep_sub_text" }
+ranked_pick_ban_header_anim = { path="top_left/teams_panel/ranked_pick_ban_header_anim" }
+ranked_pick_ban_header = { parent_binding="ranked_pick_ban_header_anim", path="ranked_pick_ban_header" }
+turn_info_text = { parent_binding="ranked_pick_ban_header", path="turn_info_text" }
+turn_time = { parent_binding="ranked_pick_ban_header", path="turn_time" }
+timer_icon = { parent_binding="ranked_pick_ban_header", path="timer_icon" }
+
+event_ph = { path="top_left/game_mode/event_mode/event_ph" }
+gamemode_txt = { path="top_left/game_mode/details_container/gamemode_txt" }
+location_txt = { path="top_left/game_mode/details_container/location_txt" }
+modifier_name = { path="top_left/game_mode/modifier_name" }
+modifier_icon_ph = { path="top_left/game_mode/modifier_icon_ph" }
+
+vs_en = { parent_binding="teams_panel", path="versus/eng" }
+vs_cn = { parent_binding="teams_panel", path="versus/cns" }
+
+[buttons]
+info_button = { path="top_left/game_mode/button_info" } 
+button_skins = { path="bottom_left/skins_panel/button_skins" }
+
+[animation]
+ranked_pick_ban_header_anim_stop = { binding="ranked_pick_ban_header_anim", end_frame=0 }
+
+appear_4 = { path="center/teams", start="anim_enter_start", end="anim_enter_end" }
+appear_3 = { path="top_right", start="anim_enter_start", end="anim_enter_end" }
+appear_2 = { path="top_left", start="anim_enter_start", end="anim_enter_end" }
+appear_1 = { path="bottom_left", start="anim_enter_start", end="anim_enter_end" }
+appear = { path="bottom_right", start="anim_enter_start", end="anim_enter_end", also_play=[ "appear_1", "appear_2", "appear_3", "appear_4" ] }
+
+disappear_4 = { path="center/teams", start="anim_exit_start", end="anim_exit_end" }
+disappear_3 = { path="top_right", start="anim_exit_start", end="anim_exit_end" }
+disappear_2 = { path="top_left", start="anim_exit_start", end="anim_exit_end" }
+disappear_1 = { path="bottom_left", start="anim_exit_start", end="anim_exit_end" }
+disappear = { path="bottom_right", start="anim_exit_start", end="anim_exit_end", also_play=[ "disappear_1", "disappear_2", "disappear_3", "disappear_4" ] }
+
+3_sec_countdown_stop = { binding="ranked_pick_ban_header_anim", end_frame=0 }
+3_sec_countdown = { binding="ranked_pick_ban_header_anim", start_frame=0, end_frame=50 }
+
+default_animation = { also_play=[ "appear", "ranked_pick_ban_header_anim_stop", "3_sec_countdown_stop" ] }

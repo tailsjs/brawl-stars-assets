@@ -1,0 +1,11 @@
+{
+		"DrillerFantasy":{
+			"bone":["hat_plume_01_s","hat_plume_02_s"],
+			"dir":["y","y"],
+			"max":[51,51],
+			"min":[-51,-51],
+			"soft":[4,4],
+			"follow":[0,0],
+			"child":[["hat_plume_02_s"],[]]
+		}
+	}

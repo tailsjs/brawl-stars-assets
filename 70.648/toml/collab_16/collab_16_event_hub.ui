@@ -1,0 +1,243 @@
+id = "collab_16_event_hub"
+priority = 2
+
+sc_file_source = "AssetIdList"
+sc_file_asset_id_list = "Collab16"
+container_prefix = "event_hub_screen_"
+
+
+hide_binding = [
+	"brazil",
+	"squad_tab_shop_parent",
+	"squad_tab_max_level_txt"
+]
+
+uninteractive = [
+	"center/tab_1_position",
+	"center/tab_2_position",
+	"center/tab_3_position"
+]
+
+set_text = [
+	{ parent_binding="SuperNovaBeeSniper_button_power", path="max/TID_HERO_TIER_MAX", gradient_name="Plus"},
+	{ parent_binding="SuperNovaFireDude_button_power", path="max/TID_HERO_TIER_MAX", gradient_name="Plus"},
+	{ parent_binding="SuperNovaVoodoo_button_power", path="max/TID_HERO_TIER_MAX", gradient_name="Plus"},
+	{ parent_binding="SuperNovaCactus_button_power", path="max/TID_HERO_TIER_MAX", gradient_name="Plus"},
+	{ binding="squad_tab_max_level_txt", gradient_name="Plus"}
+]
+
+[bindings]
+# scroll positions
+tab_1_position = { path="center/tab_1_position" }
+tab_2_position = { path="center/tab_2_position" }
+tab_3_position = { path="center/tab_3_position" }
+
+## first tab - event fight
+event_fight = { path="center/event_fight/event_fight" }
+event_skins = { path="center/event_skins" }
+
+# boss - character
+boss = { parent_binding="event_fight", path="boss"}
+boss_character = { parent_binding="boss", path="finx" }
+boss_health = { parent_binding="boss", path="boss_health" }
+boss_health_bar_fill = { parent_binding="boss_health", path="bar_red" }
+boss_health_txt = { parent_binding="boss_health", path="hpNumber/txt" }
+
+# boss - portal
+portal = { parent_binding="event_fight", path="rewards"}
+portal_reward_ph = { parent_binding="portal", path="reward_holder"}
+portal_health = { parent_binding="portal", path="boss_health"}
+portal_health_bar_fill = { parent_binding="portal_health", path="bar_red"}
+portal_health_txt = { parent_binding="portal_health", path="hpNumber/txt"}
+
+#girls
+transformation_buttons = { parent_binding="event_fight", path="girls" }
+
+SuperNovaBeeSniper_button_power = { parent_binding = "SuperNovaBeeSniper_button", path="power"}
+SuperNovaFireDude_button_power = { parent_binding = "SuperNovaFireDude_button", path="power"}
+SuperNovaVoodoo_button_power = { parent_binding = "SuperNovaVoodoo_button", path="power"}
+SuperNovaCactus_button_power = { parent_binding = "SuperNovaCactus_button", path="power"}
+
+SuperNovaBeeSniper_button_txt = { parent_binding = "SuperNovaBeeSniper_button_power", path="level/txt"}
+SuperNovaFireDude_button_txt = { parent_binding = "SuperNovaFireDude_button_power", path="level/txt"}
+SuperNovaVoodoo_button_txt = { parent_binding = "SuperNovaVoodoo_button_power", path="level/txt"}
+SuperNovaCactus_button_txt = { parent_binding = "SuperNovaCactus_button_power", path="level/txt"}
+
+SuperNovaMagicalGirl_button_portrait = { parent_binding = "SuperNovaMagicalGirl_button", path="portrait"}
+SuperNovaMagicalGirl_button_portrait_launch = { parent_binding = "SuperNovaMagicalGirl_button", path="portrait_launch"}
+
+SuperNovaBeeSniper_button_cover_txt = { parent_binding = "SuperNovaBeeSniper_button", path="cover/text/txt"}
+SuperNovaFireDude_button_cover_txt = { parent_binding = "SuperNovaFireDude_button", path="cover/text/txt"}
+SuperNovaVoodoo_button_cover_txt = { parent_binding = "SuperNovaVoodoo_button", path="cover/text/txt"}
+SuperNovaCactus_button_cover_txt = { parent_binding = "SuperNovaCactus_button", path="cover/text/txt"}
+SuperNovaMagicalGirl_button_cover_txt = { parent_binding = "SuperNovaMagicalGirl_button", path="cover/text/txt"}
+
+## second tab - transformations
+squad_tab = { path="center/event_transformations" }
+squad_tab_bg = { parent_binding="squad_tab", path="bg" }
+
+# texts left
+squad_tab_title = { parent_binding="squad_tab", path="info_title/txt" }
+stella_timer = { parent_binding="squad_tab", path="stella_timer" }
+stella_timer_txt = { parent_binding="stella_timer", path="timer_txt" }
+stella_timer_icon = { parent_binding="stella_timer", path="icon" }
+gem_info = { parent_binding="squad_tab", path="gem_info" }
+gem_info_text = { parent_binding="gem_info", path="text" }
+gem_info_icon_parent = { parent_binding="gem_info", path="icon" }
+gem_info_icon = { parent_binding="gem_info_icon_parent", path="modifier" }
+gem_info_modifier_icon = { parent_binding="gem_info_icon_parent", path="modifier_icon" }
+super_info = { parent_binding="squad_tab", path="super_info" }
+super_name_txt = { parent_binding="super_info", path="super_name_txt" }
+super_description_txt = { parent_binding="super_info", path="super_description_txt" }
+attack_info = { parent_binding="squad_tab", path="attack_info" }
+attack_name_txt = { parent_binding="attack_info", path="attack_name_txt" }
+attack_description_txt = { parent_binding="attack_info", path="attack_description_txt" }
+
+# nav_bar
+squad_tab_nav_bar = { parent_binding="squad_tab", path="nav_bar" }
+squad_tab_nav_bar_pins = { parent_binding="squad_tab_nav_bar", path="pins" }
+squad_tab_nav_SuperNovaMagicalGirl = { parent_binding="squad_tab_nav_bar_pins", path="stella" }
+squad_tab_nav_SuperNovaBeeSniper = { parent_binding="squad_tab_nav_bar_pins", path="bea" }
+squad_tab_nav_SuperNovaFireDude = { parent_binding="squad_tab_nav_bar_pins", path="amber" }
+squad_tab_nav_SuperNovaVoodoo = { parent_binding="squad_tab_nav_bar_pins", path="juju" }
+squad_tab_nav_SuperNovaCactus = { parent_binding="squad_tab_nav_bar_pins", path="spike" }
+
+# 3d brawler
+transformation_tab_hero_area = { parent_binding="squad_tab", path="hero_all/hero_area"}
+
+# power level
+squad_tab_power_level = { parent_binding="squad_tab", path="power_level" }
+squad_tab_power_level_txt = { parent_binding="squad_tab_power_level", path="level_num/level_num_txt" }
+squad_tab_power_level_max_txt = { parent_binding="squad_tab_power_level", path="TID_POWER_PROGRESS_MAX_LEVEL" }
+squad_tab_power_level_progress_bar = { parent_binding="squad_tab_power_level", path="power_progress/bar" }
+
+# stats box right
+squad_tab_stats_box = { parent_binding="squad_tab", path="stats_box" }
+squad_tab_stat_health = { parent_binding="squad_tab_stats_box", path="stat_health" }
+squad_tab_stat_super = { parent_binding="squad_tab_stats_box", path="stat_super/stat_super_1" }
+squad_tab_stats_attack = { parent_binding="squad_tab_stats_box", path="stat_attack" }
+squad_tab_stat_damage = { parent_binding="squad_tab_stats_attack", path="stat_damage" }
+squad_tab_stat_special_info = { parent_binding="squad_tab_stats_attack", path="stat_special_info" }
+squad_tab_stat_range = { parent_binding="squad_tab_stats_attack", path="stat_range" }
+squad_tab_stat_reload = { parent_binding="squad_tab_stats_attack", path="stat_reload" }
+
+# level buttons
+brazil = { parent_binding="squad_tab", path="button_shop_brazil" }
+brazil_price = { parent_binding="squad_tab_brazil_button", path="price_gems" }
+brazil_gem_icon = { parent_binding="brazil_price", path="icon" }
+brazil_gem_txt = { parent_binding="brazil_price", path="TID_STARR_NOVA_BUTTON_LEVEL_UP" }
+squad_tab_shop_parent = { parent_binding="squad_tab", path="button_shop" }
+squad_tab_max_level_txt = {parent_binding="squad_tab", path="max_level/TID_BRAWLER_MAX_LEVEL"}
+
+## top_right container
+header_timer = {path="top_right/header_timer/timer/timer_txt"}
+header_timer_icon = {path="top_right/header_timer/timer/icon"}
+
+[buttons]
+## first tab - event fight
+#girls
+SuperNovaBeeSniper_button = { parent_binding = "transformation_buttons", path="bea"}
+SuperNovaFireDude_button = { parent_binding = "transformation_buttons", path="amber"}
+SuperNovaVoodoo_button = { parent_binding = "transformation_buttons", path="juju"}
+SuperNovaCactus_button = { parent_binding = "transformation_buttons", path="spike"}
+SuperNovaMagicalGirl_button = { parent_binding = "transformation_buttons", path="stella"}
+
+buy_more_stars_button = { parent_binding="transformation_buttons", path="gacha" }
+buy_more_stars_plus_button = { parent_binding="transformation_buttons", path="plus_button" }
+
+## top_right
+info_button = { path="top_right/button_info_collab" }
+link_button = { path="top_right/button_link" }
+
+# nav_bar
+squad_tab_arrow_left = { parent_binding="squad_tab_nav_bar", path="arrow_left" }
+squad_tab_arrow_right = { parent_binding="squad_tab_nav_bar", path="arrow_right" }
+
+squad_tab_brazil_button = { parent_binding="brazil", path="btn" }
+squad_tab_shop_button = { parent_binding="squad_tab_shop_parent", path="btn" }
+
+[custom]
+## first tab - event fight
+# transform button frames
+string.level_button_idle_label = "idle"
+string.level_button_ready_label = "attack_ready"
+string.level_button_launch_label = "launch"
+
+# power level frames
+string.level_button_power_default_label = "idle"
+string.level_button_power_max_label = "max"
+
+# attack vfx export names
+string.SuperNovaBeeSniper_button_attack_vfx = "bea_launch_projectile"
+string.SuperNovaFireDude_button_attack_vfx = "amber_launch_projectile"
+string.SuperNovaVoodoo_button_attack_vfx = "juju_launch_projectile"
+string.SuperNovaCactus_button_attack_vfx = "spike_launch_projectile"
+string.SuperNovaMagicalGirl_button_attack_vfx = "nova_launch_projectile"
+int.num_vfx_frames = 5
+
+# shortcut buttons - scroll position offsets
+int.num_shortcut_buttons = 3
+
+# metaboss
+int.metaboss_show_portal_after_milestone_index = 1
+bool.metaboss_health_bar_is_inverted_progress_bar = true
+
+# attack timing
+float.tapTapTimeoutSeconds = 1.0
+float.minTapTapDurationSeconds =  1.0
+float.maxTapTapDurationSeconds =  10.0
+float.minTapTapDmg = 20
+float.maxTapTapDmg = 90
+
+## second tab - transformations
+string.nav_bar_pin_idle_label = "idle"
+string.nav_bar_pin_selected_label = "selected"
+int.num_transformations = 5
+
+# magical girl to nav bar frame
+int.SuperNovaMagicalGirl_nav_index = 1
+int.SuperNovaBeeSniper_nav_index = 2
+int.SuperNovaFireDude_nav_index = 3
+int.SuperNovaVoodoo_nav_index = 4
+int.SuperNovaCactus_nav_index = 5
+
+# modifier icon frames
+string.modifier_icon_stella = "stella"
+string.modifier_icon_no_stella = "gems"
+
+# shake anims
+float.healthBarShakeMagnitude = 30.0
+float.healthBarShakeDurationSeconds = 0.5
+float.healthBarShakeWhiteAdd = 1
+float.portalShakeMagnitude = 10.0
+float.portalShakeDurationSeconds = 0.5
+float.portalShakeWhiteAdd = 1
+float.delay_from_attack_to_hit = 0.5
+float.attack_not_ready_complaint_delay = 3.0
+string.attack_fullscreen_glow = "screen_glow_starrnova_attack"
+string.damage_floating_number = "boss_damage_number"
+
+[animation]
+default_animation = "idle_all"
+
+# idle
+idle_all = { path="", also_play=["Portal_idle", "Bg_idle", "Boss_idle"] }
+
+# bg
+Bg_idle = { path="center/event_fight/event_fight/bg", end="idle" }
+Bg_attack = { path="center/event_fight/event_fight/bg", start="attack", end="attack_end", next_animation="idle_all" }
+
+# portal
+Portal_idle = { path="center/event_fight/event_fight/rewards/portal", end="idle" }
+Portal_attack = { path="center/event_fight/event_fight/rewards/portal", start="attack", end="attack_end", also_play="Bg_attack" }
+
+#boss
+Boss_idle = { binding="boss_character", start="idle" }
+Boss_attack1 = { binding="boss_character", start="attack1", also_play="Bg_attack"}
+
+# stella portrait transforms
+MagicalGirlButtonPortrait_base = { binding="SuperNovaMagicalGirl_button_portrait", start="base", also_play="MagicalGirlButtonPortrait_base_launch"}
+MagicalGirlButtonPortrait_base_launch = { binding="SuperNovaMagicalGirl_button_portrait_launch", start="base"}
+
+MagicalGirlButtonPortrait_transformed = { binding="SuperNovaMagicalGirl_button_portrait", start="transformed", also_play="MagicalGirlButtonPortrait_transformed_launch"}
+MagicalGirlButtonPortrait_transformed_launch = { binding="SuperNovaMagicalGirl_button_portrait_launch", start="transformed"}

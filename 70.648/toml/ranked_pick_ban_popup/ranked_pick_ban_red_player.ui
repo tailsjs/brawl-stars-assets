@@ -1,0 +1,40 @@
+id = "ranked_pick_ban_red_player"
+priority = 1
+
+set_text = [ { binding="turn_txt", text="X" } ]
+hide_binding = [
+	"portrait_ph",
+	"selected_glow",
+	"highlight_anim",
+	"checkmark",
+	"next",
+	"banned_brawler_pin",
+	"coin",
+]
+
+[bindings]
+hidden_hero = { path="hidden_hero" }
+portrait_ph = { path="portrait_ph" }
+brawler_profile_image = { path="portrait_ph" }
+banned_brawler_pin = { path="banned_brawler_pin" }
+next = { path="next_banner" }
+turn_txt = { path="turn_txt_container/turn_txt/txt" }
+turn_txt_container = { path="turn_txt_container" }
+checkmark = { path="checkmark" }
+coin = { path="coin" }
+highlight_anim = { path="highlight_anim" }
+selected_glow = { path="selected_glow_anim" }
+
+[buttons]
+
+[animation]
+pick_confirmed = { binding="selected_glow", start_frame=0, end_frame=19 }
+ban_confirmed = { path="banned_icon", start="in", end="idle" }
+banned_icon_show = { path="banned_icon", end="idle" }
+banned_icon_hide = { path="banned_icon", end="in" }
+checkmark_stop = { path="checkmark", end_frame=0 }
+turn_txt_container_stop = { path="turn_txt_container", end_frame=0 }
+my_turn = { binding="turn_txt_container", end="player_turn" }
+others_turn = { binding="turn_txt_container", end="others_turn" }
+
+default_animation = { also_play=[ "banned_icon_hide", "checkmark_stop", "turn_txt_container_stop" ] }

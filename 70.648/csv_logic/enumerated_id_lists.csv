@@ -1,0 +1,11 @@
+"Name","UniqueValues","UniqueIds","StringContent"
+"String","int","String","String"
+"OfferCoverModes",0,"None",
+,1,"CoverGiftRed","cover_gift_red"
+,2,"CoverGiftGold","cover_gift_gold"
+,3,"CoverSb","cover_sb"
+,4,"CoverSbGold","cover_sb_gold"
+,5,"CoverSbFree","cover_sb_free"
+,6,"CoverSbPurple","cover_sb_epic"
+"ChainOfferArrowModes",0,"None",
+,1,"Arrows",

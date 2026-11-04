@@ -1,0 +1,39 @@
+id = "emote_slot"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/emote_config_screen.sc"
+export_name = "emote_button"
+
+[bindings]
+emote_container = { path="emote_container" }
+emote_ph = { parent_binding="emote_container", path="emote_ph" }
+pin_rarity_bg = { parent_binding="emote_container", path="pin_rarity_bg" }
+spray_rarity_bg = { parent_binding="emote_container", path="spray_rarity_bg" }
+button_clear = { path="button_clear" }
+vfx_clear = { path="vfx_clear" }
+
+[buttons]
+button_clear = { binding="button_clear" }
+
+[animations]
+default_animation= { binding="vfx_clear", end="clear_end", also_play=["empty", "deselect"] }
+pin = { binding="emote_container", end="pin" }
+spray = { binding="emote_container", end="spray" }
+empty = { binding="emote_container", end="empty" }
+
+select = { path="", end="selected" }
+deselect = { path="", end="unselected" }
+equip = { path="", start="equip_start", end="selected" }
+swap = { path="", start="swap_start", end="swap_end" }
+drag_hilight = { path="", end="drag_hilight" }
+
+pin_rarity_common = { binding="pin_rarity_bg", end="common" }
+pin_rarity_rare = { binding="pin_rarity_bg", end="rare" }
+pin_rarity_epic = { binding="pin_rarity_bg", end="epic" }
+pin_rarity_collectors = { binding="pin_rarity_bg", end="collectors" }
+
+spray_rarity_common = { binding="spray_rarity_bg", end="common" }
+spray_rarity_collectors = { binding="spray_rarity_bg", end="collectors" }
+
+clear = { binding="vfx_clear", start="clear_start", end="clear_end" }

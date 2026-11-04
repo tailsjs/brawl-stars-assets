@@ -1,0 +1,11 @@
+id = "ranked_pick_ban_quick_chat_wrapper"
+priority = 1
+
+[buttons]
+quick_chat_button = { path="button_quick_chat" }
+quick_chat_cancel_button = { path="button_quick_chat_cancel" }
+
+[animations]
+quick_chat_idle = { path="", end="idle" }
+quick_chat_show = { path="", start="anim_enter_start", end="anim_enter_end" }
+quick_chat_hide = { path="", start="anim_exit_start", end="anim_exit_end", next_animation="quick_chat_idle" }

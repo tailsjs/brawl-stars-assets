@@ -1,0 +1,13 @@
+id = "ranked_pick_ban_quick_chat_bubble_suggestion"
+priority = 1
+
+[bindings]
+bubble = { path="" }
+txt = { path="suggest_txt/txt" }
+icon = { path="suggest_txt/icon_ph" }
+
+[animation]
+hidden = { binding="bubble", end="anim_enter_start" }
+appear = { binding="bubble", start="anim_enter_start", end="anim_enter_end" }
+disappear = { binding="bubble", start="anim_exit_start", end="anim_exit_end" }
+default_animation = "hidden"

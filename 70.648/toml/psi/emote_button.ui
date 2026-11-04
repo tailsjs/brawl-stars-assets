@@ -1,0 +1,16 @@
+id = "emote_button"
+priority = 1
+
+sc_file_source = "ClientFile"
+sc_file = "sc/emote_config_screen.sc"
+export_name = "emote_button_collection"
+
+[bindings]
+emote_ph = { path="emote_ph" }
+
+[animations]
+default_animation="deselect"
+
+select = { path="", start="selected_start", end="selected" }
+deselect = { path="", end="unselected" }
+lock = { path="", end="locked" }

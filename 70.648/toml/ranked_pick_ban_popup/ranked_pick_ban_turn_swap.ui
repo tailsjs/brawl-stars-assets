@@ -1,0 +1,34 @@
+id = "ranked_pick_ban_turn_swap"
+priority = 1
+
+uninteractive = [
+	"spinner",
+]
+
+[bindings]
+swap_turn = { path="" }
+swap_bubble_send = { parent_binding="swap_turn", path="swap_turns_bubble_send" }
+swap_bubble_respond = { parent_binding="swap_turn", path="swap_turns_bubble_accept" }
+
+[buttons]
+swap_button = { path="swap" }
+swap_send_button = { path="swap_turns_bubble_send/send_button" }
+swap_send_cancel_button = { path="swap_turns_bubble_send/cancel_button" }
+swap_send_retract_button = { path="cancel_swap_process" }
+swap_accept_button = { path="swap_turns_bubble_accept/accept_button" }
+swap_accept_reject_button = { path="swap_turns_bubble_accept/cancel_button" }
+
+[animation]
+swap_turn_available = { binding="swap_turn", end="swap_available" }
+swap_turn_unavailable = { binding="swap_turn", end="swap_unavailable" }
+swap_sending = { binding="swap_turn", end="swap_send" }
+swap_responding = { binding="swap_turn", end="swap_accept" }
+swap_request_processing = { binding="swap_turn", end="swap_cancel_process" }
+
+swap_bubble_send_appear = { binding="swap_bubble_send", start="anim_enter_start", end="anim_enter_end" }
+swap_bubble_send_disappear = { binding="swap_bubble_send", start="anim_exit_start", end="anim_exit_end" }
+
+swap_bubble_respond_appear = { binding="swap_bubble_respond", start="anim_enter_start", end="anim_enter_end" }
+swap_bubble_respond_disappear = { binding="swap_bubble_respond", start="anim_exit_start", end="anim_exit_end" }
+
+default_animation = { also_play=[ "swap_turn_available" ] }
